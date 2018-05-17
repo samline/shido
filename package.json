@@ -1,0 +1,21 @@
+{
+  "name": "Shido",
+  "version": "1.0.0",
+  "description": "Shido, ready to drop right into your powered applications.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samline/Shido.git"
+  },
+  "keywords": [
+    "shido",
+    "grid",
+    "less",
+    "css",
+  ],
+  "author": "Samline <jsamline@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Samline/Shido/issues"
+  },
+  "homepage": "https://github.com/Samline/Shido#readme"
+}
