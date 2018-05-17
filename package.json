@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "Shido",
   "version": "1.0.0",
   "description": "Shido, ready to drop right into your powered applications.",
@@ -10,12 +11,33 @@
     "shido",
     "grid",
     "less",
-    "css",
+    "css"
   ],
   "author": "Samline <jsamline@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Samline/Shido/issues"
   },
-  "homepage": "https://github.com/Samline/Shido#readme"
+  "homepage": "https://github.com/Samline/Shido#readme",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.3",
+    "laravel-mix": "^2.0.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "browserslist": [
+    "ie 9",
+    "last 2 versions"
+  ]
 }
