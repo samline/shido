@@ -1,0 +1,85 @@
+// DOM styles
+
+// All
+* {
+  outline: none;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none;
+    outline: 0;
+  }
+}
+
+// html and body
+html,
+body {
+  background-color: @s-body-background-color;
+  color: @s-body-font-color;
+  font-family: @s-base-font;
+  font-size: @s-body-font-size;
+  font-weight: @s-base-font-weight;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  position: relative;
+  width: 100%;
+}
+
+// Links
+a {
+  color: @s-main-link-color;
+  cursor: pointer;
+  text-decoration: none;
+  .transition;
+
+  &:active,
+  &:hover,
+  &:focus {
+    color: @s-main-link-color-hover;
+    text-decoration: none;
+  }
+}
+
+// Titles
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: @s-heading-color;
+  font-family: @s-heading-font;
+  font-weight: @s-base-font-weight;
+  margin: 0px;
+  position: relative;
+  white-space: pre-line;
+}
+
+// hr
+hr {
+  border: none;
+  border-top: solid 1px @s-hr-color;
+  margin: 0px;
+  padding: 0px;
+}
+
+// Images
+img {
+  border: none;
+  border: 0;
+  display: inline-block;
+  outline: none;
+  outline: 0;
+  vertical-align: middle;
+}
+
+// Paragraphs
+p {
+  margin: 0px;
+  padding: 5px 0px;
+  white-space: pre-line;
+}

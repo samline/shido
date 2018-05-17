@@ -1,0 +1,10 @@
+// Transitions
+.mix-transition(
+  @property: all,
+  @time: .3s,
+  @dir: ease,
+  @cancel: outline
+) {
+  transition: @property @time @dir, @cancel .000001s;
+}
+

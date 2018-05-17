@@ -1,0 +1,143 @@
+// Colors
+.mix-color-class(
+  @color: @c-black,
+  @name: 'black'
+) {
+  .c-@{name} {
+    color: @color;
+  }
+}
+
+// Backgrounds
+.mix-bg-class(
+  @color: @c-black,
+  @name: 'black'
+) {
+  .bg-@{name} {
+    background-color: @color;
+  }
+}
+
+// Default
+.mix-color-class(@c-black, black);
+.mix-color-class(@c-white, white);
+
+.mix-bg-class(@c-black, black);
+.mix-bg-class(@c-white, white);
+
+// Make palette
+.mt-colors-default-50(@type) {
+
+  @color: 'c-@{type}-50';
+
+  .mix-bg-class(
+    @@color,
+    ~'@{type}-50'
+  );
+
+  .mix-color-class(
+    @@color,
+    ~'@{type}-50'
+  );
+}
+
+.mt-colors-default(@type, @loops, @loop: 100) when (@loop <= @loops) {
+  .mt-colors-default(@type, @loops, @loop + 100);
+
+  // ...
+
+  @color: 'c-@{type}-@{loop}';
+
+  .mix-bg-class(
+    @@color,
+    ~'@{type}-@{loop}'
+  );
+
+  .mix-color-class(
+    @@color,
+    ~'@{type}-@{loop}'
+  );
+}
+
+.mt-colors-A(@type, @loops, @loop: 100, @tmp: 100) when (@loop <= @loops) {
+  .mt-colors-A(@type, @loops, @loop + @tmp, @tmp: @tmp + 100);
+
+  // ...
+
+  @color: 'c-@{type}-A@{loop}';
+
+  .mix-bg-class(
+    @@color,
+    ~'@{type}-A@{loop}'
+  );
+
+  .mix-color-class(
+    @@color,
+    ~'@{type}-A@{loop}'
+  );
+}
+
+// Loops from array
+.make-color-classes-default(@i: length(@colorsWithA)) when (@i > 0) {
+  .make-color-classes-default(@i - 1);
+
+  @currentColor: extract(@colorsWithA, @i);
+
+  // --
+
+  .mt-colors-default-50(@currentColor);
+  .mt-colors-default(@currentColor, 900);
+}
+
+.make-color-classes-default-without-A(@i: length(@colorsWithoutA)) when (@i > 0) {
+  .make-color-classes-default-without-A(@i - 1);
+
+  @currentColor: extract(@colorsWithoutA, @i);
+
+  // --
+
+  .mt-colors-default-50(@currentColor);
+  .mt-colors-default(@currentColor, 900);
+}
+
+.make-color-classes-A(@i: length(@colorsWithA)) when (@i > 0) {
+  .make-color-classes-A(@i - 1);
+
+  @currentColor: extract(@colorsWithA, @i);
+
+  // --
+
+  .mt-colors-A(@currentColor, 700);
+}
+
+// Make color classes
+@colorsWithA:
+              red,
+              pink,
+              purple,
+              deep-purple,
+              indigo,
+              blue,
+              light-blue,
+              cyan,
+              teal,
+              green,
+              light-green,
+              lime,
+              yellow,
+              amber,
+              orange,
+              deep-orange;
+
+@colorsWithoutA:
+              brown,
+              grey,
+              blue-grey;
+
+@oneColor:
+              black,
+              white;
+
+.make-color-classes-default;
+.make-color-classes-default-without-A;
+.make-color-classes-A;

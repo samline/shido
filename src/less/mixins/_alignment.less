@@ -1,0 +1,64 @@
+// Horizontal alignment
+.mix-alignments(@type) {
+
+  .@{type}\:center {
+    text-align: center;
+  }
+  .@{type}\:justify {
+    text-align: justify;
+  }
+  .@{type}\:left {
+    text-align: left;
+  }
+  .@{type}\:right {
+    text-align: right;
+  }
+}
+
+// Horizontal alignment | Media querys
+@media (min-width: @x-screen-max) {
+  .mix-alignments(x);
+}
+
+@media (min-width: @s-screen-min) {
+  .mix-alignments(s);
+}
+
+@media (min-width: @m-screen-min) {
+  .mix-alignments(m);
+}
+
+@media (min-width: @l-screen-min) {
+  .mix-alignments(l);
+}
+
+// Vertical alignment
+.mix-vertical-alignment(@type) {
+
+  .@{type}\:bottom {
+    vertical-align: bottom;
+  }
+  .@{type}\:middle {
+    vertical-align: middle;
+  }
+  .@{type}\:top {
+    vertical-align: top;
+  }
+}
+
+// Vertical alignment | Media querys
+@media (min-width: @x-screen-max) {
+  .mix-vertical-alignment(x);
+}
+
+@media (min-width: @s-screen-min) {
+  .mix-vertical-alignment(s);
+}
+
+@media (min-width: @m-screen-min) {
+  .mix-vertical-alignment(m);
+}
+
+@media (min-width: @l-screen-min) {
+  .mix-vertical-alignment(l);
+}

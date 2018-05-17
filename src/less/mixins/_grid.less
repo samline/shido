@@ -1,0 +1,41 @@
+// Grid
+.mix-make-column(@type) {
+
+  .scol-generate(@n, @i: 1) when (@i =< @n) {
+
+    .@{type}\:scol-@{i} {
+      width: (@s-grid * @i) * 1%;
+    }
+    .scol-generate(@n, (@i + 1));
+  }
+
+  .scol-fit-generate(@n, @i: 1) when (@i =< @n) {
+
+    .@{type}\:scol-fit-@{i} {
+      width: ((100% / @i)) * 1%;
+    }
+    .scol-fit-generate(@n, (@i + 1));
+  }
+
+  // --
+
+  .scol-generate(@s-columns);
+  .scol-fit-generate(@s-columns);
+}
+
+//  Grid | Media querys
+@media (min-width: @x-screen-max) {
+  .mix-make-column(x);
+}
+
+@media (min-width: @s-screen-min) {
+  .mix-make-column(s);
+}
+
+@media (min-width: @m-screen-min) {
+  .mix-make-column(m);
+}
+
+@media (min-width: @l-screen-min) {
+  .mix-make-column(l);
+}

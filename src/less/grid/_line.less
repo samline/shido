@@ -1,0 +1,22 @@
+// line
+
+.line {
+  font-size: 0px;
+  letter-spacing: 0px;
+  margin: 0 auto;
+  padding: 0px;
+  word-spacing: 0px;
+
+  & > * {
+    font-size: @s-clear-space;
+    letter-spacing: initial;
+    word-spacing: initial;
+  }
+}
+
+[class*=":scol"]:not([class*='scol--full']) {
+
+  & .line {
+    margin: -@s-gutter;
+  }
+}

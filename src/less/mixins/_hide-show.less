@@ -1,0 +1,32 @@
+//  Hiding and showing
+.mix-make-hiding-showing(@type) {
+
+  .@{type}\:hide {
+    display: none !important;
+  }
+
+  .@{type}\:show {
+    display: block !important;
+  }
+
+  .@{type}\:show--inline {
+    display: inline-block !important;
+  }
+}
+
+//  Hiding and showing | Media querys
+@media (min-width: @x-screen-max) {
+  .mix-make-hiding-showing(x);
+}
+
+@media (min-width: @s-screen-min) {
+  .mix-make-hiding-showing(s);
+}
+
+@media (min-width: @m-screen-min) {
+  .mix-make-hiding-showing(m);
+}
+
+@media (min-width: @l-screen-min) {
+  .mix-make-hiding-showing(l);
+}

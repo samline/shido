@@ -1,0 +1,30 @@
+// Responsive fonts
+.mix-responsive-fonts(@type) {
+
+  .font-size-generate(@n, @i: @s-min-font-size) when (@i =< @n) {
+
+    .@{type}\:fs-@{i} {
+      font-size: (@i/@s-body-font-size) * 1rem;
+    }
+    .font-size-generate(@n, (@i + @s-increment-font));
+  }
+
+  .font-size-generate(@s-max-font-size);
+}
+
+// Responsive fonts | Media querys
+@media (min-width: @x-screen-max) {
+  .mix-responsive-fonts(x);
+}
+
+@media (min-width: @s-screen-min) {
+  .mix-responsive-fonts(s);
+}
+
+@media (min-width: @m-screen-min) {
+  .mix-responsive-fonts(m);
+}
+
+@media (min-width: @l-screen-min) {
+  .mix-responsive-fonts(l);
+}

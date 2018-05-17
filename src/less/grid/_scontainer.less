@@ -1,0 +1,24 @@
+// scontainer
+
+.scontainer {
+  margin: 0 auto;
+  max-width: @s-scontainer;
+  padding: @s-gutter;
+  width: 100%;
+
+  &.scontainer--half {
+    display: inline-block;
+    max-width: @s-scontainer/2;
+  }
+
+  &.scontainer--full {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+
+  &.scontainer--relative {
+    position: relative;
+  }
+}

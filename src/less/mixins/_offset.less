@@ -1,0 +1,41 @@
+// offset
+.mix-make-column(@type) {
+
+  .offset-generate(@n, @i: 0) when (@i =< @n) {
+
+    .@{type}\:offset-@{i} {
+      margin-left: (@s-grid * @i) * 1%;
+    }
+    .offset-generate(@n, (@i + 1));
+  }
+
+  .offset-fit-generate(@n, @i: 1) when (@i =< @n) {
+
+    .@{type}\:offset-fit-@{i} {
+      margin-left: ((100% / @i)) * 1%;
+    }
+    .offset-fit-generate(@n, (@i + 1));
+  }
+
+  // --
+
+  .offset-generate(@s-columns);
+  .offset-fit-generate(@s-columns);
+}
+
+//  offset | Media querys
+@media (min-width: @x-screen-max) {
+  .mix-make-column(x);
+}
+
+@media (min-width: @s-screen-min) {
+  .mix-make-column(s);
+}
+
+@media (min-width: @m-screen-min) {
+  .mix-make-column(m);
+}
+
+@media (min-width: @l-screen-min) {
+  .mix-make-column(l);
+}
