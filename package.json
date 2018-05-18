@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "shido",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shido, ready to drop right into your powered applications.",
   "repository": {
     "type": "git",
