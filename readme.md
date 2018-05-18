@@ -1,5 +1,5 @@
-# Shido シード
-Built by Samline
+# shido シード
+Built by samline
 
 ## Installation
 ```bash

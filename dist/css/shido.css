@@ -1,4 +1,4 @@
-/* Shido */
+/* shido シード */
 /* Built by Samline (https://github.com/Samline) */
 .scontainer {
   margin: 0 auto;
@@ -2884,7 +2884,7 @@
   .x\:show {
     display: block !important;
   }
-  .x\:show--inline {
+  .x\:show-inline {
     display: inline-block !important;
   }
 }
@@ -2895,7 +2895,7 @@
   .s\:show {
     display: block !important;
   }
-  .s\:show--inline {
+  .s\:show-inline {
     display: inline-block !important;
   }
 }
@@ -2906,7 +2906,7 @@
   .m\:show {
     display: block !important;
   }
-  .m\:show--inline {
+  .m\:show-inline {
     display: inline-block !important;
   }
 }
@@ -2917,7 +2917,7 @@
   .l\:show {
     display: block !important;
   }
-  .l\:show--inline {
+  .l\:show-inline {
     display: inline-block !important;
   }
 }

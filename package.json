@@ -5,7 +5,7 @@
   "description": "Shido, ready to drop right into your powered applications.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Samline/Shido.git"
+    "url": "git+https://github.com/samline/shido.git"
   },
   "keywords": [
     "shido",
@@ -13,12 +13,12 @@
     "less",
     "css"
   ],
-  "author": "Samline <jsamline@gmail.com>",
+  "author": "samline <jsamline@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Samline/Shido/issues"
+    "url": "https://github.com/samline/shido/issues"
   },
-  "homepage": "https://github.com/Samline/Shido#readme",
+  "homepage": "https://github.com/samline/shido#readme",
   "scripts": {
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -40,5 +40,5 @@
   "browserslist": [
     "ie 9",
     "last 2 versions"
-  ],
+  ]
 }
