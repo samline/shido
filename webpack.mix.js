@@ -2,26 +2,25 @@
 // Require
 let mix = require('laravel-mix');
 
-// Mix
 mix
 
-// Set directories
 .setResourceRoot('../')
 .setPublicPath('dist')
 
-// Styles
-.less(
-  'src/less/shido.less',
-  'css/shido.css'
-)
+.sourceMaps()
 
 if(mix.inProduction()) {
-  // Mix
   mix
 
-  // Source maps
-  .sourceMaps()
+  .less(
+    'src/less/shido.less',
+    'css/shido.min.css'
+  )
+} else {
+  mix
 
-  // Version
-  .version();
+  .less(
+    'src/less/shido.less',
+    'css/shido.css'
+  )
 }
