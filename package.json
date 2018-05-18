@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "private": false,
   "name": "Shido",
   "version": "1.0.0",
   "description": "Shido, ready to drop right into your powered applications.",
