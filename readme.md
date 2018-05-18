@@ -3,7 +3,7 @@ Built by Samline
 
 ## Installation
 ```bash
-npm install Shido --save
+npm install shido --save
 ```
 
 ## Getting started
