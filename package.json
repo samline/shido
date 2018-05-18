@@ -39,5 +39,8 @@
   "browserslist": [
     "ie 9",
     "last 2 versions"
-  ]
+  ],
+  "dependencies": {
+    "hoek": "^5.0.3"
+  }
 }
