@@ -1,0 +1,23 @@
+// Buttons
+.mix-btn-color(
+  @background:        transparent,
+  @border:            @c-grey-200,
+  @color:             @c-grey-500,
+
+  @background-hover:  transparent,
+  @border-hover:      @c-grey-500,
+  @color-hover:       @c-grey-800,
+
+  @border-style:      solid,
+  @border-width:      1px,
+) {
+  background: @background;
+  border:     @border-style @border-width @border;
+  color:      @color;
+
+  &:hover{
+    background:   @background-hover;
+    border-color: @border-hover;
+    color:        @color-hover;
+  }
+}
