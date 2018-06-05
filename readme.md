@@ -7,7 +7,7 @@ npm install shido --save
 ```
 
 ## Getting started
-Docs can be found at http://shido.com
+Docs can be found at http://shido.samline.me
 
 ## Usage
 ```less
