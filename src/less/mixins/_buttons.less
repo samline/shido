@@ -1,23 +1,23 @@
 // Buttons
 .mix-btn-color(
-  @background:        transparent,
-  @border:            @c-grey-200,
-  @color:             @c-grey-500,
+  @background-color:        transparent,
+  @border-color:            @c-grey-200,
+  @color:                   @c-grey-500,
 
-  @background-hover:  transparent,
-  @border-hover:      @c-grey-500,
-  @color-hover:       @c-grey-800,
+  @background-color-hover:  transparent,
+  @border-color-hover:      @c-grey-500,
+  @color-hover:             @c-grey-800,
 
-  @border-style:      solid,
-  @border-width:      1px,
+  @border-style:            solid,
+  @border-width:            1px,
 ) {
-  background: @background;
-  border:     @border-style @border-width @border;
-  color:      @color;
+  background-color:         @background-color;
+  border:                   @border-style @border-width @border-color;
+  color:                    @color;
 
   &:hover{
-    background:   @background-hover;
-    border-color: @border-hover;
-    color:        @color-hover;
+    background-color:       @background-color-hover;
+    border-color:           @border-color-hover;
+    color:                  @color-hover;
   }
 }
