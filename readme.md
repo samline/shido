@@ -23,7 +23,7 @@ or
 ## License
 MIT
 
-# New features
+# v1.1.0 New features 
 
 ## Helpers
 
@@ -47,6 +47,3 @@ MIT
 
 - .scontainer--half
   > Now it's responsive. e.g. **.m:scontainer--half**
-
-
-shido is a responsive framework developed with {Less} that includes helpers and mixins that helps create layouts quickly. shido provides a great base to start by leaving the developer the task of complementing and creating the necessary components for each project.
