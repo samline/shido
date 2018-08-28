@@ -1,5 +1,5 @@
 # shido シード
-Built by samline
+by `samline`
 
 ## Installation
 ```bash
@@ -7,7 +7,7 @@ npm install shido --save
 ```
 
 ## Getting started
-Docs can be found at http://shido.samline.me
+Docs can be found at http://shido.dinkbit.net/grid
 
 ## Usage
 ```less
@@ -21,3 +21,27 @@ or
 ## License
 MIT
 
+# New features
+
+## Helpers
+
+`Global`
+- .bg-cover: 
+  >  background-position: center
+     > background-size: cover
+- .inline-clear
+  > Remove spaces between inline-block elements
+- .pos-relative
+  > position: relative
+
+`Text`
+- .txt-regular
+  > font-weight: @s-base-font-weight 
+- .txt-normal
+  > font-style: normal
+  > text-transform: none
+
+## Modifiers
+
+- .scontainer--half
+  > Now it's responsive. e.g. **.m:scontainer--half**

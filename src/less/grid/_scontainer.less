@@ -6,10 +6,43 @@
   padding: @s-gutter;
   width: 100%;
 
-  &.scontainer--half {
+  &[class*='--half'] {
     display: inline-block;
-    max-width: @s-scontainer/2;
   }
+
+  // scontainer--half
+  .mix-make-scontainer--half(@type) {
+
+    .half(@n, @i: 1) when (@i =< @n) {
+
+      &.@{type}\:scontainer--half {
+        max-width: @s-scontainer/2;
+      }
+      .half(@n, (@i + 1));
+    }
+
+    // --
+
+    .half(1);
+  }
+
+  //  scontainer--half | Media querys
+  @media (min-width: @x-screen-max) {
+    .mix-make-scontainer--half(x);
+  }
+
+  @media (min-width: @s-screen-min) {
+    .mix-make-scontainer--half(s);
+  }
+
+  @media (min-width: @m-screen-min) {
+    .mix-make-scontainer--half(m);
+  }
+
+  @media (min-width: @l-screen-min) {
+    .mix-make-scontainer--half(l);
+  }
+  // ---
 
   &.scontainer--full {
     padding-bottom: 0px;

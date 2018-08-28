@@ -1,15 +1,36 @@
 // Helpers
+
+.bg-cover {
+  background-position: center;
+  background-size: cover;
+}
 .block {
   display: block;
 }
 .inline-block {
   display: inline-block;
 }
+.inline-clear {
+  font-size: 0px;
+  letter-spacing: 0px;
+  margin: 0 auto;
+  padding: 0px;
+  word-spacing: 0px;
+
+  & > * {
+    font-size: 1rem;
+    letter-spacing: initial;
+    word-spacing: initial;
+  }
+}
 .img-liquid {
   max-width: 100%;
 }
 .nowrap {
   white-space: nowrap;
+}
+.pos-relative {
+  position: relative;
 }
 .pre-line {
   white-space: pre-line;
@@ -58,7 +79,7 @@
 .txt-light {
   font-weight: @s-base-font-weight-light;
 }
-.txt-normal {
+.txt-regular {
   font-weight: @s-base-font-weight;
 }
 
@@ -78,7 +99,8 @@
   text-transform: lowercase;
 }
 .txt-normal {
-  text-transform: normal;
+  font-style: normal;
+  text-transform: none;
 }
 .txt-uppercase {
   text-transform: uppercase;

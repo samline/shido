@@ -6,9 +6,28 @@
   padding: 10px;
   width: 100%;
 }
-.scontainer.scontainer--half {
+.scontainer[class*='--half'] {
   display: inline-block;
-  max-width: 600px;
+}
+@media (min-width: 0px) {
+  .scontainer.x\:scontainer--half {
+    max-width: 600px;
+  }
+}
+@media (min-width: 600px) {
+  .scontainer.s\:scontainer--half {
+    max-width: 600px;
+  }
+}
+@media (min-width: 768px) {
+  .scontainer.m\:scontainer--half {
+    max-width: 600px;
+  }
+}
+@media (min-width: 1024px) {
+  .scontainer.l\:scontainer--half {
+    max-width: 600px;
+  }
 }
 .scontainer.scontainer--full {
   padding-bottom: 0px;
@@ -27,7 +46,7 @@
   word-spacing: 0px;
 }
 .line > * {
-  font-size: 16px;
+  font-size: 1rem;
   letter-spacing: initial;
   word-spacing: initial;
 }
@@ -13105,17 +13124,36 @@ p {
   padding: 5px 0px;
   white-space: pre-line;
 }
+.bg-cover {
+  background-position: center;
+  background-size: cover;
+}
 .block {
   display: block;
 }
 .inline-block {
   display: inline-block;
 }
+.inline-clear {
+  font-size: 0px;
+  letter-spacing: 0px;
+  margin: 0 auto;
+  padding: 0px;
+  word-spacing: 0px;
+}
+.inline-clear > * {
+  font-size: 1rem;
+  letter-spacing: initial;
+  word-spacing: initial;
+}
 .img-liquid {
   max-width: 100%;
 }
 .nowrap {
   white-space: nowrap;
+}
+.pos-relative {
+  position: relative;
 }
 .pre-line {
   white-space: pre-line;
@@ -13158,7 +13196,7 @@ p {
 .txt-light {
   font-weight: 300;
 }
-.txt-normal {
+.txt-regular {
   font-weight: 400;
 }
 .txt-capitalize {
@@ -13174,7 +13212,8 @@ p {
   text-transform: lowercase;
 }
 .txt-normal {
-  text-transform: normal;
+  font-style: normal;
+  text-transform: none;
 }
 .txt-uppercase {
   text-transform: uppercase;
