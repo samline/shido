@@ -2,7 +2,7 @@
   "private": false,
   "name": "shido",
   "version": "1.0.5",
-  "description": "shido is a responsive framework developed with {Less} that includes helpers and mixins that help create layouts quickly. It provides a great base to start by leaving the developer the task of complementing and creating the necessary components for each project.",
+  "description": "shido is a responsive framework developed with {Less} that includes helpers and mixins that helps create layouts quickly. shido provides a great base to start by leaving the developer the task of complementing and creating the necessary components for each project.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/samline/shido.git"
@@ -42,3 +42,5 @@
     "last 2 versions"
   ]
 }
+
+
