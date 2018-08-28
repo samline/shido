@@ -5,18 +5,14 @@ charset = utf-8
 end_of_line = lf
 insert_final_newline = true
 indent_style = space
-indent_size = 2
+indent_size = 4
 trim_trailing_whitespace = true
 
 [*.md]
 trim_trailing_whitespace = false
 
-[*.json,*.yml]
-indent_style = space
-indent_size = 2
-
 # Spaces in js
-[{*.js,*.vue}]
+[{*.js,*.vue,*.json}]
 indent_style = space
 indent_size = 2
 
@@ -32,5 +28,10 @@ indent_size = 2
 
 # Spaces in html
 [*.html]
+indent_style = space
+indent_size = 2
+
+# Spaces in xml
+[*.xml]
 indent_style = space
 indent_size = 2
