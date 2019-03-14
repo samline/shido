@@ -2624,36 +2624,6 @@ p {
   .x\:fs-60 {
     font-size: 3.75rem;
   }
-  .x\:fs-62 {
-    font-size: 3.875rem;
-  }
-  .x\:fs-64 {
-    font-size: 4rem;
-  }
-  .x\:fs-66 {
-    font-size: 4.125rem;
-  }
-  .x\:fs-68 {
-    font-size: 4.25rem;
-  }
-  .x\:fs-70 {
-    font-size: 4.375rem;
-  }
-  .x\:fs-72 {
-    font-size: 4.5rem;
-  }
-  .x\:fs-74 {
-    font-size: 4.625rem;
-  }
-  .x\:fs-76 {
-    font-size: 4.75rem;
-  }
-  .x\:fs-78 {
-    font-size: 4.875rem;
-  }
-  .x\:fs-80 {
-    font-size: 5rem;
-  }
 }
 @media (min-width: 600px) {
   .s\:fs-10 {
@@ -2733,36 +2703,6 @@ p {
   }
   .s\:fs-60 {
     font-size: 3.75rem;
-  }
-  .s\:fs-62 {
-    font-size: 3.875rem;
-  }
-  .s\:fs-64 {
-    font-size: 4rem;
-  }
-  .s\:fs-66 {
-    font-size: 4.125rem;
-  }
-  .s\:fs-68 {
-    font-size: 4.25rem;
-  }
-  .s\:fs-70 {
-    font-size: 4.375rem;
-  }
-  .s\:fs-72 {
-    font-size: 4.5rem;
-  }
-  .s\:fs-74 {
-    font-size: 4.625rem;
-  }
-  .s\:fs-76 {
-    font-size: 4.75rem;
-  }
-  .s\:fs-78 {
-    font-size: 4.875rem;
-  }
-  .s\:fs-80 {
-    font-size: 5rem;
   }
 }
 @media (min-width: 768px) {
@@ -2844,36 +2784,6 @@ p {
   .m\:fs-60 {
     font-size: 3.75rem;
   }
-  .m\:fs-62 {
-    font-size: 3.875rem;
-  }
-  .m\:fs-64 {
-    font-size: 4rem;
-  }
-  .m\:fs-66 {
-    font-size: 4.125rem;
-  }
-  .m\:fs-68 {
-    font-size: 4.25rem;
-  }
-  .m\:fs-70 {
-    font-size: 4.375rem;
-  }
-  .m\:fs-72 {
-    font-size: 4.5rem;
-  }
-  .m\:fs-74 {
-    font-size: 4.625rem;
-  }
-  .m\:fs-76 {
-    font-size: 4.75rem;
-  }
-  .m\:fs-78 {
-    font-size: 4.875rem;
-  }
-  .m\:fs-80 {
-    font-size: 5rem;
-  }
 }
 @media (min-width: 1024px) {
   .l\:fs-10 {
@@ -2954,36 +2864,6 @@ p {
   .l\:fs-60 {
     font-size: 3.75rem;
   }
-  .l\:fs-62 {
-    font-size: 3.875rem;
-  }
-  .l\:fs-64 {
-    font-size: 4rem;
-  }
-  .l\:fs-66 {
-    font-size: 4.125rem;
-  }
-  .l\:fs-68 {
-    font-size: 4.25rem;
-  }
-  .l\:fs-70 {
-    font-size: 4.375rem;
-  }
-  .l\:fs-72 {
-    font-size: 4.5rem;
-  }
-  .l\:fs-74 {
-    font-size: 4.625rem;
-  }
-  .l\:fs-76 {
-    font-size: 4.75rem;
-  }
-  .l\:fs-78 {
-    font-size: 4.875rem;
-  }
-  .l\:fs-80 {
-    font-size: 5rem;
-  }
 }
 @media (min-width: 1280px) {
   .xl\:fs-10 {
@@ -3063,36 +2943,6 @@ p {
   }
   .xl\:fs-60 {
     font-size: 3.75rem;
-  }
-  .xl\:fs-62 {
-    font-size: 3.875rem;
-  }
-  .xl\:fs-64 {
-    font-size: 4rem;
-  }
-  .xl\:fs-66 {
-    font-size: 4.125rem;
-  }
-  .xl\:fs-68 {
-    font-size: 4.25rem;
-  }
-  .xl\:fs-70 {
-    font-size: 4.375rem;
-  }
-  .xl\:fs-72 {
-    font-size: 4.5rem;
-  }
-  .xl\:fs-74 {
-    font-size: 4.625rem;
-  }
-  .xl\:fs-76 {
-    font-size: 4.75rem;
-  }
-  .xl\:fs-78 {
-    font-size: 4.875rem;
-  }
-  .xl\:fs-80 {
-    font-size: 5rem;
   }
 }
 .bg-cover {
@@ -3280,30 +3130,30 @@ p {
   .x\:mrg-top-0 {
     margin-top: 0px;
   }
-  .x\:mrg-negative-all-0 {
+  .x\:mrg-neg-all-0 {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
   }
-  .x\:mrg-negative-bt-0 {
+  .x\:mrg-neg-bt-0 {
     margin-bottom: 0px;
     margin-top: 0px;
   }
-  .x\:mrg-negative-lr-0 {
+  .x\:mrg-neg-lr-0 {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .x\:mrg-negative-bottom-0 {
+  .x\:mrg-neg-bottom-0 {
     margin-bottom: 0px;
   }
-  .x\:mrg-negative-left-0 {
+  .x\:mrg-neg-left-0 {
     margin-left: 0px;
   }
-  .x\:mrg-negative-right-0 {
+  .x\:mrg-neg-right-0 {
     margin-right: 0px;
   }
-  .x\:mrg-negative-top-0 {
+  .x\:mrg-neg-top-0 {
     margin-top: 0px;
   }
   .x\:mrg-all-5 {
@@ -3332,30 +3182,30 @@ p {
   .x\:mrg-top-5 {
     margin-top: 5px;
   }
-  .x\:mrg-negative-all-5 {
+  .x\:mrg-neg-all-5 {
     margin-bottom: -5px;
     margin-left: -5px;
     margin-right: -5px;
     margin-top: -5px;
   }
-  .x\:mrg-negative-bt-5 {
+  .x\:mrg-neg-bt-5 {
     margin-bottom: -5px;
     margin-top: -5px;
   }
-  .x\:mrg-negative-lr-5 {
+  .x\:mrg-neg-lr-5 {
     margin-left: -5px;
     margin-right: -5px;
   }
-  .x\:mrg-negative-bottom-5 {
+  .x\:mrg-neg-bottom-5 {
     margin-bottom: -5px;
   }
-  .x\:mrg-negative-left-5 {
+  .x\:mrg-neg-left-5 {
     margin-left: -5px;
   }
-  .x\:mrg-negative-right-5 {
+  .x\:mrg-neg-right-5 {
     margin-right: -5px;
   }
-  .x\:mrg-negative-top-5 {
+  .x\:mrg-neg-top-5 {
     margin-top: -5px;
   }
   .x\:mrg-all-10 {
@@ -3384,30 +3234,30 @@ p {
   .x\:mrg-top-10 {
     margin-top: 10px;
   }
-  .x\:mrg-negative-all-10 {
+  .x\:mrg-neg-all-10 {
     margin-bottom: -10px;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
   }
-  .x\:mrg-negative-bt-10 {
+  .x\:mrg-neg-bt-10 {
     margin-bottom: -10px;
     margin-top: -10px;
   }
-  .x\:mrg-negative-lr-10 {
+  .x\:mrg-neg-lr-10 {
     margin-left: -10px;
     margin-right: -10px;
   }
-  .x\:mrg-negative-bottom-10 {
+  .x\:mrg-neg-bottom-10 {
     margin-bottom: -10px;
   }
-  .x\:mrg-negative-left-10 {
+  .x\:mrg-neg-left-10 {
     margin-left: -10px;
   }
-  .x\:mrg-negative-right-10 {
+  .x\:mrg-neg-right-10 {
     margin-right: -10px;
   }
-  .x\:mrg-negative-top-10 {
+  .x\:mrg-neg-top-10 {
     margin-top: -10px;
   }
   .x\:mrg-all-15 {
@@ -3436,30 +3286,30 @@ p {
   .x\:mrg-top-15 {
     margin-top: 15px;
   }
-  .x\:mrg-negative-all-15 {
+  .x\:mrg-neg-all-15 {
     margin-bottom: -15px;
     margin-left: -15px;
     margin-right: -15px;
     margin-top: -15px;
   }
-  .x\:mrg-negative-bt-15 {
+  .x\:mrg-neg-bt-15 {
     margin-bottom: -15px;
     margin-top: -15px;
   }
-  .x\:mrg-negative-lr-15 {
+  .x\:mrg-neg-lr-15 {
     margin-left: -15px;
     margin-right: -15px;
   }
-  .x\:mrg-negative-bottom-15 {
+  .x\:mrg-neg-bottom-15 {
     margin-bottom: -15px;
   }
-  .x\:mrg-negative-left-15 {
+  .x\:mrg-neg-left-15 {
     margin-left: -15px;
   }
-  .x\:mrg-negative-right-15 {
+  .x\:mrg-neg-right-15 {
     margin-right: -15px;
   }
-  .x\:mrg-negative-top-15 {
+  .x\:mrg-neg-top-15 {
     margin-top: -15px;
   }
   .x\:mrg-all-20 {
@@ -3488,30 +3338,30 @@ p {
   .x\:mrg-top-20 {
     margin-top: 20px;
   }
-  .x\:mrg-negative-all-20 {
+  .x\:mrg-neg-all-20 {
     margin-bottom: -20px;
     margin-left: -20px;
     margin-right: -20px;
     margin-top: -20px;
   }
-  .x\:mrg-negative-bt-20 {
+  .x\:mrg-neg-bt-20 {
     margin-bottom: -20px;
     margin-top: -20px;
   }
-  .x\:mrg-negative-lr-20 {
+  .x\:mrg-neg-lr-20 {
     margin-left: -20px;
     margin-right: -20px;
   }
-  .x\:mrg-negative-bottom-20 {
+  .x\:mrg-neg-bottom-20 {
     margin-bottom: -20px;
   }
-  .x\:mrg-negative-left-20 {
+  .x\:mrg-neg-left-20 {
     margin-left: -20px;
   }
-  .x\:mrg-negative-right-20 {
+  .x\:mrg-neg-right-20 {
     margin-right: -20px;
   }
-  .x\:mrg-negative-top-20 {
+  .x\:mrg-neg-top-20 {
     margin-top: -20px;
   }
   .x\:mrg-all-25 {
@@ -3540,30 +3390,30 @@ p {
   .x\:mrg-top-25 {
     margin-top: 25px;
   }
-  .x\:mrg-negative-all-25 {
+  .x\:mrg-neg-all-25 {
     margin-bottom: -25px;
     margin-left: -25px;
     margin-right: -25px;
     margin-top: -25px;
   }
-  .x\:mrg-negative-bt-25 {
+  .x\:mrg-neg-bt-25 {
     margin-bottom: -25px;
     margin-top: -25px;
   }
-  .x\:mrg-negative-lr-25 {
+  .x\:mrg-neg-lr-25 {
     margin-left: -25px;
     margin-right: -25px;
   }
-  .x\:mrg-negative-bottom-25 {
+  .x\:mrg-neg-bottom-25 {
     margin-bottom: -25px;
   }
-  .x\:mrg-negative-left-25 {
+  .x\:mrg-neg-left-25 {
     margin-left: -25px;
   }
-  .x\:mrg-negative-right-25 {
+  .x\:mrg-neg-right-25 {
     margin-right: -25px;
   }
-  .x\:mrg-negative-top-25 {
+  .x\:mrg-neg-top-25 {
     margin-top: -25px;
   }
   .x\:mrg-all-30 {
@@ -3592,30 +3442,30 @@ p {
   .x\:mrg-top-30 {
     margin-top: 30px;
   }
-  .x\:mrg-negative-all-30 {
+  .x\:mrg-neg-all-30 {
     margin-bottom: -30px;
     margin-left: -30px;
     margin-right: -30px;
     margin-top: -30px;
   }
-  .x\:mrg-negative-bt-30 {
+  .x\:mrg-neg-bt-30 {
     margin-bottom: -30px;
     margin-top: -30px;
   }
-  .x\:mrg-negative-lr-30 {
+  .x\:mrg-neg-lr-30 {
     margin-left: -30px;
     margin-right: -30px;
   }
-  .x\:mrg-negative-bottom-30 {
+  .x\:mrg-neg-bottom-30 {
     margin-bottom: -30px;
   }
-  .x\:mrg-negative-left-30 {
+  .x\:mrg-neg-left-30 {
     margin-left: -30px;
   }
-  .x\:mrg-negative-right-30 {
+  .x\:mrg-neg-right-30 {
     margin-right: -30px;
   }
-  .x\:mrg-negative-top-30 {
+  .x\:mrg-neg-top-30 {
     margin-top: -30px;
   }
   .x\:mrg-all-35 {
@@ -3644,30 +3494,30 @@ p {
   .x\:mrg-top-35 {
     margin-top: 35px;
   }
-  .x\:mrg-negative-all-35 {
+  .x\:mrg-neg-all-35 {
     margin-bottom: -35px;
     margin-left: -35px;
     margin-right: -35px;
     margin-top: -35px;
   }
-  .x\:mrg-negative-bt-35 {
+  .x\:mrg-neg-bt-35 {
     margin-bottom: -35px;
     margin-top: -35px;
   }
-  .x\:mrg-negative-lr-35 {
+  .x\:mrg-neg-lr-35 {
     margin-left: -35px;
     margin-right: -35px;
   }
-  .x\:mrg-negative-bottom-35 {
+  .x\:mrg-neg-bottom-35 {
     margin-bottom: -35px;
   }
-  .x\:mrg-negative-left-35 {
+  .x\:mrg-neg-left-35 {
     margin-left: -35px;
   }
-  .x\:mrg-negative-right-35 {
+  .x\:mrg-neg-right-35 {
     margin-right: -35px;
   }
-  .x\:mrg-negative-top-35 {
+  .x\:mrg-neg-top-35 {
     margin-top: -35px;
   }
   .x\:mrg-all-40 {
@@ -3696,30 +3546,30 @@ p {
   .x\:mrg-top-40 {
     margin-top: 40px;
   }
-  .x\:mrg-negative-all-40 {
+  .x\:mrg-neg-all-40 {
     margin-bottom: -40px;
     margin-left: -40px;
     margin-right: -40px;
     margin-top: -40px;
   }
-  .x\:mrg-negative-bt-40 {
+  .x\:mrg-neg-bt-40 {
     margin-bottom: -40px;
     margin-top: -40px;
   }
-  .x\:mrg-negative-lr-40 {
+  .x\:mrg-neg-lr-40 {
     margin-left: -40px;
     margin-right: -40px;
   }
-  .x\:mrg-negative-bottom-40 {
+  .x\:mrg-neg-bottom-40 {
     margin-bottom: -40px;
   }
-  .x\:mrg-negative-left-40 {
+  .x\:mrg-neg-left-40 {
     margin-left: -40px;
   }
-  .x\:mrg-negative-right-40 {
+  .x\:mrg-neg-right-40 {
     margin-right: -40px;
   }
-  .x\:mrg-negative-top-40 {
+  .x\:mrg-neg-top-40 {
     margin-top: -40px;
   }
   .x\:mrg-all-45 {
@@ -3748,30 +3598,30 @@ p {
   .x\:mrg-top-45 {
     margin-top: 45px;
   }
-  .x\:mrg-negative-all-45 {
+  .x\:mrg-neg-all-45 {
     margin-bottom: -45px;
     margin-left: -45px;
     margin-right: -45px;
     margin-top: -45px;
   }
-  .x\:mrg-negative-bt-45 {
+  .x\:mrg-neg-bt-45 {
     margin-bottom: -45px;
     margin-top: -45px;
   }
-  .x\:mrg-negative-lr-45 {
+  .x\:mrg-neg-lr-45 {
     margin-left: -45px;
     margin-right: -45px;
   }
-  .x\:mrg-negative-bottom-45 {
+  .x\:mrg-neg-bottom-45 {
     margin-bottom: -45px;
   }
-  .x\:mrg-negative-left-45 {
+  .x\:mrg-neg-left-45 {
     margin-left: -45px;
   }
-  .x\:mrg-negative-right-45 {
+  .x\:mrg-neg-right-45 {
     margin-right: -45px;
   }
-  .x\:mrg-negative-top-45 {
+  .x\:mrg-neg-top-45 {
     margin-top: -45px;
   }
   .x\:mrg-all-50 {
@@ -3800,30 +3650,30 @@ p {
   .x\:mrg-top-50 {
     margin-top: 50px;
   }
-  .x\:mrg-negative-all-50 {
+  .x\:mrg-neg-all-50 {
     margin-bottom: -50px;
     margin-left: -50px;
     margin-right: -50px;
     margin-top: -50px;
   }
-  .x\:mrg-negative-bt-50 {
+  .x\:mrg-neg-bt-50 {
     margin-bottom: -50px;
     margin-top: -50px;
   }
-  .x\:mrg-negative-lr-50 {
+  .x\:mrg-neg-lr-50 {
     margin-left: -50px;
     margin-right: -50px;
   }
-  .x\:mrg-negative-bottom-50 {
+  .x\:mrg-neg-bottom-50 {
     margin-bottom: -50px;
   }
-  .x\:mrg-negative-left-50 {
+  .x\:mrg-neg-left-50 {
     margin-left: -50px;
   }
-  .x\:mrg-negative-right-50 {
+  .x\:mrg-neg-right-50 {
     margin-right: -50px;
   }
-  .x\:mrg-negative-top-50 {
+  .x\:mrg-neg-top-50 {
     margin-top: -50px;
   }
   .x\:mrg-all-55 {
@@ -3852,30 +3702,30 @@ p {
   .x\:mrg-top-55 {
     margin-top: 55px;
   }
-  .x\:mrg-negative-all-55 {
+  .x\:mrg-neg-all-55 {
     margin-bottom: -55px;
     margin-left: -55px;
     margin-right: -55px;
     margin-top: -55px;
   }
-  .x\:mrg-negative-bt-55 {
+  .x\:mrg-neg-bt-55 {
     margin-bottom: -55px;
     margin-top: -55px;
   }
-  .x\:mrg-negative-lr-55 {
+  .x\:mrg-neg-lr-55 {
     margin-left: -55px;
     margin-right: -55px;
   }
-  .x\:mrg-negative-bottom-55 {
+  .x\:mrg-neg-bottom-55 {
     margin-bottom: -55px;
   }
-  .x\:mrg-negative-left-55 {
+  .x\:mrg-neg-left-55 {
     margin-left: -55px;
   }
-  .x\:mrg-negative-right-55 {
+  .x\:mrg-neg-right-55 {
     margin-right: -55px;
   }
-  .x\:mrg-negative-top-55 {
+  .x\:mrg-neg-top-55 {
     margin-top: -55px;
   }
   .x\:mrg-all-60 {
@@ -3904,30 +3754,30 @@ p {
   .x\:mrg-top-60 {
     margin-top: 60px;
   }
-  .x\:mrg-negative-all-60 {
+  .x\:mrg-neg-all-60 {
     margin-bottom: -60px;
     margin-left: -60px;
     margin-right: -60px;
     margin-top: -60px;
   }
-  .x\:mrg-negative-bt-60 {
+  .x\:mrg-neg-bt-60 {
     margin-bottom: -60px;
     margin-top: -60px;
   }
-  .x\:mrg-negative-lr-60 {
+  .x\:mrg-neg-lr-60 {
     margin-left: -60px;
     margin-right: -60px;
   }
-  .x\:mrg-negative-bottom-60 {
+  .x\:mrg-neg-bottom-60 {
     margin-bottom: -60px;
   }
-  .x\:mrg-negative-left-60 {
+  .x\:mrg-neg-left-60 {
     margin-left: -60px;
   }
-  .x\:mrg-negative-right-60 {
+  .x\:mrg-neg-right-60 {
     margin-right: -60px;
   }
-  .x\:mrg-negative-top-60 {
+  .x\:mrg-neg-top-60 {
     margin-top: -60px;
   }
   .x\:mrg-all-65 {
@@ -3956,30 +3806,30 @@ p {
   .x\:mrg-top-65 {
     margin-top: 65px;
   }
-  .x\:mrg-negative-all-65 {
+  .x\:mrg-neg-all-65 {
     margin-bottom: -65px;
     margin-left: -65px;
     margin-right: -65px;
     margin-top: -65px;
   }
-  .x\:mrg-negative-bt-65 {
+  .x\:mrg-neg-bt-65 {
     margin-bottom: -65px;
     margin-top: -65px;
   }
-  .x\:mrg-negative-lr-65 {
+  .x\:mrg-neg-lr-65 {
     margin-left: -65px;
     margin-right: -65px;
   }
-  .x\:mrg-negative-bottom-65 {
+  .x\:mrg-neg-bottom-65 {
     margin-bottom: -65px;
   }
-  .x\:mrg-negative-left-65 {
+  .x\:mrg-neg-left-65 {
     margin-left: -65px;
   }
-  .x\:mrg-negative-right-65 {
+  .x\:mrg-neg-right-65 {
     margin-right: -65px;
   }
-  .x\:mrg-negative-top-65 {
+  .x\:mrg-neg-top-65 {
     margin-top: -65px;
   }
   .x\:mrg-all-70 {
@@ -4008,30 +3858,30 @@ p {
   .x\:mrg-top-70 {
     margin-top: 70px;
   }
-  .x\:mrg-negative-all-70 {
+  .x\:mrg-neg-all-70 {
     margin-bottom: -70px;
     margin-left: -70px;
     margin-right: -70px;
     margin-top: -70px;
   }
-  .x\:mrg-negative-bt-70 {
+  .x\:mrg-neg-bt-70 {
     margin-bottom: -70px;
     margin-top: -70px;
   }
-  .x\:mrg-negative-lr-70 {
+  .x\:mrg-neg-lr-70 {
     margin-left: -70px;
     margin-right: -70px;
   }
-  .x\:mrg-negative-bottom-70 {
+  .x\:mrg-neg-bottom-70 {
     margin-bottom: -70px;
   }
-  .x\:mrg-negative-left-70 {
+  .x\:mrg-neg-left-70 {
     margin-left: -70px;
   }
-  .x\:mrg-negative-right-70 {
+  .x\:mrg-neg-right-70 {
     margin-right: -70px;
   }
-  .x\:mrg-negative-top-70 {
+  .x\:mrg-neg-top-70 {
     margin-top: -70px;
   }
   .x\:mrg-all-75 {
@@ -4060,30 +3910,30 @@ p {
   .x\:mrg-top-75 {
     margin-top: 75px;
   }
-  .x\:mrg-negative-all-75 {
+  .x\:mrg-neg-all-75 {
     margin-bottom: -75px;
     margin-left: -75px;
     margin-right: -75px;
     margin-top: -75px;
   }
-  .x\:mrg-negative-bt-75 {
+  .x\:mrg-neg-bt-75 {
     margin-bottom: -75px;
     margin-top: -75px;
   }
-  .x\:mrg-negative-lr-75 {
+  .x\:mrg-neg-lr-75 {
     margin-left: -75px;
     margin-right: -75px;
   }
-  .x\:mrg-negative-bottom-75 {
+  .x\:mrg-neg-bottom-75 {
     margin-bottom: -75px;
   }
-  .x\:mrg-negative-left-75 {
+  .x\:mrg-neg-left-75 {
     margin-left: -75px;
   }
-  .x\:mrg-negative-right-75 {
+  .x\:mrg-neg-right-75 {
     margin-right: -75px;
   }
-  .x\:mrg-negative-top-75 {
+  .x\:mrg-neg-top-75 {
     margin-top: -75px;
   }
   .x\:mrg-all-80 {
@@ -4112,759 +3962,31 @@ p {
   .x\:mrg-top-80 {
     margin-top: 80px;
   }
-  .x\:mrg-negative-all-80 {
+  .x\:mrg-neg-all-80 {
     margin-bottom: -80px;
     margin-left: -80px;
     margin-right: -80px;
     margin-top: -80px;
   }
-  .x\:mrg-negative-bt-80 {
+  .x\:mrg-neg-bt-80 {
     margin-bottom: -80px;
     margin-top: -80px;
   }
-  .x\:mrg-negative-lr-80 {
+  .x\:mrg-neg-lr-80 {
     margin-left: -80px;
     margin-right: -80px;
   }
-  .x\:mrg-negative-bottom-80 {
+  .x\:mrg-neg-bottom-80 {
     margin-bottom: -80px;
   }
-  .x\:mrg-negative-left-80 {
+  .x\:mrg-neg-left-80 {
     margin-left: -80px;
   }
-  .x\:mrg-negative-right-80 {
+  .x\:mrg-neg-right-80 {
     margin-right: -80px;
   }
-  .x\:mrg-negative-top-80 {
+  .x\:mrg-neg-top-80 {
     margin-top: -80px;
-  }
-  .x\:mrg-all-85 {
-    margin-bottom: 85px;
-    margin-left: 85px;
-    margin-right: 85px;
-    margin-top: 85px;
-  }
-  .x\:mrg-bt-85 {
-    margin-bottom: 85px;
-    margin-top: 85px;
-  }
-  .x\:mrg-lr-85 {
-    margin-left: 85px;
-    margin-right: 85px;
-  }
-  .x\:mrg-bottom-85 {
-    margin-bottom: 85px;
-  }
-  .x\:mrg-left-85 {
-    margin-left: 85px;
-  }
-  .x\:mrg-right-85 {
-    margin-right: 85px;
-  }
-  .x\:mrg-top-85 {
-    margin-top: 85px;
-  }
-  .x\:mrg-negative-all-85 {
-    margin-bottom: -85px;
-    margin-left: -85px;
-    margin-right: -85px;
-    margin-top: -85px;
-  }
-  .x\:mrg-negative-bt-85 {
-    margin-bottom: -85px;
-    margin-top: -85px;
-  }
-  .x\:mrg-negative-lr-85 {
-    margin-left: -85px;
-    margin-right: -85px;
-  }
-  .x\:mrg-negative-bottom-85 {
-    margin-bottom: -85px;
-  }
-  .x\:mrg-negative-left-85 {
-    margin-left: -85px;
-  }
-  .x\:mrg-negative-right-85 {
-    margin-right: -85px;
-  }
-  .x\:mrg-negative-top-85 {
-    margin-top: -85px;
-  }
-  .x\:mrg-all-90 {
-    margin-bottom: 90px;
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-top: 90px;
-  }
-  .x\:mrg-bt-90 {
-    margin-bottom: 90px;
-    margin-top: 90px;
-  }
-  .x\:mrg-lr-90 {
-    margin-left: 90px;
-    margin-right: 90px;
-  }
-  .x\:mrg-bottom-90 {
-    margin-bottom: 90px;
-  }
-  .x\:mrg-left-90 {
-    margin-left: 90px;
-  }
-  .x\:mrg-right-90 {
-    margin-right: 90px;
-  }
-  .x\:mrg-top-90 {
-    margin-top: 90px;
-  }
-  .x\:mrg-negative-all-90 {
-    margin-bottom: -90px;
-    margin-left: -90px;
-    margin-right: -90px;
-    margin-top: -90px;
-  }
-  .x\:mrg-negative-bt-90 {
-    margin-bottom: -90px;
-    margin-top: -90px;
-  }
-  .x\:mrg-negative-lr-90 {
-    margin-left: -90px;
-    margin-right: -90px;
-  }
-  .x\:mrg-negative-bottom-90 {
-    margin-bottom: -90px;
-  }
-  .x\:mrg-negative-left-90 {
-    margin-left: -90px;
-  }
-  .x\:mrg-negative-right-90 {
-    margin-right: -90px;
-  }
-  .x\:mrg-negative-top-90 {
-    margin-top: -90px;
-  }
-  .x\:mrg-all-95 {
-    margin-bottom: 95px;
-    margin-left: 95px;
-    margin-right: 95px;
-    margin-top: 95px;
-  }
-  .x\:mrg-bt-95 {
-    margin-bottom: 95px;
-    margin-top: 95px;
-  }
-  .x\:mrg-lr-95 {
-    margin-left: 95px;
-    margin-right: 95px;
-  }
-  .x\:mrg-bottom-95 {
-    margin-bottom: 95px;
-  }
-  .x\:mrg-left-95 {
-    margin-left: 95px;
-  }
-  .x\:mrg-right-95 {
-    margin-right: 95px;
-  }
-  .x\:mrg-top-95 {
-    margin-top: 95px;
-  }
-  .x\:mrg-negative-all-95 {
-    margin-bottom: -95px;
-    margin-left: -95px;
-    margin-right: -95px;
-    margin-top: -95px;
-  }
-  .x\:mrg-negative-bt-95 {
-    margin-bottom: -95px;
-    margin-top: -95px;
-  }
-  .x\:mrg-negative-lr-95 {
-    margin-left: -95px;
-    margin-right: -95px;
-  }
-  .x\:mrg-negative-bottom-95 {
-    margin-bottom: -95px;
-  }
-  .x\:mrg-negative-left-95 {
-    margin-left: -95px;
-  }
-  .x\:mrg-negative-right-95 {
-    margin-right: -95px;
-  }
-  .x\:mrg-negative-top-95 {
-    margin-top: -95px;
-  }
-  .x\:mrg-all-100 {
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 100px;
-  }
-  .x\:mrg-bt-100 {
-    margin-bottom: 100px;
-    margin-top: 100px;
-  }
-  .x\:mrg-lr-100 {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-  .x\:mrg-bottom-100 {
-    margin-bottom: 100px;
-  }
-  .x\:mrg-left-100 {
-    margin-left: 100px;
-  }
-  .x\:mrg-right-100 {
-    margin-right: 100px;
-  }
-  .x\:mrg-top-100 {
-    margin-top: 100px;
-  }
-  .x\:mrg-negative-all-100 {
-    margin-bottom: -100px;
-    margin-left: -100px;
-    margin-right: -100px;
-    margin-top: -100px;
-  }
-  .x\:mrg-negative-bt-100 {
-    margin-bottom: -100px;
-    margin-top: -100px;
-  }
-  .x\:mrg-negative-lr-100 {
-    margin-left: -100px;
-    margin-right: -100px;
-  }
-  .x\:mrg-negative-bottom-100 {
-    margin-bottom: -100px;
-  }
-  .x\:mrg-negative-left-100 {
-    margin-left: -100px;
-  }
-  .x\:mrg-negative-right-100 {
-    margin-right: -100px;
-  }
-  .x\:mrg-negative-top-100 {
-    margin-top: -100px;
-  }
-  .x\:mrg-all-105 {
-    margin-bottom: 105px;
-    margin-left: 105px;
-    margin-right: 105px;
-    margin-top: 105px;
-  }
-  .x\:mrg-bt-105 {
-    margin-bottom: 105px;
-    margin-top: 105px;
-  }
-  .x\:mrg-lr-105 {
-    margin-left: 105px;
-    margin-right: 105px;
-  }
-  .x\:mrg-bottom-105 {
-    margin-bottom: 105px;
-  }
-  .x\:mrg-left-105 {
-    margin-left: 105px;
-  }
-  .x\:mrg-right-105 {
-    margin-right: 105px;
-  }
-  .x\:mrg-top-105 {
-    margin-top: 105px;
-  }
-  .x\:mrg-negative-all-105 {
-    margin-bottom: -105px;
-    margin-left: -105px;
-    margin-right: -105px;
-    margin-top: -105px;
-  }
-  .x\:mrg-negative-bt-105 {
-    margin-bottom: -105px;
-    margin-top: -105px;
-  }
-  .x\:mrg-negative-lr-105 {
-    margin-left: -105px;
-    margin-right: -105px;
-  }
-  .x\:mrg-negative-bottom-105 {
-    margin-bottom: -105px;
-  }
-  .x\:mrg-negative-left-105 {
-    margin-left: -105px;
-  }
-  .x\:mrg-negative-right-105 {
-    margin-right: -105px;
-  }
-  .x\:mrg-negative-top-105 {
-    margin-top: -105px;
-  }
-  .x\:mrg-all-110 {
-    margin-bottom: 110px;
-    margin-left: 110px;
-    margin-right: 110px;
-    margin-top: 110px;
-  }
-  .x\:mrg-bt-110 {
-    margin-bottom: 110px;
-    margin-top: 110px;
-  }
-  .x\:mrg-lr-110 {
-    margin-left: 110px;
-    margin-right: 110px;
-  }
-  .x\:mrg-bottom-110 {
-    margin-bottom: 110px;
-  }
-  .x\:mrg-left-110 {
-    margin-left: 110px;
-  }
-  .x\:mrg-right-110 {
-    margin-right: 110px;
-  }
-  .x\:mrg-top-110 {
-    margin-top: 110px;
-  }
-  .x\:mrg-negative-all-110 {
-    margin-bottom: -110px;
-    margin-left: -110px;
-    margin-right: -110px;
-    margin-top: -110px;
-  }
-  .x\:mrg-negative-bt-110 {
-    margin-bottom: -110px;
-    margin-top: -110px;
-  }
-  .x\:mrg-negative-lr-110 {
-    margin-left: -110px;
-    margin-right: -110px;
-  }
-  .x\:mrg-negative-bottom-110 {
-    margin-bottom: -110px;
-  }
-  .x\:mrg-negative-left-110 {
-    margin-left: -110px;
-  }
-  .x\:mrg-negative-right-110 {
-    margin-right: -110px;
-  }
-  .x\:mrg-negative-top-110 {
-    margin-top: -110px;
-  }
-  .x\:mrg-all-115 {
-    margin-bottom: 115px;
-    margin-left: 115px;
-    margin-right: 115px;
-    margin-top: 115px;
-  }
-  .x\:mrg-bt-115 {
-    margin-bottom: 115px;
-    margin-top: 115px;
-  }
-  .x\:mrg-lr-115 {
-    margin-left: 115px;
-    margin-right: 115px;
-  }
-  .x\:mrg-bottom-115 {
-    margin-bottom: 115px;
-  }
-  .x\:mrg-left-115 {
-    margin-left: 115px;
-  }
-  .x\:mrg-right-115 {
-    margin-right: 115px;
-  }
-  .x\:mrg-top-115 {
-    margin-top: 115px;
-  }
-  .x\:mrg-negative-all-115 {
-    margin-bottom: -115px;
-    margin-left: -115px;
-    margin-right: -115px;
-    margin-top: -115px;
-  }
-  .x\:mrg-negative-bt-115 {
-    margin-bottom: -115px;
-    margin-top: -115px;
-  }
-  .x\:mrg-negative-lr-115 {
-    margin-left: -115px;
-    margin-right: -115px;
-  }
-  .x\:mrg-negative-bottom-115 {
-    margin-bottom: -115px;
-  }
-  .x\:mrg-negative-left-115 {
-    margin-left: -115px;
-  }
-  .x\:mrg-negative-right-115 {
-    margin-right: -115px;
-  }
-  .x\:mrg-negative-top-115 {
-    margin-top: -115px;
-  }
-  .x\:mrg-all-120 {
-    margin-bottom: 120px;
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-top: 120px;
-  }
-  .x\:mrg-bt-120 {
-    margin-bottom: 120px;
-    margin-top: 120px;
-  }
-  .x\:mrg-lr-120 {
-    margin-left: 120px;
-    margin-right: 120px;
-  }
-  .x\:mrg-bottom-120 {
-    margin-bottom: 120px;
-  }
-  .x\:mrg-left-120 {
-    margin-left: 120px;
-  }
-  .x\:mrg-right-120 {
-    margin-right: 120px;
-  }
-  .x\:mrg-top-120 {
-    margin-top: 120px;
-  }
-  .x\:mrg-negative-all-120 {
-    margin-bottom: -120px;
-    margin-left: -120px;
-    margin-right: -120px;
-    margin-top: -120px;
-  }
-  .x\:mrg-negative-bt-120 {
-    margin-bottom: -120px;
-    margin-top: -120px;
-  }
-  .x\:mrg-negative-lr-120 {
-    margin-left: -120px;
-    margin-right: -120px;
-  }
-  .x\:mrg-negative-bottom-120 {
-    margin-bottom: -120px;
-  }
-  .x\:mrg-negative-left-120 {
-    margin-left: -120px;
-  }
-  .x\:mrg-negative-right-120 {
-    margin-right: -120px;
-  }
-  .x\:mrg-negative-top-120 {
-    margin-top: -120px;
-  }
-  .x\:mrg-all-125 {
-    margin-bottom: 125px;
-    margin-left: 125px;
-    margin-right: 125px;
-    margin-top: 125px;
-  }
-  .x\:mrg-bt-125 {
-    margin-bottom: 125px;
-    margin-top: 125px;
-  }
-  .x\:mrg-lr-125 {
-    margin-left: 125px;
-    margin-right: 125px;
-  }
-  .x\:mrg-bottom-125 {
-    margin-bottom: 125px;
-  }
-  .x\:mrg-left-125 {
-    margin-left: 125px;
-  }
-  .x\:mrg-right-125 {
-    margin-right: 125px;
-  }
-  .x\:mrg-top-125 {
-    margin-top: 125px;
-  }
-  .x\:mrg-negative-all-125 {
-    margin-bottom: -125px;
-    margin-left: -125px;
-    margin-right: -125px;
-    margin-top: -125px;
-  }
-  .x\:mrg-negative-bt-125 {
-    margin-bottom: -125px;
-    margin-top: -125px;
-  }
-  .x\:mrg-negative-lr-125 {
-    margin-left: -125px;
-    margin-right: -125px;
-  }
-  .x\:mrg-negative-bottom-125 {
-    margin-bottom: -125px;
-  }
-  .x\:mrg-negative-left-125 {
-    margin-left: -125px;
-  }
-  .x\:mrg-negative-right-125 {
-    margin-right: -125px;
-  }
-  .x\:mrg-negative-top-125 {
-    margin-top: -125px;
-  }
-  .x\:mrg-all-130 {
-    margin-bottom: 130px;
-    margin-left: 130px;
-    margin-right: 130px;
-    margin-top: 130px;
-  }
-  .x\:mrg-bt-130 {
-    margin-bottom: 130px;
-    margin-top: 130px;
-  }
-  .x\:mrg-lr-130 {
-    margin-left: 130px;
-    margin-right: 130px;
-  }
-  .x\:mrg-bottom-130 {
-    margin-bottom: 130px;
-  }
-  .x\:mrg-left-130 {
-    margin-left: 130px;
-  }
-  .x\:mrg-right-130 {
-    margin-right: 130px;
-  }
-  .x\:mrg-top-130 {
-    margin-top: 130px;
-  }
-  .x\:mrg-negative-all-130 {
-    margin-bottom: -130px;
-    margin-left: -130px;
-    margin-right: -130px;
-    margin-top: -130px;
-  }
-  .x\:mrg-negative-bt-130 {
-    margin-bottom: -130px;
-    margin-top: -130px;
-  }
-  .x\:mrg-negative-lr-130 {
-    margin-left: -130px;
-    margin-right: -130px;
-  }
-  .x\:mrg-negative-bottom-130 {
-    margin-bottom: -130px;
-  }
-  .x\:mrg-negative-left-130 {
-    margin-left: -130px;
-  }
-  .x\:mrg-negative-right-130 {
-    margin-right: -130px;
-  }
-  .x\:mrg-negative-top-130 {
-    margin-top: -130px;
-  }
-  .x\:mrg-all-135 {
-    margin-bottom: 135px;
-    margin-left: 135px;
-    margin-right: 135px;
-    margin-top: 135px;
-  }
-  .x\:mrg-bt-135 {
-    margin-bottom: 135px;
-    margin-top: 135px;
-  }
-  .x\:mrg-lr-135 {
-    margin-left: 135px;
-    margin-right: 135px;
-  }
-  .x\:mrg-bottom-135 {
-    margin-bottom: 135px;
-  }
-  .x\:mrg-left-135 {
-    margin-left: 135px;
-  }
-  .x\:mrg-right-135 {
-    margin-right: 135px;
-  }
-  .x\:mrg-top-135 {
-    margin-top: 135px;
-  }
-  .x\:mrg-negative-all-135 {
-    margin-bottom: -135px;
-    margin-left: -135px;
-    margin-right: -135px;
-    margin-top: -135px;
-  }
-  .x\:mrg-negative-bt-135 {
-    margin-bottom: -135px;
-    margin-top: -135px;
-  }
-  .x\:mrg-negative-lr-135 {
-    margin-left: -135px;
-    margin-right: -135px;
-  }
-  .x\:mrg-negative-bottom-135 {
-    margin-bottom: -135px;
-  }
-  .x\:mrg-negative-left-135 {
-    margin-left: -135px;
-  }
-  .x\:mrg-negative-right-135 {
-    margin-right: -135px;
-  }
-  .x\:mrg-negative-top-135 {
-    margin-top: -135px;
-  }
-  .x\:mrg-all-140 {
-    margin-bottom: 140px;
-    margin-left: 140px;
-    margin-right: 140px;
-    margin-top: 140px;
-  }
-  .x\:mrg-bt-140 {
-    margin-bottom: 140px;
-    margin-top: 140px;
-  }
-  .x\:mrg-lr-140 {
-    margin-left: 140px;
-    margin-right: 140px;
-  }
-  .x\:mrg-bottom-140 {
-    margin-bottom: 140px;
-  }
-  .x\:mrg-left-140 {
-    margin-left: 140px;
-  }
-  .x\:mrg-right-140 {
-    margin-right: 140px;
-  }
-  .x\:mrg-top-140 {
-    margin-top: 140px;
-  }
-  .x\:mrg-negative-all-140 {
-    margin-bottom: -140px;
-    margin-left: -140px;
-    margin-right: -140px;
-    margin-top: -140px;
-  }
-  .x\:mrg-negative-bt-140 {
-    margin-bottom: -140px;
-    margin-top: -140px;
-  }
-  .x\:mrg-negative-lr-140 {
-    margin-left: -140px;
-    margin-right: -140px;
-  }
-  .x\:mrg-negative-bottom-140 {
-    margin-bottom: -140px;
-  }
-  .x\:mrg-negative-left-140 {
-    margin-left: -140px;
-  }
-  .x\:mrg-negative-right-140 {
-    margin-right: -140px;
-  }
-  .x\:mrg-negative-top-140 {
-    margin-top: -140px;
-  }
-  .x\:mrg-all-145 {
-    margin-bottom: 145px;
-    margin-left: 145px;
-    margin-right: 145px;
-    margin-top: 145px;
-  }
-  .x\:mrg-bt-145 {
-    margin-bottom: 145px;
-    margin-top: 145px;
-  }
-  .x\:mrg-lr-145 {
-    margin-left: 145px;
-    margin-right: 145px;
-  }
-  .x\:mrg-bottom-145 {
-    margin-bottom: 145px;
-  }
-  .x\:mrg-left-145 {
-    margin-left: 145px;
-  }
-  .x\:mrg-right-145 {
-    margin-right: 145px;
-  }
-  .x\:mrg-top-145 {
-    margin-top: 145px;
-  }
-  .x\:mrg-negative-all-145 {
-    margin-bottom: -145px;
-    margin-left: -145px;
-    margin-right: -145px;
-    margin-top: -145px;
-  }
-  .x\:mrg-negative-bt-145 {
-    margin-bottom: -145px;
-    margin-top: -145px;
-  }
-  .x\:mrg-negative-lr-145 {
-    margin-left: -145px;
-    margin-right: -145px;
-  }
-  .x\:mrg-negative-bottom-145 {
-    margin-bottom: -145px;
-  }
-  .x\:mrg-negative-left-145 {
-    margin-left: -145px;
-  }
-  .x\:mrg-negative-right-145 {
-    margin-right: -145px;
-  }
-  .x\:mrg-negative-top-145 {
-    margin-top: -145px;
-  }
-  .x\:mrg-all-150 {
-    margin-bottom: 150px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 150px;
-  }
-  .x\:mrg-bt-150 {
-    margin-bottom: 150px;
-    margin-top: 150px;
-  }
-  .x\:mrg-lr-150 {
-    margin-left: 150px;
-    margin-right: 150px;
-  }
-  .x\:mrg-bottom-150 {
-    margin-bottom: 150px;
-  }
-  .x\:mrg-left-150 {
-    margin-left: 150px;
-  }
-  .x\:mrg-right-150 {
-    margin-right: 150px;
-  }
-  .x\:mrg-top-150 {
-    margin-top: 150px;
-  }
-  .x\:mrg-negative-all-150 {
-    margin-bottom: -150px;
-    margin-left: -150px;
-    margin-right: -150px;
-    margin-top: -150px;
-  }
-  .x\:mrg-negative-bt-150 {
-    margin-bottom: -150px;
-    margin-top: -150px;
-  }
-  .x\:mrg-negative-lr-150 {
-    margin-left: -150px;
-    margin-right: -150px;
-  }
-  .x\:mrg-negative-bottom-150 {
-    margin-bottom: -150px;
-  }
-  .x\:mrg-negative-left-150 {
-    margin-left: -150px;
-  }
-  .x\:mrg-negative-right-150 {
-    margin-right: -150px;
-  }
-  .x\:mrg-negative-top-150 {
-    margin-top: -150px;
   }
 }
 @media (min-width: 600px) {
@@ -4894,30 +4016,30 @@ p {
   .s\:mrg-top-0 {
     margin-top: 0px;
   }
-  .s\:mrg-negative-all-0 {
+  .s\:mrg-neg-all-0 {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
   }
-  .s\:mrg-negative-bt-0 {
+  .s\:mrg-neg-bt-0 {
     margin-bottom: 0px;
     margin-top: 0px;
   }
-  .s\:mrg-negative-lr-0 {
+  .s\:mrg-neg-lr-0 {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .s\:mrg-negative-bottom-0 {
+  .s\:mrg-neg-bottom-0 {
     margin-bottom: 0px;
   }
-  .s\:mrg-negative-left-0 {
+  .s\:mrg-neg-left-0 {
     margin-left: 0px;
   }
-  .s\:mrg-negative-right-0 {
+  .s\:mrg-neg-right-0 {
     margin-right: 0px;
   }
-  .s\:mrg-negative-top-0 {
+  .s\:mrg-neg-top-0 {
     margin-top: 0px;
   }
   .s\:mrg-all-5 {
@@ -4946,30 +4068,30 @@ p {
   .s\:mrg-top-5 {
     margin-top: 5px;
   }
-  .s\:mrg-negative-all-5 {
+  .s\:mrg-neg-all-5 {
     margin-bottom: -5px;
     margin-left: -5px;
     margin-right: -5px;
     margin-top: -5px;
   }
-  .s\:mrg-negative-bt-5 {
+  .s\:mrg-neg-bt-5 {
     margin-bottom: -5px;
     margin-top: -5px;
   }
-  .s\:mrg-negative-lr-5 {
+  .s\:mrg-neg-lr-5 {
     margin-left: -5px;
     margin-right: -5px;
   }
-  .s\:mrg-negative-bottom-5 {
+  .s\:mrg-neg-bottom-5 {
     margin-bottom: -5px;
   }
-  .s\:mrg-negative-left-5 {
+  .s\:mrg-neg-left-5 {
     margin-left: -5px;
   }
-  .s\:mrg-negative-right-5 {
+  .s\:mrg-neg-right-5 {
     margin-right: -5px;
   }
-  .s\:mrg-negative-top-5 {
+  .s\:mrg-neg-top-5 {
     margin-top: -5px;
   }
   .s\:mrg-all-10 {
@@ -4998,30 +4120,30 @@ p {
   .s\:mrg-top-10 {
     margin-top: 10px;
   }
-  .s\:mrg-negative-all-10 {
+  .s\:mrg-neg-all-10 {
     margin-bottom: -10px;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
   }
-  .s\:mrg-negative-bt-10 {
+  .s\:mrg-neg-bt-10 {
     margin-bottom: -10px;
     margin-top: -10px;
   }
-  .s\:mrg-negative-lr-10 {
+  .s\:mrg-neg-lr-10 {
     margin-left: -10px;
     margin-right: -10px;
   }
-  .s\:mrg-negative-bottom-10 {
+  .s\:mrg-neg-bottom-10 {
     margin-bottom: -10px;
   }
-  .s\:mrg-negative-left-10 {
+  .s\:mrg-neg-left-10 {
     margin-left: -10px;
   }
-  .s\:mrg-negative-right-10 {
+  .s\:mrg-neg-right-10 {
     margin-right: -10px;
   }
-  .s\:mrg-negative-top-10 {
+  .s\:mrg-neg-top-10 {
     margin-top: -10px;
   }
   .s\:mrg-all-15 {
@@ -5050,30 +4172,30 @@ p {
   .s\:mrg-top-15 {
     margin-top: 15px;
   }
-  .s\:mrg-negative-all-15 {
+  .s\:mrg-neg-all-15 {
     margin-bottom: -15px;
     margin-left: -15px;
     margin-right: -15px;
     margin-top: -15px;
   }
-  .s\:mrg-negative-bt-15 {
+  .s\:mrg-neg-bt-15 {
     margin-bottom: -15px;
     margin-top: -15px;
   }
-  .s\:mrg-negative-lr-15 {
+  .s\:mrg-neg-lr-15 {
     margin-left: -15px;
     margin-right: -15px;
   }
-  .s\:mrg-negative-bottom-15 {
+  .s\:mrg-neg-bottom-15 {
     margin-bottom: -15px;
   }
-  .s\:mrg-negative-left-15 {
+  .s\:mrg-neg-left-15 {
     margin-left: -15px;
   }
-  .s\:mrg-negative-right-15 {
+  .s\:mrg-neg-right-15 {
     margin-right: -15px;
   }
-  .s\:mrg-negative-top-15 {
+  .s\:mrg-neg-top-15 {
     margin-top: -15px;
   }
   .s\:mrg-all-20 {
@@ -5102,30 +4224,30 @@ p {
   .s\:mrg-top-20 {
     margin-top: 20px;
   }
-  .s\:mrg-negative-all-20 {
+  .s\:mrg-neg-all-20 {
     margin-bottom: -20px;
     margin-left: -20px;
     margin-right: -20px;
     margin-top: -20px;
   }
-  .s\:mrg-negative-bt-20 {
+  .s\:mrg-neg-bt-20 {
     margin-bottom: -20px;
     margin-top: -20px;
   }
-  .s\:mrg-negative-lr-20 {
+  .s\:mrg-neg-lr-20 {
     margin-left: -20px;
     margin-right: -20px;
   }
-  .s\:mrg-negative-bottom-20 {
+  .s\:mrg-neg-bottom-20 {
     margin-bottom: -20px;
   }
-  .s\:mrg-negative-left-20 {
+  .s\:mrg-neg-left-20 {
     margin-left: -20px;
   }
-  .s\:mrg-negative-right-20 {
+  .s\:mrg-neg-right-20 {
     margin-right: -20px;
   }
-  .s\:mrg-negative-top-20 {
+  .s\:mrg-neg-top-20 {
     margin-top: -20px;
   }
   .s\:mrg-all-25 {
@@ -5154,30 +4276,30 @@ p {
   .s\:mrg-top-25 {
     margin-top: 25px;
   }
-  .s\:mrg-negative-all-25 {
+  .s\:mrg-neg-all-25 {
     margin-bottom: -25px;
     margin-left: -25px;
     margin-right: -25px;
     margin-top: -25px;
   }
-  .s\:mrg-negative-bt-25 {
+  .s\:mrg-neg-bt-25 {
     margin-bottom: -25px;
     margin-top: -25px;
   }
-  .s\:mrg-negative-lr-25 {
+  .s\:mrg-neg-lr-25 {
     margin-left: -25px;
     margin-right: -25px;
   }
-  .s\:mrg-negative-bottom-25 {
+  .s\:mrg-neg-bottom-25 {
     margin-bottom: -25px;
   }
-  .s\:mrg-negative-left-25 {
+  .s\:mrg-neg-left-25 {
     margin-left: -25px;
   }
-  .s\:mrg-negative-right-25 {
+  .s\:mrg-neg-right-25 {
     margin-right: -25px;
   }
-  .s\:mrg-negative-top-25 {
+  .s\:mrg-neg-top-25 {
     margin-top: -25px;
   }
   .s\:mrg-all-30 {
@@ -5206,30 +4328,30 @@ p {
   .s\:mrg-top-30 {
     margin-top: 30px;
   }
-  .s\:mrg-negative-all-30 {
+  .s\:mrg-neg-all-30 {
     margin-bottom: -30px;
     margin-left: -30px;
     margin-right: -30px;
     margin-top: -30px;
   }
-  .s\:mrg-negative-bt-30 {
+  .s\:mrg-neg-bt-30 {
     margin-bottom: -30px;
     margin-top: -30px;
   }
-  .s\:mrg-negative-lr-30 {
+  .s\:mrg-neg-lr-30 {
     margin-left: -30px;
     margin-right: -30px;
   }
-  .s\:mrg-negative-bottom-30 {
+  .s\:mrg-neg-bottom-30 {
     margin-bottom: -30px;
   }
-  .s\:mrg-negative-left-30 {
+  .s\:mrg-neg-left-30 {
     margin-left: -30px;
   }
-  .s\:mrg-negative-right-30 {
+  .s\:mrg-neg-right-30 {
     margin-right: -30px;
   }
-  .s\:mrg-negative-top-30 {
+  .s\:mrg-neg-top-30 {
     margin-top: -30px;
   }
   .s\:mrg-all-35 {
@@ -5258,30 +4380,30 @@ p {
   .s\:mrg-top-35 {
     margin-top: 35px;
   }
-  .s\:mrg-negative-all-35 {
+  .s\:mrg-neg-all-35 {
     margin-bottom: -35px;
     margin-left: -35px;
     margin-right: -35px;
     margin-top: -35px;
   }
-  .s\:mrg-negative-bt-35 {
+  .s\:mrg-neg-bt-35 {
     margin-bottom: -35px;
     margin-top: -35px;
   }
-  .s\:mrg-negative-lr-35 {
+  .s\:mrg-neg-lr-35 {
     margin-left: -35px;
     margin-right: -35px;
   }
-  .s\:mrg-negative-bottom-35 {
+  .s\:mrg-neg-bottom-35 {
     margin-bottom: -35px;
   }
-  .s\:mrg-negative-left-35 {
+  .s\:mrg-neg-left-35 {
     margin-left: -35px;
   }
-  .s\:mrg-negative-right-35 {
+  .s\:mrg-neg-right-35 {
     margin-right: -35px;
   }
-  .s\:mrg-negative-top-35 {
+  .s\:mrg-neg-top-35 {
     margin-top: -35px;
   }
   .s\:mrg-all-40 {
@@ -5310,30 +4432,30 @@ p {
   .s\:mrg-top-40 {
     margin-top: 40px;
   }
-  .s\:mrg-negative-all-40 {
+  .s\:mrg-neg-all-40 {
     margin-bottom: -40px;
     margin-left: -40px;
     margin-right: -40px;
     margin-top: -40px;
   }
-  .s\:mrg-negative-bt-40 {
+  .s\:mrg-neg-bt-40 {
     margin-bottom: -40px;
     margin-top: -40px;
   }
-  .s\:mrg-negative-lr-40 {
+  .s\:mrg-neg-lr-40 {
     margin-left: -40px;
     margin-right: -40px;
   }
-  .s\:mrg-negative-bottom-40 {
+  .s\:mrg-neg-bottom-40 {
     margin-bottom: -40px;
   }
-  .s\:mrg-negative-left-40 {
+  .s\:mrg-neg-left-40 {
     margin-left: -40px;
   }
-  .s\:mrg-negative-right-40 {
+  .s\:mrg-neg-right-40 {
     margin-right: -40px;
   }
-  .s\:mrg-negative-top-40 {
+  .s\:mrg-neg-top-40 {
     margin-top: -40px;
   }
   .s\:mrg-all-45 {
@@ -5362,30 +4484,30 @@ p {
   .s\:mrg-top-45 {
     margin-top: 45px;
   }
-  .s\:mrg-negative-all-45 {
+  .s\:mrg-neg-all-45 {
     margin-bottom: -45px;
     margin-left: -45px;
     margin-right: -45px;
     margin-top: -45px;
   }
-  .s\:mrg-negative-bt-45 {
+  .s\:mrg-neg-bt-45 {
     margin-bottom: -45px;
     margin-top: -45px;
   }
-  .s\:mrg-negative-lr-45 {
+  .s\:mrg-neg-lr-45 {
     margin-left: -45px;
     margin-right: -45px;
   }
-  .s\:mrg-negative-bottom-45 {
+  .s\:mrg-neg-bottom-45 {
     margin-bottom: -45px;
   }
-  .s\:mrg-negative-left-45 {
+  .s\:mrg-neg-left-45 {
     margin-left: -45px;
   }
-  .s\:mrg-negative-right-45 {
+  .s\:mrg-neg-right-45 {
     margin-right: -45px;
   }
-  .s\:mrg-negative-top-45 {
+  .s\:mrg-neg-top-45 {
     margin-top: -45px;
   }
   .s\:mrg-all-50 {
@@ -5414,30 +4536,30 @@ p {
   .s\:mrg-top-50 {
     margin-top: 50px;
   }
-  .s\:mrg-negative-all-50 {
+  .s\:mrg-neg-all-50 {
     margin-bottom: -50px;
     margin-left: -50px;
     margin-right: -50px;
     margin-top: -50px;
   }
-  .s\:mrg-negative-bt-50 {
+  .s\:mrg-neg-bt-50 {
     margin-bottom: -50px;
     margin-top: -50px;
   }
-  .s\:mrg-negative-lr-50 {
+  .s\:mrg-neg-lr-50 {
     margin-left: -50px;
     margin-right: -50px;
   }
-  .s\:mrg-negative-bottom-50 {
+  .s\:mrg-neg-bottom-50 {
     margin-bottom: -50px;
   }
-  .s\:mrg-negative-left-50 {
+  .s\:mrg-neg-left-50 {
     margin-left: -50px;
   }
-  .s\:mrg-negative-right-50 {
+  .s\:mrg-neg-right-50 {
     margin-right: -50px;
   }
-  .s\:mrg-negative-top-50 {
+  .s\:mrg-neg-top-50 {
     margin-top: -50px;
   }
   .s\:mrg-all-55 {
@@ -5466,30 +4588,30 @@ p {
   .s\:mrg-top-55 {
     margin-top: 55px;
   }
-  .s\:mrg-negative-all-55 {
+  .s\:mrg-neg-all-55 {
     margin-bottom: -55px;
     margin-left: -55px;
     margin-right: -55px;
     margin-top: -55px;
   }
-  .s\:mrg-negative-bt-55 {
+  .s\:mrg-neg-bt-55 {
     margin-bottom: -55px;
     margin-top: -55px;
   }
-  .s\:mrg-negative-lr-55 {
+  .s\:mrg-neg-lr-55 {
     margin-left: -55px;
     margin-right: -55px;
   }
-  .s\:mrg-negative-bottom-55 {
+  .s\:mrg-neg-bottom-55 {
     margin-bottom: -55px;
   }
-  .s\:mrg-negative-left-55 {
+  .s\:mrg-neg-left-55 {
     margin-left: -55px;
   }
-  .s\:mrg-negative-right-55 {
+  .s\:mrg-neg-right-55 {
     margin-right: -55px;
   }
-  .s\:mrg-negative-top-55 {
+  .s\:mrg-neg-top-55 {
     margin-top: -55px;
   }
   .s\:mrg-all-60 {
@@ -5518,30 +4640,30 @@ p {
   .s\:mrg-top-60 {
     margin-top: 60px;
   }
-  .s\:mrg-negative-all-60 {
+  .s\:mrg-neg-all-60 {
     margin-bottom: -60px;
     margin-left: -60px;
     margin-right: -60px;
     margin-top: -60px;
   }
-  .s\:mrg-negative-bt-60 {
+  .s\:mrg-neg-bt-60 {
     margin-bottom: -60px;
     margin-top: -60px;
   }
-  .s\:mrg-negative-lr-60 {
+  .s\:mrg-neg-lr-60 {
     margin-left: -60px;
     margin-right: -60px;
   }
-  .s\:mrg-negative-bottom-60 {
+  .s\:mrg-neg-bottom-60 {
     margin-bottom: -60px;
   }
-  .s\:mrg-negative-left-60 {
+  .s\:mrg-neg-left-60 {
     margin-left: -60px;
   }
-  .s\:mrg-negative-right-60 {
+  .s\:mrg-neg-right-60 {
     margin-right: -60px;
   }
-  .s\:mrg-negative-top-60 {
+  .s\:mrg-neg-top-60 {
     margin-top: -60px;
   }
   .s\:mrg-all-65 {
@@ -5570,30 +4692,30 @@ p {
   .s\:mrg-top-65 {
     margin-top: 65px;
   }
-  .s\:mrg-negative-all-65 {
+  .s\:mrg-neg-all-65 {
     margin-bottom: -65px;
     margin-left: -65px;
     margin-right: -65px;
     margin-top: -65px;
   }
-  .s\:mrg-negative-bt-65 {
+  .s\:mrg-neg-bt-65 {
     margin-bottom: -65px;
     margin-top: -65px;
   }
-  .s\:mrg-negative-lr-65 {
+  .s\:mrg-neg-lr-65 {
     margin-left: -65px;
     margin-right: -65px;
   }
-  .s\:mrg-negative-bottom-65 {
+  .s\:mrg-neg-bottom-65 {
     margin-bottom: -65px;
   }
-  .s\:mrg-negative-left-65 {
+  .s\:mrg-neg-left-65 {
     margin-left: -65px;
   }
-  .s\:mrg-negative-right-65 {
+  .s\:mrg-neg-right-65 {
     margin-right: -65px;
   }
-  .s\:mrg-negative-top-65 {
+  .s\:mrg-neg-top-65 {
     margin-top: -65px;
   }
   .s\:mrg-all-70 {
@@ -5622,30 +4744,30 @@ p {
   .s\:mrg-top-70 {
     margin-top: 70px;
   }
-  .s\:mrg-negative-all-70 {
+  .s\:mrg-neg-all-70 {
     margin-bottom: -70px;
     margin-left: -70px;
     margin-right: -70px;
     margin-top: -70px;
   }
-  .s\:mrg-negative-bt-70 {
+  .s\:mrg-neg-bt-70 {
     margin-bottom: -70px;
     margin-top: -70px;
   }
-  .s\:mrg-negative-lr-70 {
+  .s\:mrg-neg-lr-70 {
     margin-left: -70px;
     margin-right: -70px;
   }
-  .s\:mrg-negative-bottom-70 {
+  .s\:mrg-neg-bottom-70 {
     margin-bottom: -70px;
   }
-  .s\:mrg-negative-left-70 {
+  .s\:mrg-neg-left-70 {
     margin-left: -70px;
   }
-  .s\:mrg-negative-right-70 {
+  .s\:mrg-neg-right-70 {
     margin-right: -70px;
   }
-  .s\:mrg-negative-top-70 {
+  .s\:mrg-neg-top-70 {
     margin-top: -70px;
   }
   .s\:mrg-all-75 {
@@ -5674,30 +4796,30 @@ p {
   .s\:mrg-top-75 {
     margin-top: 75px;
   }
-  .s\:mrg-negative-all-75 {
+  .s\:mrg-neg-all-75 {
     margin-bottom: -75px;
     margin-left: -75px;
     margin-right: -75px;
     margin-top: -75px;
   }
-  .s\:mrg-negative-bt-75 {
+  .s\:mrg-neg-bt-75 {
     margin-bottom: -75px;
     margin-top: -75px;
   }
-  .s\:mrg-negative-lr-75 {
+  .s\:mrg-neg-lr-75 {
     margin-left: -75px;
     margin-right: -75px;
   }
-  .s\:mrg-negative-bottom-75 {
+  .s\:mrg-neg-bottom-75 {
     margin-bottom: -75px;
   }
-  .s\:mrg-negative-left-75 {
+  .s\:mrg-neg-left-75 {
     margin-left: -75px;
   }
-  .s\:mrg-negative-right-75 {
+  .s\:mrg-neg-right-75 {
     margin-right: -75px;
   }
-  .s\:mrg-negative-top-75 {
+  .s\:mrg-neg-top-75 {
     margin-top: -75px;
   }
   .s\:mrg-all-80 {
@@ -5726,759 +4848,31 @@ p {
   .s\:mrg-top-80 {
     margin-top: 80px;
   }
-  .s\:mrg-negative-all-80 {
+  .s\:mrg-neg-all-80 {
     margin-bottom: -80px;
     margin-left: -80px;
     margin-right: -80px;
     margin-top: -80px;
   }
-  .s\:mrg-negative-bt-80 {
+  .s\:mrg-neg-bt-80 {
     margin-bottom: -80px;
     margin-top: -80px;
   }
-  .s\:mrg-negative-lr-80 {
+  .s\:mrg-neg-lr-80 {
     margin-left: -80px;
     margin-right: -80px;
   }
-  .s\:mrg-negative-bottom-80 {
+  .s\:mrg-neg-bottom-80 {
     margin-bottom: -80px;
   }
-  .s\:mrg-negative-left-80 {
+  .s\:mrg-neg-left-80 {
     margin-left: -80px;
   }
-  .s\:mrg-negative-right-80 {
+  .s\:mrg-neg-right-80 {
     margin-right: -80px;
   }
-  .s\:mrg-negative-top-80 {
+  .s\:mrg-neg-top-80 {
     margin-top: -80px;
-  }
-  .s\:mrg-all-85 {
-    margin-bottom: 85px;
-    margin-left: 85px;
-    margin-right: 85px;
-    margin-top: 85px;
-  }
-  .s\:mrg-bt-85 {
-    margin-bottom: 85px;
-    margin-top: 85px;
-  }
-  .s\:mrg-lr-85 {
-    margin-left: 85px;
-    margin-right: 85px;
-  }
-  .s\:mrg-bottom-85 {
-    margin-bottom: 85px;
-  }
-  .s\:mrg-left-85 {
-    margin-left: 85px;
-  }
-  .s\:mrg-right-85 {
-    margin-right: 85px;
-  }
-  .s\:mrg-top-85 {
-    margin-top: 85px;
-  }
-  .s\:mrg-negative-all-85 {
-    margin-bottom: -85px;
-    margin-left: -85px;
-    margin-right: -85px;
-    margin-top: -85px;
-  }
-  .s\:mrg-negative-bt-85 {
-    margin-bottom: -85px;
-    margin-top: -85px;
-  }
-  .s\:mrg-negative-lr-85 {
-    margin-left: -85px;
-    margin-right: -85px;
-  }
-  .s\:mrg-negative-bottom-85 {
-    margin-bottom: -85px;
-  }
-  .s\:mrg-negative-left-85 {
-    margin-left: -85px;
-  }
-  .s\:mrg-negative-right-85 {
-    margin-right: -85px;
-  }
-  .s\:mrg-negative-top-85 {
-    margin-top: -85px;
-  }
-  .s\:mrg-all-90 {
-    margin-bottom: 90px;
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-top: 90px;
-  }
-  .s\:mrg-bt-90 {
-    margin-bottom: 90px;
-    margin-top: 90px;
-  }
-  .s\:mrg-lr-90 {
-    margin-left: 90px;
-    margin-right: 90px;
-  }
-  .s\:mrg-bottom-90 {
-    margin-bottom: 90px;
-  }
-  .s\:mrg-left-90 {
-    margin-left: 90px;
-  }
-  .s\:mrg-right-90 {
-    margin-right: 90px;
-  }
-  .s\:mrg-top-90 {
-    margin-top: 90px;
-  }
-  .s\:mrg-negative-all-90 {
-    margin-bottom: -90px;
-    margin-left: -90px;
-    margin-right: -90px;
-    margin-top: -90px;
-  }
-  .s\:mrg-negative-bt-90 {
-    margin-bottom: -90px;
-    margin-top: -90px;
-  }
-  .s\:mrg-negative-lr-90 {
-    margin-left: -90px;
-    margin-right: -90px;
-  }
-  .s\:mrg-negative-bottom-90 {
-    margin-bottom: -90px;
-  }
-  .s\:mrg-negative-left-90 {
-    margin-left: -90px;
-  }
-  .s\:mrg-negative-right-90 {
-    margin-right: -90px;
-  }
-  .s\:mrg-negative-top-90 {
-    margin-top: -90px;
-  }
-  .s\:mrg-all-95 {
-    margin-bottom: 95px;
-    margin-left: 95px;
-    margin-right: 95px;
-    margin-top: 95px;
-  }
-  .s\:mrg-bt-95 {
-    margin-bottom: 95px;
-    margin-top: 95px;
-  }
-  .s\:mrg-lr-95 {
-    margin-left: 95px;
-    margin-right: 95px;
-  }
-  .s\:mrg-bottom-95 {
-    margin-bottom: 95px;
-  }
-  .s\:mrg-left-95 {
-    margin-left: 95px;
-  }
-  .s\:mrg-right-95 {
-    margin-right: 95px;
-  }
-  .s\:mrg-top-95 {
-    margin-top: 95px;
-  }
-  .s\:mrg-negative-all-95 {
-    margin-bottom: -95px;
-    margin-left: -95px;
-    margin-right: -95px;
-    margin-top: -95px;
-  }
-  .s\:mrg-negative-bt-95 {
-    margin-bottom: -95px;
-    margin-top: -95px;
-  }
-  .s\:mrg-negative-lr-95 {
-    margin-left: -95px;
-    margin-right: -95px;
-  }
-  .s\:mrg-negative-bottom-95 {
-    margin-bottom: -95px;
-  }
-  .s\:mrg-negative-left-95 {
-    margin-left: -95px;
-  }
-  .s\:mrg-negative-right-95 {
-    margin-right: -95px;
-  }
-  .s\:mrg-negative-top-95 {
-    margin-top: -95px;
-  }
-  .s\:mrg-all-100 {
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 100px;
-  }
-  .s\:mrg-bt-100 {
-    margin-bottom: 100px;
-    margin-top: 100px;
-  }
-  .s\:mrg-lr-100 {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-  .s\:mrg-bottom-100 {
-    margin-bottom: 100px;
-  }
-  .s\:mrg-left-100 {
-    margin-left: 100px;
-  }
-  .s\:mrg-right-100 {
-    margin-right: 100px;
-  }
-  .s\:mrg-top-100 {
-    margin-top: 100px;
-  }
-  .s\:mrg-negative-all-100 {
-    margin-bottom: -100px;
-    margin-left: -100px;
-    margin-right: -100px;
-    margin-top: -100px;
-  }
-  .s\:mrg-negative-bt-100 {
-    margin-bottom: -100px;
-    margin-top: -100px;
-  }
-  .s\:mrg-negative-lr-100 {
-    margin-left: -100px;
-    margin-right: -100px;
-  }
-  .s\:mrg-negative-bottom-100 {
-    margin-bottom: -100px;
-  }
-  .s\:mrg-negative-left-100 {
-    margin-left: -100px;
-  }
-  .s\:mrg-negative-right-100 {
-    margin-right: -100px;
-  }
-  .s\:mrg-negative-top-100 {
-    margin-top: -100px;
-  }
-  .s\:mrg-all-105 {
-    margin-bottom: 105px;
-    margin-left: 105px;
-    margin-right: 105px;
-    margin-top: 105px;
-  }
-  .s\:mrg-bt-105 {
-    margin-bottom: 105px;
-    margin-top: 105px;
-  }
-  .s\:mrg-lr-105 {
-    margin-left: 105px;
-    margin-right: 105px;
-  }
-  .s\:mrg-bottom-105 {
-    margin-bottom: 105px;
-  }
-  .s\:mrg-left-105 {
-    margin-left: 105px;
-  }
-  .s\:mrg-right-105 {
-    margin-right: 105px;
-  }
-  .s\:mrg-top-105 {
-    margin-top: 105px;
-  }
-  .s\:mrg-negative-all-105 {
-    margin-bottom: -105px;
-    margin-left: -105px;
-    margin-right: -105px;
-    margin-top: -105px;
-  }
-  .s\:mrg-negative-bt-105 {
-    margin-bottom: -105px;
-    margin-top: -105px;
-  }
-  .s\:mrg-negative-lr-105 {
-    margin-left: -105px;
-    margin-right: -105px;
-  }
-  .s\:mrg-negative-bottom-105 {
-    margin-bottom: -105px;
-  }
-  .s\:mrg-negative-left-105 {
-    margin-left: -105px;
-  }
-  .s\:mrg-negative-right-105 {
-    margin-right: -105px;
-  }
-  .s\:mrg-negative-top-105 {
-    margin-top: -105px;
-  }
-  .s\:mrg-all-110 {
-    margin-bottom: 110px;
-    margin-left: 110px;
-    margin-right: 110px;
-    margin-top: 110px;
-  }
-  .s\:mrg-bt-110 {
-    margin-bottom: 110px;
-    margin-top: 110px;
-  }
-  .s\:mrg-lr-110 {
-    margin-left: 110px;
-    margin-right: 110px;
-  }
-  .s\:mrg-bottom-110 {
-    margin-bottom: 110px;
-  }
-  .s\:mrg-left-110 {
-    margin-left: 110px;
-  }
-  .s\:mrg-right-110 {
-    margin-right: 110px;
-  }
-  .s\:mrg-top-110 {
-    margin-top: 110px;
-  }
-  .s\:mrg-negative-all-110 {
-    margin-bottom: -110px;
-    margin-left: -110px;
-    margin-right: -110px;
-    margin-top: -110px;
-  }
-  .s\:mrg-negative-bt-110 {
-    margin-bottom: -110px;
-    margin-top: -110px;
-  }
-  .s\:mrg-negative-lr-110 {
-    margin-left: -110px;
-    margin-right: -110px;
-  }
-  .s\:mrg-negative-bottom-110 {
-    margin-bottom: -110px;
-  }
-  .s\:mrg-negative-left-110 {
-    margin-left: -110px;
-  }
-  .s\:mrg-negative-right-110 {
-    margin-right: -110px;
-  }
-  .s\:mrg-negative-top-110 {
-    margin-top: -110px;
-  }
-  .s\:mrg-all-115 {
-    margin-bottom: 115px;
-    margin-left: 115px;
-    margin-right: 115px;
-    margin-top: 115px;
-  }
-  .s\:mrg-bt-115 {
-    margin-bottom: 115px;
-    margin-top: 115px;
-  }
-  .s\:mrg-lr-115 {
-    margin-left: 115px;
-    margin-right: 115px;
-  }
-  .s\:mrg-bottom-115 {
-    margin-bottom: 115px;
-  }
-  .s\:mrg-left-115 {
-    margin-left: 115px;
-  }
-  .s\:mrg-right-115 {
-    margin-right: 115px;
-  }
-  .s\:mrg-top-115 {
-    margin-top: 115px;
-  }
-  .s\:mrg-negative-all-115 {
-    margin-bottom: -115px;
-    margin-left: -115px;
-    margin-right: -115px;
-    margin-top: -115px;
-  }
-  .s\:mrg-negative-bt-115 {
-    margin-bottom: -115px;
-    margin-top: -115px;
-  }
-  .s\:mrg-negative-lr-115 {
-    margin-left: -115px;
-    margin-right: -115px;
-  }
-  .s\:mrg-negative-bottom-115 {
-    margin-bottom: -115px;
-  }
-  .s\:mrg-negative-left-115 {
-    margin-left: -115px;
-  }
-  .s\:mrg-negative-right-115 {
-    margin-right: -115px;
-  }
-  .s\:mrg-negative-top-115 {
-    margin-top: -115px;
-  }
-  .s\:mrg-all-120 {
-    margin-bottom: 120px;
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-top: 120px;
-  }
-  .s\:mrg-bt-120 {
-    margin-bottom: 120px;
-    margin-top: 120px;
-  }
-  .s\:mrg-lr-120 {
-    margin-left: 120px;
-    margin-right: 120px;
-  }
-  .s\:mrg-bottom-120 {
-    margin-bottom: 120px;
-  }
-  .s\:mrg-left-120 {
-    margin-left: 120px;
-  }
-  .s\:mrg-right-120 {
-    margin-right: 120px;
-  }
-  .s\:mrg-top-120 {
-    margin-top: 120px;
-  }
-  .s\:mrg-negative-all-120 {
-    margin-bottom: -120px;
-    margin-left: -120px;
-    margin-right: -120px;
-    margin-top: -120px;
-  }
-  .s\:mrg-negative-bt-120 {
-    margin-bottom: -120px;
-    margin-top: -120px;
-  }
-  .s\:mrg-negative-lr-120 {
-    margin-left: -120px;
-    margin-right: -120px;
-  }
-  .s\:mrg-negative-bottom-120 {
-    margin-bottom: -120px;
-  }
-  .s\:mrg-negative-left-120 {
-    margin-left: -120px;
-  }
-  .s\:mrg-negative-right-120 {
-    margin-right: -120px;
-  }
-  .s\:mrg-negative-top-120 {
-    margin-top: -120px;
-  }
-  .s\:mrg-all-125 {
-    margin-bottom: 125px;
-    margin-left: 125px;
-    margin-right: 125px;
-    margin-top: 125px;
-  }
-  .s\:mrg-bt-125 {
-    margin-bottom: 125px;
-    margin-top: 125px;
-  }
-  .s\:mrg-lr-125 {
-    margin-left: 125px;
-    margin-right: 125px;
-  }
-  .s\:mrg-bottom-125 {
-    margin-bottom: 125px;
-  }
-  .s\:mrg-left-125 {
-    margin-left: 125px;
-  }
-  .s\:mrg-right-125 {
-    margin-right: 125px;
-  }
-  .s\:mrg-top-125 {
-    margin-top: 125px;
-  }
-  .s\:mrg-negative-all-125 {
-    margin-bottom: -125px;
-    margin-left: -125px;
-    margin-right: -125px;
-    margin-top: -125px;
-  }
-  .s\:mrg-negative-bt-125 {
-    margin-bottom: -125px;
-    margin-top: -125px;
-  }
-  .s\:mrg-negative-lr-125 {
-    margin-left: -125px;
-    margin-right: -125px;
-  }
-  .s\:mrg-negative-bottom-125 {
-    margin-bottom: -125px;
-  }
-  .s\:mrg-negative-left-125 {
-    margin-left: -125px;
-  }
-  .s\:mrg-negative-right-125 {
-    margin-right: -125px;
-  }
-  .s\:mrg-negative-top-125 {
-    margin-top: -125px;
-  }
-  .s\:mrg-all-130 {
-    margin-bottom: 130px;
-    margin-left: 130px;
-    margin-right: 130px;
-    margin-top: 130px;
-  }
-  .s\:mrg-bt-130 {
-    margin-bottom: 130px;
-    margin-top: 130px;
-  }
-  .s\:mrg-lr-130 {
-    margin-left: 130px;
-    margin-right: 130px;
-  }
-  .s\:mrg-bottom-130 {
-    margin-bottom: 130px;
-  }
-  .s\:mrg-left-130 {
-    margin-left: 130px;
-  }
-  .s\:mrg-right-130 {
-    margin-right: 130px;
-  }
-  .s\:mrg-top-130 {
-    margin-top: 130px;
-  }
-  .s\:mrg-negative-all-130 {
-    margin-bottom: -130px;
-    margin-left: -130px;
-    margin-right: -130px;
-    margin-top: -130px;
-  }
-  .s\:mrg-negative-bt-130 {
-    margin-bottom: -130px;
-    margin-top: -130px;
-  }
-  .s\:mrg-negative-lr-130 {
-    margin-left: -130px;
-    margin-right: -130px;
-  }
-  .s\:mrg-negative-bottom-130 {
-    margin-bottom: -130px;
-  }
-  .s\:mrg-negative-left-130 {
-    margin-left: -130px;
-  }
-  .s\:mrg-negative-right-130 {
-    margin-right: -130px;
-  }
-  .s\:mrg-negative-top-130 {
-    margin-top: -130px;
-  }
-  .s\:mrg-all-135 {
-    margin-bottom: 135px;
-    margin-left: 135px;
-    margin-right: 135px;
-    margin-top: 135px;
-  }
-  .s\:mrg-bt-135 {
-    margin-bottom: 135px;
-    margin-top: 135px;
-  }
-  .s\:mrg-lr-135 {
-    margin-left: 135px;
-    margin-right: 135px;
-  }
-  .s\:mrg-bottom-135 {
-    margin-bottom: 135px;
-  }
-  .s\:mrg-left-135 {
-    margin-left: 135px;
-  }
-  .s\:mrg-right-135 {
-    margin-right: 135px;
-  }
-  .s\:mrg-top-135 {
-    margin-top: 135px;
-  }
-  .s\:mrg-negative-all-135 {
-    margin-bottom: -135px;
-    margin-left: -135px;
-    margin-right: -135px;
-    margin-top: -135px;
-  }
-  .s\:mrg-negative-bt-135 {
-    margin-bottom: -135px;
-    margin-top: -135px;
-  }
-  .s\:mrg-negative-lr-135 {
-    margin-left: -135px;
-    margin-right: -135px;
-  }
-  .s\:mrg-negative-bottom-135 {
-    margin-bottom: -135px;
-  }
-  .s\:mrg-negative-left-135 {
-    margin-left: -135px;
-  }
-  .s\:mrg-negative-right-135 {
-    margin-right: -135px;
-  }
-  .s\:mrg-negative-top-135 {
-    margin-top: -135px;
-  }
-  .s\:mrg-all-140 {
-    margin-bottom: 140px;
-    margin-left: 140px;
-    margin-right: 140px;
-    margin-top: 140px;
-  }
-  .s\:mrg-bt-140 {
-    margin-bottom: 140px;
-    margin-top: 140px;
-  }
-  .s\:mrg-lr-140 {
-    margin-left: 140px;
-    margin-right: 140px;
-  }
-  .s\:mrg-bottom-140 {
-    margin-bottom: 140px;
-  }
-  .s\:mrg-left-140 {
-    margin-left: 140px;
-  }
-  .s\:mrg-right-140 {
-    margin-right: 140px;
-  }
-  .s\:mrg-top-140 {
-    margin-top: 140px;
-  }
-  .s\:mrg-negative-all-140 {
-    margin-bottom: -140px;
-    margin-left: -140px;
-    margin-right: -140px;
-    margin-top: -140px;
-  }
-  .s\:mrg-negative-bt-140 {
-    margin-bottom: -140px;
-    margin-top: -140px;
-  }
-  .s\:mrg-negative-lr-140 {
-    margin-left: -140px;
-    margin-right: -140px;
-  }
-  .s\:mrg-negative-bottom-140 {
-    margin-bottom: -140px;
-  }
-  .s\:mrg-negative-left-140 {
-    margin-left: -140px;
-  }
-  .s\:mrg-negative-right-140 {
-    margin-right: -140px;
-  }
-  .s\:mrg-negative-top-140 {
-    margin-top: -140px;
-  }
-  .s\:mrg-all-145 {
-    margin-bottom: 145px;
-    margin-left: 145px;
-    margin-right: 145px;
-    margin-top: 145px;
-  }
-  .s\:mrg-bt-145 {
-    margin-bottom: 145px;
-    margin-top: 145px;
-  }
-  .s\:mrg-lr-145 {
-    margin-left: 145px;
-    margin-right: 145px;
-  }
-  .s\:mrg-bottom-145 {
-    margin-bottom: 145px;
-  }
-  .s\:mrg-left-145 {
-    margin-left: 145px;
-  }
-  .s\:mrg-right-145 {
-    margin-right: 145px;
-  }
-  .s\:mrg-top-145 {
-    margin-top: 145px;
-  }
-  .s\:mrg-negative-all-145 {
-    margin-bottom: -145px;
-    margin-left: -145px;
-    margin-right: -145px;
-    margin-top: -145px;
-  }
-  .s\:mrg-negative-bt-145 {
-    margin-bottom: -145px;
-    margin-top: -145px;
-  }
-  .s\:mrg-negative-lr-145 {
-    margin-left: -145px;
-    margin-right: -145px;
-  }
-  .s\:mrg-negative-bottom-145 {
-    margin-bottom: -145px;
-  }
-  .s\:mrg-negative-left-145 {
-    margin-left: -145px;
-  }
-  .s\:mrg-negative-right-145 {
-    margin-right: -145px;
-  }
-  .s\:mrg-negative-top-145 {
-    margin-top: -145px;
-  }
-  .s\:mrg-all-150 {
-    margin-bottom: 150px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 150px;
-  }
-  .s\:mrg-bt-150 {
-    margin-bottom: 150px;
-    margin-top: 150px;
-  }
-  .s\:mrg-lr-150 {
-    margin-left: 150px;
-    margin-right: 150px;
-  }
-  .s\:mrg-bottom-150 {
-    margin-bottom: 150px;
-  }
-  .s\:mrg-left-150 {
-    margin-left: 150px;
-  }
-  .s\:mrg-right-150 {
-    margin-right: 150px;
-  }
-  .s\:mrg-top-150 {
-    margin-top: 150px;
-  }
-  .s\:mrg-negative-all-150 {
-    margin-bottom: -150px;
-    margin-left: -150px;
-    margin-right: -150px;
-    margin-top: -150px;
-  }
-  .s\:mrg-negative-bt-150 {
-    margin-bottom: -150px;
-    margin-top: -150px;
-  }
-  .s\:mrg-negative-lr-150 {
-    margin-left: -150px;
-    margin-right: -150px;
-  }
-  .s\:mrg-negative-bottom-150 {
-    margin-bottom: -150px;
-  }
-  .s\:mrg-negative-left-150 {
-    margin-left: -150px;
-  }
-  .s\:mrg-negative-right-150 {
-    margin-right: -150px;
-  }
-  .s\:mrg-negative-top-150 {
-    margin-top: -150px;
   }
 }
 @media (min-width: 768px) {
@@ -6508,30 +4902,30 @@ p {
   .m\:mrg-top-0 {
     margin-top: 0px;
   }
-  .m\:mrg-negative-all-0 {
+  .m\:mrg-neg-all-0 {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
   }
-  .m\:mrg-negative-bt-0 {
+  .m\:mrg-neg-bt-0 {
     margin-bottom: 0px;
     margin-top: 0px;
   }
-  .m\:mrg-negative-lr-0 {
+  .m\:mrg-neg-lr-0 {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .m\:mrg-negative-bottom-0 {
+  .m\:mrg-neg-bottom-0 {
     margin-bottom: 0px;
   }
-  .m\:mrg-negative-left-0 {
+  .m\:mrg-neg-left-0 {
     margin-left: 0px;
   }
-  .m\:mrg-negative-right-0 {
+  .m\:mrg-neg-right-0 {
     margin-right: 0px;
   }
-  .m\:mrg-negative-top-0 {
+  .m\:mrg-neg-top-0 {
     margin-top: 0px;
   }
   .m\:mrg-all-5 {
@@ -6560,30 +4954,30 @@ p {
   .m\:mrg-top-5 {
     margin-top: 5px;
   }
-  .m\:mrg-negative-all-5 {
+  .m\:mrg-neg-all-5 {
     margin-bottom: -5px;
     margin-left: -5px;
     margin-right: -5px;
     margin-top: -5px;
   }
-  .m\:mrg-negative-bt-5 {
+  .m\:mrg-neg-bt-5 {
     margin-bottom: -5px;
     margin-top: -5px;
   }
-  .m\:mrg-negative-lr-5 {
+  .m\:mrg-neg-lr-5 {
     margin-left: -5px;
     margin-right: -5px;
   }
-  .m\:mrg-negative-bottom-5 {
+  .m\:mrg-neg-bottom-5 {
     margin-bottom: -5px;
   }
-  .m\:mrg-negative-left-5 {
+  .m\:mrg-neg-left-5 {
     margin-left: -5px;
   }
-  .m\:mrg-negative-right-5 {
+  .m\:mrg-neg-right-5 {
     margin-right: -5px;
   }
-  .m\:mrg-negative-top-5 {
+  .m\:mrg-neg-top-5 {
     margin-top: -5px;
   }
   .m\:mrg-all-10 {
@@ -6612,30 +5006,30 @@ p {
   .m\:mrg-top-10 {
     margin-top: 10px;
   }
-  .m\:mrg-negative-all-10 {
+  .m\:mrg-neg-all-10 {
     margin-bottom: -10px;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
   }
-  .m\:mrg-negative-bt-10 {
+  .m\:mrg-neg-bt-10 {
     margin-bottom: -10px;
     margin-top: -10px;
   }
-  .m\:mrg-negative-lr-10 {
+  .m\:mrg-neg-lr-10 {
     margin-left: -10px;
     margin-right: -10px;
   }
-  .m\:mrg-negative-bottom-10 {
+  .m\:mrg-neg-bottom-10 {
     margin-bottom: -10px;
   }
-  .m\:mrg-negative-left-10 {
+  .m\:mrg-neg-left-10 {
     margin-left: -10px;
   }
-  .m\:mrg-negative-right-10 {
+  .m\:mrg-neg-right-10 {
     margin-right: -10px;
   }
-  .m\:mrg-negative-top-10 {
+  .m\:mrg-neg-top-10 {
     margin-top: -10px;
   }
   .m\:mrg-all-15 {
@@ -6664,30 +5058,30 @@ p {
   .m\:mrg-top-15 {
     margin-top: 15px;
   }
-  .m\:mrg-negative-all-15 {
+  .m\:mrg-neg-all-15 {
     margin-bottom: -15px;
     margin-left: -15px;
     margin-right: -15px;
     margin-top: -15px;
   }
-  .m\:mrg-negative-bt-15 {
+  .m\:mrg-neg-bt-15 {
     margin-bottom: -15px;
     margin-top: -15px;
   }
-  .m\:mrg-negative-lr-15 {
+  .m\:mrg-neg-lr-15 {
     margin-left: -15px;
     margin-right: -15px;
   }
-  .m\:mrg-negative-bottom-15 {
+  .m\:mrg-neg-bottom-15 {
     margin-bottom: -15px;
   }
-  .m\:mrg-negative-left-15 {
+  .m\:mrg-neg-left-15 {
     margin-left: -15px;
   }
-  .m\:mrg-negative-right-15 {
+  .m\:mrg-neg-right-15 {
     margin-right: -15px;
   }
-  .m\:mrg-negative-top-15 {
+  .m\:mrg-neg-top-15 {
     margin-top: -15px;
   }
   .m\:mrg-all-20 {
@@ -6716,30 +5110,30 @@ p {
   .m\:mrg-top-20 {
     margin-top: 20px;
   }
-  .m\:mrg-negative-all-20 {
+  .m\:mrg-neg-all-20 {
     margin-bottom: -20px;
     margin-left: -20px;
     margin-right: -20px;
     margin-top: -20px;
   }
-  .m\:mrg-negative-bt-20 {
+  .m\:mrg-neg-bt-20 {
     margin-bottom: -20px;
     margin-top: -20px;
   }
-  .m\:mrg-negative-lr-20 {
+  .m\:mrg-neg-lr-20 {
     margin-left: -20px;
     margin-right: -20px;
   }
-  .m\:mrg-negative-bottom-20 {
+  .m\:mrg-neg-bottom-20 {
     margin-bottom: -20px;
   }
-  .m\:mrg-negative-left-20 {
+  .m\:mrg-neg-left-20 {
     margin-left: -20px;
   }
-  .m\:mrg-negative-right-20 {
+  .m\:mrg-neg-right-20 {
     margin-right: -20px;
   }
-  .m\:mrg-negative-top-20 {
+  .m\:mrg-neg-top-20 {
     margin-top: -20px;
   }
   .m\:mrg-all-25 {
@@ -6768,30 +5162,30 @@ p {
   .m\:mrg-top-25 {
     margin-top: 25px;
   }
-  .m\:mrg-negative-all-25 {
+  .m\:mrg-neg-all-25 {
     margin-bottom: -25px;
     margin-left: -25px;
     margin-right: -25px;
     margin-top: -25px;
   }
-  .m\:mrg-negative-bt-25 {
+  .m\:mrg-neg-bt-25 {
     margin-bottom: -25px;
     margin-top: -25px;
   }
-  .m\:mrg-negative-lr-25 {
+  .m\:mrg-neg-lr-25 {
     margin-left: -25px;
     margin-right: -25px;
   }
-  .m\:mrg-negative-bottom-25 {
+  .m\:mrg-neg-bottom-25 {
     margin-bottom: -25px;
   }
-  .m\:mrg-negative-left-25 {
+  .m\:mrg-neg-left-25 {
     margin-left: -25px;
   }
-  .m\:mrg-negative-right-25 {
+  .m\:mrg-neg-right-25 {
     margin-right: -25px;
   }
-  .m\:mrg-negative-top-25 {
+  .m\:mrg-neg-top-25 {
     margin-top: -25px;
   }
   .m\:mrg-all-30 {
@@ -6820,30 +5214,30 @@ p {
   .m\:mrg-top-30 {
     margin-top: 30px;
   }
-  .m\:mrg-negative-all-30 {
+  .m\:mrg-neg-all-30 {
     margin-bottom: -30px;
     margin-left: -30px;
     margin-right: -30px;
     margin-top: -30px;
   }
-  .m\:mrg-negative-bt-30 {
+  .m\:mrg-neg-bt-30 {
     margin-bottom: -30px;
     margin-top: -30px;
   }
-  .m\:mrg-negative-lr-30 {
+  .m\:mrg-neg-lr-30 {
     margin-left: -30px;
     margin-right: -30px;
   }
-  .m\:mrg-negative-bottom-30 {
+  .m\:mrg-neg-bottom-30 {
     margin-bottom: -30px;
   }
-  .m\:mrg-negative-left-30 {
+  .m\:mrg-neg-left-30 {
     margin-left: -30px;
   }
-  .m\:mrg-negative-right-30 {
+  .m\:mrg-neg-right-30 {
     margin-right: -30px;
   }
-  .m\:mrg-negative-top-30 {
+  .m\:mrg-neg-top-30 {
     margin-top: -30px;
   }
   .m\:mrg-all-35 {
@@ -6872,30 +5266,30 @@ p {
   .m\:mrg-top-35 {
     margin-top: 35px;
   }
-  .m\:mrg-negative-all-35 {
+  .m\:mrg-neg-all-35 {
     margin-bottom: -35px;
     margin-left: -35px;
     margin-right: -35px;
     margin-top: -35px;
   }
-  .m\:mrg-negative-bt-35 {
+  .m\:mrg-neg-bt-35 {
     margin-bottom: -35px;
     margin-top: -35px;
   }
-  .m\:mrg-negative-lr-35 {
+  .m\:mrg-neg-lr-35 {
     margin-left: -35px;
     margin-right: -35px;
   }
-  .m\:mrg-negative-bottom-35 {
+  .m\:mrg-neg-bottom-35 {
     margin-bottom: -35px;
   }
-  .m\:mrg-negative-left-35 {
+  .m\:mrg-neg-left-35 {
     margin-left: -35px;
   }
-  .m\:mrg-negative-right-35 {
+  .m\:mrg-neg-right-35 {
     margin-right: -35px;
   }
-  .m\:mrg-negative-top-35 {
+  .m\:mrg-neg-top-35 {
     margin-top: -35px;
   }
   .m\:mrg-all-40 {
@@ -6924,30 +5318,30 @@ p {
   .m\:mrg-top-40 {
     margin-top: 40px;
   }
-  .m\:mrg-negative-all-40 {
+  .m\:mrg-neg-all-40 {
     margin-bottom: -40px;
     margin-left: -40px;
     margin-right: -40px;
     margin-top: -40px;
   }
-  .m\:mrg-negative-bt-40 {
+  .m\:mrg-neg-bt-40 {
     margin-bottom: -40px;
     margin-top: -40px;
   }
-  .m\:mrg-negative-lr-40 {
+  .m\:mrg-neg-lr-40 {
     margin-left: -40px;
     margin-right: -40px;
   }
-  .m\:mrg-negative-bottom-40 {
+  .m\:mrg-neg-bottom-40 {
     margin-bottom: -40px;
   }
-  .m\:mrg-negative-left-40 {
+  .m\:mrg-neg-left-40 {
     margin-left: -40px;
   }
-  .m\:mrg-negative-right-40 {
+  .m\:mrg-neg-right-40 {
     margin-right: -40px;
   }
-  .m\:mrg-negative-top-40 {
+  .m\:mrg-neg-top-40 {
     margin-top: -40px;
   }
   .m\:mrg-all-45 {
@@ -6976,30 +5370,30 @@ p {
   .m\:mrg-top-45 {
     margin-top: 45px;
   }
-  .m\:mrg-negative-all-45 {
+  .m\:mrg-neg-all-45 {
     margin-bottom: -45px;
     margin-left: -45px;
     margin-right: -45px;
     margin-top: -45px;
   }
-  .m\:mrg-negative-bt-45 {
+  .m\:mrg-neg-bt-45 {
     margin-bottom: -45px;
     margin-top: -45px;
   }
-  .m\:mrg-negative-lr-45 {
+  .m\:mrg-neg-lr-45 {
     margin-left: -45px;
     margin-right: -45px;
   }
-  .m\:mrg-negative-bottom-45 {
+  .m\:mrg-neg-bottom-45 {
     margin-bottom: -45px;
   }
-  .m\:mrg-negative-left-45 {
+  .m\:mrg-neg-left-45 {
     margin-left: -45px;
   }
-  .m\:mrg-negative-right-45 {
+  .m\:mrg-neg-right-45 {
     margin-right: -45px;
   }
-  .m\:mrg-negative-top-45 {
+  .m\:mrg-neg-top-45 {
     margin-top: -45px;
   }
   .m\:mrg-all-50 {
@@ -7028,30 +5422,30 @@ p {
   .m\:mrg-top-50 {
     margin-top: 50px;
   }
-  .m\:mrg-negative-all-50 {
+  .m\:mrg-neg-all-50 {
     margin-bottom: -50px;
     margin-left: -50px;
     margin-right: -50px;
     margin-top: -50px;
   }
-  .m\:mrg-negative-bt-50 {
+  .m\:mrg-neg-bt-50 {
     margin-bottom: -50px;
     margin-top: -50px;
   }
-  .m\:mrg-negative-lr-50 {
+  .m\:mrg-neg-lr-50 {
     margin-left: -50px;
     margin-right: -50px;
   }
-  .m\:mrg-negative-bottom-50 {
+  .m\:mrg-neg-bottom-50 {
     margin-bottom: -50px;
   }
-  .m\:mrg-negative-left-50 {
+  .m\:mrg-neg-left-50 {
     margin-left: -50px;
   }
-  .m\:mrg-negative-right-50 {
+  .m\:mrg-neg-right-50 {
     margin-right: -50px;
   }
-  .m\:mrg-negative-top-50 {
+  .m\:mrg-neg-top-50 {
     margin-top: -50px;
   }
   .m\:mrg-all-55 {
@@ -7080,30 +5474,30 @@ p {
   .m\:mrg-top-55 {
     margin-top: 55px;
   }
-  .m\:mrg-negative-all-55 {
+  .m\:mrg-neg-all-55 {
     margin-bottom: -55px;
     margin-left: -55px;
     margin-right: -55px;
     margin-top: -55px;
   }
-  .m\:mrg-negative-bt-55 {
+  .m\:mrg-neg-bt-55 {
     margin-bottom: -55px;
     margin-top: -55px;
   }
-  .m\:mrg-negative-lr-55 {
+  .m\:mrg-neg-lr-55 {
     margin-left: -55px;
     margin-right: -55px;
   }
-  .m\:mrg-negative-bottom-55 {
+  .m\:mrg-neg-bottom-55 {
     margin-bottom: -55px;
   }
-  .m\:mrg-negative-left-55 {
+  .m\:mrg-neg-left-55 {
     margin-left: -55px;
   }
-  .m\:mrg-negative-right-55 {
+  .m\:mrg-neg-right-55 {
     margin-right: -55px;
   }
-  .m\:mrg-negative-top-55 {
+  .m\:mrg-neg-top-55 {
     margin-top: -55px;
   }
   .m\:mrg-all-60 {
@@ -7132,30 +5526,30 @@ p {
   .m\:mrg-top-60 {
     margin-top: 60px;
   }
-  .m\:mrg-negative-all-60 {
+  .m\:mrg-neg-all-60 {
     margin-bottom: -60px;
     margin-left: -60px;
     margin-right: -60px;
     margin-top: -60px;
   }
-  .m\:mrg-negative-bt-60 {
+  .m\:mrg-neg-bt-60 {
     margin-bottom: -60px;
     margin-top: -60px;
   }
-  .m\:mrg-negative-lr-60 {
+  .m\:mrg-neg-lr-60 {
     margin-left: -60px;
     margin-right: -60px;
   }
-  .m\:mrg-negative-bottom-60 {
+  .m\:mrg-neg-bottom-60 {
     margin-bottom: -60px;
   }
-  .m\:mrg-negative-left-60 {
+  .m\:mrg-neg-left-60 {
     margin-left: -60px;
   }
-  .m\:mrg-negative-right-60 {
+  .m\:mrg-neg-right-60 {
     margin-right: -60px;
   }
-  .m\:mrg-negative-top-60 {
+  .m\:mrg-neg-top-60 {
     margin-top: -60px;
   }
   .m\:mrg-all-65 {
@@ -7184,30 +5578,30 @@ p {
   .m\:mrg-top-65 {
     margin-top: 65px;
   }
-  .m\:mrg-negative-all-65 {
+  .m\:mrg-neg-all-65 {
     margin-bottom: -65px;
     margin-left: -65px;
     margin-right: -65px;
     margin-top: -65px;
   }
-  .m\:mrg-negative-bt-65 {
+  .m\:mrg-neg-bt-65 {
     margin-bottom: -65px;
     margin-top: -65px;
   }
-  .m\:mrg-negative-lr-65 {
+  .m\:mrg-neg-lr-65 {
     margin-left: -65px;
     margin-right: -65px;
   }
-  .m\:mrg-negative-bottom-65 {
+  .m\:mrg-neg-bottom-65 {
     margin-bottom: -65px;
   }
-  .m\:mrg-negative-left-65 {
+  .m\:mrg-neg-left-65 {
     margin-left: -65px;
   }
-  .m\:mrg-negative-right-65 {
+  .m\:mrg-neg-right-65 {
     margin-right: -65px;
   }
-  .m\:mrg-negative-top-65 {
+  .m\:mrg-neg-top-65 {
     margin-top: -65px;
   }
   .m\:mrg-all-70 {
@@ -7236,30 +5630,30 @@ p {
   .m\:mrg-top-70 {
     margin-top: 70px;
   }
-  .m\:mrg-negative-all-70 {
+  .m\:mrg-neg-all-70 {
     margin-bottom: -70px;
     margin-left: -70px;
     margin-right: -70px;
     margin-top: -70px;
   }
-  .m\:mrg-negative-bt-70 {
+  .m\:mrg-neg-bt-70 {
     margin-bottom: -70px;
     margin-top: -70px;
   }
-  .m\:mrg-negative-lr-70 {
+  .m\:mrg-neg-lr-70 {
     margin-left: -70px;
     margin-right: -70px;
   }
-  .m\:mrg-negative-bottom-70 {
+  .m\:mrg-neg-bottom-70 {
     margin-bottom: -70px;
   }
-  .m\:mrg-negative-left-70 {
+  .m\:mrg-neg-left-70 {
     margin-left: -70px;
   }
-  .m\:mrg-negative-right-70 {
+  .m\:mrg-neg-right-70 {
     margin-right: -70px;
   }
-  .m\:mrg-negative-top-70 {
+  .m\:mrg-neg-top-70 {
     margin-top: -70px;
   }
   .m\:mrg-all-75 {
@@ -7288,30 +5682,30 @@ p {
   .m\:mrg-top-75 {
     margin-top: 75px;
   }
-  .m\:mrg-negative-all-75 {
+  .m\:mrg-neg-all-75 {
     margin-bottom: -75px;
     margin-left: -75px;
     margin-right: -75px;
     margin-top: -75px;
   }
-  .m\:mrg-negative-bt-75 {
+  .m\:mrg-neg-bt-75 {
     margin-bottom: -75px;
     margin-top: -75px;
   }
-  .m\:mrg-negative-lr-75 {
+  .m\:mrg-neg-lr-75 {
     margin-left: -75px;
     margin-right: -75px;
   }
-  .m\:mrg-negative-bottom-75 {
+  .m\:mrg-neg-bottom-75 {
     margin-bottom: -75px;
   }
-  .m\:mrg-negative-left-75 {
+  .m\:mrg-neg-left-75 {
     margin-left: -75px;
   }
-  .m\:mrg-negative-right-75 {
+  .m\:mrg-neg-right-75 {
     margin-right: -75px;
   }
-  .m\:mrg-negative-top-75 {
+  .m\:mrg-neg-top-75 {
     margin-top: -75px;
   }
   .m\:mrg-all-80 {
@@ -7340,759 +5734,31 @@ p {
   .m\:mrg-top-80 {
     margin-top: 80px;
   }
-  .m\:mrg-negative-all-80 {
+  .m\:mrg-neg-all-80 {
     margin-bottom: -80px;
     margin-left: -80px;
     margin-right: -80px;
     margin-top: -80px;
   }
-  .m\:mrg-negative-bt-80 {
+  .m\:mrg-neg-bt-80 {
     margin-bottom: -80px;
     margin-top: -80px;
   }
-  .m\:mrg-negative-lr-80 {
+  .m\:mrg-neg-lr-80 {
     margin-left: -80px;
     margin-right: -80px;
   }
-  .m\:mrg-negative-bottom-80 {
+  .m\:mrg-neg-bottom-80 {
     margin-bottom: -80px;
   }
-  .m\:mrg-negative-left-80 {
+  .m\:mrg-neg-left-80 {
     margin-left: -80px;
   }
-  .m\:mrg-negative-right-80 {
+  .m\:mrg-neg-right-80 {
     margin-right: -80px;
   }
-  .m\:mrg-negative-top-80 {
+  .m\:mrg-neg-top-80 {
     margin-top: -80px;
-  }
-  .m\:mrg-all-85 {
-    margin-bottom: 85px;
-    margin-left: 85px;
-    margin-right: 85px;
-    margin-top: 85px;
-  }
-  .m\:mrg-bt-85 {
-    margin-bottom: 85px;
-    margin-top: 85px;
-  }
-  .m\:mrg-lr-85 {
-    margin-left: 85px;
-    margin-right: 85px;
-  }
-  .m\:mrg-bottom-85 {
-    margin-bottom: 85px;
-  }
-  .m\:mrg-left-85 {
-    margin-left: 85px;
-  }
-  .m\:mrg-right-85 {
-    margin-right: 85px;
-  }
-  .m\:mrg-top-85 {
-    margin-top: 85px;
-  }
-  .m\:mrg-negative-all-85 {
-    margin-bottom: -85px;
-    margin-left: -85px;
-    margin-right: -85px;
-    margin-top: -85px;
-  }
-  .m\:mrg-negative-bt-85 {
-    margin-bottom: -85px;
-    margin-top: -85px;
-  }
-  .m\:mrg-negative-lr-85 {
-    margin-left: -85px;
-    margin-right: -85px;
-  }
-  .m\:mrg-negative-bottom-85 {
-    margin-bottom: -85px;
-  }
-  .m\:mrg-negative-left-85 {
-    margin-left: -85px;
-  }
-  .m\:mrg-negative-right-85 {
-    margin-right: -85px;
-  }
-  .m\:mrg-negative-top-85 {
-    margin-top: -85px;
-  }
-  .m\:mrg-all-90 {
-    margin-bottom: 90px;
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-top: 90px;
-  }
-  .m\:mrg-bt-90 {
-    margin-bottom: 90px;
-    margin-top: 90px;
-  }
-  .m\:mrg-lr-90 {
-    margin-left: 90px;
-    margin-right: 90px;
-  }
-  .m\:mrg-bottom-90 {
-    margin-bottom: 90px;
-  }
-  .m\:mrg-left-90 {
-    margin-left: 90px;
-  }
-  .m\:mrg-right-90 {
-    margin-right: 90px;
-  }
-  .m\:mrg-top-90 {
-    margin-top: 90px;
-  }
-  .m\:mrg-negative-all-90 {
-    margin-bottom: -90px;
-    margin-left: -90px;
-    margin-right: -90px;
-    margin-top: -90px;
-  }
-  .m\:mrg-negative-bt-90 {
-    margin-bottom: -90px;
-    margin-top: -90px;
-  }
-  .m\:mrg-negative-lr-90 {
-    margin-left: -90px;
-    margin-right: -90px;
-  }
-  .m\:mrg-negative-bottom-90 {
-    margin-bottom: -90px;
-  }
-  .m\:mrg-negative-left-90 {
-    margin-left: -90px;
-  }
-  .m\:mrg-negative-right-90 {
-    margin-right: -90px;
-  }
-  .m\:mrg-negative-top-90 {
-    margin-top: -90px;
-  }
-  .m\:mrg-all-95 {
-    margin-bottom: 95px;
-    margin-left: 95px;
-    margin-right: 95px;
-    margin-top: 95px;
-  }
-  .m\:mrg-bt-95 {
-    margin-bottom: 95px;
-    margin-top: 95px;
-  }
-  .m\:mrg-lr-95 {
-    margin-left: 95px;
-    margin-right: 95px;
-  }
-  .m\:mrg-bottom-95 {
-    margin-bottom: 95px;
-  }
-  .m\:mrg-left-95 {
-    margin-left: 95px;
-  }
-  .m\:mrg-right-95 {
-    margin-right: 95px;
-  }
-  .m\:mrg-top-95 {
-    margin-top: 95px;
-  }
-  .m\:mrg-negative-all-95 {
-    margin-bottom: -95px;
-    margin-left: -95px;
-    margin-right: -95px;
-    margin-top: -95px;
-  }
-  .m\:mrg-negative-bt-95 {
-    margin-bottom: -95px;
-    margin-top: -95px;
-  }
-  .m\:mrg-negative-lr-95 {
-    margin-left: -95px;
-    margin-right: -95px;
-  }
-  .m\:mrg-negative-bottom-95 {
-    margin-bottom: -95px;
-  }
-  .m\:mrg-negative-left-95 {
-    margin-left: -95px;
-  }
-  .m\:mrg-negative-right-95 {
-    margin-right: -95px;
-  }
-  .m\:mrg-negative-top-95 {
-    margin-top: -95px;
-  }
-  .m\:mrg-all-100 {
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 100px;
-  }
-  .m\:mrg-bt-100 {
-    margin-bottom: 100px;
-    margin-top: 100px;
-  }
-  .m\:mrg-lr-100 {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-  .m\:mrg-bottom-100 {
-    margin-bottom: 100px;
-  }
-  .m\:mrg-left-100 {
-    margin-left: 100px;
-  }
-  .m\:mrg-right-100 {
-    margin-right: 100px;
-  }
-  .m\:mrg-top-100 {
-    margin-top: 100px;
-  }
-  .m\:mrg-negative-all-100 {
-    margin-bottom: -100px;
-    margin-left: -100px;
-    margin-right: -100px;
-    margin-top: -100px;
-  }
-  .m\:mrg-negative-bt-100 {
-    margin-bottom: -100px;
-    margin-top: -100px;
-  }
-  .m\:mrg-negative-lr-100 {
-    margin-left: -100px;
-    margin-right: -100px;
-  }
-  .m\:mrg-negative-bottom-100 {
-    margin-bottom: -100px;
-  }
-  .m\:mrg-negative-left-100 {
-    margin-left: -100px;
-  }
-  .m\:mrg-negative-right-100 {
-    margin-right: -100px;
-  }
-  .m\:mrg-negative-top-100 {
-    margin-top: -100px;
-  }
-  .m\:mrg-all-105 {
-    margin-bottom: 105px;
-    margin-left: 105px;
-    margin-right: 105px;
-    margin-top: 105px;
-  }
-  .m\:mrg-bt-105 {
-    margin-bottom: 105px;
-    margin-top: 105px;
-  }
-  .m\:mrg-lr-105 {
-    margin-left: 105px;
-    margin-right: 105px;
-  }
-  .m\:mrg-bottom-105 {
-    margin-bottom: 105px;
-  }
-  .m\:mrg-left-105 {
-    margin-left: 105px;
-  }
-  .m\:mrg-right-105 {
-    margin-right: 105px;
-  }
-  .m\:mrg-top-105 {
-    margin-top: 105px;
-  }
-  .m\:mrg-negative-all-105 {
-    margin-bottom: -105px;
-    margin-left: -105px;
-    margin-right: -105px;
-    margin-top: -105px;
-  }
-  .m\:mrg-negative-bt-105 {
-    margin-bottom: -105px;
-    margin-top: -105px;
-  }
-  .m\:mrg-negative-lr-105 {
-    margin-left: -105px;
-    margin-right: -105px;
-  }
-  .m\:mrg-negative-bottom-105 {
-    margin-bottom: -105px;
-  }
-  .m\:mrg-negative-left-105 {
-    margin-left: -105px;
-  }
-  .m\:mrg-negative-right-105 {
-    margin-right: -105px;
-  }
-  .m\:mrg-negative-top-105 {
-    margin-top: -105px;
-  }
-  .m\:mrg-all-110 {
-    margin-bottom: 110px;
-    margin-left: 110px;
-    margin-right: 110px;
-    margin-top: 110px;
-  }
-  .m\:mrg-bt-110 {
-    margin-bottom: 110px;
-    margin-top: 110px;
-  }
-  .m\:mrg-lr-110 {
-    margin-left: 110px;
-    margin-right: 110px;
-  }
-  .m\:mrg-bottom-110 {
-    margin-bottom: 110px;
-  }
-  .m\:mrg-left-110 {
-    margin-left: 110px;
-  }
-  .m\:mrg-right-110 {
-    margin-right: 110px;
-  }
-  .m\:mrg-top-110 {
-    margin-top: 110px;
-  }
-  .m\:mrg-negative-all-110 {
-    margin-bottom: -110px;
-    margin-left: -110px;
-    margin-right: -110px;
-    margin-top: -110px;
-  }
-  .m\:mrg-negative-bt-110 {
-    margin-bottom: -110px;
-    margin-top: -110px;
-  }
-  .m\:mrg-negative-lr-110 {
-    margin-left: -110px;
-    margin-right: -110px;
-  }
-  .m\:mrg-negative-bottom-110 {
-    margin-bottom: -110px;
-  }
-  .m\:mrg-negative-left-110 {
-    margin-left: -110px;
-  }
-  .m\:mrg-negative-right-110 {
-    margin-right: -110px;
-  }
-  .m\:mrg-negative-top-110 {
-    margin-top: -110px;
-  }
-  .m\:mrg-all-115 {
-    margin-bottom: 115px;
-    margin-left: 115px;
-    margin-right: 115px;
-    margin-top: 115px;
-  }
-  .m\:mrg-bt-115 {
-    margin-bottom: 115px;
-    margin-top: 115px;
-  }
-  .m\:mrg-lr-115 {
-    margin-left: 115px;
-    margin-right: 115px;
-  }
-  .m\:mrg-bottom-115 {
-    margin-bottom: 115px;
-  }
-  .m\:mrg-left-115 {
-    margin-left: 115px;
-  }
-  .m\:mrg-right-115 {
-    margin-right: 115px;
-  }
-  .m\:mrg-top-115 {
-    margin-top: 115px;
-  }
-  .m\:mrg-negative-all-115 {
-    margin-bottom: -115px;
-    margin-left: -115px;
-    margin-right: -115px;
-    margin-top: -115px;
-  }
-  .m\:mrg-negative-bt-115 {
-    margin-bottom: -115px;
-    margin-top: -115px;
-  }
-  .m\:mrg-negative-lr-115 {
-    margin-left: -115px;
-    margin-right: -115px;
-  }
-  .m\:mrg-negative-bottom-115 {
-    margin-bottom: -115px;
-  }
-  .m\:mrg-negative-left-115 {
-    margin-left: -115px;
-  }
-  .m\:mrg-negative-right-115 {
-    margin-right: -115px;
-  }
-  .m\:mrg-negative-top-115 {
-    margin-top: -115px;
-  }
-  .m\:mrg-all-120 {
-    margin-bottom: 120px;
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-top: 120px;
-  }
-  .m\:mrg-bt-120 {
-    margin-bottom: 120px;
-    margin-top: 120px;
-  }
-  .m\:mrg-lr-120 {
-    margin-left: 120px;
-    margin-right: 120px;
-  }
-  .m\:mrg-bottom-120 {
-    margin-bottom: 120px;
-  }
-  .m\:mrg-left-120 {
-    margin-left: 120px;
-  }
-  .m\:mrg-right-120 {
-    margin-right: 120px;
-  }
-  .m\:mrg-top-120 {
-    margin-top: 120px;
-  }
-  .m\:mrg-negative-all-120 {
-    margin-bottom: -120px;
-    margin-left: -120px;
-    margin-right: -120px;
-    margin-top: -120px;
-  }
-  .m\:mrg-negative-bt-120 {
-    margin-bottom: -120px;
-    margin-top: -120px;
-  }
-  .m\:mrg-negative-lr-120 {
-    margin-left: -120px;
-    margin-right: -120px;
-  }
-  .m\:mrg-negative-bottom-120 {
-    margin-bottom: -120px;
-  }
-  .m\:mrg-negative-left-120 {
-    margin-left: -120px;
-  }
-  .m\:mrg-negative-right-120 {
-    margin-right: -120px;
-  }
-  .m\:mrg-negative-top-120 {
-    margin-top: -120px;
-  }
-  .m\:mrg-all-125 {
-    margin-bottom: 125px;
-    margin-left: 125px;
-    margin-right: 125px;
-    margin-top: 125px;
-  }
-  .m\:mrg-bt-125 {
-    margin-bottom: 125px;
-    margin-top: 125px;
-  }
-  .m\:mrg-lr-125 {
-    margin-left: 125px;
-    margin-right: 125px;
-  }
-  .m\:mrg-bottom-125 {
-    margin-bottom: 125px;
-  }
-  .m\:mrg-left-125 {
-    margin-left: 125px;
-  }
-  .m\:mrg-right-125 {
-    margin-right: 125px;
-  }
-  .m\:mrg-top-125 {
-    margin-top: 125px;
-  }
-  .m\:mrg-negative-all-125 {
-    margin-bottom: -125px;
-    margin-left: -125px;
-    margin-right: -125px;
-    margin-top: -125px;
-  }
-  .m\:mrg-negative-bt-125 {
-    margin-bottom: -125px;
-    margin-top: -125px;
-  }
-  .m\:mrg-negative-lr-125 {
-    margin-left: -125px;
-    margin-right: -125px;
-  }
-  .m\:mrg-negative-bottom-125 {
-    margin-bottom: -125px;
-  }
-  .m\:mrg-negative-left-125 {
-    margin-left: -125px;
-  }
-  .m\:mrg-negative-right-125 {
-    margin-right: -125px;
-  }
-  .m\:mrg-negative-top-125 {
-    margin-top: -125px;
-  }
-  .m\:mrg-all-130 {
-    margin-bottom: 130px;
-    margin-left: 130px;
-    margin-right: 130px;
-    margin-top: 130px;
-  }
-  .m\:mrg-bt-130 {
-    margin-bottom: 130px;
-    margin-top: 130px;
-  }
-  .m\:mrg-lr-130 {
-    margin-left: 130px;
-    margin-right: 130px;
-  }
-  .m\:mrg-bottom-130 {
-    margin-bottom: 130px;
-  }
-  .m\:mrg-left-130 {
-    margin-left: 130px;
-  }
-  .m\:mrg-right-130 {
-    margin-right: 130px;
-  }
-  .m\:mrg-top-130 {
-    margin-top: 130px;
-  }
-  .m\:mrg-negative-all-130 {
-    margin-bottom: -130px;
-    margin-left: -130px;
-    margin-right: -130px;
-    margin-top: -130px;
-  }
-  .m\:mrg-negative-bt-130 {
-    margin-bottom: -130px;
-    margin-top: -130px;
-  }
-  .m\:mrg-negative-lr-130 {
-    margin-left: -130px;
-    margin-right: -130px;
-  }
-  .m\:mrg-negative-bottom-130 {
-    margin-bottom: -130px;
-  }
-  .m\:mrg-negative-left-130 {
-    margin-left: -130px;
-  }
-  .m\:mrg-negative-right-130 {
-    margin-right: -130px;
-  }
-  .m\:mrg-negative-top-130 {
-    margin-top: -130px;
-  }
-  .m\:mrg-all-135 {
-    margin-bottom: 135px;
-    margin-left: 135px;
-    margin-right: 135px;
-    margin-top: 135px;
-  }
-  .m\:mrg-bt-135 {
-    margin-bottom: 135px;
-    margin-top: 135px;
-  }
-  .m\:mrg-lr-135 {
-    margin-left: 135px;
-    margin-right: 135px;
-  }
-  .m\:mrg-bottom-135 {
-    margin-bottom: 135px;
-  }
-  .m\:mrg-left-135 {
-    margin-left: 135px;
-  }
-  .m\:mrg-right-135 {
-    margin-right: 135px;
-  }
-  .m\:mrg-top-135 {
-    margin-top: 135px;
-  }
-  .m\:mrg-negative-all-135 {
-    margin-bottom: -135px;
-    margin-left: -135px;
-    margin-right: -135px;
-    margin-top: -135px;
-  }
-  .m\:mrg-negative-bt-135 {
-    margin-bottom: -135px;
-    margin-top: -135px;
-  }
-  .m\:mrg-negative-lr-135 {
-    margin-left: -135px;
-    margin-right: -135px;
-  }
-  .m\:mrg-negative-bottom-135 {
-    margin-bottom: -135px;
-  }
-  .m\:mrg-negative-left-135 {
-    margin-left: -135px;
-  }
-  .m\:mrg-negative-right-135 {
-    margin-right: -135px;
-  }
-  .m\:mrg-negative-top-135 {
-    margin-top: -135px;
-  }
-  .m\:mrg-all-140 {
-    margin-bottom: 140px;
-    margin-left: 140px;
-    margin-right: 140px;
-    margin-top: 140px;
-  }
-  .m\:mrg-bt-140 {
-    margin-bottom: 140px;
-    margin-top: 140px;
-  }
-  .m\:mrg-lr-140 {
-    margin-left: 140px;
-    margin-right: 140px;
-  }
-  .m\:mrg-bottom-140 {
-    margin-bottom: 140px;
-  }
-  .m\:mrg-left-140 {
-    margin-left: 140px;
-  }
-  .m\:mrg-right-140 {
-    margin-right: 140px;
-  }
-  .m\:mrg-top-140 {
-    margin-top: 140px;
-  }
-  .m\:mrg-negative-all-140 {
-    margin-bottom: -140px;
-    margin-left: -140px;
-    margin-right: -140px;
-    margin-top: -140px;
-  }
-  .m\:mrg-negative-bt-140 {
-    margin-bottom: -140px;
-    margin-top: -140px;
-  }
-  .m\:mrg-negative-lr-140 {
-    margin-left: -140px;
-    margin-right: -140px;
-  }
-  .m\:mrg-negative-bottom-140 {
-    margin-bottom: -140px;
-  }
-  .m\:mrg-negative-left-140 {
-    margin-left: -140px;
-  }
-  .m\:mrg-negative-right-140 {
-    margin-right: -140px;
-  }
-  .m\:mrg-negative-top-140 {
-    margin-top: -140px;
-  }
-  .m\:mrg-all-145 {
-    margin-bottom: 145px;
-    margin-left: 145px;
-    margin-right: 145px;
-    margin-top: 145px;
-  }
-  .m\:mrg-bt-145 {
-    margin-bottom: 145px;
-    margin-top: 145px;
-  }
-  .m\:mrg-lr-145 {
-    margin-left: 145px;
-    margin-right: 145px;
-  }
-  .m\:mrg-bottom-145 {
-    margin-bottom: 145px;
-  }
-  .m\:mrg-left-145 {
-    margin-left: 145px;
-  }
-  .m\:mrg-right-145 {
-    margin-right: 145px;
-  }
-  .m\:mrg-top-145 {
-    margin-top: 145px;
-  }
-  .m\:mrg-negative-all-145 {
-    margin-bottom: -145px;
-    margin-left: -145px;
-    margin-right: -145px;
-    margin-top: -145px;
-  }
-  .m\:mrg-negative-bt-145 {
-    margin-bottom: -145px;
-    margin-top: -145px;
-  }
-  .m\:mrg-negative-lr-145 {
-    margin-left: -145px;
-    margin-right: -145px;
-  }
-  .m\:mrg-negative-bottom-145 {
-    margin-bottom: -145px;
-  }
-  .m\:mrg-negative-left-145 {
-    margin-left: -145px;
-  }
-  .m\:mrg-negative-right-145 {
-    margin-right: -145px;
-  }
-  .m\:mrg-negative-top-145 {
-    margin-top: -145px;
-  }
-  .m\:mrg-all-150 {
-    margin-bottom: 150px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 150px;
-  }
-  .m\:mrg-bt-150 {
-    margin-bottom: 150px;
-    margin-top: 150px;
-  }
-  .m\:mrg-lr-150 {
-    margin-left: 150px;
-    margin-right: 150px;
-  }
-  .m\:mrg-bottom-150 {
-    margin-bottom: 150px;
-  }
-  .m\:mrg-left-150 {
-    margin-left: 150px;
-  }
-  .m\:mrg-right-150 {
-    margin-right: 150px;
-  }
-  .m\:mrg-top-150 {
-    margin-top: 150px;
-  }
-  .m\:mrg-negative-all-150 {
-    margin-bottom: -150px;
-    margin-left: -150px;
-    margin-right: -150px;
-    margin-top: -150px;
-  }
-  .m\:mrg-negative-bt-150 {
-    margin-bottom: -150px;
-    margin-top: -150px;
-  }
-  .m\:mrg-negative-lr-150 {
-    margin-left: -150px;
-    margin-right: -150px;
-  }
-  .m\:mrg-negative-bottom-150 {
-    margin-bottom: -150px;
-  }
-  .m\:mrg-negative-left-150 {
-    margin-left: -150px;
-  }
-  .m\:mrg-negative-right-150 {
-    margin-right: -150px;
-  }
-  .m\:mrg-negative-top-150 {
-    margin-top: -150px;
   }
 }
 @media (min-width: 1024px) {
@@ -8122,30 +5788,30 @@ p {
   .l\:mrg-top-0 {
     margin-top: 0px;
   }
-  .l\:mrg-negative-all-0 {
+  .l\:mrg-neg-all-0 {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
   }
-  .l\:mrg-negative-bt-0 {
+  .l\:mrg-neg-bt-0 {
     margin-bottom: 0px;
     margin-top: 0px;
   }
-  .l\:mrg-negative-lr-0 {
+  .l\:mrg-neg-lr-0 {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .l\:mrg-negative-bottom-0 {
+  .l\:mrg-neg-bottom-0 {
     margin-bottom: 0px;
   }
-  .l\:mrg-negative-left-0 {
+  .l\:mrg-neg-left-0 {
     margin-left: 0px;
   }
-  .l\:mrg-negative-right-0 {
+  .l\:mrg-neg-right-0 {
     margin-right: 0px;
   }
-  .l\:mrg-negative-top-0 {
+  .l\:mrg-neg-top-0 {
     margin-top: 0px;
   }
   .l\:mrg-all-5 {
@@ -8174,30 +5840,30 @@ p {
   .l\:mrg-top-5 {
     margin-top: 5px;
   }
-  .l\:mrg-negative-all-5 {
+  .l\:mrg-neg-all-5 {
     margin-bottom: -5px;
     margin-left: -5px;
     margin-right: -5px;
     margin-top: -5px;
   }
-  .l\:mrg-negative-bt-5 {
+  .l\:mrg-neg-bt-5 {
     margin-bottom: -5px;
     margin-top: -5px;
   }
-  .l\:mrg-negative-lr-5 {
+  .l\:mrg-neg-lr-5 {
     margin-left: -5px;
     margin-right: -5px;
   }
-  .l\:mrg-negative-bottom-5 {
+  .l\:mrg-neg-bottom-5 {
     margin-bottom: -5px;
   }
-  .l\:mrg-negative-left-5 {
+  .l\:mrg-neg-left-5 {
     margin-left: -5px;
   }
-  .l\:mrg-negative-right-5 {
+  .l\:mrg-neg-right-5 {
     margin-right: -5px;
   }
-  .l\:mrg-negative-top-5 {
+  .l\:mrg-neg-top-5 {
     margin-top: -5px;
   }
   .l\:mrg-all-10 {
@@ -8226,30 +5892,30 @@ p {
   .l\:mrg-top-10 {
     margin-top: 10px;
   }
-  .l\:mrg-negative-all-10 {
+  .l\:mrg-neg-all-10 {
     margin-bottom: -10px;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
   }
-  .l\:mrg-negative-bt-10 {
+  .l\:mrg-neg-bt-10 {
     margin-bottom: -10px;
     margin-top: -10px;
   }
-  .l\:mrg-negative-lr-10 {
+  .l\:mrg-neg-lr-10 {
     margin-left: -10px;
     margin-right: -10px;
   }
-  .l\:mrg-negative-bottom-10 {
+  .l\:mrg-neg-bottom-10 {
     margin-bottom: -10px;
   }
-  .l\:mrg-negative-left-10 {
+  .l\:mrg-neg-left-10 {
     margin-left: -10px;
   }
-  .l\:mrg-negative-right-10 {
+  .l\:mrg-neg-right-10 {
     margin-right: -10px;
   }
-  .l\:mrg-negative-top-10 {
+  .l\:mrg-neg-top-10 {
     margin-top: -10px;
   }
   .l\:mrg-all-15 {
@@ -8278,30 +5944,30 @@ p {
   .l\:mrg-top-15 {
     margin-top: 15px;
   }
-  .l\:mrg-negative-all-15 {
+  .l\:mrg-neg-all-15 {
     margin-bottom: -15px;
     margin-left: -15px;
     margin-right: -15px;
     margin-top: -15px;
   }
-  .l\:mrg-negative-bt-15 {
+  .l\:mrg-neg-bt-15 {
     margin-bottom: -15px;
     margin-top: -15px;
   }
-  .l\:mrg-negative-lr-15 {
+  .l\:mrg-neg-lr-15 {
     margin-left: -15px;
     margin-right: -15px;
   }
-  .l\:mrg-negative-bottom-15 {
+  .l\:mrg-neg-bottom-15 {
     margin-bottom: -15px;
   }
-  .l\:mrg-negative-left-15 {
+  .l\:mrg-neg-left-15 {
     margin-left: -15px;
   }
-  .l\:mrg-negative-right-15 {
+  .l\:mrg-neg-right-15 {
     margin-right: -15px;
   }
-  .l\:mrg-negative-top-15 {
+  .l\:mrg-neg-top-15 {
     margin-top: -15px;
   }
   .l\:mrg-all-20 {
@@ -8330,30 +5996,30 @@ p {
   .l\:mrg-top-20 {
     margin-top: 20px;
   }
-  .l\:mrg-negative-all-20 {
+  .l\:mrg-neg-all-20 {
     margin-bottom: -20px;
     margin-left: -20px;
     margin-right: -20px;
     margin-top: -20px;
   }
-  .l\:mrg-negative-bt-20 {
+  .l\:mrg-neg-bt-20 {
     margin-bottom: -20px;
     margin-top: -20px;
   }
-  .l\:mrg-negative-lr-20 {
+  .l\:mrg-neg-lr-20 {
     margin-left: -20px;
     margin-right: -20px;
   }
-  .l\:mrg-negative-bottom-20 {
+  .l\:mrg-neg-bottom-20 {
     margin-bottom: -20px;
   }
-  .l\:mrg-negative-left-20 {
+  .l\:mrg-neg-left-20 {
     margin-left: -20px;
   }
-  .l\:mrg-negative-right-20 {
+  .l\:mrg-neg-right-20 {
     margin-right: -20px;
   }
-  .l\:mrg-negative-top-20 {
+  .l\:mrg-neg-top-20 {
     margin-top: -20px;
   }
   .l\:mrg-all-25 {
@@ -8382,30 +6048,30 @@ p {
   .l\:mrg-top-25 {
     margin-top: 25px;
   }
-  .l\:mrg-negative-all-25 {
+  .l\:mrg-neg-all-25 {
     margin-bottom: -25px;
     margin-left: -25px;
     margin-right: -25px;
     margin-top: -25px;
   }
-  .l\:mrg-negative-bt-25 {
+  .l\:mrg-neg-bt-25 {
     margin-bottom: -25px;
     margin-top: -25px;
   }
-  .l\:mrg-negative-lr-25 {
+  .l\:mrg-neg-lr-25 {
     margin-left: -25px;
     margin-right: -25px;
   }
-  .l\:mrg-negative-bottom-25 {
+  .l\:mrg-neg-bottom-25 {
     margin-bottom: -25px;
   }
-  .l\:mrg-negative-left-25 {
+  .l\:mrg-neg-left-25 {
     margin-left: -25px;
   }
-  .l\:mrg-negative-right-25 {
+  .l\:mrg-neg-right-25 {
     margin-right: -25px;
   }
-  .l\:mrg-negative-top-25 {
+  .l\:mrg-neg-top-25 {
     margin-top: -25px;
   }
   .l\:mrg-all-30 {
@@ -8434,30 +6100,30 @@ p {
   .l\:mrg-top-30 {
     margin-top: 30px;
   }
-  .l\:mrg-negative-all-30 {
+  .l\:mrg-neg-all-30 {
     margin-bottom: -30px;
     margin-left: -30px;
     margin-right: -30px;
     margin-top: -30px;
   }
-  .l\:mrg-negative-bt-30 {
+  .l\:mrg-neg-bt-30 {
     margin-bottom: -30px;
     margin-top: -30px;
   }
-  .l\:mrg-negative-lr-30 {
+  .l\:mrg-neg-lr-30 {
     margin-left: -30px;
     margin-right: -30px;
   }
-  .l\:mrg-negative-bottom-30 {
+  .l\:mrg-neg-bottom-30 {
     margin-bottom: -30px;
   }
-  .l\:mrg-negative-left-30 {
+  .l\:mrg-neg-left-30 {
     margin-left: -30px;
   }
-  .l\:mrg-negative-right-30 {
+  .l\:mrg-neg-right-30 {
     margin-right: -30px;
   }
-  .l\:mrg-negative-top-30 {
+  .l\:mrg-neg-top-30 {
     margin-top: -30px;
   }
   .l\:mrg-all-35 {
@@ -8486,30 +6152,30 @@ p {
   .l\:mrg-top-35 {
     margin-top: 35px;
   }
-  .l\:mrg-negative-all-35 {
+  .l\:mrg-neg-all-35 {
     margin-bottom: -35px;
     margin-left: -35px;
     margin-right: -35px;
     margin-top: -35px;
   }
-  .l\:mrg-negative-bt-35 {
+  .l\:mrg-neg-bt-35 {
     margin-bottom: -35px;
     margin-top: -35px;
   }
-  .l\:mrg-negative-lr-35 {
+  .l\:mrg-neg-lr-35 {
     margin-left: -35px;
     margin-right: -35px;
   }
-  .l\:mrg-negative-bottom-35 {
+  .l\:mrg-neg-bottom-35 {
     margin-bottom: -35px;
   }
-  .l\:mrg-negative-left-35 {
+  .l\:mrg-neg-left-35 {
     margin-left: -35px;
   }
-  .l\:mrg-negative-right-35 {
+  .l\:mrg-neg-right-35 {
     margin-right: -35px;
   }
-  .l\:mrg-negative-top-35 {
+  .l\:mrg-neg-top-35 {
     margin-top: -35px;
   }
   .l\:mrg-all-40 {
@@ -8538,30 +6204,30 @@ p {
   .l\:mrg-top-40 {
     margin-top: 40px;
   }
-  .l\:mrg-negative-all-40 {
+  .l\:mrg-neg-all-40 {
     margin-bottom: -40px;
     margin-left: -40px;
     margin-right: -40px;
     margin-top: -40px;
   }
-  .l\:mrg-negative-bt-40 {
+  .l\:mrg-neg-bt-40 {
     margin-bottom: -40px;
     margin-top: -40px;
   }
-  .l\:mrg-negative-lr-40 {
+  .l\:mrg-neg-lr-40 {
     margin-left: -40px;
     margin-right: -40px;
   }
-  .l\:mrg-negative-bottom-40 {
+  .l\:mrg-neg-bottom-40 {
     margin-bottom: -40px;
   }
-  .l\:mrg-negative-left-40 {
+  .l\:mrg-neg-left-40 {
     margin-left: -40px;
   }
-  .l\:mrg-negative-right-40 {
+  .l\:mrg-neg-right-40 {
     margin-right: -40px;
   }
-  .l\:mrg-negative-top-40 {
+  .l\:mrg-neg-top-40 {
     margin-top: -40px;
   }
   .l\:mrg-all-45 {
@@ -8590,30 +6256,30 @@ p {
   .l\:mrg-top-45 {
     margin-top: 45px;
   }
-  .l\:mrg-negative-all-45 {
+  .l\:mrg-neg-all-45 {
     margin-bottom: -45px;
     margin-left: -45px;
     margin-right: -45px;
     margin-top: -45px;
   }
-  .l\:mrg-negative-bt-45 {
+  .l\:mrg-neg-bt-45 {
     margin-bottom: -45px;
     margin-top: -45px;
   }
-  .l\:mrg-negative-lr-45 {
+  .l\:mrg-neg-lr-45 {
     margin-left: -45px;
     margin-right: -45px;
   }
-  .l\:mrg-negative-bottom-45 {
+  .l\:mrg-neg-bottom-45 {
     margin-bottom: -45px;
   }
-  .l\:mrg-negative-left-45 {
+  .l\:mrg-neg-left-45 {
     margin-left: -45px;
   }
-  .l\:mrg-negative-right-45 {
+  .l\:mrg-neg-right-45 {
     margin-right: -45px;
   }
-  .l\:mrg-negative-top-45 {
+  .l\:mrg-neg-top-45 {
     margin-top: -45px;
   }
   .l\:mrg-all-50 {
@@ -8642,30 +6308,30 @@ p {
   .l\:mrg-top-50 {
     margin-top: 50px;
   }
-  .l\:mrg-negative-all-50 {
+  .l\:mrg-neg-all-50 {
     margin-bottom: -50px;
     margin-left: -50px;
     margin-right: -50px;
     margin-top: -50px;
   }
-  .l\:mrg-negative-bt-50 {
+  .l\:mrg-neg-bt-50 {
     margin-bottom: -50px;
     margin-top: -50px;
   }
-  .l\:mrg-negative-lr-50 {
+  .l\:mrg-neg-lr-50 {
     margin-left: -50px;
     margin-right: -50px;
   }
-  .l\:mrg-negative-bottom-50 {
+  .l\:mrg-neg-bottom-50 {
     margin-bottom: -50px;
   }
-  .l\:mrg-negative-left-50 {
+  .l\:mrg-neg-left-50 {
     margin-left: -50px;
   }
-  .l\:mrg-negative-right-50 {
+  .l\:mrg-neg-right-50 {
     margin-right: -50px;
   }
-  .l\:mrg-negative-top-50 {
+  .l\:mrg-neg-top-50 {
     margin-top: -50px;
   }
   .l\:mrg-all-55 {
@@ -8694,30 +6360,30 @@ p {
   .l\:mrg-top-55 {
     margin-top: 55px;
   }
-  .l\:mrg-negative-all-55 {
+  .l\:mrg-neg-all-55 {
     margin-bottom: -55px;
     margin-left: -55px;
     margin-right: -55px;
     margin-top: -55px;
   }
-  .l\:mrg-negative-bt-55 {
+  .l\:mrg-neg-bt-55 {
     margin-bottom: -55px;
     margin-top: -55px;
   }
-  .l\:mrg-negative-lr-55 {
+  .l\:mrg-neg-lr-55 {
     margin-left: -55px;
     margin-right: -55px;
   }
-  .l\:mrg-negative-bottom-55 {
+  .l\:mrg-neg-bottom-55 {
     margin-bottom: -55px;
   }
-  .l\:mrg-negative-left-55 {
+  .l\:mrg-neg-left-55 {
     margin-left: -55px;
   }
-  .l\:mrg-negative-right-55 {
+  .l\:mrg-neg-right-55 {
     margin-right: -55px;
   }
-  .l\:mrg-negative-top-55 {
+  .l\:mrg-neg-top-55 {
     margin-top: -55px;
   }
   .l\:mrg-all-60 {
@@ -8746,30 +6412,30 @@ p {
   .l\:mrg-top-60 {
     margin-top: 60px;
   }
-  .l\:mrg-negative-all-60 {
+  .l\:mrg-neg-all-60 {
     margin-bottom: -60px;
     margin-left: -60px;
     margin-right: -60px;
     margin-top: -60px;
   }
-  .l\:mrg-negative-bt-60 {
+  .l\:mrg-neg-bt-60 {
     margin-bottom: -60px;
     margin-top: -60px;
   }
-  .l\:mrg-negative-lr-60 {
+  .l\:mrg-neg-lr-60 {
     margin-left: -60px;
     margin-right: -60px;
   }
-  .l\:mrg-negative-bottom-60 {
+  .l\:mrg-neg-bottom-60 {
     margin-bottom: -60px;
   }
-  .l\:mrg-negative-left-60 {
+  .l\:mrg-neg-left-60 {
     margin-left: -60px;
   }
-  .l\:mrg-negative-right-60 {
+  .l\:mrg-neg-right-60 {
     margin-right: -60px;
   }
-  .l\:mrg-negative-top-60 {
+  .l\:mrg-neg-top-60 {
     margin-top: -60px;
   }
   .l\:mrg-all-65 {
@@ -8798,30 +6464,30 @@ p {
   .l\:mrg-top-65 {
     margin-top: 65px;
   }
-  .l\:mrg-negative-all-65 {
+  .l\:mrg-neg-all-65 {
     margin-bottom: -65px;
     margin-left: -65px;
     margin-right: -65px;
     margin-top: -65px;
   }
-  .l\:mrg-negative-bt-65 {
+  .l\:mrg-neg-bt-65 {
     margin-bottom: -65px;
     margin-top: -65px;
   }
-  .l\:mrg-negative-lr-65 {
+  .l\:mrg-neg-lr-65 {
     margin-left: -65px;
     margin-right: -65px;
   }
-  .l\:mrg-negative-bottom-65 {
+  .l\:mrg-neg-bottom-65 {
     margin-bottom: -65px;
   }
-  .l\:mrg-negative-left-65 {
+  .l\:mrg-neg-left-65 {
     margin-left: -65px;
   }
-  .l\:mrg-negative-right-65 {
+  .l\:mrg-neg-right-65 {
     margin-right: -65px;
   }
-  .l\:mrg-negative-top-65 {
+  .l\:mrg-neg-top-65 {
     margin-top: -65px;
   }
   .l\:mrg-all-70 {
@@ -8850,30 +6516,30 @@ p {
   .l\:mrg-top-70 {
     margin-top: 70px;
   }
-  .l\:mrg-negative-all-70 {
+  .l\:mrg-neg-all-70 {
     margin-bottom: -70px;
     margin-left: -70px;
     margin-right: -70px;
     margin-top: -70px;
   }
-  .l\:mrg-negative-bt-70 {
+  .l\:mrg-neg-bt-70 {
     margin-bottom: -70px;
     margin-top: -70px;
   }
-  .l\:mrg-negative-lr-70 {
+  .l\:mrg-neg-lr-70 {
     margin-left: -70px;
     margin-right: -70px;
   }
-  .l\:mrg-negative-bottom-70 {
+  .l\:mrg-neg-bottom-70 {
     margin-bottom: -70px;
   }
-  .l\:mrg-negative-left-70 {
+  .l\:mrg-neg-left-70 {
     margin-left: -70px;
   }
-  .l\:mrg-negative-right-70 {
+  .l\:mrg-neg-right-70 {
     margin-right: -70px;
   }
-  .l\:mrg-negative-top-70 {
+  .l\:mrg-neg-top-70 {
     margin-top: -70px;
   }
   .l\:mrg-all-75 {
@@ -8902,30 +6568,30 @@ p {
   .l\:mrg-top-75 {
     margin-top: 75px;
   }
-  .l\:mrg-negative-all-75 {
+  .l\:mrg-neg-all-75 {
     margin-bottom: -75px;
     margin-left: -75px;
     margin-right: -75px;
     margin-top: -75px;
   }
-  .l\:mrg-negative-bt-75 {
+  .l\:mrg-neg-bt-75 {
     margin-bottom: -75px;
     margin-top: -75px;
   }
-  .l\:mrg-negative-lr-75 {
+  .l\:mrg-neg-lr-75 {
     margin-left: -75px;
     margin-right: -75px;
   }
-  .l\:mrg-negative-bottom-75 {
+  .l\:mrg-neg-bottom-75 {
     margin-bottom: -75px;
   }
-  .l\:mrg-negative-left-75 {
+  .l\:mrg-neg-left-75 {
     margin-left: -75px;
   }
-  .l\:mrg-negative-right-75 {
+  .l\:mrg-neg-right-75 {
     margin-right: -75px;
   }
-  .l\:mrg-negative-top-75 {
+  .l\:mrg-neg-top-75 {
     margin-top: -75px;
   }
   .l\:mrg-all-80 {
@@ -8954,759 +6620,31 @@ p {
   .l\:mrg-top-80 {
     margin-top: 80px;
   }
-  .l\:mrg-negative-all-80 {
+  .l\:mrg-neg-all-80 {
     margin-bottom: -80px;
     margin-left: -80px;
     margin-right: -80px;
     margin-top: -80px;
   }
-  .l\:mrg-negative-bt-80 {
+  .l\:mrg-neg-bt-80 {
     margin-bottom: -80px;
     margin-top: -80px;
   }
-  .l\:mrg-negative-lr-80 {
+  .l\:mrg-neg-lr-80 {
     margin-left: -80px;
     margin-right: -80px;
   }
-  .l\:mrg-negative-bottom-80 {
+  .l\:mrg-neg-bottom-80 {
     margin-bottom: -80px;
   }
-  .l\:mrg-negative-left-80 {
+  .l\:mrg-neg-left-80 {
     margin-left: -80px;
   }
-  .l\:mrg-negative-right-80 {
+  .l\:mrg-neg-right-80 {
     margin-right: -80px;
   }
-  .l\:mrg-negative-top-80 {
+  .l\:mrg-neg-top-80 {
     margin-top: -80px;
-  }
-  .l\:mrg-all-85 {
-    margin-bottom: 85px;
-    margin-left: 85px;
-    margin-right: 85px;
-    margin-top: 85px;
-  }
-  .l\:mrg-bt-85 {
-    margin-bottom: 85px;
-    margin-top: 85px;
-  }
-  .l\:mrg-lr-85 {
-    margin-left: 85px;
-    margin-right: 85px;
-  }
-  .l\:mrg-bottom-85 {
-    margin-bottom: 85px;
-  }
-  .l\:mrg-left-85 {
-    margin-left: 85px;
-  }
-  .l\:mrg-right-85 {
-    margin-right: 85px;
-  }
-  .l\:mrg-top-85 {
-    margin-top: 85px;
-  }
-  .l\:mrg-negative-all-85 {
-    margin-bottom: -85px;
-    margin-left: -85px;
-    margin-right: -85px;
-    margin-top: -85px;
-  }
-  .l\:mrg-negative-bt-85 {
-    margin-bottom: -85px;
-    margin-top: -85px;
-  }
-  .l\:mrg-negative-lr-85 {
-    margin-left: -85px;
-    margin-right: -85px;
-  }
-  .l\:mrg-negative-bottom-85 {
-    margin-bottom: -85px;
-  }
-  .l\:mrg-negative-left-85 {
-    margin-left: -85px;
-  }
-  .l\:mrg-negative-right-85 {
-    margin-right: -85px;
-  }
-  .l\:mrg-negative-top-85 {
-    margin-top: -85px;
-  }
-  .l\:mrg-all-90 {
-    margin-bottom: 90px;
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-top: 90px;
-  }
-  .l\:mrg-bt-90 {
-    margin-bottom: 90px;
-    margin-top: 90px;
-  }
-  .l\:mrg-lr-90 {
-    margin-left: 90px;
-    margin-right: 90px;
-  }
-  .l\:mrg-bottom-90 {
-    margin-bottom: 90px;
-  }
-  .l\:mrg-left-90 {
-    margin-left: 90px;
-  }
-  .l\:mrg-right-90 {
-    margin-right: 90px;
-  }
-  .l\:mrg-top-90 {
-    margin-top: 90px;
-  }
-  .l\:mrg-negative-all-90 {
-    margin-bottom: -90px;
-    margin-left: -90px;
-    margin-right: -90px;
-    margin-top: -90px;
-  }
-  .l\:mrg-negative-bt-90 {
-    margin-bottom: -90px;
-    margin-top: -90px;
-  }
-  .l\:mrg-negative-lr-90 {
-    margin-left: -90px;
-    margin-right: -90px;
-  }
-  .l\:mrg-negative-bottom-90 {
-    margin-bottom: -90px;
-  }
-  .l\:mrg-negative-left-90 {
-    margin-left: -90px;
-  }
-  .l\:mrg-negative-right-90 {
-    margin-right: -90px;
-  }
-  .l\:mrg-negative-top-90 {
-    margin-top: -90px;
-  }
-  .l\:mrg-all-95 {
-    margin-bottom: 95px;
-    margin-left: 95px;
-    margin-right: 95px;
-    margin-top: 95px;
-  }
-  .l\:mrg-bt-95 {
-    margin-bottom: 95px;
-    margin-top: 95px;
-  }
-  .l\:mrg-lr-95 {
-    margin-left: 95px;
-    margin-right: 95px;
-  }
-  .l\:mrg-bottom-95 {
-    margin-bottom: 95px;
-  }
-  .l\:mrg-left-95 {
-    margin-left: 95px;
-  }
-  .l\:mrg-right-95 {
-    margin-right: 95px;
-  }
-  .l\:mrg-top-95 {
-    margin-top: 95px;
-  }
-  .l\:mrg-negative-all-95 {
-    margin-bottom: -95px;
-    margin-left: -95px;
-    margin-right: -95px;
-    margin-top: -95px;
-  }
-  .l\:mrg-negative-bt-95 {
-    margin-bottom: -95px;
-    margin-top: -95px;
-  }
-  .l\:mrg-negative-lr-95 {
-    margin-left: -95px;
-    margin-right: -95px;
-  }
-  .l\:mrg-negative-bottom-95 {
-    margin-bottom: -95px;
-  }
-  .l\:mrg-negative-left-95 {
-    margin-left: -95px;
-  }
-  .l\:mrg-negative-right-95 {
-    margin-right: -95px;
-  }
-  .l\:mrg-negative-top-95 {
-    margin-top: -95px;
-  }
-  .l\:mrg-all-100 {
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 100px;
-  }
-  .l\:mrg-bt-100 {
-    margin-bottom: 100px;
-    margin-top: 100px;
-  }
-  .l\:mrg-lr-100 {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-  .l\:mrg-bottom-100 {
-    margin-bottom: 100px;
-  }
-  .l\:mrg-left-100 {
-    margin-left: 100px;
-  }
-  .l\:mrg-right-100 {
-    margin-right: 100px;
-  }
-  .l\:mrg-top-100 {
-    margin-top: 100px;
-  }
-  .l\:mrg-negative-all-100 {
-    margin-bottom: -100px;
-    margin-left: -100px;
-    margin-right: -100px;
-    margin-top: -100px;
-  }
-  .l\:mrg-negative-bt-100 {
-    margin-bottom: -100px;
-    margin-top: -100px;
-  }
-  .l\:mrg-negative-lr-100 {
-    margin-left: -100px;
-    margin-right: -100px;
-  }
-  .l\:mrg-negative-bottom-100 {
-    margin-bottom: -100px;
-  }
-  .l\:mrg-negative-left-100 {
-    margin-left: -100px;
-  }
-  .l\:mrg-negative-right-100 {
-    margin-right: -100px;
-  }
-  .l\:mrg-negative-top-100 {
-    margin-top: -100px;
-  }
-  .l\:mrg-all-105 {
-    margin-bottom: 105px;
-    margin-left: 105px;
-    margin-right: 105px;
-    margin-top: 105px;
-  }
-  .l\:mrg-bt-105 {
-    margin-bottom: 105px;
-    margin-top: 105px;
-  }
-  .l\:mrg-lr-105 {
-    margin-left: 105px;
-    margin-right: 105px;
-  }
-  .l\:mrg-bottom-105 {
-    margin-bottom: 105px;
-  }
-  .l\:mrg-left-105 {
-    margin-left: 105px;
-  }
-  .l\:mrg-right-105 {
-    margin-right: 105px;
-  }
-  .l\:mrg-top-105 {
-    margin-top: 105px;
-  }
-  .l\:mrg-negative-all-105 {
-    margin-bottom: -105px;
-    margin-left: -105px;
-    margin-right: -105px;
-    margin-top: -105px;
-  }
-  .l\:mrg-negative-bt-105 {
-    margin-bottom: -105px;
-    margin-top: -105px;
-  }
-  .l\:mrg-negative-lr-105 {
-    margin-left: -105px;
-    margin-right: -105px;
-  }
-  .l\:mrg-negative-bottom-105 {
-    margin-bottom: -105px;
-  }
-  .l\:mrg-negative-left-105 {
-    margin-left: -105px;
-  }
-  .l\:mrg-negative-right-105 {
-    margin-right: -105px;
-  }
-  .l\:mrg-negative-top-105 {
-    margin-top: -105px;
-  }
-  .l\:mrg-all-110 {
-    margin-bottom: 110px;
-    margin-left: 110px;
-    margin-right: 110px;
-    margin-top: 110px;
-  }
-  .l\:mrg-bt-110 {
-    margin-bottom: 110px;
-    margin-top: 110px;
-  }
-  .l\:mrg-lr-110 {
-    margin-left: 110px;
-    margin-right: 110px;
-  }
-  .l\:mrg-bottom-110 {
-    margin-bottom: 110px;
-  }
-  .l\:mrg-left-110 {
-    margin-left: 110px;
-  }
-  .l\:mrg-right-110 {
-    margin-right: 110px;
-  }
-  .l\:mrg-top-110 {
-    margin-top: 110px;
-  }
-  .l\:mrg-negative-all-110 {
-    margin-bottom: -110px;
-    margin-left: -110px;
-    margin-right: -110px;
-    margin-top: -110px;
-  }
-  .l\:mrg-negative-bt-110 {
-    margin-bottom: -110px;
-    margin-top: -110px;
-  }
-  .l\:mrg-negative-lr-110 {
-    margin-left: -110px;
-    margin-right: -110px;
-  }
-  .l\:mrg-negative-bottom-110 {
-    margin-bottom: -110px;
-  }
-  .l\:mrg-negative-left-110 {
-    margin-left: -110px;
-  }
-  .l\:mrg-negative-right-110 {
-    margin-right: -110px;
-  }
-  .l\:mrg-negative-top-110 {
-    margin-top: -110px;
-  }
-  .l\:mrg-all-115 {
-    margin-bottom: 115px;
-    margin-left: 115px;
-    margin-right: 115px;
-    margin-top: 115px;
-  }
-  .l\:mrg-bt-115 {
-    margin-bottom: 115px;
-    margin-top: 115px;
-  }
-  .l\:mrg-lr-115 {
-    margin-left: 115px;
-    margin-right: 115px;
-  }
-  .l\:mrg-bottom-115 {
-    margin-bottom: 115px;
-  }
-  .l\:mrg-left-115 {
-    margin-left: 115px;
-  }
-  .l\:mrg-right-115 {
-    margin-right: 115px;
-  }
-  .l\:mrg-top-115 {
-    margin-top: 115px;
-  }
-  .l\:mrg-negative-all-115 {
-    margin-bottom: -115px;
-    margin-left: -115px;
-    margin-right: -115px;
-    margin-top: -115px;
-  }
-  .l\:mrg-negative-bt-115 {
-    margin-bottom: -115px;
-    margin-top: -115px;
-  }
-  .l\:mrg-negative-lr-115 {
-    margin-left: -115px;
-    margin-right: -115px;
-  }
-  .l\:mrg-negative-bottom-115 {
-    margin-bottom: -115px;
-  }
-  .l\:mrg-negative-left-115 {
-    margin-left: -115px;
-  }
-  .l\:mrg-negative-right-115 {
-    margin-right: -115px;
-  }
-  .l\:mrg-negative-top-115 {
-    margin-top: -115px;
-  }
-  .l\:mrg-all-120 {
-    margin-bottom: 120px;
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-top: 120px;
-  }
-  .l\:mrg-bt-120 {
-    margin-bottom: 120px;
-    margin-top: 120px;
-  }
-  .l\:mrg-lr-120 {
-    margin-left: 120px;
-    margin-right: 120px;
-  }
-  .l\:mrg-bottom-120 {
-    margin-bottom: 120px;
-  }
-  .l\:mrg-left-120 {
-    margin-left: 120px;
-  }
-  .l\:mrg-right-120 {
-    margin-right: 120px;
-  }
-  .l\:mrg-top-120 {
-    margin-top: 120px;
-  }
-  .l\:mrg-negative-all-120 {
-    margin-bottom: -120px;
-    margin-left: -120px;
-    margin-right: -120px;
-    margin-top: -120px;
-  }
-  .l\:mrg-negative-bt-120 {
-    margin-bottom: -120px;
-    margin-top: -120px;
-  }
-  .l\:mrg-negative-lr-120 {
-    margin-left: -120px;
-    margin-right: -120px;
-  }
-  .l\:mrg-negative-bottom-120 {
-    margin-bottom: -120px;
-  }
-  .l\:mrg-negative-left-120 {
-    margin-left: -120px;
-  }
-  .l\:mrg-negative-right-120 {
-    margin-right: -120px;
-  }
-  .l\:mrg-negative-top-120 {
-    margin-top: -120px;
-  }
-  .l\:mrg-all-125 {
-    margin-bottom: 125px;
-    margin-left: 125px;
-    margin-right: 125px;
-    margin-top: 125px;
-  }
-  .l\:mrg-bt-125 {
-    margin-bottom: 125px;
-    margin-top: 125px;
-  }
-  .l\:mrg-lr-125 {
-    margin-left: 125px;
-    margin-right: 125px;
-  }
-  .l\:mrg-bottom-125 {
-    margin-bottom: 125px;
-  }
-  .l\:mrg-left-125 {
-    margin-left: 125px;
-  }
-  .l\:mrg-right-125 {
-    margin-right: 125px;
-  }
-  .l\:mrg-top-125 {
-    margin-top: 125px;
-  }
-  .l\:mrg-negative-all-125 {
-    margin-bottom: -125px;
-    margin-left: -125px;
-    margin-right: -125px;
-    margin-top: -125px;
-  }
-  .l\:mrg-negative-bt-125 {
-    margin-bottom: -125px;
-    margin-top: -125px;
-  }
-  .l\:mrg-negative-lr-125 {
-    margin-left: -125px;
-    margin-right: -125px;
-  }
-  .l\:mrg-negative-bottom-125 {
-    margin-bottom: -125px;
-  }
-  .l\:mrg-negative-left-125 {
-    margin-left: -125px;
-  }
-  .l\:mrg-negative-right-125 {
-    margin-right: -125px;
-  }
-  .l\:mrg-negative-top-125 {
-    margin-top: -125px;
-  }
-  .l\:mrg-all-130 {
-    margin-bottom: 130px;
-    margin-left: 130px;
-    margin-right: 130px;
-    margin-top: 130px;
-  }
-  .l\:mrg-bt-130 {
-    margin-bottom: 130px;
-    margin-top: 130px;
-  }
-  .l\:mrg-lr-130 {
-    margin-left: 130px;
-    margin-right: 130px;
-  }
-  .l\:mrg-bottom-130 {
-    margin-bottom: 130px;
-  }
-  .l\:mrg-left-130 {
-    margin-left: 130px;
-  }
-  .l\:mrg-right-130 {
-    margin-right: 130px;
-  }
-  .l\:mrg-top-130 {
-    margin-top: 130px;
-  }
-  .l\:mrg-negative-all-130 {
-    margin-bottom: -130px;
-    margin-left: -130px;
-    margin-right: -130px;
-    margin-top: -130px;
-  }
-  .l\:mrg-negative-bt-130 {
-    margin-bottom: -130px;
-    margin-top: -130px;
-  }
-  .l\:mrg-negative-lr-130 {
-    margin-left: -130px;
-    margin-right: -130px;
-  }
-  .l\:mrg-negative-bottom-130 {
-    margin-bottom: -130px;
-  }
-  .l\:mrg-negative-left-130 {
-    margin-left: -130px;
-  }
-  .l\:mrg-negative-right-130 {
-    margin-right: -130px;
-  }
-  .l\:mrg-negative-top-130 {
-    margin-top: -130px;
-  }
-  .l\:mrg-all-135 {
-    margin-bottom: 135px;
-    margin-left: 135px;
-    margin-right: 135px;
-    margin-top: 135px;
-  }
-  .l\:mrg-bt-135 {
-    margin-bottom: 135px;
-    margin-top: 135px;
-  }
-  .l\:mrg-lr-135 {
-    margin-left: 135px;
-    margin-right: 135px;
-  }
-  .l\:mrg-bottom-135 {
-    margin-bottom: 135px;
-  }
-  .l\:mrg-left-135 {
-    margin-left: 135px;
-  }
-  .l\:mrg-right-135 {
-    margin-right: 135px;
-  }
-  .l\:mrg-top-135 {
-    margin-top: 135px;
-  }
-  .l\:mrg-negative-all-135 {
-    margin-bottom: -135px;
-    margin-left: -135px;
-    margin-right: -135px;
-    margin-top: -135px;
-  }
-  .l\:mrg-negative-bt-135 {
-    margin-bottom: -135px;
-    margin-top: -135px;
-  }
-  .l\:mrg-negative-lr-135 {
-    margin-left: -135px;
-    margin-right: -135px;
-  }
-  .l\:mrg-negative-bottom-135 {
-    margin-bottom: -135px;
-  }
-  .l\:mrg-negative-left-135 {
-    margin-left: -135px;
-  }
-  .l\:mrg-negative-right-135 {
-    margin-right: -135px;
-  }
-  .l\:mrg-negative-top-135 {
-    margin-top: -135px;
-  }
-  .l\:mrg-all-140 {
-    margin-bottom: 140px;
-    margin-left: 140px;
-    margin-right: 140px;
-    margin-top: 140px;
-  }
-  .l\:mrg-bt-140 {
-    margin-bottom: 140px;
-    margin-top: 140px;
-  }
-  .l\:mrg-lr-140 {
-    margin-left: 140px;
-    margin-right: 140px;
-  }
-  .l\:mrg-bottom-140 {
-    margin-bottom: 140px;
-  }
-  .l\:mrg-left-140 {
-    margin-left: 140px;
-  }
-  .l\:mrg-right-140 {
-    margin-right: 140px;
-  }
-  .l\:mrg-top-140 {
-    margin-top: 140px;
-  }
-  .l\:mrg-negative-all-140 {
-    margin-bottom: -140px;
-    margin-left: -140px;
-    margin-right: -140px;
-    margin-top: -140px;
-  }
-  .l\:mrg-negative-bt-140 {
-    margin-bottom: -140px;
-    margin-top: -140px;
-  }
-  .l\:mrg-negative-lr-140 {
-    margin-left: -140px;
-    margin-right: -140px;
-  }
-  .l\:mrg-negative-bottom-140 {
-    margin-bottom: -140px;
-  }
-  .l\:mrg-negative-left-140 {
-    margin-left: -140px;
-  }
-  .l\:mrg-negative-right-140 {
-    margin-right: -140px;
-  }
-  .l\:mrg-negative-top-140 {
-    margin-top: -140px;
-  }
-  .l\:mrg-all-145 {
-    margin-bottom: 145px;
-    margin-left: 145px;
-    margin-right: 145px;
-    margin-top: 145px;
-  }
-  .l\:mrg-bt-145 {
-    margin-bottom: 145px;
-    margin-top: 145px;
-  }
-  .l\:mrg-lr-145 {
-    margin-left: 145px;
-    margin-right: 145px;
-  }
-  .l\:mrg-bottom-145 {
-    margin-bottom: 145px;
-  }
-  .l\:mrg-left-145 {
-    margin-left: 145px;
-  }
-  .l\:mrg-right-145 {
-    margin-right: 145px;
-  }
-  .l\:mrg-top-145 {
-    margin-top: 145px;
-  }
-  .l\:mrg-negative-all-145 {
-    margin-bottom: -145px;
-    margin-left: -145px;
-    margin-right: -145px;
-    margin-top: -145px;
-  }
-  .l\:mrg-negative-bt-145 {
-    margin-bottom: -145px;
-    margin-top: -145px;
-  }
-  .l\:mrg-negative-lr-145 {
-    margin-left: -145px;
-    margin-right: -145px;
-  }
-  .l\:mrg-negative-bottom-145 {
-    margin-bottom: -145px;
-  }
-  .l\:mrg-negative-left-145 {
-    margin-left: -145px;
-  }
-  .l\:mrg-negative-right-145 {
-    margin-right: -145px;
-  }
-  .l\:mrg-negative-top-145 {
-    margin-top: -145px;
-  }
-  .l\:mrg-all-150 {
-    margin-bottom: 150px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 150px;
-  }
-  .l\:mrg-bt-150 {
-    margin-bottom: 150px;
-    margin-top: 150px;
-  }
-  .l\:mrg-lr-150 {
-    margin-left: 150px;
-    margin-right: 150px;
-  }
-  .l\:mrg-bottom-150 {
-    margin-bottom: 150px;
-  }
-  .l\:mrg-left-150 {
-    margin-left: 150px;
-  }
-  .l\:mrg-right-150 {
-    margin-right: 150px;
-  }
-  .l\:mrg-top-150 {
-    margin-top: 150px;
-  }
-  .l\:mrg-negative-all-150 {
-    margin-bottom: -150px;
-    margin-left: -150px;
-    margin-right: -150px;
-    margin-top: -150px;
-  }
-  .l\:mrg-negative-bt-150 {
-    margin-bottom: -150px;
-    margin-top: -150px;
-  }
-  .l\:mrg-negative-lr-150 {
-    margin-left: -150px;
-    margin-right: -150px;
-  }
-  .l\:mrg-negative-bottom-150 {
-    margin-bottom: -150px;
-  }
-  .l\:mrg-negative-left-150 {
-    margin-left: -150px;
-  }
-  .l\:mrg-negative-right-150 {
-    margin-right: -150px;
-  }
-  .l\:mrg-negative-top-150 {
-    margin-top: -150px;
   }
 }
 @media (min-width: 1280px) {
@@ -9736,30 +6674,30 @@ p {
   .xl\:mrg-top-0 {
     margin-top: 0px;
   }
-  .xl\:mrg-negative-all-0 {
+  .xl\:mrg-neg-all-0 {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
   }
-  .xl\:mrg-negative-bt-0 {
+  .xl\:mrg-neg-bt-0 {
     margin-bottom: 0px;
     margin-top: 0px;
   }
-  .xl\:mrg-negative-lr-0 {
+  .xl\:mrg-neg-lr-0 {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .xl\:mrg-negative-bottom-0 {
+  .xl\:mrg-neg-bottom-0 {
     margin-bottom: 0px;
   }
-  .xl\:mrg-negative-left-0 {
+  .xl\:mrg-neg-left-0 {
     margin-left: 0px;
   }
-  .xl\:mrg-negative-right-0 {
+  .xl\:mrg-neg-right-0 {
     margin-right: 0px;
   }
-  .xl\:mrg-negative-top-0 {
+  .xl\:mrg-neg-top-0 {
     margin-top: 0px;
   }
   .xl\:mrg-all-5 {
@@ -9788,30 +6726,30 @@ p {
   .xl\:mrg-top-5 {
     margin-top: 5px;
   }
-  .xl\:mrg-negative-all-5 {
+  .xl\:mrg-neg-all-5 {
     margin-bottom: -5px;
     margin-left: -5px;
     margin-right: -5px;
     margin-top: -5px;
   }
-  .xl\:mrg-negative-bt-5 {
+  .xl\:mrg-neg-bt-5 {
     margin-bottom: -5px;
     margin-top: -5px;
   }
-  .xl\:mrg-negative-lr-5 {
+  .xl\:mrg-neg-lr-5 {
     margin-left: -5px;
     margin-right: -5px;
   }
-  .xl\:mrg-negative-bottom-5 {
+  .xl\:mrg-neg-bottom-5 {
     margin-bottom: -5px;
   }
-  .xl\:mrg-negative-left-5 {
+  .xl\:mrg-neg-left-5 {
     margin-left: -5px;
   }
-  .xl\:mrg-negative-right-5 {
+  .xl\:mrg-neg-right-5 {
     margin-right: -5px;
   }
-  .xl\:mrg-negative-top-5 {
+  .xl\:mrg-neg-top-5 {
     margin-top: -5px;
   }
   .xl\:mrg-all-10 {
@@ -9840,30 +6778,30 @@ p {
   .xl\:mrg-top-10 {
     margin-top: 10px;
   }
-  .xl\:mrg-negative-all-10 {
+  .xl\:mrg-neg-all-10 {
     margin-bottom: -10px;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
   }
-  .xl\:mrg-negative-bt-10 {
+  .xl\:mrg-neg-bt-10 {
     margin-bottom: -10px;
     margin-top: -10px;
   }
-  .xl\:mrg-negative-lr-10 {
+  .xl\:mrg-neg-lr-10 {
     margin-left: -10px;
     margin-right: -10px;
   }
-  .xl\:mrg-negative-bottom-10 {
+  .xl\:mrg-neg-bottom-10 {
     margin-bottom: -10px;
   }
-  .xl\:mrg-negative-left-10 {
+  .xl\:mrg-neg-left-10 {
     margin-left: -10px;
   }
-  .xl\:mrg-negative-right-10 {
+  .xl\:mrg-neg-right-10 {
     margin-right: -10px;
   }
-  .xl\:mrg-negative-top-10 {
+  .xl\:mrg-neg-top-10 {
     margin-top: -10px;
   }
   .xl\:mrg-all-15 {
@@ -9892,30 +6830,30 @@ p {
   .xl\:mrg-top-15 {
     margin-top: 15px;
   }
-  .xl\:mrg-negative-all-15 {
+  .xl\:mrg-neg-all-15 {
     margin-bottom: -15px;
     margin-left: -15px;
     margin-right: -15px;
     margin-top: -15px;
   }
-  .xl\:mrg-negative-bt-15 {
+  .xl\:mrg-neg-bt-15 {
     margin-bottom: -15px;
     margin-top: -15px;
   }
-  .xl\:mrg-negative-lr-15 {
+  .xl\:mrg-neg-lr-15 {
     margin-left: -15px;
     margin-right: -15px;
   }
-  .xl\:mrg-negative-bottom-15 {
+  .xl\:mrg-neg-bottom-15 {
     margin-bottom: -15px;
   }
-  .xl\:mrg-negative-left-15 {
+  .xl\:mrg-neg-left-15 {
     margin-left: -15px;
   }
-  .xl\:mrg-negative-right-15 {
+  .xl\:mrg-neg-right-15 {
     margin-right: -15px;
   }
-  .xl\:mrg-negative-top-15 {
+  .xl\:mrg-neg-top-15 {
     margin-top: -15px;
   }
   .xl\:mrg-all-20 {
@@ -9944,30 +6882,30 @@ p {
   .xl\:mrg-top-20 {
     margin-top: 20px;
   }
-  .xl\:mrg-negative-all-20 {
+  .xl\:mrg-neg-all-20 {
     margin-bottom: -20px;
     margin-left: -20px;
     margin-right: -20px;
     margin-top: -20px;
   }
-  .xl\:mrg-negative-bt-20 {
+  .xl\:mrg-neg-bt-20 {
     margin-bottom: -20px;
     margin-top: -20px;
   }
-  .xl\:mrg-negative-lr-20 {
+  .xl\:mrg-neg-lr-20 {
     margin-left: -20px;
     margin-right: -20px;
   }
-  .xl\:mrg-negative-bottom-20 {
+  .xl\:mrg-neg-bottom-20 {
     margin-bottom: -20px;
   }
-  .xl\:mrg-negative-left-20 {
+  .xl\:mrg-neg-left-20 {
     margin-left: -20px;
   }
-  .xl\:mrg-negative-right-20 {
+  .xl\:mrg-neg-right-20 {
     margin-right: -20px;
   }
-  .xl\:mrg-negative-top-20 {
+  .xl\:mrg-neg-top-20 {
     margin-top: -20px;
   }
   .xl\:mrg-all-25 {
@@ -9996,30 +6934,30 @@ p {
   .xl\:mrg-top-25 {
     margin-top: 25px;
   }
-  .xl\:mrg-negative-all-25 {
+  .xl\:mrg-neg-all-25 {
     margin-bottom: -25px;
     margin-left: -25px;
     margin-right: -25px;
     margin-top: -25px;
   }
-  .xl\:mrg-negative-bt-25 {
+  .xl\:mrg-neg-bt-25 {
     margin-bottom: -25px;
     margin-top: -25px;
   }
-  .xl\:mrg-negative-lr-25 {
+  .xl\:mrg-neg-lr-25 {
     margin-left: -25px;
     margin-right: -25px;
   }
-  .xl\:mrg-negative-bottom-25 {
+  .xl\:mrg-neg-bottom-25 {
     margin-bottom: -25px;
   }
-  .xl\:mrg-negative-left-25 {
+  .xl\:mrg-neg-left-25 {
     margin-left: -25px;
   }
-  .xl\:mrg-negative-right-25 {
+  .xl\:mrg-neg-right-25 {
     margin-right: -25px;
   }
-  .xl\:mrg-negative-top-25 {
+  .xl\:mrg-neg-top-25 {
     margin-top: -25px;
   }
   .xl\:mrg-all-30 {
@@ -10048,30 +6986,30 @@ p {
   .xl\:mrg-top-30 {
     margin-top: 30px;
   }
-  .xl\:mrg-negative-all-30 {
+  .xl\:mrg-neg-all-30 {
     margin-bottom: -30px;
     margin-left: -30px;
     margin-right: -30px;
     margin-top: -30px;
   }
-  .xl\:mrg-negative-bt-30 {
+  .xl\:mrg-neg-bt-30 {
     margin-bottom: -30px;
     margin-top: -30px;
   }
-  .xl\:mrg-negative-lr-30 {
+  .xl\:mrg-neg-lr-30 {
     margin-left: -30px;
     margin-right: -30px;
   }
-  .xl\:mrg-negative-bottom-30 {
+  .xl\:mrg-neg-bottom-30 {
     margin-bottom: -30px;
   }
-  .xl\:mrg-negative-left-30 {
+  .xl\:mrg-neg-left-30 {
     margin-left: -30px;
   }
-  .xl\:mrg-negative-right-30 {
+  .xl\:mrg-neg-right-30 {
     margin-right: -30px;
   }
-  .xl\:mrg-negative-top-30 {
+  .xl\:mrg-neg-top-30 {
     margin-top: -30px;
   }
   .xl\:mrg-all-35 {
@@ -10100,30 +7038,30 @@ p {
   .xl\:mrg-top-35 {
     margin-top: 35px;
   }
-  .xl\:mrg-negative-all-35 {
+  .xl\:mrg-neg-all-35 {
     margin-bottom: -35px;
     margin-left: -35px;
     margin-right: -35px;
     margin-top: -35px;
   }
-  .xl\:mrg-negative-bt-35 {
+  .xl\:mrg-neg-bt-35 {
     margin-bottom: -35px;
     margin-top: -35px;
   }
-  .xl\:mrg-negative-lr-35 {
+  .xl\:mrg-neg-lr-35 {
     margin-left: -35px;
     margin-right: -35px;
   }
-  .xl\:mrg-negative-bottom-35 {
+  .xl\:mrg-neg-bottom-35 {
     margin-bottom: -35px;
   }
-  .xl\:mrg-negative-left-35 {
+  .xl\:mrg-neg-left-35 {
     margin-left: -35px;
   }
-  .xl\:mrg-negative-right-35 {
+  .xl\:mrg-neg-right-35 {
     margin-right: -35px;
   }
-  .xl\:mrg-negative-top-35 {
+  .xl\:mrg-neg-top-35 {
     margin-top: -35px;
   }
   .xl\:mrg-all-40 {
@@ -10152,30 +7090,30 @@ p {
   .xl\:mrg-top-40 {
     margin-top: 40px;
   }
-  .xl\:mrg-negative-all-40 {
+  .xl\:mrg-neg-all-40 {
     margin-bottom: -40px;
     margin-left: -40px;
     margin-right: -40px;
     margin-top: -40px;
   }
-  .xl\:mrg-negative-bt-40 {
+  .xl\:mrg-neg-bt-40 {
     margin-bottom: -40px;
     margin-top: -40px;
   }
-  .xl\:mrg-negative-lr-40 {
+  .xl\:mrg-neg-lr-40 {
     margin-left: -40px;
     margin-right: -40px;
   }
-  .xl\:mrg-negative-bottom-40 {
+  .xl\:mrg-neg-bottom-40 {
     margin-bottom: -40px;
   }
-  .xl\:mrg-negative-left-40 {
+  .xl\:mrg-neg-left-40 {
     margin-left: -40px;
   }
-  .xl\:mrg-negative-right-40 {
+  .xl\:mrg-neg-right-40 {
     margin-right: -40px;
   }
-  .xl\:mrg-negative-top-40 {
+  .xl\:mrg-neg-top-40 {
     margin-top: -40px;
   }
   .xl\:mrg-all-45 {
@@ -10204,30 +7142,30 @@ p {
   .xl\:mrg-top-45 {
     margin-top: 45px;
   }
-  .xl\:mrg-negative-all-45 {
+  .xl\:mrg-neg-all-45 {
     margin-bottom: -45px;
     margin-left: -45px;
     margin-right: -45px;
     margin-top: -45px;
   }
-  .xl\:mrg-negative-bt-45 {
+  .xl\:mrg-neg-bt-45 {
     margin-bottom: -45px;
     margin-top: -45px;
   }
-  .xl\:mrg-negative-lr-45 {
+  .xl\:mrg-neg-lr-45 {
     margin-left: -45px;
     margin-right: -45px;
   }
-  .xl\:mrg-negative-bottom-45 {
+  .xl\:mrg-neg-bottom-45 {
     margin-bottom: -45px;
   }
-  .xl\:mrg-negative-left-45 {
+  .xl\:mrg-neg-left-45 {
     margin-left: -45px;
   }
-  .xl\:mrg-negative-right-45 {
+  .xl\:mrg-neg-right-45 {
     margin-right: -45px;
   }
-  .xl\:mrg-negative-top-45 {
+  .xl\:mrg-neg-top-45 {
     margin-top: -45px;
   }
   .xl\:mrg-all-50 {
@@ -10256,30 +7194,30 @@ p {
   .xl\:mrg-top-50 {
     margin-top: 50px;
   }
-  .xl\:mrg-negative-all-50 {
+  .xl\:mrg-neg-all-50 {
     margin-bottom: -50px;
     margin-left: -50px;
     margin-right: -50px;
     margin-top: -50px;
   }
-  .xl\:mrg-negative-bt-50 {
+  .xl\:mrg-neg-bt-50 {
     margin-bottom: -50px;
     margin-top: -50px;
   }
-  .xl\:mrg-negative-lr-50 {
+  .xl\:mrg-neg-lr-50 {
     margin-left: -50px;
     margin-right: -50px;
   }
-  .xl\:mrg-negative-bottom-50 {
+  .xl\:mrg-neg-bottom-50 {
     margin-bottom: -50px;
   }
-  .xl\:mrg-negative-left-50 {
+  .xl\:mrg-neg-left-50 {
     margin-left: -50px;
   }
-  .xl\:mrg-negative-right-50 {
+  .xl\:mrg-neg-right-50 {
     margin-right: -50px;
   }
-  .xl\:mrg-negative-top-50 {
+  .xl\:mrg-neg-top-50 {
     margin-top: -50px;
   }
   .xl\:mrg-all-55 {
@@ -10308,30 +7246,30 @@ p {
   .xl\:mrg-top-55 {
     margin-top: 55px;
   }
-  .xl\:mrg-negative-all-55 {
+  .xl\:mrg-neg-all-55 {
     margin-bottom: -55px;
     margin-left: -55px;
     margin-right: -55px;
     margin-top: -55px;
   }
-  .xl\:mrg-negative-bt-55 {
+  .xl\:mrg-neg-bt-55 {
     margin-bottom: -55px;
     margin-top: -55px;
   }
-  .xl\:mrg-negative-lr-55 {
+  .xl\:mrg-neg-lr-55 {
     margin-left: -55px;
     margin-right: -55px;
   }
-  .xl\:mrg-negative-bottom-55 {
+  .xl\:mrg-neg-bottom-55 {
     margin-bottom: -55px;
   }
-  .xl\:mrg-negative-left-55 {
+  .xl\:mrg-neg-left-55 {
     margin-left: -55px;
   }
-  .xl\:mrg-negative-right-55 {
+  .xl\:mrg-neg-right-55 {
     margin-right: -55px;
   }
-  .xl\:mrg-negative-top-55 {
+  .xl\:mrg-neg-top-55 {
     margin-top: -55px;
   }
   .xl\:mrg-all-60 {
@@ -10360,30 +7298,30 @@ p {
   .xl\:mrg-top-60 {
     margin-top: 60px;
   }
-  .xl\:mrg-negative-all-60 {
+  .xl\:mrg-neg-all-60 {
     margin-bottom: -60px;
     margin-left: -60px;
     margin-right: -60px;
     margin-top: -60px;
   }
-  .xl\:mrg-negative-bt-60 {
+  .xl\:mrg-neg-bt-60 {
     margin-bottom: -60px;
     margin-top: -60px;
   }
-  .xl\:mrg-negative-lr-60 {
+  .xl\:mrg-neg-lr-60 {
     margin-left: -60px;
     margin-right: -60px;
   }
-  .xl\:mrg-negative-bottom-60 {
+  .xl\:mrg-neg-bottom-60 {
     margin-bottom: -60px;
   }
-  .xl\:mrg-negative-left-60 {
+  .xl\:mrg-neg-left-60 {
     margin-left: -60px;
   }
-  .xl\:mrg-negative-right-60 {
+  .xl\:mrg-neg-right-60 {
     margin-right: -60px;
   }
-  .xl\:mrg-negative-top-60 {
+  .xl\:mrg-neg-top-60 {
     margin-top: -60px;
   }
   .xl\:mrg-all-65 {
@@ -10412,30 +7350,30 @@ p {
   .xl\:mrg-top-65 {
     margin-top: 65px;
   }
-  .xl\:mrg-negative-all-65 {
+  .xl\:mrg-neg-all-65 {
     margin-bottom: -65px;
     margin-left: -65px;
     margin-right: -65px;
     margin-top: -65px;
   }
-  .xl\:mrg-negative-bt-65 {
+  .xl\:mrg-neg-bt-65 {
     margin-bottom: -65px;
     margin-top: -65px;
   }
-  .xl\:mrg-negative-lr-65 {
+  .xl\:mrg-neg-lr-65 {
     margin-left: -65px;
     margin-right: -65px;
   }
-  .xl\:mrg-negative-bottom-65 {
+  .xl\:mrg-neg-bottom-65 {
     margin-bottom: -65px;
   }
-  .xl\:mrg-negative-left-65 {
+  .xl\:mrg-neg-left-65 {
     margin-left: -65px;
   }
-  .xl\:mrg-negative-right-65 {
+  .xl\:mrg-neg-right-65 {
     margin-right: -65px;
   }
-  .xl\:mrg-negative-top-65 {
+  .xl\:mrg-neg-top-65 {
     margin-top: -65px;
   }
   .xl\:mrg-all-70 {
@@ -10464,30 +7402,30 @@ p {
   .xl\:mrg-top-70 {
     margin-top: 70px;
   }
-  .xl\:mrg-negative-all-70 {
+  .xl\:mrg-neg-all-70 {
     margin-bottom: -70px;
     margin-left: -70px;
     margin-right: -70px;
     margin-top: -70px;
   }
-  .xl\:mrg-negative-bt-70 {
+  .xl\:mrg-neg-bt-70 {
     margin-bottom: -70px;
     margin-top: -70px;
   }
-  .xl\:mrg-negative-lr-70 {
+  .xl\:mrg-neg-lr-70 {
     margin-left: -70px;
     margin-right: -70px;
   }
-  .xl\:mrg-negative-bottom-70 {
+  .xl\:mrg-neg-bottom-70 {
     margin-bottom: -70px;
   }
-  .xl\:mrg-negative-left-70 {
+  .xl\:mrg-neg-left-70 {
     margin-left: -70px;
   }
-  .xl\:mrg-negative-right-70 {
+  .xl\:mrg-neg-right-70 {
     margin-right: -70px;
   }
-  .xl\:mrg-negative-top-70 {
+  .xl\:mrg-neg-top-70 {
     margin-top: -70px;
   }
   .xl\:mrg-all-75 {
@@ -10516,30 +7454,30 @@ p {
   .xl\:mrg-top-75 {
     margin-top: 75px;
   }
-  .xl\:mrg-negative-all-75 {
+  .xl\:mrg-neg-all-75 {
     margin-bottom: -75px;
     margin-left: -75px;
     margin-right: -75px;
     margin-top: -75px;
   }
-  .xl\:mrg-negative-bt-75 {
+  .xl\:mrg-neg-bt-75 {
     margin-bottom: -75px;
     margin-top: -75px;
   }
-  .xl\:mrg-negative-lr-75 {
+  .xl\:mrg-neg-lr-75 {
     margin-left: -75px;
     margin-right: -75px;
   }
-  .xl\:mrg-negative-bottom-75 {
+  .xl\:mrg-neg-bottom-75 {
     margin-bottom: -75px;
   }
-  .xl\:mrg-negative-left-75 {
+  .xl\:mrg-neg-left-75 {
     margin-left: -75px;
   }
-  .xl\:mrg-negative-right-75 {
+  .xl\:mrg-neg-right-75 {
     margin-right: -75px;
   }
-  .xl\:mrg-negative-top-75 {
+  .xl\:mrg-neg-top-75 {
     margin-top: -75px;
   }
   .xl\:mrg-all-80 {
@@ -10568,759 +7506,31 @@ p {
   .xl\:mrg-top-80 {
     margin-top: 80px;
   }
-  .xl\:mrg-negative-all-80 {
+  .xl\:mrg-neg-all-80 {
     margin-bottom: -80px;
     margin-left: -80px;
     margin-right: -80px;
     margin-top: -80px;
   }
-  .xl\:mrg-negative-bt-80 {
+  .xl\:mrg-neg-bt-80 {
     margin-bottom: -80px;
     margin-top: -80px;
   }
-  .xl\:mrg-negative-lr-80 {
+  .xl\:mrg-neg-lr-80 {
     margin-left: -80px;
     margin-right: -80px;
   }
-  .xl\:mrg-negative-bottom-80 {
+  .xl\:mrg-neg-bottom-80 {
     margin-bottom: -80px;
   }
-  .xl\:mrg-negative-left-80 {
+  .xl\:mrg-neg-left-80 {
     margin-left: -80px;
   }
-  .xl\:mrg-negative-right-80 {
+  .xl\:mrg-neg-right-80 {
     margin-right: -80px;
   }
-  .xl\:mrg-negative-top-80 {
+  .xl\:mrg-neg-top-80 {
     margin-top: -80px;
-  }
-  .xl\:mrg-all-85 {
-    margin-bottom: 85px;
-    margin-left: 85px;
-    margin-right: 85px;
-    margin-top: 85px;
-  }
-  .xl\:mrg-bt-85 {
-    margin-bottom: 85px;
-    margin-top: 85px;
-  }
-  .xl\:mrg-lr-85 {
-    margin-left: 85px;
-    margin-right: 85px;
-  }
-  .xl\:mrg-bottom-85 {
-    margin-bottom: 85px;
-  }
-  .xl\:mrg-left-85 {
-    margin-left: 85px;
-  }
-  .xl\:mrg-right-85 {
-    margin-right: 85px;
-  }
-  .xl\:mrg-top-85 {
-    margin-top: 85px;
-  }
-  .xl\:mrg-negative-all-85 {
-    margin-bottom: -85px;
-    margin-left: -85px;
-    margin-right: -85px;
-    margin-top: -85px;
-  }
-  .xl\:mrg-negative-bt-85 {
-    margin-bottom: -85px;
-    margin-top: -85px;
-  }
-  .xl\:mrg-negative-lr-85 {
-    margin-left: -85px;
-    margin-right: -85px;
-  }
-  .xl\:mrg-negative-bottom-85 {
-    margin-bottom: -85px;
-  }
-  .xl\:mrg-negative-left-85 {
-    margin-left: -85px;
-  }
-  .xl\:mrg-negative-right-85 {
-    margin-right: -85px;
-  }
-  .xl\:mrg-negative-top-85 {
-    margin-top: -85px;
-  }
-  .xl\:mrg-all-90 {
-    margin-bottom: 90px;
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-top: 90px;
-  }
-  .xl\:mrg-bt-90 {
-    margin-bottom: 90px;
-    margin-top: 90px;
-  }
-  .xl\:mrg-lr-90 {
-    margin-left: 90px;
-    margin-right: 90px;
-  }
-  .xl\:mrg-bottom-90 {
-    margin-bottom: 90px;
-  }
-  .xl\:mrg-left-90 {
-    margin-left: 90px;
-  }
-  .xl\:mrg-right-90 {
-    margin-right: 90px;
-  }
-  .xl\:mrg-top-90 {
-    margin-top: 90px;
-  }
-  .xl\:mrg-negative-all-90 {
-    margin-bottom: -90px;
-    margin-left: -90px;
-    margin-right: -90px;
-    margin-top: -90px;
-  }
-  .xl\:mrg-negative-bt-90 {
-    margin-bottom: -90px;
-    margin-top: -90px;
-  }
-  .xl\:mrg-negative-lr-90 {
-    margin-left: -90px;
-    margin-right: -90px;
-  }
-  .xl\:mrg-negative-bottom-90 {
-    margin-bottom: -90px;
-  }
-  .xl\:mrg-negative-left-90 {
-    margin-left: -90px;
-  }
-  .xl\:mrg-negative-right-90 {
-    margin-right: -90px;
-  }
-  .xl\:mrg-negative-top-90 {
-    margin-top: -90px;
-  }
-  .xl\:mrg-all-95 {
-    margin-bottom: 95px;
-    margin-left: 95px;
-    margin-right: 95px;
-    margin-top: 95px;
-  }
-  .xl\:mrg-bt-95 {
-    margin-bottom: 95px;
-    margin-top: 95px;
-  }
-  .xl\:mrg-lr-95 {
-    margin-left: 95px;
-    margin-right: 95px;
-  }
-  .xl\:mrg-bottom-95 {
-    margin-bottom: 95px;
-  }
-  .xl\:mrg-left-95 {
-    margin-left: 95px;
-  }
-  .xl\:mrg-right-95 {
-    margin-right: 95px;
-  }
-  .xl\:mrg-top-95 {
-    margin-top: 95px;
-  }
-  .xl\:mrg-negative-all-95 {
-    margin-bottom: -95px;
-    margin-left: -95px;
-    margin-right: -95px;
-    margin-top: -95px;
-  }
-  .xl\:mrg-negative-bt-95 {
-    margin-bottom: -95px;
-    margin-top: -95px;
-  }
-  .xl\:mrg-negative-lr-95 {
-    margin-left: -95px;
-    margin-right: -95px;
-  }
-  .xl\:mrg-negative-bottom-95 {
-    margin-bottom: -95px;
-  }
-  .xl\:mrg-negative-left-95 {
-    margin-left: -95px;
-  }
-  .xl\:mrg-negative-right-95 {
-    margin-right: -95px;
-  }
-  .xl\:mrg-negative-top-95 {
-    margin-top: -95px;
-  }
-  .xl\:mrg-all-100 {
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 100px;
-  }
-  .xl\:mrg-bt-100 {
-    margin-bottom: 100px;
-    margin-top: 100px;
-  }
-  .xl\:mrg-lr-100 {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-  .xl\:mrg-bottom-100 {
-    margin-bottom: 100px;
-  }
-  .xl\:mrg-left-100 {
-    margin-left: 100px;
-  }
-  .xl\:mrg-right-100 {
-    margin-right: 100px;
-  }
-  .xl\:mrg-top-100 {
-    margin-top: 100px;
-  }
-  .xl\:mrg-negative-all-100 {
-    margin-bottom: -100px;
-    margin-left: -100px;
-    margin-right: -100px;
-    margin-top: -100px;
-  }
-  .xl\:mrg-negative-bt-100 {
-    margin-bottom: -100px;
-    margin-top: -100px;
-  }
-  .xl\:mrg-negative-lr-100 {
-    margin-left: -100px;
-    margin-right: -100px;
-  }
-  .xl\:mrg-negative-bottom-100 {
-    margin-bottom: -100px;
-  }
-  .xl\:mrg-negative-left-100 {
-    margin-left: -100px;
-  }
-  .xl\:mrg-negative-right-100 {
-    margin-right: -100px;
-  }
-  .xl\:mrg-negative-top-100 {
-    margin-top: -100px;
-  }
-  .xl\:mrg-all-105 {
-    margin-bottom: 105px;
-    margin-left: 105px;
-    margin-right: 105px;
-    margin-top: 105px;
-  }
-  .xl\:mrg-bt-105 {
-    margin-bottom: 105px;
-    margin-top: 105px;
-  }
-  .xl\:mrg-lr-105 {
-    margin-left: 105px;
-    margin-right: 105px;
-  }
-  .xl\:mrg-bottom-105 {
-    margin-bottom: 105px;
-  }
-  .xl\:mrg-left-105 {
-    margin-left: 105px;
-  }
-  .xl\:mrg-right-105 {
-    margin-right: 105px;
-  }
-  .xl\:mrg-top-105 {
-    margin-top: 105px;
-  }
-  .xl\:mrg-negative-all-105 {
-    margin-bottom: -105px;
-    margin-left: -105px;
-    margin-right: -105px;
-    margin-top: -105px;
-  }
-  .xl\:mrg-negative-bt-105 {
-    margin-bottom: -105px;
-    margin-top: -105px;
-  }
-  .xl\:mrg-negative-lr-105 {
-    margin-left: -105px;
-    margin-right: -105px;
-  }
-  .xl\:mrg-negative-bottom-105 {
-    margin-bottom: -105px;
-  }
-  .xl\:mrg-negative-left-105 {
-    margin-left: -105px;
-  }
-  .xl\:mrg-negative-right-105 {
-    margin-right: -105px;
-  }
-  .xl\:mrg-negative-top-105 {
-    margin-top: -105px;
-  }
-  .xl\:mrg-all-110 {
-    margin-bottom: 110px;
-    margin-left: 110px;
-    margin-right: 110px;
-    margin-top: 110px;
-  }
-  .xl\:mrg-bt-110 {
-    margin-bottom: 110px;
-    margin-top: 110px;
-  }
-  .xl\:mrg-lr-110 {
-    margin-left: 110px;
-    margin-right: 110px;
-  }
-  .xl\:mrg-bottom-110 {
-    margin-bottom: 110px;
-  }
-  .xl\:mrg-left-110 {
-    margin-left: 110px;
-  }
-  .xl\:mrg-right-110 {
-    margin-right: 110px;
-  }
-  .xl\:mrg-top-110 {
-    margin-top: 110px;
-  }
-  .xl\:mrg-negative-all-110 {
-    margin-bottom: -110px;
-    margin-left: -110px;
-    margin-right: -110px;
-    margin-top: -110px;
-  }
-  .xl\:mrg-negative-bt-110 {
-    margin-bottom: -110px;
-    margin-top: -110px;
-  }
-  .xl\:mrg-negative-lr-110 {
-    margin-left: -110px;
-    margin-right: -110px;
-  }
-  .xl\:mrg-negative-bottom-110 {
-    margin-bottom: -110px;
-  }
-  .xl\:mrg-negative-left-110 {
-    margin-left: -110px;
-  }
-  .xl\:mrg-negative-right-110 {
-    margin-right: -110px;
-  }
-  .xl\:mrg-negative-top-110 {
-    margin-top: -110px;
-  }
-  .xl\:mrg-all-115 {
-    margin-bottom: 115px;
-    margin-left: 115px;
-    margin-right: 115px;
-    margin-top: 115px;
-  }
-  .xl\:mrg-bt-115 {
-    margin-bottom: 115px;
-    margin-top: 115px;
-  }
-  .xl\:mrg-lr-115 {
-    margin-left: 115px;
-    margin-right: 115px;
-  }
-  .xl\:mrg-bottom-115 {
-    margin-bottom: 115px;
-  }
-  .xl\:mrg-left-115 {
-    margin-left: 115px;
-  }
-  .xl\:mrg-right-115 {
-    margin-right: 115px;
-  }
-  .xl\:mrg-top-115 {
-    margin-top: 115px;
-  }
-  .xl\:mrg-negative-all-115 {
-    margin-bottom: -115px;
-    margin-left: -115px;
-    margin-right: -115px;
-    margin-top: -115px;
-  }
-  .xl\:mrg-negative-bt-115 {
-    margin-bottom: -115px;
-    margin-top: -115px;
-  }
-  .xl\:mrg-negative-lr-115 {
-    margin-left: -115px;
-    margin-right: -115px;
-  }
-  .xl\:mrg-negative-bottom-115 {
-    margin-bottom: -115px;
-  }
-  .xl\:mrg-negative-left-115 {
-    margin-left: -115px;
-  }
-  .xl\:mrg-negative-right-115 {
-    margin-right: -115px;
-  }
-  .xl\:mrg-negative-top-115 {
-    margin-top: -115px;
-  }
-  .xl\:mrg-all-120 {
-    margin-bottom: 120px;
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-top: 120px;
-  }
-  .xl\:mrg-bt-120 {
-    margin-bottom: 120px;
-    margin-top: 120px;
-  }
-  .xl\:mrg-lr-120 {
-    margin-left: 120px;
-    margin-right: 120px;
-  }
-  .xl\:mrg-bottom-120 {
-    margin-bottom: 120px;
-  }
-  .xl\:mrg-left-120 {
-    margin-left: 120px;
-  }
-  .xl\:mrg-right-120 {
-    margin-right: 120px;
-  }
-  .xl\:mrg-top-120 {
-    margin-top: 120px;
-  }
-  .xl\:mrg-negative-all-120 {
-    margin-bottom: -120px;
-    margin-left: -120px;
-    margin-right: -120px;
-    margin-top: -120px;
-  }
-  .xl\:mrg-negative-bt-120 {
-    margin-bottom: -120px;
-    margin-top: -120px;
-  }
-  .xl\:mrg-negative-lr-120 {
-    margin-left: -120px;
-    margin-right: -120px;
-  }
-  .xl\:mrg-negative-bottom-120 {
-    margin-bottom: -120px;
-  }
-  .xl\:mrg-negative-left-120 {
-    margin-left: -120px;
-  }
-  .xl\:mrg-negative-right-120 {
-    margin-right: -120px;
-  }
-  .xl\:mrg-negative-top-120 {
-    margin-top: -120px;
-  }
-  .xl\:mrg-all-125 {
-    margin-bottom: 125px;
-    margin-left: 125px;
-    margin-right: 125px;
-    margin-top: 125px;
-  }
-  .xl\:mrg-bt-125 {
-    margin-bottom: 125px;
-    margin-top: 125px;
-  }
-  .xl\:mrg-lr-125 {
-    margin-left: 125px;
-    margin-right: 125px;
-  }
-  .xl\:mrg-bottom-125 {
-    margin-bottom: 125px;
-  }
-  .xl\:mrg-left-125 {
-    margin-left: 125px;
-  }
-  .xl\:mrg-right-125 {
-    margin-right: 125px;
-  }
-  .xl\:mrg-top-125 {
-    margin-top: 125px;
-  }
-  .xl\:mrg-negative-all-125 {
-    margin-bottom: -125px;
-    margin-left: -125px;
-    margin-right: -125px;
-    margin-top: -125px;
-  }
-  .xl\:mrg-negative-bt-125 {
-    margin-bottom: -125px;
-    margin-top: -125px;
-  }
-  .xl\:mrg-negative-lr-125 {
-    margin-left: -125px;
-    margin-right: -125px;
-  }
-  .xl\:mrg-negative-bottom-125 {
-    margin-bottom: -125px;
-  }
-  .xl\:mrg-negative-left-125 {
-    margin-left: -125px;
-  }
-  .xl\:mrg-negative-right-125 {
-    margin-right: -125px;
-  }
-  .xl\:mrg-negative-top-125 {
-    margin-top: -125px;
-  }
-  .xl\:mrg-all-130 {
-    margin-bottom: 130px;
-    margin-left: 130px;
-    margin-right: 130px;
-    margin-top: 130px;
-  }
-  .xl\:mrg-bt-130 {
-    margin-bottom: 130px;
-    margin-top: 130px;
-  }
-  .xl\:mrg-lr-130 {
-    margin-left: 130px;
-    margin-right: 130px;
-  }
-  .xl\:mrg-bottom-130 {
-    margin-bottom: 130px;
-  }
-  .xl\:mrg-left-130 {
-    margin-left: 130px;
-  }
-  .xl\:mrg-right-130 {
-    margin-right: 130px;
-  }
-  .xl\:mrg-top-130 {
-    margin-top: 130px;
-  }
-  .xl\:mrg-negative-all-130 {
-    margin-bottom: -130px;
-    margin-left: -130px;
-    margin-right: -130px;
-    margin-top: -130px;
-  }
-  .xl\:mrg-negative-bt-130 {
-    margin-bottom: -130px;
-    margin-top: -130px;
-  }
-  .xl\:mrg-negative-lr-130 {
-    margin-left: -130px;
-    margin-right: -130px;
-  }
-  .xl\:mrg-negative-bottom-130 {
-    margin-bottom: -130px;
-  }
-  .xl\:mrg-negative-left-130 {
-    margin-left: -130px;
-  }
-  .xl\:mrg-negative-right-130 {
-    margin-right: -130px;
-  }
-  .xl\:mrg-negative-top-130 {
-    margin-top: -130px;
-  }
-  .xl\:mrg-all-135 {
-    margin-bottom: 135px;
-    margin-left: 135px;
-    margin-right: 135px;
-    margin-top: 135px;
-  }
-  .xl\:mrg-bt-135 {
-    margin-bottom: 135px;
-    margin-top: 135px;
-  }
-  .xl\:mrg-lr-135 {
-    margin-left: 135px;
-    margin-right: 135px;
-  }
-  .xl\:mrg-bottom-135 {
-    margin-bottom: 135px;
-  }
-  .xl\:mrg-left-135 {
-    margin-left: 135px;
-  }
-  .xl\:mrg-right-135 {
-    margin-right: 135px;
-  }
-  .xl\:mrg-top-135 {
-    margin-top: 135px;
-  }
-  .xl\:mrg-negative-all-135 {
-    margin-bottom: -135px;
-    margin-left: -135px;
-    margin-right: -135px;
-    margin-top: -135px;
-  }
-  .xl\:mrg-negative-bt-135 {
-    margin-bottom: -135px;
-    margin-top: -135px;
-  }
-  .xl\:mrg-negative-lr-135 {
-    margin-left: -135px;
-    margin-right: -135px;
-  }
-  .xl\:mrg-negative-bottom-135 {
-    margin-bottom: -135px;
-  }
-  .xl\:mrg-negative-left-135 {
-    margin-left: -135px;
-  }
-  .xl\:mrg-negative-right-135 {
-    margin-right: -135px;
-  }
-  .xl\:mrg-negative-top-135 {
-    margin-top: -135px;
-  }
-  .xl\:mrg-all-140 {
-    margin-bottom: 140px;
-    margin-left: 140px;
-    margin-right: 140px;
-    margin-top: 140px;
-  }
-  .xl\:mrg-bt-140 {
-    margin-bottom: 140px;
-    margin-top: 140px;
-  }
-  .xl\:mrg-lr-140 {
-    margin-left: 140px;
-    margin-right: 140px;
-  }
-  .xl\:mrg-bottom-140 {
-    margin-bottom: 140px;
-  }
-  .xl\:mrg-left-140 {
-    margin-left: 140px;
-  }
-  .xl\:mrg-right-140 {
-    margin-right: 140px;
-  }
-  .xl\:mrg-top-140 {
-    margin-top: 140px;
-  }
-  .xl\:mrg-negative-all-140 {
-    margin-bottom: -140px;
-    margin-left: -140px;
-    margin-right: -140px;
-    margin-top: -140px;
-  }
-  .xl\:mrg-negative-bt-140 {
-    margin-bottom: -140px;
-    margin-top: -140px;
-  }
-  .xl\:mrg-negative-lr-140 {
-    margin-left: -140px;
-    margin-right: -140px;
-  }
-  .xl\:mrg-negative-bottom-140 {
-    margin-bottom: -140px;
-  }
-  .xl\:mrg-negative-left-140 {
-    margin-left: -140px;
-  }
-  .xl\:mrg-negative-right-140 {
-    margin-right: -140px;
-  }
-  .xl\:mrg-negative-top-140 {
-    margin-top: -140px;
-  }
-  .xl\:mrg-all-145 {
-    margin-bottom: 145px;
-    margin-left: 145px;
-    margin-right: 145px;
-    margin-top: 145px;
-  }
-  .xl\:mrg-bt-145 {
-    margin-bottom: 145px;
-    margin-top: 145px;
-  }
-  .xl\:mrg-lr-145 {
-    margin-left: 145px;
-    margin-right: 145px;
-  }
-  .xl\:mrg-bottom-145 {
-    margin-bottom: 145px;
-  }
-  .xl\:mrg-left-145 {
-    margin-left: 145px;
-  }
-  .xl\:mrg-right-145 {
-    margin-right: 145px;
-  }
-  .xl\:mrg-top-145 {
-    margin-top: 145px;
-  }
-  .xl\:mrg-negative-all-145 {
-    margin-bottom: -145px;
-    margin-left: -145px;
-    margin-right: -145px;
-    margin-top: -145px;
-  }
-  .xl\:mrg-negative-bt-145 {
-    margin-bottom: -145px;
-    margin-top: -145px;
-  }
-  .xl\:mrg-negative-lr-145 {
-    margin-left: -145px;
-    margin-right: -145px;
-  }
-  .xl\:mrg-negative-bottom-145 {
-    margin-bottom: -145px;
-  }
-  .xl\:mrg-negative-left-145 {
-    margin-left: -145px;
-  }
-  .xl\:mrg-negative-right-145 {
-    margin-right: -145px;
-  }
-  .xl\:mrg-negative-top-145 {
-    margin-top: -145px;
-  }
-  .xl\:mrg-all-150 {
-    margin-bottom: 150px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 150px;
-  }
-  .xl\:mrg-bt-150 {
-    margin-bottom: 150px;
-    margin-top: 150px;
-  }
-  .xl\:mrg-lr-150 {
-    margin-left: 150px;
-    margin-right: 150px;
-  }
-  .xl\:mrg-bottom-150 {
-    margin-bottom: 150px;
-  }
-  .xl\:mrg-left-150 {
-    margin-left: 150px;
-  }
-  .xl\:mrg-right-150 {
-    margin-right: 150px;
-  }
-  .xl\:mrg-top-150 {
-    margin-top: 150px;
-  }
-  .xl\:mrg-negative-all-150 {
-    margin-bottom: -150px;
-    margin-left: -150px;
-    margin-right: -150px;
-    margin-top: -150px;
-  }
-  .xl\:mrg-negative-bt-150 {
-    margin-bottom: -150px;
-    margin-top: -150px;
-  }
-  .xl\:mrg-negative-lr-150 {
-    margin-left: -150px;
-    margin-right: -150px;
-  }
-  .xl\:mrg-negative-bottom-150 {
-    margin-bottom: -150px;
-  }
-  .xl\:mrg-negative-left-150 {
-    margin-left: -150px;
-  }
-  .xl\:mrg-negative-right-150 {
-    margin-right: -150px;
-  }
-  .xl\:mrg-negative-top-150 {
-    margin-top: -150px;
   }
 }
 @media (min-width: 0px) {
@@ -11766,370 +7976,6 @@ p {
   .x\:pad-top-80 {
     padding-top: 80px;
   }
-  .x\:pad-all-85 {
-    padding-bottom: 85px;
-    padding-left: 85px;
-    padding-right: 85px;
-    padding-top: 85px;
-  }
-  .x\:pad-bt-85 {
-    padding-bottom: 85px;
-    padding-top: 85px;
-  }
-  .x\:pad-lr-85 {
-    padding-left: 85px;
-    padding-right: 85px;
-  }
-  .x\:pad-bottom-85 {
-    padding-bottom: 85px;
-  }
-  .x\:pad-left-85 {
-    padding-left: 85px;
-  }
-  .x\:pad-right-85 {
-    padding-right: 85px;
-  }
-  .x\:pad-top-85 {
-    padding-top: 85px;
-  }
-  .x\:pad-all-90 {
-    padding-bottom: 90px;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 90px;
-  }
-  .x\:pad-bt-90 {
-    padding-bottom: 90px;
-    padding-top: 90px;
-  }
-  .x\:pad-lr-90 {
-    padding-left: 90px;
-    padding-right: 90px;
-  }
-  .x\:pad-bottom-90 {
-    padding-bottom: 90px;
-  }
-  .x\:pad-left-90 {
-    padding-left: 90px;
-  }
-  .x\:pad-right-90 {
-    padding-right: 90px;
-  }
-  .x\:pad-top-90 {
-    padding-top: 90px;
-  }
-  .x\:pad-all-95 {
-    padding-bottom: 95px;
-    padding-left: 95px;
-    padding-right: 95px;
-    padding-top: 95px;
-  }
-  .x\:pad-bt-95 {
-    padding-bottom: 95px;
-    padding-top: 95px;
-  }
-  .x\:pad-lr-95 {
-    padding-left: 95px;
-    padding-right: 95px;
-  }
-  .x\:pad-bottom-95 {
-    padding-bottom: 95px;
-  }
-  .x\:pad-left-95 {
-    padding-left: 95px;
-  }
-  .x\:pad-right-95 {
-    padding-right: 95px;
-  }
-  .x\:pad-top-95 {
-    padding-top: 95px;
-  }
-  .x\:pad-all-100 {
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 100px;
-  }
-  .x\:pad-bt-100 {
-    padding-bottom: 100px;
-    padding-top: 100px;
-  }
-  .x\:pad-lr-100 {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  .x\:pad-bottom-100 {
-    padding-bottom: 100px;
-  }
-  .x\:pad-left-100 {
-    padding-left: 100px;
-  }
-  .x\:pad-right-100 {
-    padding-right: 100px;
-  }
-  .x\:pad-top-100 {
-    padding-top: 100px;
-  }
-  .x\:pad-all-105 {
-    padding-bottom: 105px;
-    padding-left: 105px;
-    padding-right: 105px;
-    padding-top: 105px;
-  }
-  .x\:pad-bt-105 {
-    padding-bottom: 105px;
-    padding-top: 105px;
-  }
-  .x\:pad-lr-105 {
-    padding-left: 105px;
-    padding-right: 105px;
-  }
-  .x\:pad-bottom-105 {
-    padding-bottom: 105px;
-  }
-  .x\:pad-left-105 {
-    padding-left: 105px;
-  }
-  .x\:pad-right-105 {
-    padding-right: 105px;
-  }
-  .x\:pad-top-105 {
-    padding-top: 105px;
-  }
-  .x\:pad-all-110 {
-    padding-bottom: 110px;
-    padding-left: 110px;
-    padding-right: 110px;
-    padding-top: 110px;
-  }
-  .x\:pad-bt-110 {
-    padding-bottom: 110px;
-    padding-top: 110px;
-  }
-  .x\:pad-lr-110 {
-    padding-left: 110px;
-    padding-right: 110px;
-  }
-  .x\:pad-bottom-110 {
-    padding-bottom: 110px;
-  }
-  .x\:pad-left-110 {
-    padding-left: 110px;
-  }
-  .x\:pad-right-110 {
-    padding-right: 110px;
-  }
-  .x\:pad-top-110 {
-    padding-top: 110px;
-  }
-  .x\:pad-all-115 {
-    padding-bottom: 115px;
-    padding-left: 115px;
-    padding-right: 115px;
-    padding-top: 115px;
-  }
-  .x\:pad-bt-115 {
-    padding-bottom: 115px;
-    padding-top: 115px;
-  }
-  .x\:pad-lr-115 {
-    padding-left: 115px;
-    padding-right: 115px;
-  }
-  .x\:pad-bottom-115 {
-    padding-bottom: 115px;
-  }
-  .x\:pad-left-115 {
-    padding-left: 115px;
-  }
-  .x\:pad-right-115 {
-    padding-right: 115px;
-  }
-  .x\:pad-top-115 {
-    padding-top: 115px;
-  }
-  .x\:pad-all-120 {
-    padding-bottom: 120px;
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-top: 120px;
-  }
-  .x\:pad-bt-120 {
-    padding-bottom: 120px;
-    padding-top: 120px;
-  }
-  .x\:pad-lr-120 {
-    padding-left: 120px;
-    padding-right: 120px;
-  }
-  .x\:pad-bottom-120 {
-    padding-bottom: 120px;
-  }
-  .x\:pad-left-120 {
-    padding-left: 120px;
-  }
-  .x\:pad-right-120 {
-    padding-right: 120px;
-  }
-  .x\:pad-top-120 {
-    padding-top: 120px;
-  }
-  .x\:pad-all-125 {
-    padding-bottom: 125px;
-    padding-left: 125px;
-    padding-right: 125px;
-    padding-top: 125px;
-  }
-  .x\:pad-bt-125 {
-    padding-bottom: 125px;
-    padding-top: 125px;
-  }
-  .x\:pad-lr-125 {
-    padding-left: 125px;
-    padding-right: 125px;
-  }
-  .x\:pad-bottom-125 {
-    padding-bottom: 125px;
-  }
-  .x\:pad-left-125 {
-    padding-left: 125px;
-  }
-  .x\:pad-right-125 {
-    padding-right: 125px;
-  }
-  .x\:pad-top-125 {
-    padding-top: 125px;
-  }
-  .x\:pad-all-130 {
-    padding-bottom: 130px;
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-top: 130px;
-  }
-  .x\:pad-bt-130 {
-    padding-bottom: 130px;
-    padding-top: 130px;
-  }
-  .x\:pad-lr-130 {
-    padding-left: 130px;
-    padding-right: 130px;
-  }
-  .x\:pad-bottom-130 {
-    padding-bottom: 130px;
-  }
-  .x\:pad-left-130 {
-    padding-left: 130px;
-  }
-  .x\:pad-right-130 {
-    padding-right: 130px;
-  }
-  .x\:pad-top-130 {
-    padding-top: 130px;
-  }
-  .x\:pad-all-135 {
-    padding-bottom: 135px;
-    padding-left: 135px;
-    padding-right: 135px;
-    padding-top: 135px;
-  }
-  .x\:pad-bt-135 {
-    padding-bottom: 135px;
-    padding-top: 135px;
-  }
-  .x\:pad-lr-135 {
-    padding-left: 135px;
-    padding-right: 135px;
-  }
-  .x\:pad-bottom-135 {
-    padding-bottom: 135px;
-  }
-  .x\:pad-left-135 {
-    padding-left: 135px;
-  }
-  .x\:pad-right-135 {
-    padding-right: 135px;
-  }
-  .x\:pad-top-135 {
-    padding-top: 135px;
-  }
-  .x\:pad-all-140 {
-    padding-bottom: 140px;
-    padding-left: 140px;
-    padding-right: 140px;
-    padding-top: 140px;
-  }
-  .x\:pad-bt-140 {
-    padding-bottom: 140px;
-    padding-top: 140px;
-  }
-  .x\:pad-lr-140 {
-    padding-left: 140px;
-    padding-right: 140px;
-  }
-  .x\:pad-bottom-140 {
-    padding-bottom: 140px;
-  }
-  .x\:pad-left-140 {
-    padding-left: 140px;
-  }
-  .x\:pad-right-140 {
-    padding-right: 140px;
-  }
-  .x\:pad-top-140 {
-    padding-top: 140px;
-  }
-  .x\:pad-all-145 {
-    padding-bottom: 145px;
-    padding-left: 145px;
-    padding-right: 145px;
-    padding-top: 145px;
-  }
-  .x\:pad-bt-145 {
-    padding-bottom: 145px;
-    padding-top: 145px;
-  }
-  .x\:pad-lr-145 {
-    padding-left: 145px;
-    padding-right: 145px;
-  }
-  .x\:pad-bottom-145 {
-    padding-bottom: 145px;
-  }
-  .x\:pad-left-145 {
-    padding-left: 145px;
-  }
-  .x\:pad-right-145 {
-    padding-right: 145px;
-  }
-  .x\:pad-top-145 {
-    padding-top: 145px;
-  }
-  .x\:pad-all-150 {
-    padding-bottom: 150px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 150px;
-  }
-  .x\:pad-bt-150 {
-    padding-bottom: 150px;
-    padding-top: 150px;
-  }
-  .x\:pad-lr-150 {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-  .x\:pad-bottom-150 {
-    padding-bottom: 150px;
-  }
-  .x\:pad-left-150 {
-    padding-left: 150px;
-  }
-  .x\:pad-right-150 {
-    padding-right: 150px;
-  }
-  .x\:pad-top-150 {
-    padding-top: 150px;
-  }
 }
 @media (min-width: 600px) {
   .s\:pad-all-0 {
@@ -12573,370 +8419,6 @@ p {
   }
   .s\:pad-top-80 {
     padding-top: 80px;
-  }
-  .s\:pad-all-85 {
-    padding-bottom: 85px;
-    padding-left: 85px;
-    padding-right: 85px;
-    padding-top: 85px;
-  }
-  .s\:pad-bt-85 {
-    padding-bottom: 85px;
-    padding-top: 85px;
-  }
-  .s\:pad-lr-85 {
-    padding-left: 85px;
-    padding-right: 85px;
-  }
-  .s\:pad-bottom-85 {
-    padding-bottom: 85px;
-  }
-  .s\:pad-left-85 {
-    padding-left: 85px;
-  }
-  .s\:pad-right-85 {
-    padding-right: 85px;
-  }
-  .s\:pad-top-85 {
-    padding-top: 85px;
-  }
-  .s\:pad-all-90 {
-    padding-bottom: 90px;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 90px;
-  }
-  .s\:pad-bt-90 {
-    padding-bottom: 90px;
-    padding-top: 90px;
-  }
-  .s\:pad-lr-90 {
-    padding-left: 90px;
-    padding-right: 90px;
-  }
-  .s\:pad-bottom-90 {
-    padding-bottom: 90px;
-  }
-  .s\:pad-left-90 {
-    padding-left: 90px;
-  }
-  .s\:pad-right-90 {
-    padding-right: 90px;
-  }
-  .s\:pad-top-90 {
-    padding-top: 90px;
-  }
-  .s\:pad-all-95 {
-    padding-bottom: 95px;
-    padding-left: 95px;
-    padding-right: 95px;
-    padding-top: 95px;
-  }
-  .s\:pad-bt-95 {
-    padding-bottom: 95px;
-    padding-top: 95px;
-  }
-  .s\:pad-lr-95 {
-    padding-left: 95px;
-    padding-right: 95px;
-  }
-  .s\:pad-bottom-95 {
-    padding-bottom: 95px;
-  }
-  .s\:pad-left-95 {
-    padding-left: 95px;
-  }
-  .s\:pad-right-95 {
-    padding-right: 95px;
-  }
-  .s\:pad-top-95 {
-    padding-top: 95px;
-  }
-  .s\:pad-all-100 {
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 100px;
-  }
-  .s\:pad-bt-100 {
-    padding-bottom: 100px;
-    padding-top: 100px;
-  }
-  .s\:pad-lr-100 {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  .s\:pad-bottom-100 {
-    padding-bottom: 100px;
-  }
-  .s\:pad-left-100 {
-    padding-left: 100px;
-  }
-  .s\:pad-right-100 {
-    padding-right: 100px;
-  }
-  .s\:pad-top-100 {
-    padding-top: 100px;
-  }
-  .s\:pad-all-105 {
-    padding-bottom: 105px;
-    padding-left: 105px;
-    padding-right: 105px;
-    padding-top: 105px;
-  }
-  .s\:pad-bt-105 {
-    padding-bottom: 105px;
-    padding-top: 105px;
-  }
-  .s\:pad-lr-105 {
-    padding-left: 105px;
-    padding-right: 105px;
-  }
-  .s\:pad-bottom-105 {
-    padding-bottom: 105px;
-  }
-  .s\:pad-left-105 {
-    padding-left: 105px;
-  }
-  .s\:pad-right-105 {
-    padding-right: 105px;
-  }
-  .s\:pad-top-105 {
-    padding-top: 105px;
-  }
-  .s\:pad-all-110 {
-    padding-bottom: 110px;
-    padding-left: 110px;
-    padding-right: 110px;
-    padding-top: 110px;
-  }
-  .s\:pad-bt-110 {
-    padding-bottom: 110px;
-    padding-top: 110px;
-  }
-  .s\:pad-lr-110 {
-    padding-left: 110px;
-    padding-right: 110px;
-  }
-  .s\:pad-bottom-110 {
-    padding-bottom: 110px;
-  }
-  .s\:pad-left-110 {
-    padding-left: 110px;
-  }
-  .s\:pad-right-110 {
-    padding-right: 110px;
-  }
-  .s\:pad-top-110 {
-    padding-top: 110px;
-  }
-  .s\:pad-all-115 {
-    padding-bottom: 115px;
-    padding-left: 115px;
-    padding-right: 115px;
-    padding-top: 115px;
-  }
-  .s\:pad-bt-115 {
-    padding-bottom: 115px;
-    padding-top: 115px;
-  }
-  .s\:pad-lr-115 {
-    padding-left: 115px;
-    padding-right: 115px;
-  }
-  .s\:pad-bottom-115 {
-    padding-bottom: 115px;
-  }
-  .s\:pad-left-115 {
-    padding-left: 115px;
-  }
-  .s\:pad-right-115 {
-    padding-right: 115px;
-  }
-  .s\:pad-top-115 {
-    padding-top: 115px;
-  }
-  .s\:pad-all-120 {
-    padding-bottom: 120px;
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-top: 120px;
-  }
-  .s\:pad-bt-120 {
-    padding-bottom: 120px;
-    padding-top: 120px;
-  }
-  .s\:pad-lr-120 {
-    padding-left: 120px;
-    padding-right: 120px;
-  }
-  .s\:pad-bottom-120 {
-    padding-bottom: 120px;
-  }
-  .s\:pad-left-120 {
-    padding-left: 120px;
-  }
-  .s\:pad-right-120 {
-    padding-right: 120px;
-  }
-  .s\:pad-top-120 {
-    padding-top: 120px;
-  }
-  .s\:pad-all-125 {
-    padding-bottom: 125px;
-    padding-left: 125px;
-    padding-right: 125px;
-    padding-top: 125px;
-  }
-  .s\:pad-bt-125 {
-    padding-bottom: 125px;
-    padding-top: 125px;
-  }
-  .s\:pad-lr-125 {
-    padding-left: 125px;
-    padding-right: 125px;
-  }
-  .s\:pad-bottom-125 {
-    padding-bottom: 125px;
-  }
-  .s\:pad-left-125 {
-    padding-left: 125px;
-  }
-  .s\:pad-right-125 {
-    padding-right: 125px;
-  }
-  .s\:pad-top-125 {
-    padding-top: 125px;
-  }
-  .s\:pad-all-130 {
-    padding-bottom: 130px;
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-top: 130px;
-  }
-  .s\:pad-bt-130 {
-    padding-bottom: 130px;
-    padding-top: 130px;
-  }
-  .s\:pad-lr-130 {
-    padding-left: 130px;
-    padding-right: 130px;
-  }
-  .s\:pad-bottom-130 {
-    padding-bottom: 130px;
-  }
-  .s\:pad-left-130 {
-    padding-left: 130px;
-  }
-  .s\:pad-right-130 {
-    padding-right: 130px;
-  }
-  .s\:pad-top-130 {
-    padding-top: 130px;
-  }
-  .s\:pad-all-135 {
-    padding-bottom: 135px;
-    padding-left: 135px;
-    padding-right: 135px;
-    padding-top: 135px;
-  }
-  .s\:pad-bt-135 {
-    padding-bottom: 135px;
-    padding-top: 135px;
-  }
-  .s\:pad-lr-135 {
-    padding-left: 135px;
-    padding-right: 135px;
-  }
-  .s\:pad-bottom-135 {
-    padding-bottom: 135px;
-  }
-  .s\:pad-left-135 {
-    padding-left: 135px;
-  }
-  .s\:pad-right-135 {
-    padding-right: 135px;
-  }
-  .s\:pad-top-135 {
-    padding-top: 135px;
-  }
-  .s\:pad-all-140 {
-    padding-bottom: 140px;
-    padding-left: 140px;
-    padding-right: 140px;
-    padding-top: 140px;
-  }
-  .s\:pad-bt-140 {
-    padding-bottom: 140px;
-    padding-top: 140px;
-  }
-  .s\:pad-lr-140 {
-    padding-left: 140px;
-    padding-right: 140px;
-  }
-  .s\:pad-bottom-140 {
-    padding-bottom: 140px;
-  }
-  .s\:pad-left-140 {
-    padding-left: 140px;
-  }
-  .s\:pad-right-140 {
-    padding-right: 140px;
-  }
-  .s\:pad-top-140 {
-    padding-top: 140px;
-  }
-  .s\:pad-all-145 {
-    padding-bottom: 145px;
-    padding-left: 145px;
-    padding-right: 145px;
-    padding-top: 145px;
-  }
-  .s\:pad-bt-145 {
-    padding-bottom: 145px;
-    padding-top: 145px;
-  }
-  .s\:pad-lr-145 {
-    padding-left: 145px;
-    padding-right: 145px;
-  }
-  .s\:pad-bottom-145 {
-    padding-bottom: 145px;
-  }
-  .s\:pad-left-145 {
-    padding-left: 145px;
-  }
-  .s\:pad-right-145 {
-    padding-right: 145px;
-  }
-  .s\:pad-top-145 {
-    padding-top: 145px;
-  }
-  .s\:pad-all-150 {
-    padding-bottom: 150px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 150px;
-  }
-  .s\:pad-bt-150 {
-    padding-bottom: 150px;
-    padding-top: 150px;
-  }
-  .s\:pad-lr-150 {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-  .s\:pad-bottom-150 {
-    padding-bottom: 150px;
-  }
-  .s\:pad-left-150 {
-    padding-left: 150px;
-  }
-  .s\:pad-right-150 {
-    padding-right: 150px;
-  }
-  .s\:pad-top-150 {
-    padding-top: 150px;
   }
 }
 @media (min-width: 768px) {
@@ -13382,370 +8864,6 @@ p {
   .m\:pad-top-80 {
     padding-top: 80px;
   }
-  .m\:pad-all-85 {
-    padding-bottom: 85px;
-    padding-left: 85px;
-    padding-right: 85px;
-    padding-top: 85px;
-  }
-  .m\:pad-bt-85 {
-    padding-bottom: 85px;
-    padding-top: 85px;
-  }
-  .m\:pad-lr-85 {
-    padding-left: 85px;
-    padding-right: 85px;
-  }
-  .m\:pad-bottom-85 {
-    padding-bottom: 85px;
-  }
-  .m\:pad-left-85 {
-    padding-left: 85px;
-  }
-  .m\:pad-right-85 {
-    padding-right: 85px;
-  }
-  .m\:pad-top-85 {
-    padding-top: 85px;
-  }
-  .m\:pad-all-90 {
-    padding-bottom: 90px;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 90px;
-  }
-  .m\:pad-bt-90 {
-    padding-bottom: 90px;
-    padding-top: 90px;
-  }
-  .m\:pad-lr-90 {
-    padding-left: 90px;
-    padding-right: 90px;
-  }
-  .m\:pad-bottom-90 {
-    padding-bottom: 90px;
-  }
-  .m\:pad-left-90 {
-    padding-left: 90px;
-  }
-  .m\:pad-right-90 {
-    padding-right: 90px;
-  }
-  .m\:pad-top-90 {
-    padding-top: 90px;
-  }
-  .m\:pad-all-95 {
-    padding-bottom: 95px;
-    padding-left: 95px;
-    padding-right: 95px;
-    padding-top: 95px;
-  }
-  .m\:pad-bt-95 {
-    padding-bottom: 95px;
-    padding-top: 95px;
-  }
-  .m\:pad-lr-95 {
-    padding-left: 95px;
-    padding-right: 95px;
-  }
-  .m\:pad-bottom-95 {
-    padding-bottom: 95px;
-  }
-  .m\:pad-left-95 {
-    padding-left: 95px;
-  }
-  .m\:pad-right-95 {
-    padding-right: 95px;
-  }
-  .m\:pad-top-95 {
-    padding-top: 95px;
-  }
-  .m\:pad-all-100 {
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 100px;
-  }
-  .m\:pad-bt-100 {
-    padding-bottom: 100px;
-    padding-top: 100px;
-  }
-  .m\:pad-lr-100 {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  .m\:pad-bottom-100 {
-    padding-bottom: 100px;
-  }
-  .m\:pad-left-100 {
-    padding-left: 100px;
-  }
-  .m\:pad-right-100 {
-    padding-right: 100px;
-  }
-  .m\:pad-top-100 {
-    padding-top: 100px;
-  }
-  .m\:pad-all-105 {
-    padding-bottom: 105px;
-    padding-left: 105px;
-    padding-right: 105px;
-    padding-top: 105px;
-  }
-  .m\:pad-bt-105 {
-    padding-bottom: 105px;
-    padding-top: 105px;
-  }
-  .m\:pad-lr-105 {
-    padding-left: 105px;
-    padding-right: 105px;
-  }
-  .m\:pad-bottom-105 {
-    padding-bottom: 105px;
-  }
-  .m\:pad-left-105 {
-    padding-left: 105px;
-  }
-  .m\:pad-right-105 {
-    padding-right: 105px;
-  }
-  .m\:pad-top-105 {
-    padding-top: 105px;
-  }
-  .m\:pad-all-110 {
-    padding-bottom: 110px;
-    padding-left: 110px;
-    padding-right: 110px;
-    padding-top: 110px;
-  }
-  .m\:pad-bt-110 {
-    padding-bottom: 110px;
-    padding-top: 110px;
-  }
-  .m\:pad-lr-110 {
-    padding-left: 110px;
-    padding-right: 110px;
-  }
-  .m\:pad-bottom-110 {
-    padding-bottom: 110px;
-  }
-  .m\:pad-left-110 {
-    padding-left: 110px;
-  }
-  .m\:pad-right-110 {
-    padding-right: 110px;
-  }
-  .m\:pad-top-110 {
-    padding-top: 110px;
-  }
-  .m\:pad-all-115 {
-    padding-bottom: 115px;
-    padding-left: 115px;
-    padding-right: 115px;
-    padding-top: 115px;
-  }
-  .m\:pad-bt-115 {
-    padding-bottom: 115px;
-    padding-top: 115px;
-  }
-  .m\:pad-lr-115 {
-    padding-left: 115px;
-    padding-right: 115px;
-  }
-  .m\:pad-bottom-115 {
-    padding-bottom: 115px;
-  }
-  .m\:pad-left-115 {
-    padding-left: 115px;
-  }
-  .m\:pad-right-115 {
-    padding-right: 115px;
-  }
-  .m\:pad-top-115 {
-    padding-top: 115px;
-  }
-  .m\:pad-all-120 {
-    padding-bottom: 120px;
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-top: 120px;
-  }
-  .m\:pad-bt-120 {
-    padding-bottom: 120px;
-    padding-top: 120px;
-  }
-  .m\:pad-lr-120 {
-    padding-left: 120px;
-    padding-right: 120px;
-  }
-  .m\:pad-bottom-120 {
-    padding-bottom: 120px;
-  }
-  .m\:pad-left-120 {
-    padding-left: 120px;
-  }
-  .m\:pad-right-120 {
-    padding-right: 120px;
-  }
-  .m\:pad-top-120 {
-    padding-top: 120px;
-  }
-  .m\:pad-all-125 {
-    padding-bottom: 125px;
-    padding-left: 125px;
-    padding-right: 125px;
-    padding-top: 125px;
-  }
-  .m\:pad-bt-125 {
-    padding-bottom: 125px;
-    padding-top: 125px;
-  }
-  .m\:pad-lr-125 {
-    padding-left: 125px;
-    padding-right: 125px;
-  }
-  .m\:pad-bottom-125 {
-    padding-bottom: 125px;
-  }
-  .m\:pad-left-125 {
-    padding-left: 125px;
-  }
-  .m\:pad-right-125 {
-    padding-right: 125px;
-  }
-  .m\:pad-top-125 {
-    padding-top: 125px;
-  }
-  .m\:pad-all-130 {
-    padding-bottom: 130px;
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-top: 130px;
-  }
-  .m\:pad-bt-130 {
-    padding-bottom: 130px;
-    padding-top: 130px;
-  }
-  .m\:pad-lr-130 {
-    padding-left: 130px;
-    padding-right: 130px;
-  }
-  .m\:pad-bottom-130 {
-    padding-bottom: 130px;
-  }
-  .m\:pad-left-130 {
-    padding-left: 130px;
-  }
-  .m\:pad-right-130 {
-    padding-right: 130px;
-  }
-  .m\:pad-top-130 {
-    padding-top: 130px;
-  }
-  .m\:pad-all-135 {
-    padding-bottom: 135px;
-    padding-left: 135px;
-    padding-right: 135px;
-    padding-top: 135px;
-  }
-  .m\:pad-bt-135 {
-    padding-bottom: 135px;
-    padding-top: 135px;
-  }
-  .m\:pad-lr-135 {
-    padding-left: 135px;
-    padding-right: 135px;
-  }
-  .m\:pad-bottom-135 {
-    padding-bottom: 135px;
-  }
-  .m\:pad-left-135 {
-    padding-left: 135px;
-  }
-  .m\:pad-right-135 {
-    padding-right: 135px;
-  }
-  .m\:pad-top-135 {
-    padding-top: 135px;
-  }
-  .m\:pad-all-140 {
-    padding-bottom: 140px;
-    padding-left: 140px;
-    padding-right: 140px;
-    padding-top: 140px;
-  }
-  .m\:pad-bt-140 {
-    padding-bottom: 140px;
-    padding-top: 140px;
-  }
-  .m\:pad-lr-140 {
-    padding-left: 140px;
-    padding-right: 140px;
-  }
-  .m\:pad-bottom-140 {
-    padding-bottom: 140px;
-  }
-  .m\:pad-left-140 {
-    padding-left: 140px;
-  }
-  .m\:pad-right-140 {
-    padding-right: 140px;
-  }
-  .m\:pad-top-140 {
-    padding-top: 140px;
-  }
-  .m\:pad-all-145 {
-    padding-bottom: 145px;
-    padding-left: 145px;
-    padding-right: 145px;
-    padding-top: 145px;
-  }
-  .m\:pad-bt-145 {
-    padding-bottom: 145px;
-    padding-top: 145px;
-  }
-  .m\:pad-lr-145 {
-    padding-left: 145px;
-    padding-right: 145px;
-  }
-  .m\:pad-bottom-145 {
-    padding-bottom: 145px;
-  }
-  .m\:pad-left-145 {
-    padding-left: 145px;
-  }
-  .m\:pad-right-145 {
-    padding-right: 145px;
-  }
-  .m\:pad-top-145 {
-    padding-top: 145px;
-  }
-  .m\:pad-all-150 {
-    padding-bottom: 150px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 150px;
-  }
-  .m\:pad-bt-150 {
-    padding-bottom: 150px;
-    padding-top: 150px;
-  }
-  .m\:pad-lr-150 {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-  .m\:pad-bottom-150 {
-    padding-bottom: 150px;
-  }
-  .m\:pad-left-150 {
-    padding-left: 150px;
-  }
-  .m\:pad-right-150 {
-    padding-right: 150px;
-  }
-  .m\:pad-top-150 {
-    padding-top: 150px;
-  }
 }
 @media (min-width: 1024px) {
   .l\:pad-all-0 {
@@ -14190,370 +9308,6 @@ p {
   .l\:pad-top-80 {
     padding-top: 80px;
   }
-  .l\:pad-all-85 {
-    padding-bottom: 85px;
-    padding-left: 85px;
-    padding-right: 85px;
-    padding-top: 85px;
-  }
-  .l\:pad-bt-85 {
-    padding-bottom: 85px;
-    padding-top: 85px;
-  }
-  .l\:pad-lr-85 {
-    padding-left: 85px;
-    padding-right: 85px;
-  }
-  .l\:pad-bottom-85 {
-    padding-bottom: 85px;
-  }
-  .l\:pad-left-85 {
-    padding-left: 85px;
-  }
-  .l\:pad-right-85 {
-    padding-right: 85px;
-  }
-  .l\:pad-top-85 {
-    padding-top: 85px;
-  }
-  .l\:pad-all-90 {
-    padding-bottom: 90px;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 90px;
-  }
-  .l\:pad-bt-90 {
-    padding-bottom: 90px;
-    padding-top: 90px;
-  }
-  .l\:pad-lr-90 {
-    padding-left: 90px;
-    padding-right: 90px;
-  }
-  .l\:pad-bottom-90 {
-    padding-bottom: 90px;
-  }
-  .l\:pad-left-90 {
-    padding-left: 90px;
-  }
-  .l\:pad-right-90 {
-    padding-right: 90px;
-  }
-  .l\:pad-top-90 {
-    padding-top: 90px;
-  }
-  .l\:pad-all-95 {
-    padding-bottom: 95px;
-    padding-left: 95px;
-    padding-right: 95px;
-    padding-top: 95px;
-  }
-  .l\:pad-bt-95 {
-    padding-bottom: 95px;
-    padding-top: 95px;
-  }
-  .l\:pad-lr-95 {
-    padding-left: 95px;
-    padding-right: 95px;
-  }
-  .l\:pad-bottom-95 {
-    padding-bottom: 95px;
-  }
-  .l\:pad-left-95 {
-    padding-left: 95px;
-  }
-  .l\:pad-right-95 {
-    padding-right: 95px;
-  }
-  .l\:pad-top-95 {
-    padding-top: 95px;
-  }
-  .l\:pad-all-100 {
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 100px;
-  }
-  .l\:pad-bt-100 {
-    padding-bottom: 100px;
-    padding-top: 100px;
-  }
-  .l\:pad-lr-100 {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  .l\:pad-bottom-100 {
-    padding-bottom: 100px;
-  }
-  .l\:pad-left-100 {
-    padding-left: 100px;
-  }
-  .l\:pad-right-100 {
-    padding-right: 100px;
-  }
-  .l\:pad-top-100 {
-    padding-top: 100px;
-  }
-  .l\:pad-all-105 {
-    padding-bottom: 105px;
-    padding-left: 105px;
-    padding-right: 105px;
-    padding-top: 105px;
-  }
-  .l\:pad-bt-105 {
-    padding-bottom: 105px;
-    padding-top: 105px;
-  }
-  .l\:pad-lr-105 {
-    padding-left: 105px;
-    padding-right: 105px;
-  }
-  .l\:pad-bottom-105 {
-    padding-bottom: 105px;
-  }
-  .l\:pad-left-105 {
-    padding-left: 105px;
-  }
-  .l\:pad-right-105 {
-    padding-right: 105px;
-  }
-  .l\:pad-top-105 {
-    padding-top: 105px;
-  }
-  .l\:pad-all-110 {
-    padding-bottom: 110px;
-    padding-left: 110px;
-    padding-right: 110px;
-    padding-top: 110px;
-  }
-  .l\:pad-bt-110 {
-    padding-bottom: 110px;
-    padding-top: 110px;
-  }
-  .l\:pad-lr-110 {
-    padding-left: 110px;
-    padding-right: 110px;
-  }
-  .l\:pad-bottom-110 {
-    padding-bottom: 110px;
-  }
-  .l\:pad-left-110 {
-    padding-left: 110px;
-  }
-  .l\:pad-right-110 {
-    padding-right: 110px;
-  }
-  .l\:pad-top-110 {
-    padding-top: 110px;
-  }
-  .l\:pad-all-115 {
-    padding-bottom: 115px;
-    padding-left: 115px;
-    padding-right: 115px;
-    padding-top: 115px;
-  }
-  .l\:pad-bt-115 {
-    padding-bottom: 115px;
-    padding-top: 115px;
-  }
-  .l\:pad-lr-115 {
-    padding-left: 115px;
-    padding-right: 115px;
-  }
-  .l\:pad-bottom-115 {
-    padding-bottom: 115px;
-  }
-  .l\:pad-left-115 {
-    padding-left: 115px;
-  }
-  .l\:pad-right-115 {
-    padding-right: 115px;
-  }
-  .l\:pad-top-115 {
-    padding-top: 115px;
-  }
-  .l\:pad-all-120 {
-    padding-bottom: 120px;
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-top: 120px;
-  }
-  .l\:pad-bt-120 {
-    padding-bottom: 120px;
-    padding-top: 120px;
-  }
-  .l\:pad-lr-120 {
-    padding-left: 120px;
-    padding-right: 120px;
-  }
-  .l\:pad-bottom-120 {
-    padding-bottom: 120px;
-  }
-  .l\:pad-left-120 {
-    padding-left: 120px;
-  }
-  .l\:pad-right-120 {
-    padding-right: 120px;
-  }
-  .l\:pad-top-120 {
-    padding-top: 120px;
-  }
-  .l\:pad-all-125 {
-    padding-bottom: 125px;
-    padding-left: 125px;
-    padding-right: 125px;
-    padding-top: 125px;
-  }
-  .l\:pad-bt-125 {
-    padding-bottom: 125px;
-    padding-top: 125px;
-  }
-  .l\:pad-lr-125 {
-    padding-left: 125px;
-    padding-right: 125px;
-  }
-  .l\:pad-bottom-125 {
-    padding-bottom: 125px;
-  }
-  .l\:pad-left-125 {
-    padding-left: 125px;
-  }
-  .l\:pad-right-125 {
-    padding-right: 125px;
-  }
-  .l\:pad-top-125 {
-    padding-top: 125px;
-  }
-  .l\:pad-all-130 {
-    padding-bottom: 130px;
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-top: 130px;
-  }
-  .l\:pad-bt-130 {
-    padding-bottom: 130px;
-    padding-top: 130px;
-  }
-  .l\:pad-lr-130 {
-    padding-left: 130px;
-    padding-right: 130px;
-  }
-  .l\:pad-bottom-130 {
-    padding-bottom: 130px;
-  }
-  .l\:pad-left-130 {
-    padding-left: 130px;
-  }
-  .l\:pad-right-130 {
-    padding-right: 130px;
-  }
-  .l\:pad-top-130 {
-    padding-top: 130px;
-  }
-  .l\:pad-all-135 {
-    padding-bottom: 135px;
-    padding-left: 135px;
-    padding-right: 135px;
-    padding-top: 135px;
-  }
-  .l\:pad-bt-135 {
-    padding-bottom: 135px;
-    padding-top: 135px;
-  }
-  .l\:pad-lr-135 {
-    padding-left: 135px;
-    padding-right: 135px;
-  }
-  .l\:pad-bottom-135 {
-    padding-bottom: 135px;
-  }
-  .l\:pad-left-135 {
-    padding-left: 135px;
-  }
-  .l\:pad-right-135 {
-    padding-right: 135px;
-  }
-  .l\:pad-top-135 {
-    padding-top: 135px;
-  }
-  .l\:pad-all-140 {
-    padding-bottom: 140px;
-    padding-left: 140px;
-    padding-right: 140px;
-    padding-top: 140px;
-  }
-  .l\:pad-bt-140 {
-    padding-bottom: 140px;
-    padding-top: 140px;
-  }
-  .l\:pad-lr-140 {
-    padding-left: 140px;
-    padding-right: 140px;
-  }
-  .l\:pad-bottom-140 {
-    padding-bottom: 140px;
-  }
-  .l\:pad-left-140 {
-    padding-left: 140px;
-  }
-  .l\:pad-right-140 {
-    padding-right: 140px;
-  }
-  .l\:pad-top-140 {
-    padding-top: 140px;
-  }
-  .l\:pad-all-145 {
-    padding-bottom: 145px;
-    padding-left: 145px;
-    padding-right: 145px;
-    padding-top: 145px;
-  }
-  .l\:pad-bt-145 {
-    padding-bottom: 145px;
-    padding-top: 145px;
-  }
-  .l\:pad-lr-145 {
-    padding-left: 145px;
-    padding-right: 145px;
-  }
-  .l\:pad-bottom-145 {
-    padding-bottom: 145px;
-  }
-  .l\:pad-left-145 {
-    padding-left: 145px;
-  }
-  .l\:pad-right-145 {
-    padding-right: 145px;
-  }
-  .l\:pad-top-145 {
-    padding-top: 145px;
-  }
-  .l\:pad-all-150 {
-    padding-bottom: 150px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 150px;
-  }
-  .l\:pad-bt-150 {
-    padding-bottom: 150px;
-    padding-top: 150px;
-  }
-  .l\:pad-lr-150 {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-  .l\:pad-bottom-150 {
-    padding-bottom: 150px;
-  }
-  .l\:pad-left-150 {
-    padding-left: 150px;
-  }
-  .l\:pad-right-150 {
-    padding-right: 150px;
-  }
-  .l\:pad-top-150 {
-    padding-top: 150px;
-  }
 }
 @media (min-width: 1280px) {
   .xl\:pad-all-0 {
@@ -14997,369 +9751,5 @@ p {
   }
   .xl\:pad-top-80 {
     padding-top: 80px;
-  }
-  .xl\:pad-all-85 {
-    padding-bottom: 85px;
-    padding-left: 85px;
-    padding-right: 85px;
-    padding-top: 85px;
-  }
-  .xl\:pad-bt-85 {
-    padding-bottom: 85px;
-    padding-top: 85px;
-  }
-  .xl\:pad-lr-85 {
-    padding-left: 85px;
-    padding-right: 85px;
-  }
-  .xl\:pad-bottom-85 {
-    padding-bottom: 85px;
-  }
-  .xl\:pad-left-85 {
-    padding-left: 85px;
-  }
-  .xl\:pad-right-85 {
-    padding-right: 85px;
-  }
-  .xl\:pad-top-85 {
-    padding-top: 85px;
-  }
-  .xl\:pad-all-90 {
-    padding-bottom: 90px;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 90px;
-  }
-  .xl\:pad-bt-90 {
-    padding-bottom: 90px;
-    padding-top: 90px;
-  }
-  .xl\:pad-lr-90 {
-    padding-left: 90px;
-    padding-right: 90px;
-  }
-  .xl\:pad-bottom-90 {
-    padding-bottom: 90px;
-  }
-  .xl\:pad-left-90 {
-    padding-left: 90px;
-  }
-  .xl\:pad-right-90 {
-    padding-right: 90px;
-  }
-  .xl\:pad-top-90 {
-    padding-top: 90px;
-  }
-  .xl\:pad-all-95 {
-    padding-bottom: 95px;
-    padding-left: 95px;
-    padding-right: 95px;
-    padding-top: 95px;
-  }
-  .xl\:pad-bt-95 {
-    padding-bottom: 95px;
-    padding-top: 95px;
-  }
-  .xl\:pad-lr-95 {
-    padding-left: 95px;
-    padding-right: 95px;
-  }
-  .xl\:pad-bottom-95 {
-    padding-bottom: 95px;
-  }
-  .xl\:pad-left-95 {
-    padding-left: 95px;
-  }
-  .xl\:pad-right-95 {
-    padding-right: 95px;
-  }
-  .xl\:pad-top-95 {
-    padding-top: 95px;
-  }
-  .xl\:pad-all-100 {
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 100px;
-  }
-  .xl\:pad-bt-100 {
-    padding-bottom: 100px;
-    padding-top: 100px;
-  }
-  .xl\:pad-lr-100 {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  .xl\:pad-bottom-100 {
-    padding-bottom: 100px;
-  }
-  .xl\:pad-left-100 {
-    padding-left: 100px;
-  }
-  .xl\:pad-right-100 {
-    padding-right: 100px;
-  }
-  .xl\:pad-top-100 {
-    padding-top: 100px;
-  }
-  .xl\:pad-all-105 {
-    padding-bottom: 105px;
-    padding-left: 105px;
-    padding-right: 105px;
-    padding-top: 105px;
-  }
-  .xl\:pad-bt-105 {
-    padding-bottom: 105px;
-    padding-top: 105px;
-  }
-  .xl\:pad-lr-105 {
-    padding-left: 105px;
-    padding-right: 105px;
-  }
-  .xl\:pad-bottom-105 {
-    padding-bottom: 105px;
-  }
-  .xl\:pad-left-105 {
-    padding-left: 105px;
-  }
-  .xl\:pad-right-105 {
-    padding-right: 105px;
-  }
-  .xl\:pad-top-105 {
-    padding-top: 105px;
-  }
-  .xl\:pad-all-110 {
-    padding-bottom: 110px;
-    padding-left: 110px;
-    padding-right: 110px;
-    padding-top: 110px;
-  }
-  .xl\:pad-bt-110 {
-    padding-bottom: 110px;
-    padding-top: 110px;
-  }
-  .xl\:pad-lr-110 {
-    padding-left: 110px;
-    padding-right: 110px;
-  }
-  .xl\:pad-bottom-110 {
-    padding-bottom: 110px;
-  }
-  .xl\:pad-left-110 {
-    padding-left: 110px;
-  }
-  .xl\:pad-right-110 {
-    padding-right: 110px;
-  }
-  .xl\:pad-top-110 {
-    padding-top: 110px;
-  }
-  .xl\:pad-all-115 {
-    padding-bottom: 115px;
-    padding-left: 115px;
-    padding-right: 115px;
-    padding-top: 115px;
-  }
-  .xl\:pad-bt-115 {
-    padding-bottom: 115px;
-    padding-top: 115px;
-  }
-  .xl\:pad-lr-115 {
-    padding-left: 115px;
-    padding-right: 115px;
-  }
-  .xl\:pad-bottom-115 {
-    padding-bottom: 115px;
-  }
-  .xl\:pad-left-115 {
-    padding-left: 115px;
-  }
-  .xl\:pad-right-115 {
-    padding-right: 115px;
-  }
-  .xl\:pad-top-115 {
-    padding-top: 115px;
-  }
-  .xl\:pad-all-120 {
-    padding-bottom: 120px;
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-top: 120px;
-  }
-  .xl\:pad-bt-120 {
-    padding-bottom: 120px;
-    padding-top: 120px;
-  }
-  .xl\:pad-lr-120 {
-    padding-left: 120px;
-    padding-right: 120px;
-  }
-  .xl\:pad-bottom-120 {
-    padding-bottom: 120px;
-  }
-  .xl\:pad-left-120 {
-    padding-left: 120px;
-  }
-  .xl\:pad-right-120 {
-    padding-right: 120px;
-  }
-  .xl\:pad-top-120 {
-    padding-top: 120px;
-  }
-  .xl\:pad-all-125 {
-    padding-bottom: 125px;
-    padding-left: 125px;
-    padding-right: 125px;
-    padding-top: 125px;
-  }
-  .xl\:pad-bt-125 {
-    padding-bottom: 125px;
-    padding-top: 125px;
-  }
-  .xl\:pad-lr-125 {
-    padding-left: 125px;
-    padding-right: 125px;
-  }
-  .xl\:pad-bottom-125 {
-    padding-bottom: 125px;
-  }
-  .xl\:pad-left-125 {
-    padding-left: 125px;
-  }
-  .xl\:pad-right-125 {
-    padding-right: 125px;
-  }
-  .xl\:pad-top-125 {
-    padding-top: 125px;
-  }
-  .xl\:pad-all-130 {
-    padding-bottom: 130px;
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-top: 130px;
-  }
-  .xl\:pad-bt-130 {
-    padding-bottom: 130px;
-    padding-top: 130px;
-  }
-  .xl\:pad-lr-130 {
-    padding-left: 130px;
-    padding-right: 130px;
-  }
-  .xl\:pad-bottom-130 {
-    padding-bottom: 130px;
-  }
-  .xl\:pad-left-130 {
-    padding-left: 130px;
-  }
-  .xl\:pad-right-130 {
-    padding-right: 130px;
-  }
-  .xl\:pad-top-130 {
-    padding-top: 130px;
-  }
-  .xl\:pad-all-135 {
-    padding-bottom: 135px;
-    padding-left: 135px;
-    padding-right: 135px;
-    padding-top: 135px;
-  }
-  .xl\:pad-bt-135 {
-    padding-bottom: 135px;
-    padding-top: 135px;
-  }
-  .xl\:pad-lr-135 {
-    padding-left: 135px;
-    padding-right: 135px;
-  }
-  .xl\:pad-bottom-135 {
-    padding-bottom: 135px;
-  }
-  .xl\:pad-left-135 {
-    padding-left: 135px;
-  }
-  .xl\:pad-right-135 {
-    padding-right: 135px;
-  }
-  .xl\:pad-top-135 {
-    padding-top: 135px;
-  }
-  .xl\:pad-all-140 {
-    padding-bottom: 140px;
-    padding-left: 140px;
-    padding-right: 140px;
-    padding-top: 140px;
-  }
-  .xl\:pad-bt-140 {
-    padding-bottom: 140px;
-    padding-top: 140px;
-  }
-  .xl\:pad-lr-140 {
-    padding-left: 140px;
-    padding-right: 140px;
-  }
-  .xl\:pad-bottom-140 {
-    padding-bottom: 140px;
-  }
-  .xl\:pad-left-140 {
-    padding-left: 140px;
-  }
-  .xl\:pad-right-140 {
-    padding-right: 140px;
-  }
-  .xl\:pad-top-140 {
-    padding-top: 140px;
-  }
-  .xl\:pad-all-145 {
-    padding-bottom: 145px;
-    padding-left: 145px;
-    padding-right: 145px;
-    padding-top: 145px;
-  }
-  .xl\:pad-bt-145 {
-    padding-bottom: 145px;
-    padding-top: 145px;
-  }
-  .xl\:pad-lr-145 {
-    padding-left: 145px;
-    padding-right: 145px;
-  }
-  .xl\:pad-bottom-145 {
-    padding-bottom: 145px;
-  }
-  .xl\:pad-left-145 {
-    padding-left: 145px;
-  }
-  .xl\:pad-right-145 {
-    padding-right: 145px;
-  }
-  .xl\:pad-top-145 {
-    padding-top: 145px;
-  }
-  .xl\:pad-all-150 {
-    padding-bottom: 150px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 150px;
-  }
-  .xl\:pad-bt-150 {
-    padding-bottom: 150px;
-    padding-top: 150px;
-  }
-  .xl\:pad-lr-150 {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-  .xl\:pad-bottom-150 {
-    padding-bottom: 150px;
-  }
-  .xl\:pad-left-150 {
-    padding-left: 150px;
-  }
-  .xl\:pad-right-150 {
-    padding-right: 150px;
-  }
-  .xl\:pad-top-150 {
-    padding-top: 150px;
   }
 }
