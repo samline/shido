@@ -1,4 +1,3 @@
-//  Hiding and showing
 .mix-make-hiding-showing(@type) {
 
   .@{type}\:hide {
@@ -14,8 +13,7 @@
   }
 }
 
-//  Hiding and showing | Media querys
-@media (min-width: @x-screen-max) {
+@media (min-width: @x-screen-min) {
   .mix-make-hiding-showing(x);
 }
 
@@ -29,4 +27,8 @@
 
 @media (min-width: @l-screen-min) {
   .mix-make-hiding-showing(l);
+}
+
+@media (min-width: @xl-screen-min) {
+  .mix-make-hiding-showing(xl);
 }

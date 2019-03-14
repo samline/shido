@@ -1,5 +1,4 @@
-// offset
-.mix-make-column(@type) {
+.mix-make-offset-column(@type) {
 
   .offset-generate(@n, @i: 0) when (@i =< @n) {
 
@@ -17,25 +16,26 @@
     .offset-fit-generate(@n, (@i + 1));
   }
 
-  // --
-
   .offset-generate(@s-columns);
   .offset-fit-generate(@s-columns);
 }
 
-//  offset | Media querys
-@media (min-width: @x-screen-max) {
-  .mix-make-column(x);
+@media (min-width: @x-screen-min) {
+  .mix-make-offset-column(x);
 }
 
 @media (min-width: @s-screen-min) {
-  .mix-make-column(s);
+  .mix-make-offset-column(s);
 }
 
 @media (min-width: @m-screen-min) {
-  .mix-make-column(m);
+  .mix-make-offset-column(m);
 }
 
 @media (min-width: @l-screen-min) {
-  .mix-make-column(l);
+  .mix-make-offset-column(l);
+}
+
+@media (min-width: @xl-screen-min) {
+  .mix-make-offset-column(xl);
 }

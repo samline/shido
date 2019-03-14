@@ -1,4 +1,3 @@
-// Margin
 .mix-margin(@type) {
 
   .mrg-side(@n, @i: 0) when (@i =< @n) {
@@ -38,8 +37,6 @@
       margin-top: @count * 1px;
     }
 
-    // negative
-
     .@{type}\:mrg-negative-all-@{count} {
       margin-bottom: -@count * 1px;
       margin-left: -@count * 1px;
@@ -76,13 +73,10 @@
     .mrg-side(@n, (@i + .5));
   }
 
-  // --
-
   .mrg-side(@s-max-margin);
 }
 
-// Margin | Media querys
-@media (min-width: @x-screen-max) {
+@media (min-width: @x-screen-min) {
   .mix-margin(x);
 }
 
@@ -96,4 +90,8 @@
 
 @media (min-width: @l-screen-min) {
   .mix-margin(l);
+}
+
+@media (min-width: @xl-screen-min) {
+  .mix-margin(xl);
 }

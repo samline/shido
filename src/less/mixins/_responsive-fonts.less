@@ -1,4 +1,3 @@
-// Responsive fonts
 .mix-responsive-fonts(@type) {
 
   .font-size-generate(@n, @i: @s-min-font-size) when (@i =< @n) {
@@ -12,8 +11,7 @@
   .font-size-generate(@s-max-font-size);
 }
 
-// Responsive fonts | Media querys
-@media (min-width: @x-screen-max) {
+@media (min-width: @x-screen-min) {
   .mix-responsive-fonts(x);
 }
 
@@ -27,4 +25,8 @@
 
 @media (min-width: @l-screen-min) {
   .mix-responsive-fonts(l);
+}
+
+@media (min-width: @xl-screen-min) {
+  .mix-responsive-fonts(xl);
 }

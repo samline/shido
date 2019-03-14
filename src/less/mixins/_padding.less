@@ -1,4 +1,3 @@
-// Padding
 .mix-padding(@type) {
 
   .pad-side(@n, @i: 0) when (@i =< @n) {
@@ -41,13 +40,10 @@
     .pad-side(@n, (@i + .5));
   }
 
-  // --
-
   .pad-side(@s-max-padding);
 }
 
-// Padding | Media querys
-@media (min-width: @x-screen-max) {
+@media (min-width: @x-screen-min) {
   .mix-padding(x);
 }
 
@@ -62,3 +58,8 @@
 @media (min-width: @l-screen-min) {
   .mix-padding(l);
 }
+
+@media (min-width: @xl-screen-min) {
+  .mix-padding(xl);
+}
+

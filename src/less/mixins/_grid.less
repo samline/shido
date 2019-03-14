@@ -1,4 +1,3 @@
-// Grid
 .mix-make-column(@type) {
 
   .scol-generate(@n, @i: 1) when (@i =< @n) {
@@ -17,14 +16,11 @@
     .scol-fit-generate(@n, (@i + 1));
   }
 
-  // --
-
   .scol-generate(@s-columns);
   .scol-fit-generate(@s-columns);
 }
 
-//  Grid | Media querys
-@media (min-width: @x-screen-max) {
+@media (min-width: @x-screen-min) {
   .mix-make-column(x);
 }
 
@@ -39,3 +35,8 @@
 @media (min-width: @l-screen-min) {
   .mix-make-column(l);
 }
+
+@media (min-width: @xl-screen-min) {
+  .mix-make-column(xl);
+}
+

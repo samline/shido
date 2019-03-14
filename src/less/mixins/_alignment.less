@@ -1,5 +1,4 @@
-// Horizontal alignment
-.mix-alignments(@type) {
+.mix-horizontal-alignment(@type) {
 
   .@{type}\:center {
     text-align: center;
@@ -15,26 +14,31 @@
   }
 }
 
-// Horizontal alignment | Media querys
-@media (min-width: @x-screen-max) {
-  .mix-alignments(x);
+@media (min-width: @x-screen-min) {
+  .mix-horizontal-alignment(x);
 }
 
 @media (min-width: @s-screen-min) {
-  .mix-alignments(s);
+  .mix-horizontal-alignment(s);
 }
 
 @media (min-width: @m-screen-min) {
-  .mix-alignments(m);
+  .mix-horizontal-alignment(m);
 }
 
 @media (min-width: @l-screen-min) {
-  .mix-alignments(l);
+  .mix-horizontal-alignment(l);
 }
 
-// Vertical alignment
+@media (min-width: @xl-screen-min) {
+  .mix-horizontal-alignment(xl);
+}
+
 .mix-vertical-alignment(@type) {
 
+  .@{type}\:baseline {
+    vertical-align: baseline;
+  }
   .@{type}\:bottom {
     vertical-align: bottom;
   }
@@ -46,8 +50,7 @@
   }
 }
 
-// Vertical alignment | Media querys
-@media (min-width: @x-screen-max) {
+@media (min-width: @x-screen-min) {
   .mix-vertical-alignment(x);
 }
 
@@ -61,4 +64,8 @@
 
 @media (min-width: @l-screen-min) {
   .mix-vertical-alignment(l);
+}
+
+@media (min-width: @xl-screen-min) {
+  .mix-vertical-alignment(xl);
 }
