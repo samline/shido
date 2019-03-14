@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "shido",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "shido is a responsive framework developed with {Less} that includes helpers and mixins that helps create layouts quickly. shido provides a great base to start by leaving the developer the task of complementing and creating the necessary components for each project.",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
     "less",
     "css"
   ],
-  "author": "samline <jsamline@gmail.com>",
+  "author": "Jorge Samuel Olvera <jsamline@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/samline/shido/issues"
@@ -28,9 +28,9 @@
   },
   "devDependencies": {
     "cross-env": "^5.1.3",
-    "hoek": "^6.0.4",
-    "laravel-mix": "^2.1.14",
-    "less": "^3.8.1",
+    "hoek": "^6.1.2",
+    "laravel-mix": "^4.0.14",
+    "less": "^3.9.0",
     "less-loader": "^4.0.5"
   },
   "engines": {
