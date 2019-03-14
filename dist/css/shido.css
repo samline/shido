@@ -13083,8 +13083,8 @@ a {
   color: #2196F3;
   cursor: pointer;
   text-decoration: none;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 a:active,
 a:hover,
@@ -13166,8 +13166,8 @@ p {
   user-select: none;
 }
 .transition {
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .ff-base {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
