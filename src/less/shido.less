@@ -1,32 +1,31 @@
 /* shido */
-/* Made with a lot of love by Jorge Samuel Olvera (https://github.com/samline) */
 
-// Variables
-@import 'variables/_breakpoints';
-@import 'variables/_colors';
-@import 'variables/_fonts';
-@import 'variables/_grid';
-@import 'variables/_helpers';
-@import 'variables/_layout';
-
-// Grid
-@import 'grid/_scontainer';
-@import 'grid/_line';
-@import 'grid/_scol';
-
-// Mixins
-@import 'mixins/_alignment';
-@import 'mixins/_buttons';
-@import 'mixins/_colors';
-@import 'mixins/_grid';
-@import 'mixins/_offset';
-@import 'mixins/_hide-show';
-@import 'mixins/_margin';
-@import 'mixins/_padding';
-@import 'mixins/_responsive-fonts';
-@import 'mixins/_simple-fonts';
-@import 'mixins/_transitions';
+/* Made with a lot of love
+by Jorge Samuel Olvera
+(https://github.com/samline) */
 
 // Global
-@import 'global/_layout';
-@import 'global/_helpers';
+@import 'global/settings';
+@import 'global/color-variables';
+@import 'global/layout';
+
+// Grid
+@import 'grid/containers';
+@import 'grid/scontainer-half';
+@import 'grid/scol';
+@import 'grid/offset';
+
+// Utility classes
+@import 'utility-classes/alignment';
+@import 'utility-classes/colors';
+@import 'utility-classes/fonts';
+@import 'utility-classes/helpers';
+@import 'utility-classes/hide-show';
+@import 'utility-classes/margin';
+@import 'utility-classes/padding';
+
+// Mixins
+@import 'mixins/buttons';
+@import 'mixins/colors';
+@import 'mixins/fonts';
+@import 'mixins/transitions';

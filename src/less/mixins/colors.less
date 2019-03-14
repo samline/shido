@@ -1,0 +1,17 @@
+.mix-color-class(
+  @color: @c-black,
+  @name: 'black'
+) {
+  .c-@{name} {
+    color: @color;
+  }
+}
+
+.mix-bg-class(
+  @color: @c-black,
+  @name: 'black'
+) {
+  .bg-@{name} {
+    background-color: @color;
+  }
+}
