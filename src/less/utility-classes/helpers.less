@@ -1,53 +1,47 @@
-// Helpers
-
+// Background image
 .bg-cover {
   background-position: center;
   background-size: cover;
 }
-.block {
-  display: block;
-}
-.inline-block {
-  display: inline-block;
-}
-.inline-clear {
-  font-size: 0px;
-  letter-spacing: 0px;
-  margin: 0 auto;
-  padding: 0px;
-  word-spacing: 0px;
+.bg-fixed {
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translate3d(0,0,0);
 
-  & > * {
-    font-size: 1rem;
-    letter-spacing: initial;
-    word-spacing: initial;
+  @media (max-width: @l-screen-max) {
+    background-attachment: scroll;
+    background-size: cover;
   }
 }
+
+// Display
+.dis-block {
+  display: block;
+}
+.dis-inline-block {
+  display: inline-block;
+}
+.dis-table {
+  display: table;
+}
+.dis-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+// Img
 .img-liquid {
   max-width: 100%;
 }
-.nowrap {
-  white-space: nowrap;
-}
+
+// Position
 .pos-relative {
   position: relative;
 }
-.pre-line {
-  white-space: pre-line;
-}
-.select-disabled {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.transition {
-  transition: all .3s ease;
-}
 
-// Fonts
+// Font famyly
 .ff-base {
   font-family: @s-base-font;
 }
@@ -55,24 +49,32 @@
   font-family: @s-heading-font;
 }
 
-// Tables
+// Overflow
+.ovf-auto {
+  overflow: auto;
+}
+.ovf-hidden {
+  overflow: hidden;
+}
+.ovf-visible {
+  overflow: visible;
+}
+
+// Table
 .table-responsive {
   overflow: auto;
   max-width: 100%;
 }
-.table{
-  display: table;
-  height: 100%;
-  width: 100%;
+
+// Transition
+.trans-ease {
+  transition: all .3s ease;
 }
-.cell{
-  display: table-cell;
-  height: 100%;
-  vertical-align: middle;
-  width: 100%;
+.trans-linear {
+  transition: all .3s linear;
 }
 
-// Text
+// Txt
 .txt-bold {
   font-weight: @s-base-font-weight-bold;
 }
@@ -82,7 +84,6 @@
 .txt-regular {
   font-weight: @s-base-font-weight;
 }
-
 .txt-capitalize {
   text-transform: capitalize;
 }
@@ -114,5 +115,48 @@
 .txt-through {
   text-decoration: line-through;
 }
+.txt-word-break {
+  word-break: break-all;
+}
 
+// White space
+.ws-normal {
+  white-space: normal;
+}
+.ws-nowrap {
+  white-space: nowrap;
+}
+.ws-preline {
+  white-space: pre-line;
+}
 
+// Width & height
+.h-100 {
+  height: 100%;
+}
+.w-100 {
+  width: 100%;
+}
+
+// Others
+.inline-block-clear {
+  font-size: 0px;
+  letter-spacing: 0px;
+  margin: 0 auto;
+  padding: 0px;
+  word-spacing: 0px;
+
+  & > * {
+    font-size: 1rem;
+    letter-spacing: initial;
+    word-spacing: initial;
+  }
+}
+.user-select-none {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

@@ -3,11 +3,9 @@
   .@{type}\:hide {
     display: none !important;
   }
-
   .@{type}\:show {
     display: block !important;
   }
-
   .@{type}\:show-inline {
     display: inline-block !important;
   }
@@ -31,4 +29,25 @@
 
 @media (min-width: @xl-screen-min) {
   .mix-make-hiding-showing(xl);
+}
+
+@media screen {
+
+  .show-print,
+  .show-print-inline {
+    display: none !important;
+  }
+}
+
+@media print {
+
+  .hide-print {
+    display: none !important;
+  }
+  .show-print {
+    display: block !important;
+  }
+  .show-print-inline {
+    display: inline-block !important;
+  }
 }

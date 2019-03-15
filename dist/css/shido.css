@@ -38,6 +38,9 @@ a:focus {
   color: #1565C0;
   text-decoration: none;
 }
+a:focus {
+  color: inherit;
+}
 h1,
 h2,
 h3,
@@ -2949,46 +2952,38 @@ p {
   background-position: center;
   background-size: cover;
 }
-.block {
+.bg-fixed {
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+@media (max-width: 1279px) {
+  .bg-fixed {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+}
+.dis-block {
   display: block;
 }
-.inline-block {
+.dis-inline-block {
   display: inline-block;
 }
-.inline-clear {
-  font-size: 0px;
-  letter-spacing: 0px;
-  margin: 0 auto;
-  padding: 0px;
-  word-spacing: 0px;
+.dis-table {
+  display: table;
 }
-.inline-clear > * {
-  font-size: 1rem;
-  letter-spacing: initial;
-  word-spacing: initial;
+.dis-cell {
+  display: table-cell;
+  vertical-align: middle;
 }
 .img-liquid {
   max-width: 100%;
 }
-.nowrap {
-  white-space: nowrap;
-}
 .pos-relative {
   position: relative;
-}
-.pre-line {
-  white-space: pre-line;
-}
-.select-disabled {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.transition {
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 .ff-base {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
@@ -2996,20 +2991,26 @@ p {
 .ff-heading {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
 }
+.ovf-auto {
+  overflow: auto;
+}
+.ovf-hidden {
+  overflow: hidden;
+}
+.ovf-visible {
+  overflow: visible;
+}
 .table-responsive {
   overflow: auto;
   max-width: 100%;
 }
-.table {
-  display: table;
-  height: 100%;
-  width: 100%;
+.trans-ease {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
-.cell {
-  display: table-cell;
-  height: 100%;
-  vertical-align: middle;
-  width: 100%;
+.trans-linear {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .txt-bold {
   font-weight: 700;
@@ -3047,6 +3048,43 @@ p {
 }
 .txt-through {
   text-decoration: line-through;
+}
+.txt-word-break {
+  word-break: break-all;
+}
+.ws-normal {
+  white-space: normal;
+}
+.ws-nowrap {
+  white-space: nowrap;
+}
+.ws-preline {
+  white-space: pre-line;
+}
+.h-100 {
+  height: 100%;
+}
+.w-100 {
+  width: 100%;
+}
+.inline-block-clear {
+  font-size: 0px;
+  letter-spacing: 0px;
+  margin: 0 auto;
+  padding: 0px;
+  word-spacing: 0px;
+}
+.inline-block-clear > * {
+  font-size: 1rem;
+  letter-spacing: initial;
+  word-spacing: initial;
+}
+.user-select-none {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 @media (min-width: 0px) {
   .x\:hide {
@@ -3100,6 +3138,23 @@ p {
     display: block !important;
   }
   .xl\:show-inline {
+    display: inline-block !important;
+  }
+}
+@media screen {
+  .show-print,
+  .show-print-inline {
+    display: none !important;
+  }
+}
+@media print {
+  .hide-print {
+    display: none !important;
+  }
+  .show-print {
+    display: block !important;
+  }
+  .show-print-inline {
     display: inline-block !important;
   }
 }
