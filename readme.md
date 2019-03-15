@@ -1,5 +1,5 @@
-# shido シード
-by `samline`
+# shido
+by `Jorge Samuel Olvera`
 
 shido is a responsive framework developed with {Less} that includes helpers and mixins that helps create layouts quickly. shido provides a great base to start by leaving the developer the task of complementing and creating the necessary components for each project.
 
@@ -9,7 +9,7 @@ npm install shido --save
 ```
 
 ## Getting started
-Docs can be found at http://shido.dinkbit.net/grid
+Docs can be found at http://shido.dinkbit.net
 
 ## Usage
 ```less
