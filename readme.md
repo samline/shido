@@ -1,5 +1,5 @@
 # shido
-by `Jorge Samuel Olvera`
+by `Samuel Olvera (samline)`
 
 shido is a responsive framework developed with {Less} that includes helpers and mixins that helps create layouts quickly. shido provides a great base to start by leaving the developer the task of complementing and creating the necessary components for each project.
 

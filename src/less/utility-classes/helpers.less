@@ -1,9 +1,23 @@
+// Aspect ratio
+.aspect-ratio-3\:2 {
+  .mix-aspect-ratio(3,2);
+}
+.aspect-ratio-4\:3 {
+  .mix-aspect-ratio(4,3);
+}
+.aspect-ratio-16\:9 {
+  .mix-aspect-ratio(16,9);
+}
+.aspect-ratio-21\:9 {
+  .mix-aspect-ratio(21,9);
+}
+
 // Background image
-.bg-cover {
+.bg-img-cover {
   background-position: center;
   background-size: cover;
 }
-.bg-fixed {
+.bg-img-fixed {
   background-attachment: fixed;
   background-size: 100%;
   background-position: center;
@@ -14,6 +28,20 @@
     background-attachment: scroll;
     background-size: cover;
   }
+}
+
+// Background position
+.bg-pos-bottom {
+  background-position: bottom;
+}
+.bg-pos-left {
+  background-position: left;
+}
+.bg-pos-right {
+  background-position: right;
+}
+.bg-pos-top {
+  background-position: top;
 }
 
 // Display
@@ -49,6 +77,26 @@
   font-family: @s-heading-font;
 }
 
+// Font weight
+.fw-thin {
+  font-weight: @s-base-font-weight-thin;
+}
+.fw-light {
+  font-weight: @s-base-font-weight-light;
+}
+.fw-regular {
+  font-weight: @s-base-font-weight-regular;
+}
+.fw-medium {
+  font-weight: @s-base-font-weight-medium;
+}
+.fw-semi-bold {
+  font-weight: @s-base-font-weight-semi-bold;
+}
+.fw-bold {
+  font-weight: @s-base-font-weight-bold;
+}
+
 // Overflow
 .ovf-auto {
   overflow: auto;
@@ -75,15 +123,6 @@
 }
 
 // Txt
-.txt-bold {
-  font-weight: @s-base-font-weight-bold;
-}
-.txt-light {
-  font-weight: @s-base-font-weight-light;
-}
-.txt-regular {
-  font-weight: @s-base-font-weight;
-}
 .txt-capitalize {
   text-transform: capitalize;
 }
@@ -96,11 +135,13 @@
 .txt-italic {
   font-style: italic;
 }
-.txt-lower {
+.txt-lowercase {
   text-transform: lowercase;
 }
 .txt-normal {
   font-style: normal;
+}
+.txt-normal-case {
   text-transform: none;
 }
 .txt-uppercase {
@@ -115,9 +156,17 @@
 .txt-through {
   text-decoration: line-through;
 }
+.txt-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
 .txt-word-break {
   word-break: break-all;
 }
+
+// Video
+
 
 // White space
 .ws-normal {
@@ -131,14 +180,17 @@
 }
 
 // Width & height
-.h-100 {
+.h-full {
   height: 100%;
 }
-.w-100 {
+.w-full {
   width: 100%;
 }
 
 // Others
+.appearance-none {
+  appearance: none;
+}
 .inline-block-clear {
   font-size: 0px;
   letter-spacing: 0px;

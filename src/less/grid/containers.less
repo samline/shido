@@ -22,7 +22,7 @@
   }
 }
 
-[class*=":scol"] {
+[class*=":scol-"] {
   display: inline-block;
   padding: @s-gutter;
   vertical-align: middle;
@@ -33,5 +33,24 @@
     & .line {
       margin: -@s-gutter;
     }
+  }
+}
+
+.show-grid-scontainer {
+
+  & [class*="scontainer"] {
+    outline: solid 2px;
+  }
+}
+.show-grid-line {
+
+  & [class*="line"] {
+    outline: dotted 2px;
+  }
+}
+.show-grid-scol {
+
+  & [class*=":scol-"] {
+    outline: dashed 2px;
   }
 }
