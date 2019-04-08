@@ -1,3 +1,18 @@
+// <a>
+
+a {
+
+  &.a-contrast-color {
+    color: @s-main-link-color-hover;
+
+    &:active,
+    &:hover,
+    &:focus {
+      color: @s-main-link-color;
+    }
+  }
+}
+
 // Aspect ratio
 .aspect-ratio-3\:2 {
   .mix-aspect-ratio(3,2);
@@ -54,19 +69,11 @@
 .dis-table {
   display: table;
 }
+.dis-row {
+  display: table-row;
+}
 .dis-cell {
   display: table-cell;
-  vertical-align: middle;
-}
-
-// Img
-.img-liquid {
-  max-width: 100%;
-}
-
-// Position
-.pos-relative {
-  position: relative;
 }
 
 // Font famyly
@@ -97,6 +104,11 @@
   font-weight: @s-base-font-weight-bold;
 }
 
+// Img
+.img-liquid {
+  max-width: 100%;
+}
+
 // Overflow
 .ovf-auto {
   overflow: auto;
@@ -106,6 +118,11 @@
 }
 .ovf-visible {
   overflow: visible;
+}
+
+// Position
+.pos-relative {
+  position: relative;
 }
 
 // Table
