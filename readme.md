@@ -12,7 +12,7 @@ by  **Samuel Olvera (samline)**
 <http://shido-v11.dinkbit.net/> - v1.1.0
 
 
-### Instalation
+### Installation
 ```bash
 npm install shido --save
 ```
