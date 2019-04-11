@@ -76,6 +76,8 @@ p {
 [class*="scontainer"] {
   margin: 0 auto;
   max-width: 1280px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 100%;
 }
 [class*="scontainer"][class*='-half'] {
