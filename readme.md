@@ -1,4 +1,4 @@
-# shido v2.0.0
+# shido v2.0.1
 by  **Samuel Olvera (samline)**
 
 ## what is shido?
@@ -7,7 +7,7 @@ by  **Samuel Olvera (samline)**
 ## Getting started
 
 ### Docs
-<http://shido.dinkbit.net/> - v2.0.0
+<http://shido.dinkbit.net/> - v2.0.1
 
 <http://shido-v11.dinkbit.net/> - v1.1.0
 
