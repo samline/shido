@@ -1,4 +1,4 @@
-# shido v2.0.1
+# shido v2.0.1 - Beta
 by  **Samuel Olvera (samline)**
 
 ## what is shido?
