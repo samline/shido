@@ -2802,6 +2802,7 @@ a.a-contrast-color:focus {
   text-decoration: line-through;
 }
 .txt-truncate {
+  max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
