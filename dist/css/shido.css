@@ -2770,12 +2770,12 @@ a.a-contrast-color:focus {
   max-width: 100%;
 }
 .trans-ease {
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.2s ease, outline 0.000001s;
+  transition: all 0.2s ease, outline 0.000001s;
 }
 .trans-linear {
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 0.2s linear, outline 0.000001s;
+  transition: all 0.2s linear, outline 0.000001s;
 }
 .txt-capitalize {
   text-transform: capitalize;
