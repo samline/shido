@@ -12,19 +12,23 @@ by  **Samuel Olvera (samline)**
 <http://shido-v11.dinkbit.net/> - v1.1.0
 
 
-### Installation
+### Install via npm
+To take advantage of the customization features, the best way to install shido is via npm.
+
 ```bash
 npm install shido --save
 ```
 
-### Usage
-```less
-@import "path/to/shido.less";
+### Install via CDN
+```bash
+<link href="https://unpkg.com/shido@^2.0.2/dist/css/shido.min.css" rel="stylesheet">
 ```
-or if you do not compile
 
-```html
-<link rel="stylesheet" href="path/to/shido.min.css">
+### Add shido to your project
+If you're install via npm and using postcss-import or a tool that uses it such as Webpack or Gulp, you can use @import to add shido directly to your build process.
+
+```less
+@import "path/to/.../node_modules/shido/src/less/shido";
 ```
 
 ### Configuration
@@ -42,12 +46,6 @@ You can create a file to customize the project variables if you need it.
 @s-heading-color:              @c-grey-900;
 @s-base-font:                  'Your font', -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
 @s-heading-font:               'Your font', -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
-@s-base-font-weight-thin:      200;
-@s-base-font-weight-light:     300;
-@s-base-font-weight-regular:   400;
-@s-base-font-weight-medium:    500;
-@s-base-font-weight-semi-bold: 600;
-@s-base-font-weight-bold:      700;
 @s-main-link-color:            @c-blue-500;
 @s-main-link-color-hover:      @c-blue-800;
 @s-hr-color:                   @c-grey-300;
