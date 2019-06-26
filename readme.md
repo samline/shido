@@ -40,23 +40,23 @@ You can create a file to customize the project variables if you need it.
 
 ```less
 // Layout
-@s-body-background-color:      @c-grey-50;
-@s-body-font-color:            @c-grey-900;
-@s-body-font-size:             16px;
-@s-heading-color:              @c-grey-900;
-@s-base-font:                  'Your font', -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
-@s-heading-font:               'Your font', -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
-@s-main-link-color:            @c-blue-500;
-@s-main-link-color-hover:      @c-blue-800;
-@s-hr-color:                   @c-grey-300;
+@s-body-background-color: @c-grey-50;
+@s-body-font-color:       @c-grey-900;
+@s-heading-color:         @c-grey-900;
+@s-body-font:             'Your font', -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
+@s-heading-font:          'Your font', -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
+@s-body-font-size:        16px;
+@s-main-link-color:       @c-blue-500;
+@s-main-link-color-hover: @c-blue-800;
+@s-hr-color:              @c-grey-300;
 
 // Fonts
-@s-min-font-size:   10;
-@s-max-font-size:   60;
+@s-min-font-size: 10;
+@s-max-font-size: 60;
 
 // Marging & Padding
-@s-max-margin:  6; // x10
-@s-max-padding: 6; // x10
+@s-max-margin:  8; // x10
+@s-max-padding: 8; // x10
 
 ```
 
