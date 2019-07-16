@@ -29,8 +29,8 @@ a {
   color: #2196F3;
   cursor: pointer;
   text-decoration: none;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 a:active,
 a:hover,
