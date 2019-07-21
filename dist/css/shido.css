@@ -2825,10 +2825,10 @@ a.a-contrast-color:focus {
 .ws-preline {
   white-space: pre-line;
 }
-.height-100\% {
+.h-100 {
   height: 100%;
 }
-.width-100\% {
+.w-100 {
   width: 100%;
 }
 .appearance-none {
