@@ -15,3 +15,15 @@
     background-color: @color;
   }
 }
+
+.mix-bg-color-class(
+  @color: @c-black,
+  @name: 'black'
+) {
+  .bg-@{name} {
+    background-color: @color;
+  }
+  .c-@{name} {
+    color: @color;
+  }
+}

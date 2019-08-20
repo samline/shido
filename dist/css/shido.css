@@ -2702,6 +2702,9 @@ a.a-contrast-color:focus {
 .bg-pos-bottom {
   background-position: bottom;
 }
+.bg-pos-center {
+  background-position: center;
+}
 .bg-pos-left {
   background-position: left;
 }
@@ -2726,7 +2729,7 @@ a.a-contrast-color:focus {
 .dis-table-cell {
   display: table-cell;
 }
-.ff-base {
+.ff-body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
 }
 .ff-heading {
@@ -2822,7 +2825,7 @@ a.a-contrast-color:focus {
 .ws-nowrap {
   white-space: nowrap;
 }
-.ws-preline {
+.ws-pre-line {
   white-space: pre-line;
 }
 .h-100 {
