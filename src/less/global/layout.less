@@ -13,9 +13,9 @@ html,
 body {
   background-color: @s-body-background-color;
   color: @s-body-font-color;
-  font-family: @s-body-font;
+  font-family: @s-body-font-family;
   font-size: @s-body-font-size;
-  font-weight: @s-body-font-weight-regular;
+  font-weight: @s-font-weight-regular;
   height: 100%;
   margin: 0 auto;
   padding: 0px;
@@ -27,7 +27,7 @@ a {
   color: @s-main-link-color;
   cursor: pointer;
   text-decoration: none;
-  transition: all .2s ease;
+  .mix-transition;
 
   &:active,
   &:hover,
@@ -47,19 +47,12 @@ h3,
 h4,
 h5,
 h6 {
-  color: @s-heading-color;
-  font-family: @s-heading-font;
-  font-weight: @s-body-font-weight-regular;
+  color: @s-headers-font-color;
+  font-family: @s-headers-font-family;
+  font-weight: @s-font-weight-regular;
   margin: 0px;
   position: relative;
   white-space: pre-line;
-}
-
-hr {
-  border: none;
-  border-top: solid 1px @s-hr-color;
-  margin: 0px;
-  padding: 0px;
 }
 
 img {
