@@ -12,6 +12,8 @@ by  **Samuel Olvera (samline)**
 <http://shido-v11.dinkbit.net/> - v1.1.0
 
 ### Install via CDN
+Before using CDN compilation, keep in mind that the customization of variables are not available without incorporating shido in your build process.
+
 ```html
 <link href="https://unpkg.com/shido@^2.1.0/dist/css/shido.min.css" rel="stylesheet">
 ```
@@ -92,7 +94,7 @@ Keep in mind that with a high number in **fonts** or **margin** and **padding** 
 
 #### Margin and Padding variables
 - `@s-max-margin` Maximum margin value available, default: 8 (x10).
-- `@s-max-padding ` Maximum padding value available, default: 8 (x10)..
+- `@s-max-padding ` Maximum padding value available, default: 8 (x10).
 
 *Note: Values available in intervals of five, for example:*
 
