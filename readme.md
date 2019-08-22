@@ -32,7 +32,7 @@ yarn add shido
 If you're install via npm or yarn and using `postcss-import` or a tool that uses it such as Webpack or Gulp, you can use `@import` to add shido directly to your build process.
 
 ```less
-@import "...pathTo/shido/src/less/shido";
+@import "...pathTo/node_modules/shido/src/less/shido";
 ```
 
 ### Customize your project
@@ -43,7 +43,7 @@ Keep in mind that with a high number in **fonts** or **margin** and **padding** 
 *Note: The colors set by default can be found in Colors Palette*
 
 ```less
-@import '...pathTo/shido'
+@import '...pathTo/node_modules/shido/src/less/shido'
 
 // Layout
 @s-body-background-color: @c-white;
