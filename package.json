@@ -9,33 +9,46 @@
   },
   "keywords": [
     "shido",
+    "grid-layout",
+    "grid-system",
     "grid",
     "less",
-    "css"
+    "less-mixins",
+    "css3",
+    "css-framework",
+    "css-modules",
+    "helpers-class",
+    "helpers-library",
+    "mixins",
+    "artisan",
+    "frontend",
+    "front-end",
+    "ui"
   ],
-  "author": "Samuel Olvera (samline) <jsamline@gmail.com>",
+  "author": "Samuel Olvera (samline)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/samline/shido/issues"
   },
   "homepage": "https://github.com/samline/shido#readme",
   "scripts": {
-    "dev": "npm run development",
-    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "prod": "npm run production",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "local": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --env=local --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "staging": "cross-env NODE_ENV=staging node_modules/webpack/bin/webpack.js --progress --hide-modules --env=staging --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "dev": "yarn run local",
+    "prod": "yarn run production",
+    "watch": "yarn run local -- --watch"
   },
   "devDependencies": {
-    "cross-env": "^5.1.3",
-    "hoek": "^6.1.2",
-    "laravel-mix": "^4.0.15",
+    "cross-env": "^6.0.3",
+    "laravel-mix": "^5.0.0",
     "less": "^3.9.0",
-    "less-loader": "^4.0.5"
+    "less-loader": "^5.0.0"
   },
   "engines": {
-    "node": ">=8",
-    "npm": ">=5"
+    "node": ">=10",
+    "npm": ">=6",
+    "yarn": ">=1.19.0"
   },
   "browserslist": [
     "ie 9",

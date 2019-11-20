@@ -108,4 +108,4 @@ Keep in mind that with a high number in **fonts** or **margin** and **padding** 
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2019 Samuel Olvera (samline) <jsamline@gmail.com>
+Copyright (c) 2019 Samuel Olvera (samline)
