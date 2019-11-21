@@ -1,2 +1,19 @@
-node_modules/
+# Assets development
+/node_modules
+npm-debug.log
+
+# OS
+.DS_Store
+.idea/
+.tags
+Thumbs.db
+
+# Packages
+.phpunit.result.cache
+.vagrant/
+/.vscode
+/nbproject/
+_ide_helpers.php
+tests/_output/*
 yarn-error.log
+package-lock.json
