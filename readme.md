@@ -31,15 +31,13 @@ yarn add shido
 If you're install via npm or yarn and using `postcss-import` or a tool that uses it such as Webpack or Gulp, you can use `@import` to add shido directly to your build process.
 
 ```less
-@import "...pathTo/node_modules/shido/src/less/shido";
+@import "@import  "~shido/src/less/shido";
 ```
 
 ### Customize your project
 If you want to customize your shido installation, you can generate a configuration file for your project for example `custom-shido.less` and set new values for default shido variables.
 
 Keep in mind that with a high number in **fonts** or **margin** and **padding** will increase the number of classes and also the size of the final css.
-
-*Note: The colors set by default can be found in Colors Palette*
 
 ```less
 @import "~shido/src/less/shido";
@@ -64,16 +62,16 @@ Keep in mind that with a high number in **fonts** or **margin** and **padding** 
 ```
 
 #### Layout variables
-- `@s-body-background-color` Background color of the project.
-- `@s-body-font-color` Text color of the project.
-- `@s-headers-font-color` Headers colors `h1, h2 ... h6`.
-- `@s-body-font-family` Default font.
-- `@s-headers-font-family` Headers font `h1, h2 ... h6`.
-- `@s-body-font-size` Default size font.
-- `@s-main-link-color` Color of tag `<a>`.
-- `@s-main-link-color-hover` Color of tag `<a>` in hover state.
+- `@s-body-background-color`
+- `@s-body-font-color`
+- `@s-headers-font-color`
+- `@s-body-font-family`
+- `@s-headers-font-family`
+- `@s-body-font-size`
+- `@s-main-link-color`
+- `@s-main-link-color-hover`
 
-*Note: You can define another link color with the color classes, this will not affect the hover state, for example:*
+*Note: You can define another link color with the color classes, this will not affect the hover state.*
 
 ```html
 <a href="#">Default link</a>
@@ -85,7 +83,7 @@ Keep in mind that with a high number in **fonts** or **margin** and **padding** 
 - `@s-min-font-size` Minimum font value available, default: 10.
 - `@s-max-font-size` Maximum font value available, default: 60.
 
-*Note: Only even numbers are available, for example:*
+*Note: Only even numbers are available.*
 
 ```html
 <p class="x:fs-10 s:fs-12 m:fs-14 ... xl:fs-60">Hello world!</p>
@@ -95,7 +93,7 @@ Keep in mind that with a high number in **fonts** or **margin** and **padding** 
 - `@s-max-margin` Maximum margin value available, default: 8 (x10).
 - `@s-max-padding ` Maximum padding value available, default: 8 (x10).
 
-*Note: Values available in intervals of five, for example:*
+*Note: Values available in intervals of five.*
 
 ```html
 <p class="x:mrg-left-0 s:mrg-left-5 m:mrg-left-10 ... xl:mrg-left-80">I have margin classes!</p>
