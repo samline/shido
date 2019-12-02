@@ -1,5 +1,4 @@
-# shido v2.1.0
-by  **Samuel Olvera (samline)**
+[![image](https://github.com/samline/shido/raw/master/shido.png)](<https://loving-nobel-3d8015.netlify.com/>)
 
 ## what is shido?
 **shido** is a responsive framework developed with {Less} for artisans, includes classes, helpers and mixins that facilitate creation of layouts quickly. **shido** provides a great base to start by letting the developer create the necessary components for each project.
