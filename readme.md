@@ -43,17 +43,17 @@ Keep in mind that with a high number in **fonts** or **margin** and **padding** 
 *Note: The colors set by default can be found in Colors Palette*
 
 ```less
-@import '...pathTo/node_modules/shido/src/less/shido'
+@import "~shido/src/less/shido";
 
 // Layout
-@s-body-background-color: @c-white;
-@s-body-font-color:       @c-black;
-@s-headers-font-color:    @c-black;
-@s-body-font-family:      'Your font', -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
-@s-headers-font-family:   'Your font', -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
+@s-body-background-color: #fff;
+@s-body-font-color:       #000;
+@s-headers-font-color:    #000;
+@s-body-font-family:      "Your font here", -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
+@s-headers-font-family:   "Your font here", -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
 @s-body-font-size:        16px;
-@s-main-link-color:       @c-blue-500;
-@s-main-link-color-hover: @c-blue-800;
+@s-main-link-color:       #2196F3;
+@s-main-link-color-hover: #1565C0;
 
 // Fonts
 @s-min-font-size: 10;
@@ -82,7 +82,7 @@ Keep in mind that with a high number in **fonts** or **margin** and **padding** 
 <a href="#" class="c-pink-300">Pink link</a>
 ```
 
-#### Layout variables
+#### Fonts variables
 - `@s-min-font-size` Minimum font value available, default: 10.
 - `@s-max-font-size` Maximum font value available, default: 60.
 
