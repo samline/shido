@@ -5,10 +5,8 @@
 
 ## Getting started
 
-### Docs
-<http://shido.dinkbit.net/> - v2.1.0
-
-<http://shido-v11.dinkbit.net/> - v1.1.0
+### Docs v2
+<https://samline.github.io/shido/>
 
 ### Install via CDN
 Before using CDN compilation, keep in mind that the customization of variables are not available without incorporating shido in your build process.

@@ -1,8 +1,8 @@
 {
   "private": false,
-  "name": "shido",
+  "name": "Shido",
   "version": "2.1.0",
-  "description": "shido is a responsive framework developed with {Less} for artisans, includes classes, helpers and mixins that facilitate creation of layouts quickly. shido provides a great base to start by letting the developer create the necessary components for each project.",
+  "description": "Shido is a responsive framework developed with {Less} for artisans, includes classes, helpers and mixins that facilitate creation of layouts quickly. Shido provides a great base to start by letting the developer create the necessary components for each project.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/samline/shido.git"
@@ -23,7 +23,12 @@
     "artisan",
     "frontend",
     "front-end",
-    "ui"
+    "ui",
+    "css-framework",
+    "postcss",
+    "functional-css",
+    "utility-classes",
+    "responsive"
   ],
   "author": "Samuel Olvera (samline)",
   "license": "MIT",
