@@ -4,7 +4,7 @@
 
   <head>
 
-  <title>offset :: Shido</title>
+  <title>Padding :: Shido</title>
 
   
   <meta charset="utf-8"/>
@@ -15,11 +15,11 @@
   <meta name="keywords" content="shido, grid-layout, grid-system, grid, less, less-mixins, css3, css-framework, css-modules, helpers-class, helpers-library, mixins, artisan, frontend, front-end, ui, css-framework, postcss, functional-css, utility-classes, responsive"/>
   <meta name="description" content="Shido is a responsive framework developed with {Less} for artisans, includes classes, helpers and mixins that facilitate creation of layouts quickly. Shido provides a great base to start by letting the developer create the necessary components for each project."/>
 
-  <meta property="og:title" content="offset :: Shido"/>
+  <meta property="og:title" content="Padding :: Shido"/>
   <meta property="og:description" content="Shido is a responsive framework developed with {Less} for artisans, includes classes, helpers and mixins that facilitate creation of layouts quickly. Shido provides a great base to start by letting the developer create the necessary components for each project."/>
   <meta property="og:type" content="website"/>
   <meta property="og:locale" content="es_US"/>
-  <meta property="og:url" content="/shido/grid/offset"/>
+  <meta property="og:url" content="/shido/utility-classes/padding"/>
   <meta property="og:site_name" content="Shido"/>
   <meta property="og:image" content="/shido/dist/img/ico/logo-share.jpg"/>
   <meta property="og:image:width" content="1200"/>
@@ -81,7 +81,7 @@
 
               
     <div
-    class="main-container grid"
+    class="main-container utility-classes"
     controller="0"
     dimentions-height="wo-footer, liquid"
     >
@@ -179,7 +179,7 @@
             scol-fit
           </a>
         </li>
-                      <li class="--active">
+                      <li class="">
           <a
           href="/shido/grid/offset"
           
@@ -225,7 +225,7 @@
             Margin
           </a>
         </li>
-                      <li class="">
+                      <li class="--active">
           <a
           href="/shido/utility-classes/padding"
           
@@ -260,15 +260,14 @@ x:fs-28 s:fs-30 m:fs-32
 
 
 "
->offset</h1>
-  <p class="x:fs-14 s:fs-16 c-grey-500">The offset works like a blank column that will stay before your column.</p>
+>Padding</h1>
       <div class="x:mrg-bt-10">
         <hr>
       </div>
     </div>
   </div>
 </section>
-  <section id="download">
+  <section id="padding">
   <div class="line">
     <div class="x:scol-12">
       <h2
@@ -278,59 +277,80 @@ fw-medium
 x:fs-22 s:fs-24 m:fs-26
 
 "
->How to use</h2>
+>Usage</h2>
     </div>
     <div class="x:scol-12">
-      <p>You can move columns to the right by occupying the space corresponding to the number of columns you want to move.</p>
+      <p>By default the available padding classes are from <span class="fw-medium">0</span> to <span class="fw-medium">80</span>, but <a href="/shido/getting-started/installation#customize" class="txt-underline dis-inline-block">you can modify</a> them according to your needs.</p>
     </div>
     <div class="x:scol-12">
-      <note>To control the offset of a <code tag>.x:scol-fit-*</code> you have to use <code tag>.x:offset-fit-*</code></note>
+      <ul class="ul-pretty">
+        <li><code tag>*:pad-top-*</code></li>
+        <li><code tag>*:pad-right-*</code></li>
+        <li><code tag>*:pad-bottom-*</code></li>
+        <li><code tag>*:pad-left-*</code></li>
+        <li><code tag>*:pad-bt-*</code>: (bottom and top)</li>
+        <li><code tag>*:pad-lr-*</code>: (left and right)</li>
+        <li><code tag>*:pad-all-*</code></li>
+      </ul>
+    </div>
+    <div class="x:scol-12">
+      <note>Padding classes are available in intervals of 5.</note>
+    </div>
+    <div class="x:scol-12">
+      <pre>
+<code class="language-markup">
+&lt;p class="x:pad-top-5 s:pad-top-10 m:pad-top-15 ... xl:pad-top-80">Content&lt;/p>
+</code>
+      </pre>
     </div>
     <div class="x:scol-12">
       <pre>
 <code class="language-markup">
 &lt;div class="line">
-  &lt;div class="x:scol-3">3&lt;/div>
-  &lt;div class="x:scol-3">3&lt;/div>
-  &lt;div class="x:scol-3 x:offset-3">3&lt;/div>
-  &lt;div class="x:scol-6 x:offset-3">6&lt;/div>
-  &lt;div class="x:scol-5">5&lt;/div>
-  &lt;div class="x:scol-2 x:offset-3">2&lt;/div>
+  &lt;div class="x:scol-3 x:top">
+    &lt;p class="x:pad-top-50">Lorem ipsum&lt;/p>
+  &lt;/div>
+  &lt;div class="x:scol-3 x:top">
+    &lt;p class="s:pad-right-80">Lorem ipsum&lt;/p>
+  &lt;/div>
+  &lt;div class="x:scol-3 x:top">
+    &lt;p class="x:pad-bottom-75">Lorem ipsum&lt;/p>
+  &lt;/div>
+  &lt;div class="x:scol-3 x:top">
+    &lt;p class="s:pad-left-20">Lorem ipsum&lt;/p>
+  &lt;/div>
+  &lt;div class="x:scol-6 x:top">
+    &lt;p class="x:pad-bt-50">Lorem ipsum&lt;/p>
+  &lt;/div>
+  &lt;div class="x:scol-6 x:top">
+    &lt;p class="x:pad-lr-20 s:pad-lr-50">Lorem ipsum&lt;/p>
+  &lt;/div>
 &lt;/div>
 </code>
       </pre>
+      <br>
       <div class="sandbox">
         <div class="line demo-grid">
-          <div class="x:scol-3">3</div>
-          <div class="x:scol-3">3</div>
-          <div class="x:scol-3 x:offset-3">3</div>
-          <div class="x:scol-6 x:offset-3">6</div>
-          <div class="x:scol-5">5</div>
-          <div class="x:scol-2 x:offset-3">2</div>
+          <div class="x:scol-3 x:top">
+            <p class="x:pad-top-50">Lorem ipsum</p>
+          </div>
+          <div class="x:scol-3 x:top">
+            <p class="s:pad-right-80">Lorem ipsum</p>
+          </div>
+          <div class="x:scol-3 x:top">
+            <p class="x:pad-bottom-75">Lorem ipsum</p>
+          </div>
+          <div class="x:scol-3 x:top">
+            <p class="s:pad-left-20">Lorem ipsum</p>
+          </div>
+          <div class="x:scol-6 x:top">
+            <p class="x:pad-bt-50">Lorem ipsum</p>
+          </div>
+          <div class="x:scol-6 x:top">
+            <p class="x:pad-lr-20 s:pad-lr-50">Lorem ipsum</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="x:scol-12">
-      <p><code tag>.x:offset-0</code> class is used to cancel the set offset in case you don't need it at a higher breakpoint.</p>
-    </div>
-    <div class="x:scol-12">
-      <pre>
-<code class="language-markup">
-&lt;div class="line">
-  &lt;div class="x:scol-4">4&lt;/div>
-  &lt;div class="x:scol-4 x:offset-4 m:offset-0">4&lt;/div>
-&lt;/div>
-</code>
-      </pre>
-      <div class="sandbox">
-        <div class="line demo-grid">
-          <div class="x:scol-4">4</div>
-          <div class="x:scol-4 x:offset-4 m:offset-0">4</div>
-        </div>
-      </div>
-    </div>
-    <div class="x:scol-12">
-      <note><code tag>.x:offset-fit-0</code> class doesn't exist, <code tag>.x:offset-0</code> works for <code tag>scol</code> and <code tag>scol-fit</code></note>
     </div>
   </div>
 </section>
