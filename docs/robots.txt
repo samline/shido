@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: http://dominio.final/sitemap.xml
+Sitemap: https://samline.github.io/shido/sitemap.xml
