@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "Shido",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Shido is a responsive framework developed with {Less} for artisans, includes classes, helpers and mixins that facilitate creation of layouts quickly. Shido provides a great base to start by letting the developer create the necessary components for each project.",
   "repository": {
     "type": "git",
