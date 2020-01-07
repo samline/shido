@@ -12,7 +12,7 @@
 Before using CDN compilation, keep in mind that the customization of variables are not available without incorporating shido in your build process.
 
 ```html
-<link href="https://unpkg.com/shido@^2.1.0/dist/css/shido.min.css" rel="stylesheet">
+<link href="https://unpkg.com/shido@^2.1.1/dist/css/shido.min.css" rel="stylesheet">
 ```
 
 ### Install via npm or yarn
