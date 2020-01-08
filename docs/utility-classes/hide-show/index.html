@@ -63,8 +63,8 @@
 
 
   
-  <link rel="preload" as="style" href="/shido/dist/css/app.css?id=ed9d749838976b055624">
-  <link rel="stylesheet" href="/shido/dist/css/app.css?id=ed9d749838976b055624">
+  <link rel="preload" as="style" href="/shido/dist/css/app.css?id=d6c928e6d80ad3011021">
+  <link rel="stylesheet" href="/shido/dist/css/app.css?id=d6c928e6d80ad3011021">
 
   
   
@@ -267,8 +267,111 @@ x:fs-28 s:fs-30 m:fs-32
     </div>
   </div>
 </section>
-  
-  
+  <section id="hide-show">
+  <div class="line">
+    <div class="x:scol-12">
+      <h2
+class="
+fw-medium
+
+x:fs-22 s:fs-24 m:fs-26
+
+"
+>Usage</h2>
+    </div>
+    <div class="x:scol-12">
+      <ul class="ul-pretty">
+        <li><code tag>*:hide</code></li>
+        <li><code tag>*:show</code></li>
+        <li><code tag>*:show-inline</code></li>
+      </ul>
+    </div>
+    <div class="x:scol-12">
+      <pre>
+<code class="language-markup">
+&lt;div class="line">
+  &lt;div class="x:scol-3">
+    &lt;p class="x:hide s:show">Lorem ipsum&lt;/p>
+  &lt;/div>
+  &lt;div class="x:scol-3">
+    &lt;p class="s:hide m:show">Lorem ipsum&lt;/p>
+  &lt;/div>
+  &lt;div class="x:scol-3">
+    &lt;p class="m:hide l:show">Lorem ipsum&lt;/p>
+  &lt;/div>
+  &lt;div class="x:scol-3">
+    &lt;p class="l:hide x:show">Lorem ipsum&lt;/p>
+  &lt;/div>
+&lt;/div>
+</code>
+      </pre>
+      <br>
+      <div class="sandbox">
+        <div class="line demo-grid">
+          <div class="x:scol-3">
+            <p class="x:hide s:show">Lorem ipsum</p>
+          </div>
+          <div class="x:scol-3">
+            <p class="s:hide m:show">Lorem ipsum</p>
+          </div>
+          <div class="x:scol-3">
+            <p class="m:hide l:show">Lorem ipsum</p>
+          </div>
+          <div class="x:scol-3">
+            <p class="l:hide x:show">Lorem ipsum</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="x:scol-12">
+      <p>The columns are of the <code tag>inline-block</code> type, it is important to use <code tag>*:show-inline</code> in columns or elements to be displayed again and require to keep or set the <code tag>display: inline-block</code> property.</p>
+    </div>
+    <div class="x:scol-12">
+      <pre>
+<code class="language-markup">
+&lt;div class="line">
+  &lt;div class="x:scol-3 x:hide s:show-inline">1&lt;/div>
+  &lt;div class="x:scol-3 s:hide m:show-inline">2&lt;/div>
+  &lt;div class="x:scol-3 m:hide l:show-inline">3&lt;/div>
+  &lt;div class="x:scol-3 l:hide">4&lt;/div>
+&lt;/div>
+</code>
+      </pre>
+      <br>
+      <div class="sandbox">
+        <div class="line demo-grid">
+          <div class="x:scol-3 x:hide s:show-inline">
+            1
+          </div>
+          <div class="x:scol-3 s:hide m:show-inline">
+            2
+          </div>
+          <div class="x:scol-3 m:hide l:show-inline">
+            3
+          </div>
+          <div class="x:scol-3 l:hide">
+            4
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="x:scol-12">
+      <p>You can also combine breakpoints, for example the following element will only be visible at breakpoint <code tag>x</code> and <code tag>m</code></p>
+    </div>
+    <div class="x:scol-12">
+      <pre>
+<code class="language-markup">
+&lt;p class="s:hide m:show l:hide">Hello!&lt;/p>
+</code>
+      </pre>
+      <br>
+      <div class="sandbox">
+        <p class="x:hide s:show m:hide l:show">Resize your browser...</p>
+        <p class="s:hide m:show l:hide">Hello!</p>
+      </div>
+    </div>
+  </div>
+</section>
 
             </div>
             <footer class="x:pad-bottom-10 x:pad-lr-20">
