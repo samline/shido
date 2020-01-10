@@ -4,7 +4,7 @@
 
   <head>
 
-  <title>Fonts :: Shido</title>
+  <title>Alignment :: Shido</title>
 
   
   <meta charset="utf-8"/>
@@ -15,11 +15,11 @@
   <meta name="keywords" content="shido, grid-layout, grid-system, grid, less, less-mixins, css3, css-framework, css-modules, helpers-class, helpers-library, mixins, artisan, frontend, front-end, ui, css-framework, postcss, functional-css, utility-classes, responsive"/>
   <meta name="description" content="Shido is a responsive framework developed with {Less} for artisans, includes classes, helpers and mixins that facilitate creation of layouts quickly. Shido provides a great base to start by letting the developer create the necessary components for each project."/>
 
-  <meta property="og:title" content="Fonts :: Shido"/>
+  <meta property="og:title" content="Alignment :: Shido"/>
   <meta property="og:description" content="Shido is a responsive framework developed with {Less} for artisans, includes classes, helpers and mixins that facilitate creation of layouts quickly. Shido provides a great base to start by letting the developer create the necessary components for each project."/>
   <meta property="og:type" content="website"/>
   <meta property="og:locale" content="es_US"/>
-  <meta property="og:url" content="/shido/utility-classes/fonts"/>
+  <meta property="og:url" content="/shido/utility-classes/alignment"/>
   <meta property="og:site_name" content="Shido"/>
   <meta property="og:image" content="/shido/dist/img/ico/logo-share.jpg"/>
   <meta property="og:image:width" content="1200"/>
@@ -209,7 +209,7 @@
           </ul>
       <p class="label x:fs-14">Utility classes</p>
     <ul>
-                      <li class="">
+                      <li class="--active">
           <a
           href="/shido/utility-classes/alignment"
           
@@ -225,7 +225,7 @@
             Aspect ratio
           </a>
         </li>
-                      <li class="--active">
+                      <li class="">
           <a
           href="/shido/utility-classes/fonts"
           
@@ -276,18 +276,15 @@ x:fs-28 s:fs-30 m:fs-32
 
 
 "
->Fonts</h1>
+>Alignment</h1>
       <div class="x:mrg-bt-10">
         <hr>
       </div>
     </div>
   </div>
 </section>
-  <section id="download">
+  <section id="hide-show">
   <div class="line">
-    <div class="x:scol-12">
-      <p>Choose the font size in <code tag>pixels</code> and the resulting size will be its equivalent in <code tag>rem</code> according to the default font size <code tag>@s-body-font-size</code>, by default it is 16px.</p>
-    </div>
     <div class="x:scol-12">
       <h2
 class="
@@ -296,27 +293,50 @@ fw-medium
 x:fs-22 s:fs-24 m:fs-26
 
 "
->Responsive fonts</h2>
+>Hotizontal alignment</h2>
     </div>
     <div class="x:scol-12">
-    <p>Responsive fonts are utilitarian classes to be used directly in your html. By default the available font sizes are from <span class="fw-medium">10</span> to <span class="fw-medium">60</span>, but <a href="/shido/getting-started/installation#customize" class="txt-underline dis-inline-block">you can modify</a> them according to your needs.</p>
-    </div>
-    <div class="x:scol-12">
-      <note>Only even numbers are available.</note>
+      <ul class="ul-pretty">
+        <li><code tag>*:center</code></li>
+        <li><code tag>*:left</code></li>
+        <li><code tag>*:right</code></li>
+        <li><code tag>*:justify</code></li>
+      </ul>
     </div>
     <div class="x:scol-12">
       <pre>
 <code class="language-markup">
-&lt;p class="x:fs-18 s:fs-22 m:fs-24 l:fs-30 xl:fs-40">Hello world!&lt;/p>
+&lt;div class="line">
+  &lt;div class="x:scol-4">
+    &lt;p class="x:left">Left&lt;/p>
+  &lt;/div>
+  &lt;div class="x:scol-4">
+    &lt;p class="x:center">Center&lt;/p>
+  &lt;/div>
+  &lt;div class="x:scol-4">
+    &lt;p class="x:right">Right&lt;/p>
+  &lt;/div>
+&lt;/div>
 </code>
       </pre>
+      <br>
       <div class="sandbox">
-        <p class="x:fs-18 s:fs-22 m:fs-24 l:fs-30 xl:fs-40">Hello world!</p>
+        <div class="line demo-grid">
+          <div class="x:scol-4">
+            <p class="x:left">Left</p>
+          </div>
+          <div class="x:scol-4">
+            <p class="x:center">Center</p>
+          </div>
+          <div class="x:scol-4">
+            <p class="x:right">Right</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
-  <section id="download">
+  <section id="hide-show">
   <div class="line">
     <div class="x:scol-12">
       <h2
@@ -326,30 +346,105 @@ fw-medium
 x:fs-22 s:fs-24 m:fs-26
 
 "
->Static fonts</h2>
+>Vertical alignment</h2>
     </div>
     <div class="x:scol-12">
-      <p>Static fonts are generated from mixins so they must be compiled.</p>
+      <ul class="ul-pretty">
+        <li><code tag>*:baseline</code></li>
+        <li><code tag>*:bottom</code></li>
+        <li><code tag>*:middle</code></li>
+        <li><code tag>*:top</code></li>
+      </ul>
     </div>
     <div class="x:scol-12">
-      <note>Any font size is accepted.</note>
+      <p>Vertical alignment is intended to be used in columns, but can also be used in any <code tag>inline-block</code> type element.</p>
     </div>
     <div class="x:scol-12">
-      <pre>
-<code class="language-less">
-.example-hello-world {
-  color: @c-teal-500;
-  .mix-fs(36); /* Return font-size: 2.25rem */
-}
-</code>
-      </pre>
+      <note><code tag>*:scol-</code> and <code tag>*:scol-fit-</code> by default are vertically centered.</note>
+    </div>
+    <div class="x:scol-12">
       <pre>
 <code class="language-markup">
-&lt;p class="example-hello-world">Hello world!&lt;/p>
+&lt;div class="line">
+  &lt;div class="x:scol-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, officiis. At quis odit et atque molestiae veritatis natus, cupiditate labore. Accusantium nesciunt a repellat fugiat rerum, voluptas blanditiis minus, eaque!&lt;/div>
+  &lt;div class="x:scol-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque corrupti ipsam iusto nobis illum aspernatur cupiditate reiciendis? Et, provident.&lt;/div>
+  &lt;div class="x:scol-4">Lorem ipsum dolor sit amet.&lt;/div>
+&lt;/div>
 </code>
       </pre>
+      <br>
       <div class="sandbox">
-        <p class="example-hello-world">Hello world!</p>
+        <div class="line demo-grid">
+          <div class="x:scol-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, officiis. At quis odit et atque molestiae veritatis natus, cupiditate labore. Accusantium nesciunt a repellat fugiat rerum, voluptas blanditiis minus, eaque!</div>
+          <div class="x:scol-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque corrupti ipsam iusto nobis illum aspernatur cupiditate reiciendis? Et, provident.</div>
+          <div class="x:scol-4">Lorem ipsum dolor sit amet.</div>
+        </div>
+      </div>
+    </div>
+    <div class="x:scol-12">
+      <p>You can align to the top.</p>
+    </div>
+    <div class="x:scol-12">
+      <pre>
+<code class="language-markup">
+&lt;div class="line">
+  &lt;div class="x:scol-4 x:top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, officiis. At quis odit et atque molestiae veritatis natus, cupiditate labore. Accusantium nesciunt a repellat fugiat rerum, voluptas blanditiis minus, eaque!&lt;/div>
+  &lt;div class="x:scol-4 x:top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque corrupti ipsam iusto nobis illum aspernatur cupiditate reiciendis? Et, provident.&lt;/div>
+  &lt;div class="x:scol-4 x:top">Lorem ipsum dolor sit amet.&lt;/div>
+&lt;/div>
+</code>
+      </pre>
+      <br>
+      <div class="sandbox">
+        <div class="line demo-grid">
+          <div class="x:scol-4 x:top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, officiis. At quis odit et atque molestiae veritatis natus, cupiditate labore. Accusantium nesciunt a repellat fugiat rerum, voluptas blanditiis minus, eaque!</div>
+          <div class="x:scol-4 x:top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque corrupti ipsam iusto nobis illum aspernatur cupiditate reiciendis? Et, provident.</div>
+          <div class="x:scol-4 x:top">Lorem ipsum dolor sit amet.</div>
+        </div>
+      </div>
+    </div>
+    <div class="x:scol-12">
+      <p>You can align to the bottom.</p>
+    </div>
+    <div class="x:scol-12">
+      <pre>
+<code class="language-markup">
+&lt;div class="line">
+  &lt;div class="x:scol-4 x:bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, officiis. At quis odit et atque molestiae veritatis natus, cupiditate labore. Accusantium nesciunt a repellat fugiat rerum, voluptas blanditiis minus, eaque!&lt;/div>
+  &lt;div class="x:scol-4 x:bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque corrupti ipsam iusto nobis illum aspernatur cupiditate reiciendis? Et, provident.&lt;/div>
+  &lt;div class="x:scol-4 x:bottom">Lorem ipsum dolor sit amet.&lt;/div>
+&lt;/div>
+</code>
+      </pre>
+      <br>
+      <div class="sandbox">
+        <div class="line demo-grid">
+          <div class="x:scol-4 x:bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, officiis. At quis odit et atque molestiae veritatis natus, cupiditate labore. Accusantium nesciunt a repellat fugiat rerum, voluptas blanditiis minus, eaque!</div>
+          <div class="x:scol-4 x:bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque corrupti ipsam iusto nobis illum aspernatur cupiditate reiciendis? Et, provident.</div>
+          <div class="x:scol-4 x:bottom">Lorem ipsum dolor sit amet.</div>
+        </div>
+      </div>
+    </div>
+    <div class="x:scol-12">
+      <p>Or you can combine them too.</p>
+    </div>
+    <div class="x:scol-12">
+      <pre>
+<code class="language-markup">
+&lt;div class="line">
+  &lt;div class="x:scol-4 x:bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, officiis. At quis odit et atque molestiae veritatis natus, cupiditate labore. Accusantium nesciunt a repellat fugiat rerum, voluptas blanditiis minus, eaque!&lt;/div>
+  &lt;div class="x:scol-4 x:bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque corrupti ipsam iusto nobis illum aspernatur cupiditate reiciendis? Et, provident.&lt;/div>
+  &lt;div class="x:scol-4 x:top">Lorem ipsum dolor sit amet.&lt;/div>
+&lt;/div>
+</code>
+      </pre>
+      <br>
+      <div class="sandbox">
+        <div class="line demo-grid">
+          <div class="x:scol-4 x:bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, officiis. At quis odit et atque molestiae veritatis natus, cupiditate labore. Accusantium nesciunt a repellat fugiat rerum, voluptas blanditiis minus, eaque!</div>
+          <div class="x:scol-4 x:bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque corrupti ipsam iusto nobis illum aspernatur cupiditate reiciendis? Et, provident.</div>
+          <div class="x:scol-4 x:top">Lorem ipsum dolor sit amet.</div>
+        </div>
       </div>
     </div>
   </div>

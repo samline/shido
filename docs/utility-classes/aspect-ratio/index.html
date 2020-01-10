@@ -4,7 +4,7 @@
 
   <head>
 
-  <title>Fonts :: Shido</title>
+  <title>Aspect ratio :: Shido</title>
 
   
   <meta charset="utf-8"/>
@@ -15,11 +15,11 @@
   <meta name="keywords" content="shido, grid-layout, grid-system, grid, less, less-mixins, css3, css-framework, css-modules, helpers-class, helpers-library, mixins, artisan, frontend, front-end, ui, css-framework, postcss, functional-css, utility-classes, responsive"/>
   <meta name="description" content="Shido is a responsive framework developed with {Less} for artisans, includes classes, helpers and mixins that facilitate creation of layouts quickly. Shido provides a great base to start by letting the developer create the necessary components for each project."/>
 
-  <meta property="og:title" content="Fonts :: Shido"/>
+  <meta property="og:title" content="Aspect ratio :: Shido"/>
   <meta property="og:description" content="Shido is a responsive framework developed with {Less} for artisans, includes classes, helpers and mixins that facilitate creation of layouts quickly. Shido provides a great base to start by letting the developer create the necessary components for each project."/>
   <meta property="og:type" content="website"/>
   <meta property="og:locale" content="es_US"/>
-  <meta property="og:url" content="/shido/utility-classes/fonts"/>
+  <meta property="og:url" content="/shido/utility-classes/aspect-ratio"/>
   <meta property="og:site_name" content="Shido"/>
   <meta property="og:image" content="/shido/dist/img/ico/logo-share.jpg"/>
   <meta property="og:image:width" content="1200"/>
@@ -217,7 +217,7 @@
             Alignment
           </a>
         </li>
-                      <li class="">
+                      <li class="--active">
           <a
           href="/shido/utility-classes/aspect-ratio"
           
@@ -225,7 +225,7 @@
             Aspect ratio
           </a>
         </li>
-                      <li class="--active">
+                      <li class="">
           <a
           href="/shido/utility-classes/fonts"
           
@@ -276,18 +276,15 @@ x:fs-28 s:fs-30 m:fs-32
 
 
 "
->Fonts</h1>
+>Aspect ratio</h1>
       <div class="x:mrg-bt-10">
         <hr>
       </div>
     </div>
   </div>
 </section>
-  <section id="download">
+  <section id="hide-show">
   <div class="line">
-    <div class="x:scol-12">
-      <p>Choose the font size in <code tag>pixels</code> and the resulting size will be its equivalent in <code tag>rem</code> according to the default font size <code tag>@s-body-font-size</code>, by default it is 16px.</p>
-    </div>
     <div class="x:scol-12">
       <h2
 class="
@@ -296,60 +293,110 @@ fw-medium
 x:fs-22 s:fs-24 m:fs-26
 
 "
->Responsive fonts</h2>
+>Usage</h2>
     </div>
     <div class="x:scol-12">
-    <p>Responsive fonts are utilitarian classes to be used directly in your html. By default the available font sizes are from <span class="fw-medium">10</span> to <span class="fw-medium">60</span>, but <a href="/shido/getting-started/installation#customize" class="txt-underline dis-inline-block">you can modify</a> them according to your needs.</p>
+      <ul class="ul-pretty">
+        <li><code tag>.aspect-ratio-3:2</code></li>
+        <li><code tag>.aspect-ratio-4:3</code></li>
+        <li><code tag>.aspect-ratio-16:9</code></li>
+        <li><code tag>.aspect-ratio-21:9</code></li>
+      </ul>
     </div>
     <div class="x:scol-12">
-      <note>Only even numbers are available.</note>
+      <p>The <code tag>.aspect-ratio-*</code> class must contain elements such as <code tag>iframe</code>, <code tag>img</code>, <code tag>video</code> and <code tag>object</code>,  the child elements must have the <code tag>.aspect-ratio-item</code> class.</p>
     </div>
     <div class="x:scol-12">
       <pre>
 <code class="language-markup">
-&lt;p class="x:fs-18 s:fs-22 m:fs-24 l:fs-30 xl:fs-40">Hello world!&lt;/p>
+&lt;div class="aspect-ratio-*">
+  &lt;iframe class="aspect-ratio-item" src="https://www.youtube.com/embed/jqOx32Cv-XI" frameborder="0">&lt;/iframe>
+&lt;/div>
 </code>
       </pre>
+    </div>
+    <div class="x:scol-12">
+      <h3
+class="
+fw-medium
+
+
+x:fs-18 s:fs-20 m:fs-22
+"
+>3:2</h3>
+    </div>
+    <div class="x:scol-12">
       <div class="sandbox">
-        <p class="x:fs-18 s:fs-22 m:fs-24 l:fs-30 xl:fs-40">Hello world!</p>
+        <div class="line demo-grid">
+          <div class="x:scol-12">
+            <div class="aspect-ratio-3:2">
+              <iframe class="aspect-ratio-item" src="https://www.youtube.com/embed/jqOx32Cv-XI?rel=0&showinfo=0" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-  <section id="download">
-  <div class="line">
     <div class="x:scol-12">
-      <h2
+      <h3
 class="
 fw-medium
 
-x:fs-22 s:fs-24 m:fs-26
 
+x:fs-18 s:fs-20 m:fs-22
 "
->Static fonts</h2>
+>4:3</h3>
     </div>
     <div class="x:scol-12">
-      <p>Static fonts are generated from mixins so they must be compiled.</p>
-    </div>
-    <div class="x:scol-12">
-      <note>Any font size is accepted.</note>
-    </div>
-    <div class="x:scol-12">
-      <pre>
-<code class="language-less">
-.example-hello-world {
-  color: @c-teal-500;
-  .mix-fs(36); /* Return font-size: 2.25rem */
-}
-</code>
-      </pre>
-      <pre>
-<code class="language-markup">
-&lt;p class="example-hello-world">Hello world!&lt;/p>
-</code>
-      </pre>
       <div class="sandbox">
-        <p class="example-hello-world">Hello world!</p>
+        <div class="line demo-grid">
+          <div class="x:scol-12">
+            <div class="aspect-ratio-4:3">
+              <iframe class="aspect-ratio-item" src="https://www.youtube.com/embed/jqOx32Cv-XI?rel=0&showinfo=0" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="x:scol-12">
+      <h3
+class="
+fw-medium
+
+
+x:fs-18 s:fs-20 m:fs-22
+"
+>16:9</h3>
+    </div>
+    <div class="x:scol-12">
+      <div class="sandbox">
+        <div class="line demo-grid">
+          <div class="x:scol-12">
+            <div class="aspect-ratio-16:9">
+              <iframe class="aspect-ratio-item" src="https://www.youtube.com/embed/jqOx32Cv-XI?rel=0&showinfo=0" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="x:scol-12">
+      <h3
+class="
+fw-medium
+
+
+x:fs-18 s:fs-20 m:fs-22
+"
+>21:9</h3>
+    </div>
+    <div class="x:scol-12">
+      <div class="sandbox">
+        <div class="line demo-grid">
+          <div class="x:scol-12">
+            <div class="aspect-ratio-21:9">
+              <iframe class="aspect-ratio-item" src="https://www.youtube.com/embed/jqOx32Cv-XI?rel=0&showinfo=0" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
