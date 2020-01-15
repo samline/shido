@@ -5,14 +5,14 @@
 
 ## Getting started
 
-### Docs v2
+### Docs v2.2.0
 <https://samline.github.io/shido/>
 
 ### Install via CDN
 Before using CDN compilation, keep in mind that the customization of variables are not available without incorporating shido in your build process.
 
 ```html
-<link href="https://unpkg.com/shido@^2.1.2/dist/css/shido.min.css" rel="stylesheet">
+<link href="https://unpkg.com/shido@^2.2.0/dist/css/shido.min.css" rel="stylesheet">
 ```
 
 ### Install via npm or yarn
