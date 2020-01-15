@@ -33,14 +33,14 @@
 
 [class*=":scol-"] {
   display: inline-block;
-  padding: @s-gutter;
+  padding: @s-column-padding;
   vertical-align: middle;
   width: (@s-grid * @s-columns) * 1%;
 
   &:not([class*=':pad-all-0']) {
 
-    & .line {
-      margin: -@s-gutter;
+    & > .line {
+      margin: -@s-column-padding;
     }
   }
 }

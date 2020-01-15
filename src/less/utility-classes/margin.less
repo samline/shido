@@ -4,12 +4,6 @@
 
     @count: @i * 10;
 
-    .@{type}\:mrg-all-@{count} {
-      margin-bottom: @count * 1px;
-      margin-left: @count * 1px;
-      margin-right: @count * 1px;
-      margin-top: @count * 1px;
-    }
     .@{type}\:mrg-bt-@{count} {
       margin-bottom: @count * 1px;
       margin-top: @count * 1px;
@@ -30,12 +24,6 @@
     .@{type}\:mrg-top-@{count} {
       margin-top: @count * 1px;
     }
-    .@{type}\:-mrg-all-@{count} {
-      margin-bottom: -@count * 1px;
-      margin-left: -@count * 1px;
-      margin-right: -@count * 1px;
-      margin-top: -@count * 1px;
-    }
     .@{type}\:-mrg-bt-@{count} {
       margin-bottom: -@count * 1px;
       margin-top: -@count * 1px;
@@ -54,6 +42,19 @@
       margin-right: -@count * 1px;
     }
     .@{type}\:-mrg-top-@{count} {
+      margin-top: -@count * 1px;
+    }
+
+    .@{type}\:mrg-all-@{count} {
+      margin-bottom: @count * 1px;
+      margin-left: @count * 1px;
+      margin-right: @count * 1px;
+      margin-top: @count * 1px;
+    }
+    .@{type}\:-mrg-all-@{count} {
+      margin-bottom: -@count * 1px;
+      margin-left: -@count * 1px;
+      margin-right: -@count * 1px;
       margin-top: -@count * 1px;
     }
 
