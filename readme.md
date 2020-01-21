@@ -1,7 +1,7 @@
-[![image](https://github.com/samline/shido/raw/master/shido.png)](<https://loving-nobel-3d8015.netlify.com/>)
+[![image](https://github.com/samline/shido/raw/master/shido.png)](<https://samline.github.io/shido>)
 
-## What is shido?
-**shido** is a responsive framework developed with {Less} for artisans, includes classes, helpers and mixins that facilitate creation of layouts quickly. **shido** provides a great base to start by letting the developer create the necessary components for each project.
+## What is Shido?
+**Shido** is a responsive framework developed with {Less} for artisans, includes classes, helpers and mixins that facilitate creation of layouts quickly. **Shido** provides a great base to start by letting the developer create the necessary components for each project.
 
 ## Getting started
 
@@ -9,14 +9,14 @@
 <https://samline.github.io/shido/>
 
 ### Install via CDN
-Before using CDN compilation, keep in mind that the customization of variables are not available without incorporating shido in your build process.
+Before using CDN compilation, keep in mind that the customization of variables are not available without incorporating Shido in your build process. **I recommend downloading the file and placing it in your projects directory for offline use or otherwise**.
 
 ```html
 <link href="https://unpkg.com/shido@^2.2.0/dist/css/shido.min.css" rel="stylesheet">
 ```
 
 ### Install via npm or yarn
-To take advantage of the customization features, the best way to install shido is via npm or yarn.
+To take advantage of the customization features, the best way to install Shido is via npm or yarn.
 
 ```bash
 npm install shido --save
@@ -73,13 +73,13 @@ Keep in mind that with a high number in **fonts** or **margin** and **padding** 
 
 ```html
 <a href="#">Default link</a>
-<a href="#" class="c-green-300">Green link</a>
-<a href="#" class="c-pink-300">Pink link</a>
+<a href="#" class="c-green-500">Green link</a>
+<a href="#" class="c-purple-500">Purple link</a>
 ```
 
 #### Fonts variables
-- `@s-min-font-size` Minimum font value available, default: 10.
-- `@s-max-font-size` Maximum font value available, default: 60.
+- `@s-min-font-size`
+- `@s-max-font-size`
 
 *Note: Only even numbers are available.*
 
@@ -88,8 +88,8 @@ Keep in mind that with a high number in **fonts** or **margin** and **padding** 
 ```
 
 #### Margin and Padding variables
-- `@s-max-margin` Maximum margin value available, default: 8 (x10).
-- `@s-max-padding ` Maximum padding value available, default: 8 (x10).
+- `@s-max-margin`
+- `@s-max-padding `
 
 *Note: Values available in intervals of five.*
 
