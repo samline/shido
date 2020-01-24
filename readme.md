@@ -26,14 +26,14 @@ yarn add shido
 ```
 
 ### Add shido to your project
-If you're install via npm or yarn and using `postcss-import` or a tool that uses it such as Webpack or Gulp, you can use `@import` to add shido directly to your build process.
+If you're install via npm or yarn and using `postcss-import` or a tool that uses it such as Webpack or Gulp, you can use `@import` to add Shido directly to your build process.
 
 ```less
-@import "@import  "~shido/src/less/shido";
+@import "~shido/src/less/shido";
 ```
 
 ### Customize your project
-If you want to customize your shido installation, you can generate a configuration file for your project for example `custom-shido.less` and set new values for default shido variables.
+If you want to customize your Shido installation, you can generate a configuration file for your project for example `custom-shido.less` and set new values for default Shido variables.
 
 Keep in mind that with a high number in **fonts** or **margin** and **padding** will increase the number of classes and also the size of the final css.
 
