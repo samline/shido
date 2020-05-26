@@ -72,7 +72,7 @@ p {
 }
 [class*="scontainer"] {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1366px;
   padding-left: 10px;
   padding-right: 10px;
   width: 100%;
@@ -112,17 +112,17 @@ p {
 }
 @media (min-width: 768px) {
   .m\:scontainer-half {
-    max-width: 640px;
+    max-width: 683px;
   }
 }
 @media (min-width: 1024px) {
   .l\:scontainer-half {
-    max-width: 640px;
+    max-width: 683px;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1366px) {
   .xl\:scontainer-half {
-    max-width: 640px;
+    max-width: 683px;
   }
 }
 @media (min-width: 0px) {
@@ -421,7 +421,7 @@ p {
     width: 8.33333333%;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1366px) {
   .xl\:scol-1 {
     width: 8.33333333%;
   }
@@ -803,7 +803,7 @@ p {
     margin-left: 8.33333333%;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1366px) {
   .xl\:offset-0 {
     margin-left: 0%;
   }
@@ -936,7 +936,7 @@ p {
     text-align: right;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1366px) {
   .xl\:center {
     text-align: center;
   }
@@ -1006,7 +1006,7 @@ p {
     vertical-align: top;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1366px) {
   .xl\:baseline {
     vertical-align: baseline;
   }
@@ -2492,7 +2492,7 @@ p {
     font-size: 3.75rem !important;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1366px) {
   .xl\:fs-10 {
     font-size: 0.625rem !important;
   }
@@ -2684,7 +2684,7 @@ a.a-contrast-color:focus {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
-@media (max-width: 1279px) {
+@media (max-width: 1365px) {
   .bg-img-fixed {
     background-attachment: scroll;
     background-size: cover;
@@ -2917,7 +2917,7 @@ a.a-contrast-color:focus {
     display: inline-block !important;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1366px) {
   .xl\:hide {
     display: none !important;
   }
@@ -2960,7 +2960,7 @@ a.a-contrast-color:focus {
     visibility: visible !important;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1366px) {
   .xl\:vis-hidden {
     visibility: hidden !important;
   }
@@ -6529,7 +6529,7 @@ a.a-contrast-color:focus {
     margin-top: -80px;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1366px) {
   .xl\:mrg-bt-0 {
     margin-bottom: 0px;
     margin-top: 0px;
@@ -9191,7 +9191,7 @@ a.a-contrast-color:focus {
     padding-top: 80px;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1366px) {
   .xl\:pad-bt-0 {
     padding-bottom: 0px;
     padding-top: 0px;
