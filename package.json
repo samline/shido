@@ -1,34 +1,36 @@
 {
   "private": false,
-  "name": "shido",
+  "name": "Shido",
   "version": "2.2.0",
-  "description": "Shido is a responsive framework developed with {Less} for artisans, includes classes, helpers and mixins that facilitate creation of layouts quickly. Shido provides a great base to start by letting the developer create the necessary components for each project.",
+  "description": "A lightweight, flexible, and friendly css framework designed to be quick and easy without forcing you to overwrite visual styles or components. Your design, your rules",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/samline/shido.git"
   },
   "keywords": [
-    "shido",
+    "artisan",
+    "css-framework",
+    "css-framework",
+    "css-modules",
+    "css",
+    "css3",
+    "front-end",
+    "frontend",
+    "functional-css",
+    "functional-css",
     "grid-layout",
     "grid-system",
     "grid",
-    "less",
-    "less-mixins",
-    "css3",
-    "css-framework",
-    "css-modules",
     "helpers-class",
     "helpers-library",
+    "less-mixins",
+    "less",
     "mixins",
-    "artisan",
-    "frontend",
-    "front-end",
-    "ui",
-    "css-framework",
     "postcss",
-    "functional-css",
+    "responsive",
+    "Shido",
+    "ui",
     "utility-classes",
-    "responsive"
   ],
   "author": "Samuel Olvera (samline)",
   "license": "MIT",
@@ -42,7 +44,7 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
     "dev": "yarn run local",
     "prod": "yarn run production",
-    "watch": "yarn run local -- --watch"
+    "watch": "yarn run local --watch"
   },
   "devDependencies": {
     "cross-env": "^6.0.3",
@@ -51,9 +53,9 @@
     "less-loader": "^5.0.0"
   },
   "engines": {
-    "node": ">=10",
+    "node": ">=14.3.*",
     "npm": ">=6",
-    "yarn": ">=1.19.0"
+    "yarn": ">=1.22.*"
   },
   "browserslist": [
     "ie 9",

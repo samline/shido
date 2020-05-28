@@ -7,10 +7,6 @@
 /docs
 /.npmignore
 
-# Images
-shido.png
-shido.svg
-
 # Assets development
 /node_modules
 npm-debug.log
