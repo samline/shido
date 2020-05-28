@@ -1,1 +1,122 @@
-<!-- https://www.xml-sitemaps.com -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://samline.github.io/shido/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/getting-started/installation/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/contribute/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/getting-started/how-it-works/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/getting-started/changelog/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/layout/prototype-template/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/layout/default-styles/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/grid/scontainer/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/grid/line/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/grid/scol/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/grid/scol-fit/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/grid/offset/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/colors/palette/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/colors/usage/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/utility-classes/alignment/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/utility-classes/aspect-ratio/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/utility-classes/fonts/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/utility-classes/font-weight/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/utility-classes/hide-show/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/utility-classes/margin-padding/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/utility-classes/miscellaneous/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samline.github.io/shido/v2/utility-classes/text/</loc>
+  <lastmod>2020-05-28T08:39:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
