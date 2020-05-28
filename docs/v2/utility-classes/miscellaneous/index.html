@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+  <title>Miscellaneous | Shido</title>
+
+  
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+
+  <meta name="author" content=""/>
+  <meta name="keywords" content=""/>
+  <meta name="description" content=""/>
+
+  <meta property="og:title" content="Miscellaneous | Shido"/>
+  <meta property="og:description" content=""/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="/shido/v2/utility-classes/miscellaneous"/>
+  <meta property="og:site_name" content="Shido"/>
+  <meta property="og:image" content="/shido/dist/img/ico/logo-share.jpg"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  
+  
+  
+  <link rel="shortcut icon" href="/shido/dist/img/ico/favicon.ico" type="image/x-icon"/>
+
+  
+  <link rel="apple-touch-icon" sizes="57x57" href="/shido/dist/img/ico/apple-icon-57x57.png"/>
+  <link rel="apple-touch-icon" sizes="60x60" href="/shido/dist/img/ico/apple-icon-60x60.png"/>
+  <link rel="apple-touch-icon" sizes="72x72" href="/shido/dist/img/ico/apple-icon-72x72.png"/>
+  <link rel="apple-touch-icon" sizes="76x76" href="/shido/dist/img/ico/apple-icon-76x76.png"/>
+  <link rel="apple-touch-icon" sizes="114x114" href="/shido/dist/img/ico/apple-icon-114x114.png"/>
+  <link rel="apple-touch-icon" sizes="120x120" href="/shido/dist/img/ico/apple-icon-120x120.png"/>
+  <link rel="apple-touch-icon" sizes="144x144" href="/shido/dist/img/ico/apple-icon-144x144.png"/>
+  <link rel="apple-touch-icon" sizes="152x152" href="/shido/dist/img/ico/apple-icon-152x152.png"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/shido/dist/img/ico/apple-icon-180x180.png"/>
+
+  
+  <link rel="icon" type="image/png" sizes="16x16" href="/shido/dist/img/ico/favicon-16x16.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/shido/dist/img/ico/favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="96x96" href="/shido/dist/img/ico/favicon-96x96.png"/>
+  <link rel="icon" type="image/png" sizes="192x192" href="/shido/dist/img/ico/android-icon-192x192.png"/>
+  <link rel="manifest" href="/shido/dist/img/ico/manifest.json">
+
+  
+  <meta name="msapplication-TileColor" content="#fd7272">
+  <meta name="msapplication-TileImage" content="/shido/dist/img/ico/ms-icon-144x144.png">
+  <meta name="theme-color" content="#fd7272">
+
+  
+  <link rel="preload" as="font" crossorigin="anonymous" href="/shido/dist/fonts/vendor/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2">
+  
+  <link rel="preload" as="font" crossorigin="anonymous" href="/shido/dist/fonts/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2">
+
+  
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Questrial&amp;display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&amp;display=swap" rel="stylesheet">
+
+  
+  <link rel="preload" as="style" href="/dist/css/app.css?id=20d9f1db2125d964da7d">
+  <link rel="stylesheet" href="/dist/css/app.css?id=20d9f1db2125d964da7d">
+
+  
+  
+  <link rel="preload" as="script" href="/dist/js/app.js?id=1af70ec6b8b57ec0589e">
+  <script src="/dist/js/app.js?id=1af70ec6b8b57ec0589e"></script>
+
+  
+                    
+  
+  
+</head>
+
+  <body id="" class="">
+
+              
+    <div class="main-container utility-classes x:pad-top-60 l:pad-top-0 ovf-hidden" controller="0">
+      <header class="hide-print user-select-none">
+  <div class="main-nav">
+    <div class="scontainer">
+      <div class="line">
+        <div class="x:scol-3 l:hide">
+          <div class="hamburger-menu cross hm-1 ovf-hidden">
+  <label>
+    <input type="checkbox" >
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      
+      <path class="line-1" d="M0 40h62c13 0 6 28-4 18L35 35" />
+      <path class="line-2" d="M0 50h70" />
+      <path class="line-3" d="M0 60h62c13 0 6-28-4-18L35 65" />
+    </svg>
+  </label>
+</div>
+        </div>
+        <div class="x:scol-6 l:scol-2 x:center l:left">
+          <div class="logo">
+            <a href="/shido/">
+              <img src="/shido/dist/img/logos/logo-shido.svg" alt="Shido" style="max-width: 82px; width: 100%;">
+            </a>
+          </div>
+        </div>
+        <div class="l:scol-8 x:hide l:show-inline l:pad-lr-20 xl:pad-lr-40">
+          <nav>
+  <ul class="x:mrg-all-0 x:pad-all-0">
+          <li class="dis-inline-block">
+        <a
+        href="/shido/v2/getting-started/installation"
+        class="dis-block x:pad-all-10 c-black  --active c-main "
+                ><i class="fas fa-code x:mrg-right-5"></i> Docs</a>
+      </li>
+          <li class="dis-inline-block">
+        <a
+        href="https://github.com/samline/shido"
+        class="dis-block x:pad-all-10 c-black "
+         target="_blank"         ><i class="fab fa-github x:mrg-right-5"></i> Github</a>
+      </li>
+          <li class="dis-inline-block">
+        <a
+        href="https://github.com/samline/shido/issues"
+        class="dis-block x:pad-all-10 c-black "
+         target="_blank"         ><i class="fas fa-bug x:mrg-right-5"></i> Issues</a>
+      </li>
+          <li class="dis-inline-block">
+        <a
+        href="/shido/contribute"
+        class="dis-block x:pad-all-10 c-black "
+                ><i class="fas fa-hands-helping x:mrg-right-5"></i> Contribute</a>
+      </li>
+      </ul>
+</nav>
+        </div>
+        <div class="x:scol-3 l:scol-2 x:pad-lr-10 l:pad-lr-20 x:pad-bt-0 x:right l:left">
+          <p><span class="c-grey-text">Current</span> v2.2.0</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="scontainer">
+        <div class="line">
+          <div class="x:scol-3 l:scol-2 x:top x:pad-all-0 hide-print">
+            <section class="nav-side bg-grey-50 x:pad-top-50 l:pad-top-0" followme-bar  dimentions-height="wo-top, static">
+  <div class="nav-container x:pad-bt-20">
+    <div class="line">
+      <div class="x:scol-12">
+        <nav>
+          
+          <div class="l:hide">
+            <p class="c-grey-text x:fs-14">Menu</p>
+            <ul class="x:mrg-all-0 x:pad-all-0 x:mrg-bottom-15">
+                              <li class="dis-block pos-relative  --active ">
+                  <a
+                    href="/shido/v2/getting-started/installation"
+                    class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                                        >
+                      Docs
+                    </a>
+                </li>
+                              <li class="dis-block pos-relative ">
+                  <a
+                    href="https://github.com/samline/shido"
+                    class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                     target="_blank"                     >
+                      Github
+                    </a>
+                </li>
+                              <li class="dis-block pos-relative ">
+                  <a
+                    href="https://github.com/samline/shido/issues"
+                    class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                     target="_blank"                     >
+                      Issues
+                    </a>
+                </li>
+                              <li class="dis-block pos-relative ">
+                  <a
+                    href="/shido/contribute"
+                    class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                                        >
+                      Contribute
+                    </a>
+                </li>
+                          </ul>
+          </div>
+          
+                      <p class="c-grey-text x:fs-14">Getting started</p>
+            <ul class="x:mrg-all-0 x:pad-all-0  x:mrg-bottom-15 ">
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/getting-started/installation"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Installation
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/getting-started/how-it-works"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    How it works
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/getting-started/changelog"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Changelog
+                  </a>
+                </li>
+                          </ul>
+                      <p class="c-grey-text x:fs-14">Layout</p>
+            <ul class="x:mrg-all-0 x:pad-all-0  x:mrg-bottom-15 ">
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/layout/prototype-template"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Prototype template
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/layout/default-styles"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Default styles
+                  </a>
+                </li>
+                          </ul>
+                      <p class="c-grey-text x:fs-14">Grid</p>
+            <ul class="x:mrg-all-0 x:pad-all-0  x:mrg-bottom-15 ">
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/grid/scontainer"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    scontainer
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/grid/line"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    line
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/grid/scol"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    scol
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/grid/scol-fit"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    scol-fit
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/grid/offset"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    offset
+                  </a>
+                </li>
+                          </ul>
+                      <p class="c-grey-text x:fs-14">Colors</p>
+            <ul class="x:mrg-all-0 x:pad-all-0  x:mrg-bottom-15 ">
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/colors/palette"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Palette
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/colors/usage"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Usage
+                  </a>
+                </li>
+                          </ul>
+                      <p class="c-grey-text x:fs-14">Utility classes</p>
+            <ul class="x:mrg-all-0 x:pad-all-0 ">
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/utility-classes/alignment"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Alignment
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/utility-classes/aspect-ratio"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Aspect ratio
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/utility-classes/fonts"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Fonts
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/utility-classes/font-weight"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Font weight
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/utility-classes/hide-show"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Hide &amp; Show
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/utility-classes/margin-padding"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Margin &amp; Padding
+                  </a>
+                </li>
+                                              <li class="--active dis-block pos-relative">
+                  <a
+                  href="/shido/v2/utility-classes/miscellaneous"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Miscellaneous
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/utility-classes/text"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Text
+                  </a>
+                </li>
+                          </ul>
+                  </nav>
+      </div>
+    </div>
+  </div>
+</section>
+          </div>
+          <div class="l:scol-8 x:top x:pad-lr-0 l:pad-lr-20 xl:pad-lr-40 x:pad-bt-0">
+            <div class="x:pad-bt-20" dimentions-height="wo-top-footer, liquid">
+              
+  <section id="header-section">
+  <div class="line">
+    <div class="x:scol-12 x:pad-bottom-5">
+      <h1
+class="
+ x:fs-28 s:fs-30 m:fs-32 "
+>Miscellaneous</h1>
+    </div>
+    <div class="x:scol-12 x:pad-top-0">
+      <hr>
+    </div>
+  </div>
+</section>
+  <section id="how-to-use">
+  <div class="line">
+    <div class="x:scol-12">
+      <p>This is a collection of helpers for different purposes, this collection will be updated if new helpers are required.</p>
+    </div>
+    <div class="x:scol-12">
+      <div class="alert-block --info">
+  <i class="fas
+   fa-info-circle         "></i>
+  <p class="x:pad-bt-0 x:fs-14 s:fs-16">You can include these classes in your build process if you want.</p>
+</div>
+    </div>
+  </div>
+</section>
+
+  <section id="helpers">
+  <div class="line">
+          <div id="a" class="x:scol-12">
+        <h2
+class="
+ x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>&lt;a&gt;</h2>
+      </div>
+              <div class="x:scol-12">
+          <p>If you installed Shido via npm or yarn and want to change the color of your <tag>&lt;a></tag> in contrasting backgrounds, you can use this class for that.</p>
+        </div>
+                                  <div class="
+                         x:scol-12         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>a-contrast-color</tag>
+                                      <hr>
+                    <p class="x:fs-14">Inverts the colors set in the variables <tag>s-main-link-color</tag> and <tag>s-main-link-color-hover</tag></p>
+                                  </li>
+              </ul>
+            </div>
+                          <div class="x:scol-12 x:pad-bottom-5">
+                <pre>
+<code class="language-markup">
+&lt;a class="a-contrast-color"> ... &lt;/a>
+</code>
+                </pre>
+              </div>
+                      </div>
+        </div>
+                <div id="appearance" class="x:scol-12">
+        <h2
+class="
+ a-contrast-color  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>Appearance</h2>
+      </div>
+              <div class="x:scol-12">
+          <p>Used to display an element using a platform-native styling based on the users’ operating system’s theme.</p>
+        </div>
+                                  <div class="
+                         x:scol-12         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>appearance-none</tag>
+                                      <hr>
+                    <p class="x:fs-14">You can remove the default styles of an element, for example inputs or selects</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                <div id="background-image" class="x:scol-12">
+        <h2
+class="
+ appearance-none  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>Background image</h2>
+      </div>
+                                  <div class="
+                 s:scol-6                 x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>bg-img-cover</tag>
+                                      <hr>
+                    <p class="x:fs-14">Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+                 s:scol-6                 x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>bg-img-fixed</tag>
+                                      <hr>
+                    <p class="x:fs-14">The background image will not scroll with the page</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                <div id="background-position" class="x:scol-12">
+        <h2
+class="
+ bg-img-fixed  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>Background position</h2>
+      </div>
+              <div class="x:scol-12">
+          <p>Sets the starting position of a background image.</p>
+        </div>
+                                  <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>bg-pos-bottom</tag>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>bg-pos-center</tag>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>bg-pos-left</tag>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>bg-pos-right</tag>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>bg-pos-top</tag>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                <div id="display" class="x:scol-12">
+        <h2
+class="
+ bg-pos-top  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>Display</h2>
+      </div>
+              <div class="x:scol-12">
+          <p>This property specifies the display behavior (the type of rendering box) of an element.</p>
+        </div>
+                                  <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>dis-block</tag>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>dis-inline-block</tag>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>dis-table</tag>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>dis-table-row</tag>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>dis-table-cell</tag>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                <div id="font-family" class="x:scol-12">
+        <h2
+class="
+ dis-table-cell  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>Font family</h2>
+      </div>
+                                  <div class="
+                 s:scol-6                 x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>ff-body</tag>
+                                      <hr>
+                    <p class="x:fs-14">Set the font type defined in <tag>@s-body-font-family</tag> variable</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+                 s:scol-6                 x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>ff-heading</tag>
+                                      <hr>
+                    <p class="x:fs-14">Set the font type defined in <tag>@s-headers-font-family</tag> variable</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                <div id="image" class="x:scol-12">
+        <h2
+class="
+ ff-heading  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>Image</h2>
+      </div>
+                                  <div class="
+                         x:scol-12         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>image-liquid</tag>
+                                      <hr>
+                    <p class="x:fs-14">This applies <tag>max-width: 100%;</tag> to the image so that it scales nicely to the parent element</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                <div id="inline-block-clear" class="x:scol-12">
+        <h2
+class="
+ image-liquid  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>Inline block clear</h2>
+      </div>
+                                  <div class="
+                         x:scol-12         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>inline-block-clear</tag>
+                                      <hr>
+                    <p class="x:fs-14">Remove the space between elements of type inline-block, this class emulates the behavior of <tag>.line</tag></p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                <div id="overflow" class="x:scol-12">
+        <h2
+class="
+ inline-block-clear  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>Overflow</h2>
+      </div>
+              <div class="x:scol-12">
+          <p>Specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.</p>
+        </div>
+                                  <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>ovf-auto</tag>
+                                      <hr>
+                    <p class="x:fs-14">If overflow is clipped, a scroll-bar should be added to see the rest of the content</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>ovf-hidden</tag>
+                                      <hr>
+                    <p class="x:fs-14">The overflow is clipped, and the rest of the content will be invisible</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>ovf-visible</tag>
+                                      <hr>
+                    <p class="x:fs-14">The overflow is not clipped. It renders outside the element's box. This is default</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                <div id="position" class="x:scol-12">
+        <h2
+class="
+ ovf-visible  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>Position</h2>
+      </div>
+                                  <div class="
+                         x:scol-12         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>pos-relative</tag>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                <div id="tables" class="x:scol-12">
+        <h2
+class="
+ pos-relative  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>Tables</h2>
+      </div>
+                                  <div class="
+                         x:scol-12         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>table-responsive</tag>
+                                      <hr>
+                    <p class="x:fs-14">It will show a horizontal scroll bar if the screen is too small to show the full content</p>
+                                  </li>
+              </ul>
+            </div>
+                          <div class="x:scol-12 x:pad-bottom-5">
+                <pre>
+<code class="language-markup">
+&lt;div class="table-responsive">
+    &lt;table>
+        ...
+    &lt;/table>
+&lt;/div>
+</code>
+                </pre>
+              </div>
+                      </div>
+        </div>
+                <div id="transition" class="x:scol-12">
+        <h2
+class="
+ table-responsive  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>Transition</h2>
+      </div>
+              <div class="x:scol-12">
+          <p>The transition class is a shorthand property of transition-property, transition-duration, transition-timing-function, and transition-delay.
+
+                Define the transition between two states of an element.</p>
+        </div>
+                                  <div class="
+                 s:scol-6                 x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>trans-ease</tag>
+                                      <hr>
+                    <p class="x:fs-14">Set the transition values as follows: <tag>transition: all 0.2s ease, outline 0.000001s</tag></p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+                 s:scol-6                 x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>trans-linear</tag>
+                                      <hr>
+                    <p class="x:fs-14">Set the transition values as follows: <tag>transition: all 0.2s linear, outline 0.000001s</tag></p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                <div id="transition-mixin" class="x:scol-12">
+        <h2
+class="
+ trans-linear  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>Transition mixin</h2>
+      </div>
+              <div class="x:scol-12">
+          <p>Shido also has a transition mixin that you can customize and include in your build process.</p>
+        </div>
+                    <div class="x:scol-12">
+          <div class="alert-block --info">
+  <i class="fas
+   fa-info-circle         "></i>
+  <p class="x:pad-bt-0 x:fs-14 s:fs-16">You can get more information about transitions <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition" target="_blank" class="txt-underline">here</a></p>
+</div>
+        </div>
+                            <div class="
+                         x:scol-12         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>mix-transition</tag>
+                                      <hr>
+                    <p class="x:fs-14">This mixin can receive 4 parameters: property, delay, timing and property-to-cancel, if the corresponding parameter is not received it will be set with its default value.
+
+                        By default:
+
+                        property: all
+                        delay: .2s
+                        timing: ease
+                        property-to-cancel: outline
+
+                        property-to-cancel
+                        <span class="c-grey-text">(This property will not be affected by the transition)</span></p>
+                                  </li>
+              </ul>
+            </div>
+                          <div class="x:scol-12 x:pad-bottom-5">
+                <pre>
+<code class="language-less">
+.banner-demo {
+    .mix-transition // or
+    .mix-transition(width, 1s) // or
+    .mix-transition(all, .8s, ease, color)
+}
+</code>
+                </pre>
+              </div>
+                      </div>
+        </div>
+                <div id="user-select" class="x:scol-12">
+        <h2
+class="
+ mix-transition  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>User select</h2>
+      </div>
+              <div class="x:scol-12">
+          <p>In web browsers, if you double-click on some text it will be selected/highlighted.</p>
+        </div>
+                                  <div class="
+                         x:scol-12         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>user-select-none</tag>
+                                      <hr>
+                    <p class="x:fs-14">Prevent text selection</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                <div id="white-space" class="x:scol-12">
+        <h2
+class="
+ user-select-none  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>White space</h2>
+      </div>
+              <div class="x:scol-12">
+          <p>Specifies how white-space inside an element is handled.</p>
+        </div>
+                                  <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>ws-normal</tag>
+                                      <hr>
+                    <p class="x:fs-14">Text will wrap when necessary</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>ws-nowrap</tag>
+                                      <hr>
+                    <p class="x:fs-14">Text will never wrap to the next line. The text continues on the same line until a <br> tag is encountered</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>ws-pre-line</tag>
+                                      <hr>
+                    <p class="x:fs-14">Text will wrap when necessary, and on line breaks</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                <div id="width-height" class="x:scol-12">
+        <h2
+class="
+ ws-pre-line  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>Width &amp; Height</h2>
+      </div>
+              <div class="x:scol-12">
+          <p>Sets the width and height of an element.</p>
+        </div>
+                                  <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>h-50</tag>
+                                      <hr>
+                    <p class="x:fs-14">Set the height of the element to 50%</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>h-100</tag>
+                                      <hr>
+                    <p class="x:fs-14">Set the height of the element to 100%</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>w-50</tag>
+                                      <hr>
+                    <p class="x:fs-14">Set the width of the element to 50%</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>w-100</tag>
+                                      <hr>
+                    <p class="x:fs-14">Set the width of the element to 100%</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>vh-50</tag>
+                                      <hr>
+                    <p class="x:fs-14">Set the viewport height of the element to 50vh</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>vh-100</tag>
+                                      <hr>
+                    <p class="x:fs-14">Set the viewport height of the element to 100vh</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>vw-50</tag>
+                                      <hr>
+                    <p class="x:fs-14">Set the viewport width of the element to 50vw</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>vw-100</tag>
+                                      <hr>
+                    <p class="x:fs-14">Set the viewport width of the element to 100vw</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
+            </div>
+</section>
+
+            </div>
+            <footer>
+              <section id="footer" class="x:pad-bottom-10 hide-print">
+  <div class="line">
+    <div class="x:scol-12 x:pad-bottom-0">
+      <hr>
+    </div>
+    <div class="m:scol-8 x:center m:left">
+      <p class="x:fs-14 m:-mrg-bottom-5">Released under the MIT License</p>
+      <p class="x:fs-14">Copyright © 2013-2020 Samuel Olvera</p>
+    </div>
+    <div class="m:scol-4 x:center m:right">
+      <a href="https://github.com/samline" target="_blank" class="c-black">
+        <i class="fab fa-github x:fs-20"></i>
+      </a>
+    </div>
+  </div>
+</section>
+            </footer>
+          </div>
+          <div class="l:scol-2 x:top x:pad-all-0 x:hide l:show-inline hide-print">
+            <section class="nav-side-section" followme-bar dimentions-height="wo-top, static">
+  <div class="nav-container x:pad-bt-20 x:pad-lr-10">
+    <div class="line">
+              <div class="x:scol-12">
+          <nav>
+            <p class="c-grey-text x:mrg-bottom-10 x:fs-14"><i class="fas fa-align-left x:fs-12 x:mrg-right-5"></i> Contents</p>
+            <ul class="x:mrg-all-0 x:pad-all-0">
+                              <li class="dis-block pos-relative">
+                  <a href="#a" class="c-black  dis-block x:pad-bt-5">
+                    &lt;a&gt;
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#appearance" class="c-black  dis-block x:pad-bt-5">
+                    Appearance
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#background-image" class="c-black  dis-block x:pad-bt-5">
+                    Background image
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#background-position" class="c-black  dis-block x:pad-bt-5">
+                    Background position
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#display" class="c-black  dis-block x:pad-bt-5">
+                    Display
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#font-family" class="c-black  dis-block x:pad-bt-5">
+                    Font family
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#inline-block-clear" class="c-black  dis-block x:pad-bt-5">
+                    Inline block clear
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#image" class="c-black  dis-block x:pad-bt-5">
+                    Image
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#overflow" class="c-black  dis-block x:pad-bt-5">
+                    Overflow
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#position" class="c-black  dis-block x:pad-bt-5">
+                    Position
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#tables" class="c-black  dis-block x:pad-bt-5">
+                    Tables
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#transition" class="c-black  dis-block x:pad-bt-5">
+                    Transition
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#transition-mixin" class="c-black  dis-block x:pad-bt-5">
+                    Transition Mixin
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#user-select" class="c-black  dis-block x:pad-bt-5">
+                    User select
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#white-space" class="c-black  dis-block x:pad-bt-5">
+                    White space
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#width-height" class="c-black  dis-block x:pad-bt-5">
+                    Width &amp; Height
+                  </a>
+                                  </li>
+                          </ul>
+          </nav>
+        </div>
+          </div>
+  </div>
+</section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <browse-happy class="container" style="display:none">
+  <!-- <div class="content">
+    <p class="chromeframe x:fs-16 s:fs-18">Estás usando un navegador <b>antiguo</b>. Por favor <a href="http://browsehappy.com/" target="_blank">actualiza tu navegador</a> para visualizar el sitio correctamente.</p>
+  </div> -->
+</browse-happy>
+    <noscript class="container">
+  <div class="content">
+    <p class="x:fs-16 s:fs-18">Para utilizar las funcionalidades completas de <b></b> es necesario tener <b>JavaScript habilitado</b>.</p>
+  </div>
+</noscript>
+
+  </body>
+</html>
