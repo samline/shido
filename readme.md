@@ -1,4 +1,4 @@
-[![image](https://github.com/samline/shido/raw/master/shido-repo.png)](<https://samline.github.io/shido>)
+[![image](https://github.com/samline/shido/raw/master/shido.png)](<https://samline.github.io/shido>)
 
 ## What is Shido?
 Shido is different from others css frameworks, it doesn't have preloaded UI kits.
@@ -8,7 +8,7 @@ Provide only what is necessary to design your web pages, like margins, font size
 It is up to you to use Shido to create your own components, this provides immense freedom where others only restrict what you create. No need to cancel anything!, the magic is on your own.
 
 ## Docs
-<https://samline.github.io/shido/>
+<https://samline.github.io/shido>
 
 ## Getting started
 

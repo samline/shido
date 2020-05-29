@@ -2,14 +2,17 @@
 .npmignore
 .gitignore
 .editorconfig
+.github
 
 # Directories
 /docs
-/.npmignore
+
+# Files
+webpack.mix.js
+yarn.lock
 
 # Assets development
 /node_modules
-npm-debug.log
 
 # OS
 .DS_Store
@@ -18,12 +21,13 @@ npm-debug.log
 Thumbs.db
 
 # Packages
+_ide_helpers.php
 .phpunit.result.cache
 .vagrant/
 /.vscode
 /nbproject/
-_ide_helpers.php
+npm-debug.log
+package-lock.json
 tests/_output/*
 yarn-error.log
-package-lock.json
 
