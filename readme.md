@@ -1,4 +1,4 @@
-[![image](https://github.com/samline/shido/raw/master/shido.png)](<https://samline.github.io/shido>)
+[![image](https://github.com/samline/shido/raw/master/shido-share.png)](<https://samline.github.io/shido>)
 
 ## What is Shido?
 Shido is different from others css frameworks, it doesn't have preloaded UI kits.
