@@ -2,7 +2,7 @@
   "private": false,
   "name": "Shido",
   "version": "2.2.0",
-  "description": "A lightweight, flexible, and friendly css framework designed to be quick and easy without forcing you to overwrite visual styles or components. Your design, your rules",
+  "description": "Build interfaces quickly with a lightweight, flexible, and friendly CSS framework designed to be quick and easy without forcing you to overwrite styles or components. Your design, your rules.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/samline/shido.git"
