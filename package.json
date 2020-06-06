@@ -46,10 +46,10 @@
     "watch": "yarn run local --watch"
   },
   "devDependencies": {
-    "cross-env": "^6.0.3",
-    "laravel-mix": "^5.0.0",
-    "less": "^3.9.0",
-    "less-loader": "^5.0.0"
+    "cross-env": "^7.0.2",
+    "laravel-mix": "^5.0.4",
+    "less": "^3.11.3",
+    "less-loader": "^6.1.0"
   },
   "engines": {
     "node": ">=14.3.*",
