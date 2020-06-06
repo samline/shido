@@ -1,31 +1,44 @@
 /*!
- * shido by Samuel Olvera (samline) - https://github.com/samline
+ * Shido by Samuel Olvera (samline) - https://github.com/samline/shido
  * Made with a lot of love.
  */
 
-// Mixins
-@import 'mixins/aspect-ratio';
-@import 'mixins/buttons';
-@import 'mixins/colors';
-@import 'mixins/fonts';
-@import 'mixins/transitions';
+ // variables
+ @import 'variables/breakpoints';
+ @import 'variables/colors';
+ @import 'variables/font-weights';
+ @import 'variables/font-size';
+ @import 'variables/grid';
+ @import 'variables/layout';
+ @import 'variables/margin-padding';
 
-// Global
-@import 'global/settings';
-@import 'global/color-variables';
-@import 'global/layout';
-
-// Grid
-@import 'grid/containers';
-@import 'grid/scontainer-half';
+// grid
+@import 'grid/scontainer';
+@import 'grid/line';
 @import 'grid/scol';
+@import 'grid/scol-fit';
 @import 'grid/offset';
+@import 'grid/show-grid';
+
+// mixins
+@import 'mixins/aspect-ratio';
+@import 'mixins/colors';
+@import 'mixins/font-size';
+@import 'mixins/transition';
+
+// miscellaneous
+@import 'miscellaneous/default-styles';
+@import 'miscellaneous/deprecated';
 
 // Utility classes
 @import 'utility-classes/alignment';
+@import 'utility-classes/aspect-ratio';
 @import 'utility-classes/colors';
-@import 'utility-classes/fonts';
-@import 'utility-classes/helpers';
+@import 'utility-classes/font-size';
+@import 'utility-classes/font-weight';
 @import 'utility-classes/hide-show';
 @import 'utility-classes/margin';
+@import 'utility-classes/miscellaneous';
 @import 'utility-classes/padding';
+@import 'utility-classes/print';
+@import 'utility-classes/text';

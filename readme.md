@@ -5,7 +5,7 @@ Shido is different from others css frameworks, it doesn't have preloaded UI kits
 
 Provide only what is necessary to design your web pages, like margins, font sizes, positioning, colors, helpers, that kind of thing. You won't find ready-to-use components like buttons and navigation bars, in fact if you are looking for some Ui kit such as Bootstrap or Foundation maybe Shido is not for you.
 
-It is up to you to use Shido to create your own components, this provides immense freedom where others only restrict what you create. No need to cancel anything!, the magic is on your own.
+It is up to you to use Shido to create your own components, this provides immense freedom where others only restrict what you create.
 
 ## Docs
 <https://samline.github.io/shido>

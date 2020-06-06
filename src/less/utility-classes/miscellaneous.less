@@ -1,5 +1,4 @@
 // <a>
-
 a {
 
   &.a-contrast-color {
@@ -13,21 +12,12 @@ a {
   }
 }
 
-// Aspect ratio
-.aspect-ratio-3\:2 {
-  .mix-aspect-ratio(3,2);
-}
-.aspect-ratio-4\:3 {
-  .mix-aspect-ratio(4,3);
-}
-.aspect-ratio-16\:9 {
-  .mix-aspect-ratio(16,9);
-}
-.aspect-ratio-21\:9 {
-  .mix-aspect-ratio(21,9);
+// appearance-none
+.appearance-none {
+  appearance: none;
 }
 
-// Background image
+// background image
 .bg-img-cover {
   background-position: center;
   background-size: cover;
@@ -45,7 +35,7 @@ a {
   }
 }
 
-// Background position
+// background position
 .bg-pos-bottom {
   background-position: bottom;
 }
@@ -62,7 +52,7 @@ a {
   background-position: top;
 }
 
-// Display
+// display
 .dis-block {
   display: block;
 }
@@ -79,7 +69,7 @@ a {
   display: table-cell;
 }
 
-// Font famyly
+// font famyly
 .ff-body {
   font-family: @s-body-font-family;
 }
@@ -87,38 +77,17 @@ a {
   font-family: @s-headers-font-family;
 }
 
-// Font weight
-.fw-thin {
-  font-weight: @s-font-weight-thin;
-}
-.fw-light {
-  font-weight: @s-font-weight-light;
-}
-.fw-regular {
-  font-weight: @s-font-weight-regular;
-}
-.fw-medium {
-  font-weight: @s-font-weight-medium;
-}
-.fw-semi-bold {
-  font-weight: @s-font-weight-semi-bold;
-}
-.fw-bold {
-  font-weight: @s-font-weight-bold;
-}
-.fw-extra-bold {
-  font-weight: @s-font-weight-extra-bold;
-}
-.fw-black {
-  font-weight: @s-font-weight-black;
+// inline-block-clear
+.inline-block-clear {
+  .line;
 }
 
-// Img
+// img
 .img-liquid {
   max-width: 100%;
 }
 
-// Overflow
+// overflow
 .ovf-auto {
   overflow: auto;
 }
@@ -129,12 +98,12 @@ a {
   overflow: visible;
 }
 
-// Position
+// position
 .pos-relative {
   position: relative;
 }
 
-// Table
+// table
 .table-responsive {
   overflow: auto;
   max-width: 100%;
@@ -148,48 +117,10 @@ a {
   .mix-transition(all, .2s, linear);
 }
 
-// Txt
-.txt-capitalize {
-  text-transform: capitalize;
-}
-.txt-first-uppercase {
-
-  &:first-letter {
-    text-transform: uppercase;
-  }
-}
-.txt-italic {
-  font-style: italic;
-}
-.txt-lowercase {
-  text-transform: lowercase;
-}
-.txt-normal {
-  font-style: normal;
-}
-.txt-normal-case {
-  text-transform: none;
-}
-.txt-uppercase {
-  text-transform: uppercase;
-}
-.txt-overline {
-  text-decoration: overline;
-}
-.txt-underline {
-  text-decoration: underline;
-}
-.txt-through {
-  text-decoration: line-through;
-}
-.txt-truncate {
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap
-}
-.txt-word-break {
-  word-break: break-all;
+// user select
+.user-select-none {
+  -webkit-touch-callout: none;
+  user-select: none;
 }
 
 // White space
@@ -227,16 +158,4 @@ a {
 }
 .vw-100 {
   width: 100vw;
-}
-
-// Others
-.appearance-none {
-  appearance: none;
-}
-.inline-block-clear {
-  .line;
-}
-.user-select-none {
-  -webkit-touch-callout: none;
-  user-select: none;
 }

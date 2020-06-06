@@ -1,4 +1,10 @@
-.mix-make-column(@type) {
+[class*=":scol-"] {
+  display: inline-block;
+  padding: @s-column-padding;
+  vertical-align: middle;
+  width: (@s-grid * @s-columns) * 1%;
+}
+.mix-make-scol(@type) {
 
   .scol-generate(@n, @i: 1) when (@i =< @n) {
 
@@ -8,35 +14,20 @@
     .scol-generate(@n, (@i + 1));
   }
 
-  .scol-fit-generate(@n, @i: 1) when (@i =< @n) {
-
-    .@{type}\:scol-fit-@{i} {
-      width: ((100% / @i)) * 1%;
-    }
-    .scol-fit-generate(@n, (@i + 1));
-  }
-
   .scol-generate(@s-columns);
-  .scol-fit-generate(@s-columns);
 }
-
 @media (min-width: @x-screen-min) {
-  .mix-make-column(x);
+  .mix-make-scol(x);
 }
-
 @media (min-width: @s-screen-min) {
-  .mix-make-column(s);
+  .mix-make-scol(s);
 }
-
 @media (min-width: @m-screen-min) {
-  .mix-make-column(m);
+  .mix-make-scol(m);
 }
-
 @media (min-width: @l-screen-min) {
-  .mix-make-column(l);
+  .mix-make-scol(l);
 }
-
 @media (min-width: @xl-screen-min) {
-  .mix-make-column(xl);
+  .mix-make-scol(xl);
 }
-
