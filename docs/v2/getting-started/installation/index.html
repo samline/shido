@@ -63,8 +63,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Questrial&amp;display=swap" rel="stylesheet">
 
   
-  <link rel="preload" as="style" href="/shido/dist/css/app.css?id=8cf8e71652be5ba55126">
-  <link rel="stylesheet" href="/shido/dist/css/app.css?id=8cf8e71652be5ba55126">
+  <link rel="preload" as="style" href="/shido/dist/css/app.css?id=0aa21e3430d733ca7e5c">
+  <link rel="stylesheet" href="/shido/dist/css/app.css?id=0aa21e3430d733ca7e5c">
 
   
   
@@ -144,7 +144,7 @@
 </nav>
         </div>
         <div class="x:scol-3 l:scol-2 x:pad-lr-10 l:pad-lr-20 x:pad-bt-0 x:right l:left">
-          <p><span class="c-grey-text">Currently</span> v2.2.0</p>
+          <p><span class="c-grey-text">Currently</span> v2.2.1</p>
         </div>
       </div>
     </div>
@@ -293,6 +293,15 @@
                   
                   >
                     offset
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v2/grid/show-grid"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Show grid
                   </a>
                 </li>
                           </ul>
@@ -458,14 +467,14 @@ class="
     <div class="x:scol-12">
       <pre>
 <code class="language-markup">
-&lt;link href="https://unpkg.com/shido@^2.2.0/dist/css/shido.min.css" rel="stylesheet">
+&lt;link href="https://unpkg.com/shido@^2.2.1/dist/css/shido.min.css" rel="stylesheet">
 </code>
       </pre>
     </div>
     <div class="x:scol-12">
       <pre>
 <code class="language-markup">
-&lt;link href="https://cdn.jsdelivr.net/npm/shido@^2.2.0/dist/css/shido.min.css" rel="stylesheet">
+&lt;link href="https://cdn.jsdelivr.net/npm/shido@^2.2.1/dist/css/shido.min.css" rel="stylesheet">
 </code>
       </pre>
     </div>
@@ -483,7 +492,7 @@ class="
       <p>You can also traditionally download latest files from the Github:</p>
     </div>
     <div class="x:scol-12">
-      <a href="https://github.com/samline/shido/releases/tag/2.2.0" download target="_blank" class="btn btn--main">Download latest release</a>
+      <a href="https://github.com/samline/shido/releases/tag/2.2.1" download target="_blank" class="btn btn--main">Download latest release</a>
     </div>
   </div>
 </section>
@@ -505,6 +514,16 @@ class="
 </code>
       </pre>
     </div>
+    <div class="x:scol-12">
+      <p>Or if you prefer you can only include the css file.</p>
+    </div>
+    <div class="x:scol-12">
+      <pre>
+<code class="language-less">
+@import  "~shido/dist/css/shido.min.css";
+</code>
+      </pre>
+    </div>
   </div>
 </section>
   <section id="customize-your-project">
@@ -516,9 +535,7 @@ class="
 >Customize your project</h2>
     </div>
     <div class="x:scol-12">
-      <p>If you want to customize your Shido installation, you can generate a configuration file for your project for example <tag>shido-custom.less</tag> and set new values for default variables.
-
-        Keep in mind that with a high number in <strong>fonts</strong> or <strong>margin</strong> and <strong>padding</strong> will increase the number of classes and also the size of the final css.</p>
+      <p>If you want to customize your Shido installation, you can generate a configuration file for your project for example <tag>shido-custom.less</tag> and set new values for default variables.</p>
     </div>
     <div class="x:scol-12">
       <pre>

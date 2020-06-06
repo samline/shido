@@ -10,6 +10,8 @@
 # Files
 webpack.mix.js
 yarn.lock
+/dist/mix-manifest.json
+/dist/mix.js.map
 
 # Assets development
 /node_modules

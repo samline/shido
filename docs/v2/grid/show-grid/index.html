@@ -4,7 +4,7 @@
 
   <head>
 
-  <title>scontainer | Shido</title>
+  <title>Show grid | Shido</title>
 
   
   <meta charset="utf-8"/>
@@ -15,11 +15,11 @@
   <meta name="keywords" content="artisan, css-framework, css-modules, css, css3, front-end, frontend, functional-css, grid-layout, grid-system, grid, helpers-class, helpers-library, less-mixins, less, mixins, postcss, responsive, sass, Shido, ui, utility-classes"/>
   <meta name="description" content="Build interfaces quickly with a lightweight, flexible, and friendly CSS framework designed to be quick and easy without forcing you to overwrite styles or components. Your design, your rules."/>
 
-  <meta property="og:title" content="scontainer | Shido"/>
+  <meta property="og:title" content="Show grid | Shido"/>
   <meta property="og:description" content="Build interfaces quickly with a lightweight, flexible, and friendly CSS framework designed to be quick and easy without forcing you to overwrite styles or components. Your design, your rules."/>
   <meta property="og:type" content="website"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:url" content="/shido/v2/grid/scontainer"/>
+  <meta property="og:url" content="/shido/v2/grid/show-grid"/>
   <meta property="og:site_name" content="Shido"/>
   <meta property="og:image" content="/shido/dist/img/ico/logo-share.jpg"/>
   <meta property="og:image:width" content="1200"/>
@@ -250,7 +250,7 @@
                           </ul>
                       <p class="c-grey-text x:fs-14">Grid</p>
             <ul class="x:mrg-all-0 x:pad-all-0  x:mrg-bottom-15 ">
-                                              <li class="--active dis-block pos-relative">
+                                              <li class=" dis-block pos-relative">
                   <a
                   href="/shido/v2/grid/scontainer"
                   class="c-black dis-block x:pad-bt-5 x:pad-right-10"
@@ -295,7 +295,7 @@
                     offset
                   </a>
                 </li>
-                                              <li class=" dis-block pos-relative">
+                                              <li class="--active dis-block pos-relative">
                   <a
                   href="/shido/v2/grid/show-grid"
                   class="c-black dis-block x:pad-bt-5 x:pad-right-10"
@@ -416,23 +416,10 @@
       <h1
 class="
  x:fs-28 s:fs-30 m:fs-32 "
->scontainer</h1>
+>Show grid</h1>
     </div>
     <div class="x:scol-12 x:pad-top-0">
       <hr>
-    </div>
-  </div>
-</section>
-  <section id="what-is-scontainer">
-  <div class="line">
-    <div class="x:scol-12">
-      <h2
-class="
- x:fs-22 s:fs-24 m:fs-26 "
->What is scontainer?</h2>
-    </div>
-    <div class="x:scol-12">
-      <p><tag>.scontainer</tag> works wrapping your content in a safe area and maintains separation from the edge of the screen.</p>
     </div>
   </div>
 </section>
@@ -441,76 +428,135 @@ class="
     <div class="x:scol-12">
       <h2
 class="
- x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+ x:fs-22 s:fs-24 m:fs-26 "
 >How to use</h2>
     </div>
     <div class="x:scol-12">
-      <pre>
-<code class="language-markup">
-&lt;div class="scontainer">
-  &lt;div class="line">
-    &lt;div class="x:scol-12">
-      &lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p>
-    &lt;/div>
-  &lt;/div>
-&lt;/div>
-</code>
-      </pre>
+      <ul class="--normal">
+        <li><tag>show-grid-scontainer</tag></li>
+        <li><tag>show-grid-line</tag></li>
+        <li><tag>show-grid-scol</tag></li>
+      </ul>
+    </div>
+    <div class="x:scol-12">
+      <p>During development you can show the layout you are working on and be able to better visualize the distribution of the columns or elements.
+
+      The class will show all the elements inside the container that owns it, in this way you will be able to view the layout only of what you need to see without interfering with the rest of the site.</p>
     </div>
     <div class="x:scol-12">
       <div class="alert-block --info">
   <i class="fas
    fa-info-circle         "></i>
-  <p class="x:pad-bt-0 x:fs-14 s:fs-16"><tag>.scontainer</tag> by default has a <strong>10px</strong> side padding, you can remove or modify this padding for specific cases using <a href="/shido/v2/utility-classes/margin-padding#padding" class="txt-underline">padding classes</a>.</p>
+  <p class="x:pad-bt-0 x:fs-14 s:fs-16">The border color is inherited from the dominant text color in the container</p>
 </div>
-    </div>
-    <div class="x:scol-12">
-      <p>The following example removes the default padding using the Shido classes, assuming you need it you can remove, reduce or increase the padding of the container, but in most cases it will not be necessary.</p>
-    </div>
-    <div class="x:scol-12">
-      <pre>
-<code class="language-markup">
-&lt;div class="scontainer x:pad-lr-0">
-  &lt;div class="line">
-    &lt;div class="x:scol-12">
-      &lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p>
-    &lt;/div>
-  &lt;/div>
-&lt;/div>
-</code>
-      </pre>
     </div>
   </div>
 </section>
-  <section id="scontainer-liquid">
+  <section id="scontainer">
   <div class="line">
     <div class="x:scol-12">
       <h2
 class="
  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
->scontainer-liquid</h2>
-    </div>
-    <div class="x:scol-12">
-      <p><tag>.scontainer-liquid</tag> works in the same way a <tag>.scontainer</tag>, the difference is that it is not limited to the safe area, it occupies the entire width of the screen but maintains the same separation and properties as <tag>.scontainer</tag></p>
+>scontainer</h2>
     </div>
     <div class="x:scol-12">
       <pre>
 <code class="language-markup">
-&lt;div class="scontainer-liquid">
-  &lt;div class="line">
-    &lt;div class="x:scol-12">
-      &lt;nav>
-        &lt;ul>
-          &lt;li>Item 1&lt;/li>
-          &lt;li>Item 2&lt;/li>
-          &lt;li>Item 3&lt;/li>
-        &lt;/ul>
-      &lt;/nav>
+&lt;div class="container-example show-grid-scontainer">
+  &lt;div class="scontainer">
+    &lt;div class="line">
+      &lt;div class="x:scol-4">&lt;/div>
+      &lt;div class="x:scol-4">&lt;/div>
+      &lt;div class="x:scol-4">&lt;/div>
     &lt;/div>
   &lt;/div>
 &lt;/div>
 </code>
       </pre>
+    </div>
+    <div class="x:scol-12">
+      <div class="sandbox show-grid-scontainer">
+        <div class="scontainer">
+          <div class="line">
+            <div class="x:scol-4 x:center">...</div>
+            <div class="x:scol-4 x:center">...</div>
+            <div class="x:scol-4 x:center">...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section id="line">
+  <div class="line">
+    <div class="x:scol-12">
+      <h2
+class="
+ x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>line</h2>
+    </div>
+    <div class="x:scol-12">
+      <pre>
+<code class="language-markup">
+&lt;div class="container-example show-grid-line">
+  &lt;div class="scontainer">
+    &lt;div class="line">
+      &lt;div class="x:scol-4">&lt;/div>
+      &lt;div class="x:scol-4">&lt;/div>
+      &lt;div class="x:scol-4">&lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+</code>
+      </pre>
+    </div>
+    <div class="x:scol-12">
+      <div class="sandbox show-grid-line">
+        <div class="scontainer">
+          <div class="line">
+            <div class="x:scol-4 x:center">...</div>
+            <div class="x:scol-4 x:center">...</div>
+            <div class="x:scol-4 x:center">...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section id="scol">
+  <div class="line">
+    <div class="x:scol-12">
+      <h2
+class="
+ x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>scol / scol-fit</h2>
+    </div>
+    <div class="x:scol-12">
+      <pre>
+<code class="language-markup">
+&lt;div class="container-example show-grid-scol">
+  &lt;div class="scontainer">
+    &lt;div class="line">
+      &lt;div class="x:scol-4">&lt;/div>
+      &lt;div class="x:scol-4">&lt;/div>
+      &lt;div class="x:scol-4">&lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+</code>
+      </pre>
+    </div>
+    <div class="x:scol-12">
+      <div class="sandbox show-grid-scol">
+        <div class="scontainer">
+          <div class="line">
+            <div class="x:scol-4 x:center">...</div>
+            <div class="x:scol-4 x:center">...</div>
+            <div class="x:scol-4 x:center">...</div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -544,18 +590,18 @@ class="
             <p class="c-grey-text x:mrg-bottom-10 x:fs-14"><i class="fas fa-align-left x:fs-12 x:mrg-right-5"></i> Contents</p>
             <ul class="x:mrg-all-0 x:pad-all-0">
                               <li class="dis-block pos-relative">
-                  <a href="#what-is-scontainer" class="c-black  dis-block x:pad-bt-5">
-                    What is .scontainer?
+                  <a href="#scontainer" class="c-black  dis-block x:pad-bt-5">
+                    scontainer
                   </a>
                                   </li>
                               <li class="dis-block pos-relative">
-                  <a href="#how-to-use" class="c-black  dis-block x:pad-bt-5">
-                    How to use
+                  <a href="#line" class="c-black  dis-block x:pad-bt-5">
+                    line
                   </a>
                                   </li>
                               <li class="dis-block pos-relative">
-                  <a href="#scontainer-liquid" class="c-black  dis-block x:pad-bt-5">
-                    scontainer-liquid
+                  <a href="#scol" class="c-black  dis-block x:pad-bt-5">
+                    scol / scol-fit
                   </a>
                                   </li>
                           </ul>
