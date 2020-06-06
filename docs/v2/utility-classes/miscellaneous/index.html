@@ -63,8 +63,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Questrial&amp;display=swap" rel="stylesheet">
 
   
-  <link rel="preload" as="style" href="/shido/dist/css/app.css?id=0aa21e3430d733ca7e5c">
-  <link rel="stylesheet" href="/shido/dist/css/app.css?id=0aa21e3430d733ca7e5c">
+  <link rel="preload" as="style" href="/shido/dist/css/app.css?id=2924f1a633ec67637815">
+  <link rel="stylesheet" href="/shido/dist/css/app.css?id=2924f1a633ec67637815">
 
   
   
@@ -144,7 +144,7 @@
 </nav>
         </div>
         <div class="x:scol-3 l:scol-2 x:pad-lr-10 l:pad-lr-20 x:pad-bt-0 x:right l:left">
-          <p><span class="c-grey-text">Currently</span> v2.2.1</p>
+          <p><span class="c-grey-text">Currently</span> v2.2.2</p>
         </div>
       </div>
     </div>
@@ -500,7 +500,7 @@ class="
 >Background image</h2>
       </div>
                                   <div class="
-                 s:scol-6                 x:top x:mrg-bottom-10">
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
           <div class="line">
             <div class="x:scol-12 x:pad-bottom-5">
               <ul class="--normal">
@@ -514,7 +514,7 @@ class="
                       </div>
         </div>
                       <div class="
-                 s:scol-6                 x:top x:mrg-bottom-10">
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
           <div class="line">
             <div class="x:scol-12 x:pad-bottom-5">
               <ul class="--normal">
@@ -527,10 +527,24 @@ class="
             </div>
                       </div>
         </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>bg-img-no-repeat</tag>
+                                      <hr>
+                    <p class="x:fs-14">The background-image is not repeated. The image will only be shown once</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
                 <div id="background-position" class="x:scol-12">
         <h2
 class="
- bg-img-fixed  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+ bg-img-no-repeat  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
 >Background position</h2>
       </div>
               <div class="x:scol-12">
@@ -672,7 +686,7 @@ class="
 >Font family</h2>
       </div>
                                   <div class="
-                 s:scol-6                 x:top x:mrg-bottom-10">
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
           <div class="line">
             <div class="x:scol-12 x:pad-bottom-5">
               <ul class="--normal">
@@ -686,7 +700,7 @@ class="
                       </div>
         </div>
                       <div class="
-                 s:scol-6                 x:top x:mrg-bottom-10">
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
           <div class="line">
             <div class="x:scol-12 x:pad-bottom-5">
               <ul class="--normal">
@@ -699,10 +713,24 @@ class="
             </div>
                       </div>
         </div>
+                      <div class="
+         s:scol-6 m:scol-4                         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>ff-reset</tag>
+                                      <hr>
+                    <p class="x:fs-14">Set the default font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
                 <div id="image" class="x:scol-12">
         <h2
 class="
- ff-heading  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+ ff-reset  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
 >Image</h2>
       </div>
                                   <div class="
@@ -1124,6 +1152,29 @@ class="
             </div>
                       </div>
         </div>
+                <div id="z-index" class="x:scol-12">
+        <h2
+class="
+ vw-100  x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>z Index</h2>
+      </div>
+              <div class="x:scol-12">
+          <p>Apecifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order.</p>
+        </div>
+                                  <div class="
+                         x:scol-12         x:top x:mrg-bottom-10">
+          <div class="line">
+            <div class="x:scol-12 x:pad-bottom-5">
+              <ul class="--normal">
+                <li>
+                  <tag>z-index-*</tag>
+                                      <hr>
+                    <p class="x:fs-14">Numbers between 1 and 5</p>
+                                  </li>
+              </ul>
+            </div>
+                      </div>
+        </div>
             </div>
 </section>
 
@@ -1233,6 +1284,11 @@ class="
                               <li class="dis-block pos-relative">
                   <a href="#width-height" class="c-black  dis-block x:pad-bt-5">
                     Width &amp; Height
+                  </a>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#z-index" class="c-black  dis-block x:pad-bt-5">
+                    z-index
                   </a>
                                   </li>
                           </ul>
