@@ -1,0 +1,36 @@
+@each $breakpoint, $px in $breakpoints-min {
+  @media (min-width: map.get($breakpoints-min, #{$breakpoint})) {
+    $i: 0;
+
+    @while $i <= $s-max-padding {
+      .#{$breakpoint}\:pad-bt-#{$i} {
+        padding-bottom: $i * 1px;
+        padding-top: $i * 1px;
+      }
+      .#{$breakpoint}\:pad-lr-#{$i} {
+        padding-left: $i * 1px;
+        padding-right: $i * 1px;
+      }
+      .#{$breakpoint}\:pad-bottom-#{$i} {
+        padding-bottom: $i * 1px;
+      }
+      .#{$breakpoint}\:pad-left-#{$i} {
+        padding-left: $i * 1px;
+      }
+      .#{$breakpoint}\:pad-right-#{$i} {
+        padding-right: $i * 1px;
+      }
+      .#{$breakpoint}\:pad-top-#{$i} {
+        padding-top: $i * 1px;
+      }
+      .#{$breakpoint}\:pad-all-#{$i} {
+        padding-bottom: $i * 1px;
+        padding-left: $i * 1px;
+        padding-right: $i * 1px;
+        padding-top: $i * 1px;
+      }
+
+      $i: $i + $s-increment-mp;
+    }
+  }
+}

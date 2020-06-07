@@ -1,0 +1,13 @@
+@each $breakpoint, $px in $breakpoints-min {
+  @media (min-width: map.get($breakpoints-min, #{$breakpoint})) {
+    $i: $s-min-font-size;
+
+    @while $i <= $s-max-font-size {
+      .#{$breakpoint}\:fs-#{$i} {
+        font-size: ($i/$s-body-font-size) * 1rem !important;
+      }
+
+      $i: $i + $s-increment-font;
+    }
+  }
+}

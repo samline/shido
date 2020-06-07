@@ -1,0 +1,12 @@
+@each $color, $colors in $color-list {
+  @each $hue, $hex in $colors {
+    @include mix-bg-color-class($hex, $color + '-' + #{$hue});
+  }
+}
+
+@each $hue, $hex in $color-list-basic {
+  @include mix-bg-color-class($hex, $hue);
+}
+
+
+

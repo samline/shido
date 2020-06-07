@@ -1,0 +1,181 @@
+// <a>
+a {
+
+  &.a-contrast-color {
+    color: $s-main-link-color-hover;
+
+    &:active,
+    &:hover,
+    &:focus {
+      color: $s-main-link-color;
+    }
+  }
+}
+
+// appearance-none
+.appearance-none {
+  appearance: none;
+}
+
+// background image
+.bg-img-cover {
+  background-position: center;
+  background-size: cover;
+}
+.bg-img-fixed {
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translate3d(0,0,0);
+
+  @media (max-width: $l-screen-max) {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+}
+.bg-img-no-repeat {
+  background-repeat: no-repeat;
+}
+
+// background position
+.bg-pos-bottom {
+  background-position: bottom;
+}
+.bg-pos-center {
+  background-position: center;
+}
+.bg-pos-left {
+  background-position: left;
+}
+.bg-pos-right {
+  background-position: right;
+}
+.bg-pos-top {
+  background-position: top;
+}
+
+// display
+.dis-block {
+  display: block;
+}
+.dis-inline-block {
+  display: inline-block;
+}
+.dis-table {
+  display: table;
+}
+.dis-table-row {
+  display: table-row;
+}
+.dis-table-cell {
+  display: table-cell;
+}
+
+// font famyly
+.ff-body {
+  font-family: $s-body-font-family;
+}
+.ff-heading {
+  font-family: $s-headers-font-family;
+}
+
+// inline-block-clear
+.inline-block-clear {
+  @extend .line;
+}
+
+// img
+.img-liquid {
+  max-width: 100%;
+}
+
+// overflow
+.ovf-auto {
+  overflow: auto;
+}
+.ovf-hidden {
+  overflow: hidden;
+}
+.ovf-visible {
+  overflow: visible;
+}
+
+// position
+.pos-relative {
+  position: relative;
+}
+
+// table
+.table-responsive {
+  overflow: auto;
+  max-width: 100%;
+}
+
+// Transition
+.trans-ease {
+  @include mix-transition(all, .2s, ease);
+}
+.trans-linear {
+  @include mix-transition(all, .2s, linear);
+}
+
+// user select
+.user-select-none {
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+// White space
+.ws-normal {
+  white-space: normal;
+}
+.ws-nowrap {
+  white-space: nowrap;
+}
+.ws-pre-line {
+  white-space: pre-line;
+}
+
+// Width & height
+.h-50 {
+  height: 50%;
+}
+.w-50 {
+  width: 50%;
+}
+.h-100 {
+  height: 100%;
+}
+.w-100 {
+  width: 100%;
+}
+.vh-50 {
+  width: 50vh;
+}
+.vw-50 {
+  width: 50vw;
+}
+.vh-100 {
+  width: 100vh;
+}
+.vw-100 {
+  width: 100vw;
+}
+
+// z-index
+.z-index-1 {
+  z-index: 1;
+}
+.z-index-2 {
+  z-index: 2;
+}
+.z-index-3 {
+  z-index: 3;
+}
+.z-index-4 {
+  z-index: 4;
+}
+.z-index-5 {
+  z-index: 5;
+}
