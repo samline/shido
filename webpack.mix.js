@@ -17,14 +17,14 @@ if(mix.inProduction()) {
     'css/shido-colors.min.css'
   )
 
-  /* .sass(
+  .sass(
     'src/sass/shido.scss',
     'css/shido.min.css'
   )
   .sass(
     'src/sass/shido-colors.scss',
     'css/shido-colors.min.css'
-  ) */
+  )
 
 } else {
   mix
@@ -38,13 +38,13 @@ if(mix.inProduction()) {
     'css/shido-colors.css'
   )
 
-  /* .sass(
+  .sass(
     'src/sass/shido.scss',
     'css/shido.css'
   )
   .sass(
     'src/sass/shido-colors.scss',
     'css/shido-colors.css'
-  ) */
+  )
 
 }
