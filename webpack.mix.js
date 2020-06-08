@@ -6,29 +6,45 @@ mix
 .sourceMaps()
 
 if(mix.inProduction()) {
-  /* mix.less(
+  mix
+
+  .less(
     'src/less/shido.less',
     'css/shido.min.css'
-  ) */
-  mix.sass(
-    'src/sass/shido.scss',
-    'css/shido.min.css'
   )
-  mix.sass(
-    'src/sass/shido-colors.scss',
+  .less(
+    'src/less/shido-colors.less',
     'css/shido-colors.min.css'
   )
+
+  /* .sass(
+    'src/sass/shido.scss',
+    'css/shido.min.css'
+  )
+  .sass(
+    'src/sass/shido-colors.scss',
+    'css/shido-colors.min.css'
+  ) */
+
 } else {
-  /* mix.less(
+  mix
+
+  .less(
     'src/less/shido.less',
     'css/shido.css'
-  ) */
-  mix.sass(
+  )
+  .less(
+    'src/less/shido-colors.less',
+    'css/shido-colors.css'
+  )
+
+  /* .sass(
     'src/sass/shido.scss',
     'css/shido.css'
   )
-  mix.sass(
+  .sass(
     'src/sass/shido-colors.scss',
     'css/shido-colors.css'
-  )
+  ) */
+
 }

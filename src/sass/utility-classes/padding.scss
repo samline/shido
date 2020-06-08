@@ -3,31 +3,33 @@
     $i: 0;
 
     @while $i <= $s-max-padding {
+      $pad: $i * 1px;
+
       .#{$breakpoint}\:pad-bt-#{$i} {
-        padding-bottom: $i * 1px;
-        padding-top: $i * 1px;
+        padding-bottom: $pad;
+        padding-top: $pad;
       }
       .#{$breakpoint}\:pad-lr-#{$i} {
-        padding-left: $i * 1px;
-        padding-right: $i * 1px;
+        padding-left: $pad;
+        padding-right: $pad;
       }
       .#{$breakpoint}\:pad-bottom-#{$i} {
-        padding-bottom: $i * 1px;
+        padding-bottom: $pad;
       }
       .#{$breakpoint}\:pad-left-#{$i} {
-        padding-left: $i * 1px;
+        padding-left: $pad;
       }
       .#{$breakpoint}\:pad-right-#{$i} {
-        padding-right: $i * 1px;
+        padding-right: $pad;
       }
       .#{$breakpoint}\:pad-top-#{$i} {
-        padding-top: $i * 1px;
+        padding-top: $pad;
       }
       .#{$breakpoint}\:pad-all-#{$i} {
-        padding-bottom: $i * 1px;
-        padding-left: $i * 1px;
-        padding-right: $i * 1px;
-        padding-top: $i * 1px;
+        padding-bottom: $pad;
+        padding-left: $pad;
+        padding-right: $pad;
+        padding-top: $pad;
       }
 
       $i: $i + $s-increment-mp;

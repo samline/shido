@@ -1,4 +1,33 @@
-.colors-default-50(@type) {
+/* each(@color-list, .(@colors, @color) {
+  each(@colors, .(@hues, @i) {
+    .class {
+      color: @hues;
+    }
+  })
+}) */
+
+.class {
+  color: @color-list[x];
+}
+
+
+
+// each(@breakpoints-min, .(@px, @breakpoint) {
+
+/* @each $color, $colors in $color-list {
+  @each $hue, $hex in $colors {
+    @include mix-bg-color-class($hex, $color + '-' + #{$hue});
+  }
+}
+
+@each $hue, $hex in $color-list-basic {
+  @include mix-bg-color-class($hex, $hue);
+} */
+
+
+
+
+/* .colors-default-50(@type) {
 
   @color: 'c-@{type}-50';
 
@@ -24,3 +53,4 @@
 
 .mix-bg-color-class(@c-black, black);
 .mix-bg-color-class(@c-white, white);
+ */

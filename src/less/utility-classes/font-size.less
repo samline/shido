@@ -1,27 +1,9 @@
-.mix-responsive-fonts(@type) {
-
-  .font-size-generate(@n, @i: @s-min-font-size) when (@i =< @n) {
-
-    .@{type}\:fs-@{i} {
-      font-size: (@i/@s-body-font-size) * 1rem !important;
-    }
-    .font-size-generate(@n, (@i + @s-increment-font));
+each(@breakpoints-min, .(@px, @breakpoint) {
+  @media (min-width: @px) {
+    each(range(@s-min-font-size, @s-max-font-size, @s-increment-font), .(@loop) {
+      .@{breakpoint}\:fs-@{loop} {
+        font-size: (@loop/@s-body-font-size) * 1rem !important;
+      }
+    })
   }
-
-  .font-size-generate(@s-max-font-size);
-}
-@media (min-width: @x-screen-min) {
-  .mix-responsive-fonts(x);
-}
-@media (min-width: @s-screen-min) {
-  .mix-responsive-fonts(s);
-}
-@media (min-width: @m-screen-min) {
-  .mix-responsive-fonts(m);
-}
-@media (min-width: @l-screen-min) {
-  .mix-responsive-fonts(l);
-}
-@media (min-width: @xl-screen-min) {
-  .mix-responsive-fonts(xl);
-}
+})
