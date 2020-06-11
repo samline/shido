@@ -1,0 +1,22 @@
+.mix-btn-color(
+  @background-color:        @c-grey-100,
+  @border-color:            @c-grey-200,
+  @color:                   @c-grey-800,
+
+  @background-color-hover:  @c-grey-200,
+  @border-color-hover:      @c-grey-300,
+  @color-hover:             @c-grey-800,
+
+  @border-style:            solid,
+  @border-width:            1px,
+) {
+  background-color:         @background-color;
+  border:                   @border-style @border-width @border-color;
+  color:                    @color;
+
+  &:hover{
+    background-color:       @background-color-hover;
+    border-color:           @border-color-hover;
+    color:                  @color-hover;
+  }
+}

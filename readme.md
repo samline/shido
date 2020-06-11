@@ -16,10 +16,10 @@ It is up to you to use Shido to create your own components, this provides immens
 To take advantage of the customization features, the best way to install Shido is via npm or yarn, this installation method guarantees a trouble-free use with bundlers like Webpack.
 
 ```bash
-npm i shido --save
+npm i shido@2.2.3 --save
 ```
 ```bash
-yarn add shido
+yarn add shido@2.2.3
 ```
 
 ### Install via CDN
