@@ -1,0 +1,15 @@
+/*!
+ * Shido by Samuel Olvera (samline) - https://github.com/samline/shido
+ * Made with a lot of love.
+ */
+
+ @use "sass:map";
+
+ // variables
+ @import 'variables/colors';
+
+// mixins
+@import 'mixins/colors';
+
+// Utility classes
+@import 'utility-classes/colors';

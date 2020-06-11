@@ -1,0 +1,4 @@
+@mixin mix-fs($fs: $s-body-font-size) {
+  font-size: ($fs/$s-body-font-size) * 1rem;
+}
+

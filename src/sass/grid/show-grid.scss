@@ -1,0 +1,18 @@
+.show-grid-scontainer {
+
+  & [class*="scontainer"] {
+    outline: solid 2px;
+  }
+}
+.show-grid-line {
+
+  & [class*="line"] {
+    outline: dotted 2px;
+  }
+}
+.show-grid-scol {
+
+  & [class*=":scol-"] {
+    outline: dashed 2px;
+  }
+}

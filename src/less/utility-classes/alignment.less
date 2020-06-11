@@ -1,61 +1,33 @@
-.mix-horizontal-alignment(@type) {
+each(@breakpoints-min, .(@px, @breakpoint) {
+  @media (min-width: @px) {
+    .@{breakpoint}\:center {
+      text-align: center;
+    }
+    .@{breakpoint}\:justify {
+      text-align: justify;
+    }
+    .@{breakpoint}\:left {
+      text-align: left;
+    }
+    .@{breakpoint}\:right {
+      text-align: right;
+    }
+  }
+})
 
-  .@{type}\:center {
-    text-align: center;
+each(@breakpoints-min, .(@px, @breakpoint) {
+  @media (min-width: @px) {
+    .@{breakpoint}\:baseline {
+      vertical-align: baseline;
+    }
+    .@{breakpoint}\:bottom {
+      vertical-align: bottom;
+    }
+    .@{breakpoint}\:middle {
+      vertical-align: middle;
+    }
+    .@{breakpoint}\:top {
+      vertical-align: top;
+    }
   }
-  .@{type}\:justify {
-    text-align: justify;
-  }
-  .@{type}\:left {
-    text-align: left;
-  }
-  .@{type}\:right {
-    text-align: right;
-  }
-}
-@media (min-width: @x-screen-min) {
-  .mix-horizontal-alignment(x);
-}
-@media (min-width: @s-screen-min) {
-  .mix-horizontal-alignment(s);
-}
-@media (min-width: @m-screen-min) {
-  .mix-horizontal-alignment(m);
-}
-@media (min-width: @l-screen-min) {
-  .mix-horizontal-alignment(l);
-}
-@media (min-width: @xl-screen-min) {
-  .mix-horizontal-alignment(xl);
-}
-
-.mix-vertical-alignment(@type) {
-
-  .@{type}\:baseline {
-    vertical-align: baseline;
-  }
-  .@{type}\:bottom {
-    vertical-align: bottom;
-  }
-  .@{type}\:middle {
-    vertical-align: middle;
-  }
-  .@{type}\:top {
-    vertical-align: top;
-  }
-}
-@media (min-width: @x-screen-min) {
-  .mix-vertical-alignment(x);
-}
-@media (min-width: @s-screen-min) {
-  .mix-vertical-alignment(s);
-}
-@media (min-width: @m-screen-min) {
-  .mix-vertical-alignment(m);
-}
-@media (min-width: @l-screen-min) {
-  .mix-vertical-alignment(l);
-}
-@media (min-width: @xl-screen-min) {
-  .mix-vertical-alignment(xl);
-}
+})

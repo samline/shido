@@ -1,80 +1,61 @@
-.mix-margin(@type) {
+each(@breakpoints-min, .(@px, @breakpoint) {
+  @media (min-width: @px) {
+    each(range(0, @s-max-margin, @s-increment-mp), .(@loop) {
+      @mrg: @loop * 1px;
 
-  .mrg-side(@n, @i: 0) when (@i =< @n) {
+      .@{breakpoint}\:mrg-bt-@{loop} {
+        margin-bottom: @mrg;
+        margin-top: @mrg;
+      }
+      .@{breakpoint}\:mrg-lr-@{loop} {
+        margin-left: @mrg;
+        margin-right: @mrg;
+      }
+      .@{breakpoint}\:mrg-bottom-@{loop} {
+        margin-bottom: @mrg;
+      }
+      .@{breakpoint}\:mrg-left-@{loop} {
+        margin-left: @mrg;
+      }
+      .@{breakpoint}\:mrg-right-@{loop} {
+        margin-right: @mrg;
+      }
+      .@{breakpoint}\:mrg-top-@{loop} {
+        margin-top: @mrg;
+      }
+      .@{breakpoint}\:mrg-all-@{loop} {
+        margin-bottom: @mrg;
+        margin-left: @mrg;
+        margin-right: @mrg;
+        margin-top: @mrg;
+      }
 
-    @count: @i * 10;
-
-    .@{type}\:mrg-bt-@{count} {
-      margin-bottom: @count * 1px;
-      margin-top: @count * 1px;
-    }
-    .@{type}\:mrg-lr-@{count} {
-      margin-left: @count * 1px;
-      margin-right: @count * 1px;
-    }
-    .@{type}\:mrg-bottom-@{count} {
-      margin-bottom: @count * 1px;
-    }
-    .@{type}\:mrg-left-@{count} {
-      margin-left: @count * 1px;
-    }
-    .@{type}\:mrg-right-@{count} {
-      margin-right: @count * 1px;
-    }
-    .@{type}\:mrg-top-@{count} {
-      margin-top: @count * 1px;
-    }
-    .@{type}\:-mrg-bt-@{count} {
-      margin-bottom: -@count * 1px;
-      margin-top: -@count * 1px;
-    }
-    .@{type}\:-mrg-lr-@{count} {
-      margin-left: -@count * 1px;
-      margin-right: -@count * 1px;
-    }
-    .@{type}\:-mrg-bottom-@{count} {
-      margin-bottom: -@count * 1px;
-    }
-    .@{type}\:-mrg-left-@{count} {
-      margin-left: -@count * 1px;
-    }
-    .@{type}\:-mrg-right-@{count} {
-      margin-right: -@count * 1px;
-    }
-    .@{type}\:-mrg-top-@{count} {
-      margin-top: -@count * 1px;
-    }
-
-    .@{type}\:mrg-all-@{count} {
-      margin-bottom: @count * 1px;
-      margin-left: @count * 1px;
-      margin-right: @count * 1px;
-      margin-top: @count * 1px;
-    }
-    .@{type}\:-mrg-all-@{count} {
-      margin-bottom: -@count * 1px;
-      margin-left: -@count * 1px;
-      margin-right: -@count * 1px;
-      margin-top: -@count * 1px;
-    }
-
-    .mrg-side(@n, @i + .5);
+      .@{breakpoint}\:-mrg-bt-@{loop} {
+        margin-bottom: -@mrg;
+        margin-top: -@mrg;
+      }
+      .@{breakpoint}\:-mrg-lr-@{loop} {
+        margin-left: -@mrg;
+        margin-right: -@mrg;
+      }
+      .@{breakpoint}\:-mrg-bottom-@{loop} {
+        margin-bottom: -@mrg;
+      }
+      .@{breakpoint}\:-mrg-left-@{loop} {
+        margin-left: -@mrg;
+      }
+      .@{breakpoint}\:-mrg-right-@{loop} {
+        margin-right: -@mrg;
+      }
+      .@{breakpoint}\:-mrg-top-@{loop} {
+        margin-top: -@mrg;
+      }
+      .@{breakpoint}\:-mrg-all-@{loop} {
+        margin-bottom: -@mrg;
+        margin-left: -@mrg;
+        margin-right: -@mrg;
+        margin-top: -@mrg;
+      }
+    })
   }
-
-  .mrg-side(@s-max-margin);
-}
-@media (min-width: @x-screen-min) {
-  .mix-margin(x);
-}
-@media (min-width: @s-screen-min) {
-  .mix-margin(s);
-}
-@media (min-width: @m-screen-min) {
-  .mix-margin(m);
-}
-@media (min-width: @l-screen-min) {
-  .mix-margin(l);
-}
-@media (min-width: @xl-screen-min) {
-  .mix-margin(xl);
-}
+})

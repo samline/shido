@@ -1,0 +1,16 @@
+[class*=":scol-"] {
+  display: inline-block;
+  padding: $s-column-padding;
+  vertical-align: middle;
+  width: ($s-grid * $s-columns) * 1%;
+}
+
+@each $breakpoint, $px in $breakpoints-min {
+  @media (min-width: map.get($breakpoints-min, #{$breakpoint})) {
+    @for $i from 1 through $s-columns {
+      .#{$breakpoint}\:scol-#{$i} {
+        width: ($s-grid * $i) * 1%;
+      }
+    }
+  }
+}

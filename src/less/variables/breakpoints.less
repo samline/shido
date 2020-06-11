@@ -1,9 +1,25 @@
-@x-screen-min:  0px;
-@x-screen-max:  599px;
-@s-screen-min:  600px;
-@s-screen-max:  767px;
-@m-screen-min:  768px;
-@m-screen-max:  1023px;
-@l-screen-min:  1024px;
-@l-screen-max:  1365px;
-@xl-screen-min: 1366px;
+@breakpoints-min: {
+  x:  0px;
+  s:  600px;
+  m:  768px;
+  l:  1024px;
+  xl: 1366px;
+}
+
+@breakpoints-max: {
+  x:  599px;
+  s:  767px;
+  m:  1023px;
+  l:  1365px;
+}
+
+@x-screen-min:  @breakpoints-min[x];
+@s-screen-min:  @breakpoints-min[s];
+@m-screen-min:  @breakpoints-min[m];
+@l-screen-min:  @breakpoints-min[l];
+@xl-screen-min: @breakpoints-min[xl];
+
+@x-screen-max:  @breakpoints-max[x];
+@s-screen-max:  @breakpoints-max[s];
+@m-screen-max:  @breakpoints-max[m];
+@l-screen-max:  @breakpoints-max[l];
