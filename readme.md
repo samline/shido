@@ -26,11 +26,11 @@ yarn add shido
 Before using CDN compilation, keep in mind that the customization of variables are not available without incorporating Shido in your build process. I recommend downloading the file and placing it in your projects directory for offline use or otherwise.
 
 ```html
-<link href="https://unpkg.com/shido@^2.2.2/dist/css/shido.min.css" rel="stylesheet">
+<link href="https://unpkg.com/shido@^3.0.0/dist/css/shido.min.css" rel="stylesheet">
 ```
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/shido@^2.2.2/dist/css/shido.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/shido@^3.0.0/dist/css/shido.min.css" rel="stylesheet">
 ```
 
 ### Add shido to your project
