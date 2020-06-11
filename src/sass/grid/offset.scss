@@ -1,0 +1,19 @@
+@each $breakpoint, $px in $breakpoints-min {
+  @media (min-width: map.get($breakpoints-min, #{$breakpoint})) {
+    @for $i from 1 through $s-columns {
+      .#{$breakpoint}\:offset-#{$i} {
+        margin-left: ($s-grid * $i) * 1%;
+      }
+    }
+  }
+}
+
+@each $breakpoint, $px in $breakpoints-min {
+  @media (min-width: map.get($breakpoints-min, #{$breakpoint})) {
+    @for $i from 1 through $s-columns {
+      .#{$breakpoint}\:offset-fit-#{$i} {
+        margin-left: ((100 / $i)) * 1%;
+      }
+    }
+  }
+}

@@ -1,27 +1,13 @@
-.mix-make-hiding-showing(@type) {
-
-  .@{type}\:hide {
-    display: none !important;
+each(@breakpoints-min, .(@px, @breakpoint) {
+  @media (min-width: @px) {
+    .@{breakpoint}\:hide {
+      display: none !important;
+    }
+    .@{breakpoint}\:show {
+      display: block !important;
+    }
+    .@{breakpoint}\:show-inline {
+      display: inline-block !important;
+    }
   }
-  .@{type}\:show {
-    display: block !important;
-  }
-  .@{type}\:show-inline {
-    display: inline-block !important;
-  }
-}
-@media (min-width: @x-screen-min) {
-  .mix-make-hiding-showing(x);
-}
-@media (min-width: @s-screen-min) {
-  .mix-make-hiding-showing(s);
-}
-@media (min-width: @m-screen-min) {
-  .mix-make-hiding-showing(m);
-}
-@media (min-width: @l-screen-min) {
-  .mix-make-hiding-showing(l);
-}
-@media (min-width: @xl-screen-min) {
-  .mix-make-hiding-showing(xl);
-}
+})

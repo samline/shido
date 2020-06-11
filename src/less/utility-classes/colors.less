@@ -1,26 +1,20 @@
-.colors-default-50(@type) {
+each(@color-list, .(@color) {
+  each(range(50, 50, 50), .(@loop) {
+    @cVar:  'c-@{color}-@{loop}';
+    @cName: @{color}-@{loop};
 
-  @color: 'c-@{type}-50';
+    .mix-bg-color-class(@@cVar, @cName);
+  })
+  each(range(100, 900, 100), .(@loop) {
+    @cVar:  'c-@{color}-@{loop}';
+    @cName: @{color}-@{loop};
 
-  .mix-bg-color-class(@@color, ~'@{type}-50');
-}
-.colors-default(@type, @loops, @loop: 100) when (@loop <= @loops) {
-  .colors-default(@type, @loops, @loop + 100);
+    .mix-bg-color-class(@@cVar, @cName);
+  })
+})
 
-  @color: 'c-@{type}-@{loop}';
-
-  .mix-bg-color-class(@@color, ~'@{type}-@{loop}');
-}
-
-.make-color-classes-default(@i: length(@color-list)) when (@i > 0) {
-  .make-color-classes-default(@i - 1);
-
-  @currentColor: extract(@color-list, @i);
-
-  .colors-default-50(@currentColor);
-  .colors-default(@currentColor, 900);
-}
-.make-color-classes-default;
-
-.mix-bg-color-class(@c-black, black);
-.mix-bg-color-class(@c-white, white);
+each(@color-list-basic, .(@color) {
+  @cVar:  'c-@{color}';
+  @cName: @{color};
+  .mix-bg-color-class(@@cVar, @cName);
+})

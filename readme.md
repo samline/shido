@@ -16,21 +16,21 @@ It is up to you to use Shido to create your own components, this provides immens
 To take advantage of the customization features, the best way to install Shido is via npm or yarn, this installation method guarantees a trouble-free use with bundlers like Webpack.
 
 ```bash
-npm i shido@2.2.3 --save
+npm i shido --save
 ```
 ```bash
-yarn add shido@2.2.3
+yarn add shido
 ```
 
 ### Install via CDN
 Before using CDN compilation, keep in mind that the customization of variables are not available without incorporating Shido in your build process. I recommend downloading the file and placing it in your projects directory for offline use or otherwise.
 
 ```html
-<link href="https://unpkg.com/shido@^2.2.3/dist/css/shido.min.css" rel="stylesheet">
+<link href="https://unpkg.com/shido@^3.0.0/dist/css/shido.min.css" rel="stylesheet">
 ```
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/shido@^2.2.3/dist/css/shido.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/shido@^3.0.0/dist/css/shido.min.css" rel="stylesheet">
 ```
 
 ### Add shido to your project

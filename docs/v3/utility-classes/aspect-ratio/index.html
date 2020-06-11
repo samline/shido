@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+  <title>Aspect ratio | Shido</title>
+
+  
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+
+  <meta name="author" content="Samuel Olvera (samline)"/>
+  <meta name="keywords" content="artisan, css-framework, css-modules, css, css3, front-end, frontend, functional-css, grid-layout, grid-system, grid, helpers-class, helpers-library, less-mixins, less, mixins, postcss, responsive, sass, Shido, ui, utility-classes"/>
+  <meta name="description" content="Build interfaces quickly with a lightweight, flexible, and friendly CSS framework designed to be quick and easy without forcing you to overwrite styles or components. Your design, your rules."/>
+
+  <meta property="og:title" content="Aspect ratio | Shido"/>
+  <meta property="og:description" content="Build interfaces quickly with a lightweight, flexible, and friendly CSS framework designed to be quick and easy without forcing you to overwrite styles or components. Your design, your rules."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="/shido/v3/utility-classes/aspect-ratio"/>
+  <meta property="og:site_name" content="Shido"/>
+  <meta property="og:image" content="/shido/dist/img/ico/logo-share.jpg"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  
+  
+  
+  <link rel="shortcut icon" href="/shido/dist/img/ico/favicon.ico" type="image/x-icon"/>
+
+  
+  <link rel="apple-touch-icon" sizes="57x57" href="/shido/dist/img/ico/apple-icon-57x57.png"/>
+  <link rel="apple-touch-icon" sizes="60x60" href="/shido/dist/img/ico/apple-icon-60x60.png"/>
+  <link rel="apple-touch-icon" sizes="72x72" href="/shido/dist/img/ico/apple-icon-72x72.png"/>
+  <link rel="apple-touch-icon" sizes="76x76" href="/shido/dist/img/ico/apple-icon-76x76.png"/>
+  <link rel="apple-touch-icon" sizes="114x114" href="/shido/dist/img/ico/apple-icon-114x114.png"/>
+  <link rel="apple-touch-icon" sizes="120x120" href="/shido/dist/img/ico/apple-icon-120x120.png"/>
+  <link rel="apple-touch-icon" sizes="144x144" href="/shido/dist/img/ico/apple-icon-144x144.png"/>
+  <link rel="apple-touch-icon" sizes="152x152" href="/shido/dist/img/ico/apple-icon-152x152.png"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/shido/dist/img/ico/apple-icon-180x180.png"/>
+
+  
+  <link rel="icon" type="image/png" sizes="16x16" href="/shido/dist/img/ico/favicon-16x16.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/shido/dist/img/ico/favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="96x96" href="/shido/dist/img/ico/favicon-96x96.png"/>
+  <link rel="icon" type="image/png" sizes="192x192" href="/shido/dist/img/ico/android-icon-192x192.png"/>
+  <link rel="manifest" href="/shido/dist/img/ico/manifest.json">
+
+  
+  <meta name="msapplication-TileColor" content="#fd7272">
+  <meta name="msapplication-TileImage" content="/shido/dist/img/ico/ms-icon-144x144.png">
+  <meta name="theme-color" content="#fd7272">
+
+  
+  <link rel="preload" as="font" crossorigin="anonymous" href="/shido/dist/fonts/vendor/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2">
+  
+  <link rel="preload" as="font" crossorigin="anonymous" href="/shido/dist/fonts/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2">
+
+  
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Questrial&amp;display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&amp;display=swap" rel="stylesheet">
+
+  
+      <link rel="preload" as="style" href="/shido/dist/css/app.css?id=e4037657531600d769f5">
+    <link rel="stylesheet" href="/shido/dist/css/app.css?id=e4037657531600d769f5">
+  
+  
+  
+  <link rel="preload" as="script" href="/shido/dist/js/app.js?id=290a0eea9cc218001c62">
+  <script src="/shido/dist/js/app.js?id=290a0eea9cc218001c62"></script>
+
+  
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157281029-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-157281029-1');
+</script>
+              
+  
+  
+</head>
+
+  <body id="" class="">
+
+              
+    <div class="main-container utility-classes x:pad-top-60 l:pad-top-0 ovf-hidden" controller="0">
+      <header class="hide-print user-select-none">
+  <div class="main-nav">
+    <div class="scontainer">
+      <div class="line">
+        <div class="x:scol-4 s:scol-3 l:hide">
+          <div class="hamburger-menu cross hm-1 ovf-hidden">
+  <label>
+    <input type="checkbox" >
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      
+      <path class="line-1" d="M0 40h62c13 0 6 28-4 18L35 35" />
+      <path class="line-2" d="M0 50h70" />
+      <path class="line-3" d="M0 60h62c13 0 6-28-4-18L35 65" />
+    </svg>
+  </label>
+</div>
+        </div>
+        <div class="x:scol-4 s:scol-6 l:scol-2 x:center l:left">
+          <div class="logo">
+            <a href="/shido/">
+              <img src="/shido/dist/img/logos/logo-shido.svg" alt="Shido" style="max-width: 82px; width: 100%;">
+            </a>
+          </div>
+        </div>
+        <div class="l:scol-8 x:hide l:show-inline l:pad-lr-20 xl:pad-lr-40">
+          <nav>
+  <ul class="x:mrg-all-0 x:pad-all-0">
+          <li class="dis-inline-block">
+                <a
+        href="/shido/v3/getting-started/installation"
+        class="dis-block x:pad-all-10 c-black  --active c-main "
+                ><i class="fas fa-code x:mrg-right-5"></i> Docs</a>
+      </li>
+          <li class="dis-inline-block">
+                <a
+        href="https://github.com/samline/shido"
+        class="dis-block x:pad-all-10 c-black "
+         target="_blank"         ><i class="fab fa-github x:mrg-right-5"></i> Github</a>
+      </li>
+          <li class="dis-inline-block">
+                <a
+        href="https://github.com/samline/shido/issues"
+        class="dis-block x:pad-all-10 c-black "
+         target="_blank"         ><i class="fas fa-bug x:mrg-right-5"></i> Issues</a>
+      </li>
+          <li class="dis-inline-block">
+                <a
+        href="/shido/contribute"
+        class="dis-block x:pad-all-10 c-black "
+                ><i class="fas fa-hands-helping x:mrg-right-5"></i> Contribute</a>
+      </li>
+      </ul>
+</nav>
+        </div>
+        <div class="x:scol-4 s:scol-3 l:scol-2 x:pad-lr-10 l:pad-lr-20 x:pad-bt-0 x:right l:left">
+          <form method="get">
+                        <div
+class="
+input-field
+select
+ filled  --simple-select "
+>
+  <select
+  id="version"
+  name="version"
+  class="
+     filled       "
+                  auto-link="1"
+        >
+    <option disabled selected style="display:none;"></option>
+          <option
+        selected
+        value="/shido/v3/getting-started/installation"
+      >
+        v3.0.0
+      </option>
+          <option
+        
+        value="/shido/v2/getting-started/installation"
+      >
+        v2.2.3
+      </option>
+      </select>
+  <label for="version"></label>
+</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="scontainer">
+        <div class="line">
+          <div class="x:scol-3 l:scol-2 x:top x:pad-all-0 hide-print">
+            <section class="nav-side bg-grey-50 x:pad-top-50 l:pad-top-0" followme-bar  dimentions-height="wo-top, static">
+  <div class="nav-container x:pad-bt-20">
+    <div class="line">
+      <div class="x:scol-12">
+        <nav>
+          
+          <div class="l:hide">
+            <p class="c-grey-text x:fs-14">Menu</p>
+            <ul class="x:mrg-all-0 x:pad-all-0 x:mrg-bottom-15">
+                                              <li class="dis-block pos-relative  --active ">
+                  <a
+                    href="/shido/v3/getting-started/installation"
+                    class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                                        >
+                      Docs
+                    </a>
+                </li>
+                                              <li class="dis-block pos-relative ">
+                  <a
+                    href="https://github.com/samline/shido"
+                    class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                     target="_blank"                     >
+                      Github
+                    </a>
+                </li>
+                                              <li class="dis-block pos-relative ">
+                  <a
+                    href="https://github.com/samline/shido/issues"
+                    class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                     target="_blank"                     >
+                      Issues
+                    </a>
+                </li>
+                                              <li class="dis-block pos-relative ">
+                  <a
+                    href="/shido/contribute"
+                    class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                                        >
+                      Contribute
+                    </a>
+                </li>
+                          </ul>
+          </div>
+          
+                                <p class="c-grey-text x:fs-14">Getting started</p>
+            <ul class="x:mrg-all-0 x:pad-all-0  x:mrg-bottom-15 ">
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/getting-started/installation"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Installation
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/getting-started/how-it-works"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    How it works
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/getting-started/changelog"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Changelog
+                  </a>
+                </li>
+                          </ul>
+                      <p class="c-grey-text x:fs-14">Layout</p>
+            <ul class="x:mrg-all-0 x:pad-all-0  x:mrg-bottom-15 ">
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/layout/prototype-template"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Prototype template
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/layout/default-styles"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Default styles
+                  </a>
+                </li>
+                          </ul>
+                      <p class="c-grey-text x:fs-14">Grid</p>
+            <ul class="x:mrg-all-0 x:pad-all-0  x:mrg-bottom-15 ">
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/grid/scontainer"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    scontainer
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/grid/line"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    line
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/grid/scol"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    scol
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/grid/scol-fit"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    scol-fit
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/grid/offset"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    offset
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/grid/show-grid"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Show grid
+                  </a>
+                </li>
+                          </ul>
+                      <p class="c-grey-text x:fs-14">Colors</p>
+            <ul class="x:mrg-all-0 x:pad-all-0  x:mrg-bottom-15 ">
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/colors/color-installation"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Installation
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/colors/palette"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Palette
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/colors/usage"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Usage
+                  </a>
+                </li>
+                          </ul>
+                      <p class="c-grey-text x:fs-14">Utility classes</p>
+            <ul class="x:mrg-all-0 x:pad-all-0 ">
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/utility-classes/alignment"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Alignment
+                  </a>
+                </li>
+                                              <li class="--active dis-block pos-relative">
+                  <a
+                  href="/shido/v3/utility-classes/aspect-ratio"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Aspect ratio
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/utility-classes/fonts"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Fonts
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/utility-classes/font-weight"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Font weight
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/utility-classes/hide-show"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Hide &amp; Show
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/utility-classes/margin-padding"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Margin &amp; Padding
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/utility-classes/miscellaneous"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Miscellaneous
+                  </a>
+                </li>
+                                              <li class=" dis-block pos-relative">
+                  <a
+                  href="/shido/v3/utility-classes/text"
+                  class="c-black dis-block x:pad-bt-5 x:pad-right-10"
+                  
+                  >
+                    Text
+                  </a>
+                </li>
+                          </ul>
+                  </nav>
+      </div>
+    </div>
+  </div>
+</section>
+          </div>
+          <div class="l:scol-8 x:top x:pad-lr-0 l:pad-lr-20 xl:pad-lr-40 x:pad-bt-0">
+            <div class="x:pad-bt-20" dimentions-height="wo-top-footer, liquid">
+              
+  <section id="header-section">
+  <div class="line">
+    <div class="x:scol-12 x:pad-bottom-5">
+      <h1
+class="
+ x:fs-28 s:fs-30 m:fs-32 "
+>Aspect ratio</h1>
+    </div>
+    <div class="x:scol-12 x:pad-top-0">
+      <hr>
+    </div>
+  </div>
+</section>
+  <section id="how-to-use">
+  <div class="line">
+    <div class="x:scol-12">
+      <h2
+class="
+ x:fs-22 s:fs-24 m:fs-26 "
+>How to use</h2>
+    </div>
+    <div class="x:scol-12">
+      <ul class="--normal">
+        <li><tag>aspect-ratio-3:2</tag></li>
+        <li><tag>aspect-ratio-4:3</tag></li>
+        <li><tag>aspect-ratio-16:9</tag></li>
+        <li><tag>aspect-ratio-21:9</tag></li>
+      </ul>
+    </div>
+    <div class="x:scol-12">
+      <p>Aspect ratio classes work for <tag>img</tag>, <tag>video</tag>, <tag>iframe</tag>, and <tag>object</tag> elements. The element must be inside a <tag>.aspect-ratio-*</tag> container and have the class <tag>.aspect-ratio-item</tag> as in the following example:</p>
+    </div>
+    <div class="x:scol-12">
+      <pre>
+<code class="language-markup">
+&lt;div class="aspect-ratio-16:9">
+  &lt;iframe class="aspect-ratio-item" src="..." frameborder="0">&lt;/iframe>
+&lt;/div>
+</code>
+      </pre>
+    </div>
+  </div>
+</section>
+  <section id="custom-aspect-ratio">
+  <div class="line">
+    <div class="x:scol-12">
+      <h3
+class="
+ x:mrg-top-10  x:fs-18 s:fs-20 m:fs-22 "
+>Custom aspect ratio</h3>
+    </div>
+    <div class="x:scol-12">
+      <p>If for some reason you need a different aspect ratio class, you can use an aspect ratio mixin.</p>
+    </div>
+    <div class="x:scol-12">
+      <div class="alert-block --warning">
+  <i class="fas
+     fa-exclamation-triangle       "></i>
+  <p class="x:pad-bt-0 x:fs-14 s:fs-16"> This mixin will not be available if you have imported Shido via CDN.</p>
+</div>
+    </div>
+    <div class="x:scol-12">
+      <div class="tabs-container">
+        <tabs>
+          <tab-btn>
+  <ul>
+    <li>
+      <a href="#" tab-target="less" class="--active">Less</a>
+    </li>
+    <li>
+      <a href="#" tab-target="sass">Sass</a>
+    </li>
+  </ul>
+</tab-btn>
+          <tab tab-origin="less" class="--active">
+            <pre>
+<code class="language-sass">
+// .mix-aspect-ratio(width,height);
+
+.mix-aspect-ratio(9,5);
+</code>
+    </pre>
+          </tab>
+          <tab tab-origin="sass">
+            <pre>
+<code class="language-sass">
+// @include mix-aspect-ratio(width,height);
+
+@include mix-aspect-ratio(9,5);
+</code>
+    </pre>
+          </tab>
+        </tabs>
+      </div>
+    </div>
+    <div class="x:scol-12">
+      <pre>
+<code class="language-markup">
+&lt;div class="aspect-ratio-9:5">
+  &lt;iframe class="aspect-ratio-item" src="..." frameborder="0">&lt;/iframe>
+&lt;/div>
+</code>
+      </pre>
+    </div>
+  </div>
+</section>
+  <section id="examples">
+  <div class="line">
+    <div class="x:scol-12">
+      <h2
+class="
+ x:mrg-top-10  x:fs-22 s:fs-24 m:fs-26 "
+>Examples</h2>
+    </div>
+    <div class="x:scol-12">
+      <div class="line">
+        <div class="s:scol-6 x:top">
+          <p class="x:fs-20 fw-bold">3:2</p>
+          <div class="aspect-ratio-3:2">
+            <iframe class="aspect-ratio-item" src="https://www.youtube.com/embed/iW2yUrXXRTI?rel=0&amp;showinfo=0" frameborder="0"></iframe>
+          </div>
+        </div>
+        <div class="s:scol-6 x:top">
+          <p class="x:fs-20 fw-bold">4:3</p>
+          <div class="aspect-ratio-4:3">
+            <iframe class="aspect-ratio-item" src="https://www.youtube.com/embed/iW2yUrXXRTI?rel=0&amp;showinfo=0" frameborder="0"></iframe>
+          </div>
+        </div>
+        <div class="s:scol-6 x:top">
+          <p class="x:fs-20 fw-bold">16:9</p>
+          <div class="aspect-ratio-16:9">
+            <iframe class="aspect-ratio-item" src="https://www.youtube.com/embed/iW2yUrXXRTI?rel=0&amp;showinfo=0" frameborder="0"></iframe>
+          </div>
+        </div>
+        <div class="s:scol-6 x:top">
+          <p class="x:fs-20 fw-bold">21:9</p>
+          <div class="aspect-ratio-21:9">
+            <iframe class="aspect-ratio-item" src="https://www.youtube.com/embed/iW2yUrXXRTI?rel=0&amp;showinfo=0" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+            </div>
+            <footer>
+              <section id="footer" class="x:pad-bottom-10 hide-print">
+  <div class="line">
+    <div class="x:scol-12 x:pad-bottom-0">
+      <hr>
+    </div>
+    <div class="m:scol-8 x:center m:left">
+      <p class="x:fs-14 m:-mrg-bottom-5">Released under the MIT License</p>
+      <p class="x:fs-14">Copyright © 2013-2020 Samuel Olvera</p>
+    </div>
+    <div class="m:scol-4 x:center m:right">
+      <a href="https://github.com/samline" target="_blank" class="c-black">
+        <i class="fab fa-github x:fs-20"></i>
+      </a>
+    </div>
+  </div>
+</section>
+            </footer>
+          </div>
+          <div class="l:scol-2 x:top x:pad-all-0 x:hide l:show-inline hide-print">
+            <section class="nav-side-section" followme-bar dimentions-height="wo-top, static">
+  <div class="nav-container x:pad-bt-20 x:pad-lr-10">
+    <div class="line">
+                    <div class="x:scol-12">
+          <nav>
+            <p class="c-grey-text x:mrg-bottom-10 x:fs-14"><i class="fas fa-align-left x:fs-12 x:mrg-right-5"></i> Contents</p>
+            <ul class="x:mrg-all-0 x:pad-all-0">
+                              <li class="dis-block pos-relative">
+                  <a href="#how-to-use" class="c-black dis-block x:pad-bt-5">
+                    How to use
+                  </a>
+                                      <div class="sub-items x:pad-left-5">
+                                              <a href="#custom-aspect-ratio" class="c-black dis-block x:pad-bt-5">
+                          Custom aspect ratio
+                        </a>
+                                          </div>
+                                  </li>
+                              <li class="dis-block pos-relative">
+                  <a href="#examples" class="c-black dis-block x:pad-bt-5">
+                    Examples
+                  </a>
+                                  </li>
+                          </ul>
+          </nav>
+        </div>
+          </div>
+  </div>
+</section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <browse-happy class="container" style="display:none">
+  <!-- <div class="content">
+    <p class="chromeframe x:fs-16 s:fs-18">Estás usando un navegador <b>antiguo</b>. Por favor <a href="http://browsehappy.com/" target="_blank">actualiza tu navegador</a> para visualizar el sitio correctamente.</p>
+  </div> -->
+</browse-happy>
+    <noscript class="container">
+  <div class="content">
+    <p class="x:fs-16 s:fs-18">Para utilizar las funcionalidades completas de <b></b> es necesario tener <b>JavaScript habilitado</b>.</p>
+  </div>
+</noscript>
+
+  </body>
+</html>
