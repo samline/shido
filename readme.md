@@ -37,7 +37,13 @@ Before using CDN compilation, keep in mind that the customization of variables a
 If you're install via npm or yarn and using `postcss-import` or a tool that uses it such as Webpack or Gulp, you can use `@import` to add Shido directly to your build process.
 
 ```less
+// Less
 @import "~shido/src/less/shido";
+```
+
+```scss
+// Sass
+@import "~shido/src/sass/shido";
 ```
 
 ## License
