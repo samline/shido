@@ -1,34 +1,55 @@
-each(@breakpoints-min, .(@px, @breakpoint) {
-  @media (min-width: @px) {
-    each(range(0, @s-max-padding, @s-increment-mp), .(@loop) {
-      @pad: @loop * 1px;
+.mix-padding(@type) {
 
-      .@{breakpoint}\:pad-bt-@{loop} {
-        padding-bottom: @pad;
-        padding-top: @pad;
-      }
-      .@{breakpoint}\:pad-lr-@{loop} {
-        padding-left: @pad;
-        padding-right: @pad;
-      }
-      .@{breakpoint}\:pad-bottom-@{loop} {
-        padding-bottom: @pad;
-      }
-      .@{breakpoint}\:pad-left-@{loop} {
-        padding-left: @pad;
-      }
-      .@{breakpoint}\:pad-right-@{loop} {
-        padding-right: @pad;
-      }
-      .@{breakpoint}\:pad-top-@{loop} {
-        padding-top: @pad;
-      }
-      .@{breakpoint}\:pad-all-@{loop} {
-        padding-bottom: @pad;
-        padding-left: @pad;
-        padding-right: @pad;
-        padding-top: @pad;
-      }
-    })
+  .pad-side(@n, @i: 0) when (@i =< @n) {
+
+    @count: @i * 10;
+
+    .@{type}\:pad-bt-@{count} {
+      padding-bottom: @count * 1px;
+      padding-top: @count * 1px;
+    }
+    .@{type}\:pad-lr-@{count} {
+      padding-left: @count * 1px;
+      padding-right: @count * 1px;
+    }
+    .@{type}\:pad-bottom-@{count} {
+      padding-bottom: @count * 1px;
+    }
+    .@{type}\:pad-left-@{count} {
+      padding-left: @count * 1px;
+    }
+    .@{type}\:pad-right-@{count} {
+      padding-right: @count * 1px;
+    }
+    .@{type}\:pad-top-@{count} {
+      padding-top: @count * 1px;
+    }
+
+    .@{type}\:pad-all-@{count} {
+      padding-bottom: @count * 1px;
+      padding-left: @count * 1px;
+      padding-right: @count * 1px;
+      padding-top: @count * 1px;
+    }
+
+    .pad-side(@n, @i + .5);
   }
-})
+
+  .pad-side(@s-max-padding);
+}
+@media (min-width: @x-screen-min) {
+  .mix-padding(x);
+}
+@media (min-width: @s-screen-min) {
+  .mix-padding(s);
+}
+@media (min-width: @m-screen-min) {
+  .mix-padding(m);
+}
+@media (min-width: @l-screen-min) {
+  .mix-padding(l);
+}
+@media (min-width: @xl-screen-min) {
+  .mix-padding(xl);
+}
+

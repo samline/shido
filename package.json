@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "shido",
-  "version": "3.0.0",
+  "version": "2.2.3",
   "description": "Build interfaces quickly with a lightweight, flexible, and friendly CSS framework designed to be quick and easy without forcing you to overwrite styles or components. Your design, your rules.",
   "repository": {
     "type": "git",
@@ -46,16 +46,13 @@
     "watch": "yarn run local --watch"
   },
   "devDependencies": {
-    "cross-env": "^7.0.2",
-    "laravel-mix": "^5.0.4",
-    "less": "^3.11.3",
-    "less-loader": "^6.1.0",
-    "resolve-url-loader": "^3.1.1",
-    "sass": "^1.26.8",
-    "sass-loader": "^8.0.2"
+    "cross-env": "^6.0.3",
+    "laravel-mix": "^5.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0"
   },
   "engines": {
-    "node": ">=14.4.*",
+    "node": ">=14.3.*",
     "npm": ">=6",
     "yarn": ">=1.22.*"
   },

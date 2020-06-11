@@ -1,8 +1,0 @@
-@mixin mix-transition(
-  $property: all,
-  $delay: .2s,
-  $timing: ease,
-  $property-to-cancel: outline
-) {
-  transition: $property $delay $timing, $property-to-cancel .000001s;
-}

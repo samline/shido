@@ -77,7 +77,7 @@ a {
   font-family: @s-body-font-family;
 }
 .ff-heading {
-  font-family: @s-headings-font-family;
+  font-family: @s-headers-font-family;
 }
 
 // inline-block-clear
@@ -164,8 +164,18 @@ a {
 }
 
 // z-index
-each(range(1, 5), .(@loop) {
-  .z-index-@{loop} {
-    z-index: @loop;
-  }
-})
+.z-index-1 {
+  z-index: 1;
+}
+.z-index-2 {
+  z-index: 2;
+}
+.z-index-3 {
+  z-index: 3;
+}
+.z-index-4 {
+  z-index: 4;
+}
+.z-index-5 {
+  z-index: 5;
+}
