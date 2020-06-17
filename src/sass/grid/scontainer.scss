@@ -4,16 +4,11 @@
   margin: 0 auto;
   padding-left: $s-scontainer-padding;
   padding-right: $s-scontainer-padding;
+  width: 100%;
 }
-[class*="scontainer"]:not(.scontainer-liquid):not(.scontainer-half) {
+[class*="scontainer"]:not(.scontainer-liquid):not([class*="scontainer-half"]) {
   max-width: $s-scontainer;
-  width: 100%;
 }
-[class*="scontainer-liquid"] {
-  margin: 0 auto;
-  width: 100%;
-}
-
 [class*="scontainer-half"] {
   display: inline-block;
 }
