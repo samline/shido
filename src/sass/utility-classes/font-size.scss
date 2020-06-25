@@ -1,5 +1,5 @@
 @each $breakpoint, $px in $breakpoints-min {
-  @media (min-width: map.get($breakpoints-min, #{$breakpoint})) {
+  @media (min-width: map-get($breakpoints-min, #{$breakpoint})) {
     $i: $s-min-font-size;
 
     @while $i <= $s-max-font-size {

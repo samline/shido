@@ -1,5 +1,5 @@
 @each $breakpoint, $px in $breakpoints-min {
-  @media (min-width: map.get($breakpoints-min, #{$breakpoint})) {
+  @media (min-width: map-get($breakpoints-min, #{$breakpoint})) {
     .#{$breakpoint}\:center {
       text-align: center;
     }
@@ -16,7 +16,7 @@
 }
 
 @each $breakpoint, $px in $breakpoints-min {
-  @media (min-width: map.get($breakpoints-min, #{$breakpoint})) {
+  @media (min-width: map-get($breakpoints-min, #{$breakpoint})) {
     .#{$breakpoint}\:baseline {
       vertical-align: baseline;
     }
