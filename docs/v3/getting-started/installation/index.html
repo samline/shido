@@ -63,8 +63,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Questrial&amp;display=swap" rel="stylesheet">
 
   
-      <link rel="preload" as="style" href="/shido/dist/css/app.css?id=a41e383e9d34ecd65e7f">
-    <link rel="stylesheet" href="/shido/dist/css/app.css?id=a41e383e9d34ecd65e7f">
+      <link rel="preload" as="style" href="/shido/dist/css/app.css?id=415ed3e59c2a7cc547df">
+    <link rel="stylesheet" href="/shido/dist/css/app.css?id=415ed3e59c2a7cc547df">
   
   
   
@@ -163,7 +163,7 @@ select
         selected
         value="/shido/v3/getting-started/installation"
       >
-        v3.0.6
+        v3.0.7
       </option>
           <option
         
@@ -506,14 +506,14 @@ class="
     <div class="x:scol-12">
       <pre>
 <code class="language-markup">
-&lt;link href="https://unpkg.com/shido@^3.0.6/dist/css/shido.min.css" rel="stylesheet">
+&lt;link href="https://unpkg.com/shido@^3.0.7/dist/css/shido.min.css" rel="stylesheet">
 </code>
       </pre>
     </div>
     <div class="x:scol-12">
       <pre>
 <code class="language-markup">
-&lt;link href="https://cdn.jsdelivr.net/npm/shido@^3.0.6/dist/css/shido.min.css" rel="stylesheet">
+&lt;link href="https://cdn.jsdelivr.net/npm/shido@^3.0.7/dist/css/shido.min.css" rel="stylesheet">
 </code>
       </pre>
     </div>
@@ -531,7 +531,7 @@ class="
       <p>You can also traditionally download latest files from Github:</p>
     </div>
     <div class="x:scol-12">
-      <a href="https://github.com/samline/shido/releases/download/3.0.6/shido.zip" download target="_blank" class="btn btn--main">Download latest release</a>
+      <a href="https://github.com/samline/shido/releases/download/3.0.7/shido.zip" download target="_blank" class="btn btn--main">Download latest release</a>
     </div>
   </div>
 </section>
@@ -597,7 +597,7 @@ class="
 >Customize your project</h2>
     </div>
     <div class="x:scol-12">
-      <p>If you want to customize your Shido installation, you can generate a configuration file for your project for example <tag>shido-custom.less</tag> and set new values for default variables.</p>
+      <p>If you want to customize your Shido installation, you just have to overwrite default variables with new values for your project. I recommend you only modify the variables below but if you want to know more see <a href="/shido/v3/getting-started/how-it-works" class="txt-underline">How it works</a></p>
     </div>
     <div class="x:scol-12">
       <div class="tabs-container">
@@ -613,11 +613,21 @@ class="
   </ul>
 </tab-btn>
           <tab tab-origin="less" class="--active">
-            <pre>
+            <div class="line x:-mrg-all-10">
+              <div class="x:scol-12">
+                <div class="alert-block --info">
+  <i class="fas
+   fa-info-circle         "></i>
+  <p class="x:pad-bt-0 x:fs-14 s:fs-16">To overwrite variables in Less, simply declare the variable with a new value after the first definition. <a href="http://lesscss.org/features/#variables-feature-default-variables" target="_blank" class="txt-underline">You can see more here</a></p>
+</div>
+              </div>
+              <div class="x:scol-12">
+                <pre>
 <code class="language-less">
+// First import Shido
 @import  "~shido/src/less/shido";
 
-// Layout
+// Then declare new values ​​for variables you want to modify
 @s-body-background-color: #fff;
 @s-body-font-color:       #000;
 @s-headings-font-color:   #000;
@@ -627,22 +637,29 @@ class="
 @s-body-font-family:      -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
 @s-headings-font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
 
-// Fonts
 @s-min-font-size: 10;
 @s-max-font-size: 60;
 
-// Marging & Padding
 @s-max-margin:  80;
 @s-max-padding: 80;
 </code>
     </pre>
+              </div>
+            </div>
           </tab>
           <tab tab-origin="sass">
-            <pre>
+            <div class="line x:-mrg-all-10">
+              <div class="x:scol-12">
+                <div class="alert-block --info">
+  <i class="fas
+   fa-info-circle         "></i>
+  <p class="x:pad-bt-0 x:fs-14 s:fs-16">To easily overwrite Sass variables, simply declare the variable with a new value before the original definition, but if you want to do it differently <a href="https://sass-lang.com/documentation/variables#default-values" target="_blank" class="txt-underline">you can see more here</a>.</p>
+</div>
+              </div>
+              <div class="x:scol-12">
+                <pre>
 <code class="language-sass">
-@import  "~shido/src/sass/shido";
-
-// Layout
+// First declare new values ​​for variables you want to modify
 $s-body-background-color: #fff;
 $s-body-font-color:       #000;
 $s-headings-font-color:   #000;
@@ -652,15 +669,18 @@ $s-body-font-size:        16;
 $s-body-font-family:      -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
 $s-headings-font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro", Oxygen, sans-serif;
 
-// Fonts
 $s-min-font-size: 10;
 $s-max-font-size: 60;
 
-// Marging & Padding
 $s-max-margin:  80;
 $s-max-padding: 80;
+
+// Then import Shido
+@import  "~shido/src/sass/shido";
 </code>
     </pre>
+              </div>
+            </div>
           </tab>
         </tabs>
       </div>
