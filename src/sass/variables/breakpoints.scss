@@ -13,13 +13,13 @@ $breakpoints-max: (
   'l':  1365px
 );
 
-$x-screen-min:  map-get($breakpoints-min, 'x');
-$s-screen-min:  map-get($breakpoints-min, 's');
-$m-screen-min:  map-get($breakpoints-min, 'm');
-$l-screen-min:  map-get($breakpoints-min, 'l');
-$xl-screen-min: map-get($breakpoints-min, 'xl');
+$x-screen-min:  map-get($breakpoints-min, 'x')  !default;
+$s-screen-min:  map-get($breakpoints-min, 's')  !default;
+$m-screen-min:  map-get($breakpoints-min, 'm')  !default;
+$l-screen-min:  map-get($breakpoints-min, 'l')  !default;
+$xl-screen-min: map-get($breakpoints-min, 'xl') !default;
 
-$x-screen-max:  map-get($breakpoints-max, 'x');
-$s-screen-max:  map-get($breakpoints-max, 's');
-$m-screen-max:  map-get($breakpoints-max, 'm');
-$l-screen-max:  map-get($breakpoints-max, 'l');
+$x-screen-max:  map-get($breakpoints-max, 'x')  !default;
+$s-screen-max:  map-get($breakpoints-max, 's')  !default;
+$m-screen-max:  map-get($breakpoints-max, 'm')  !default;
+$l-screen-max:  map-get($breakpoints-max, 'l')  !default;

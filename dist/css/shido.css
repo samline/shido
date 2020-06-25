@@ -1904,6 +1904,10 @@ p {
   font-weight: 100;
 }
 
+.fw-extra-light {
+  font-weight: 200;
+}
+
 .fw-light {
   font-weight: 300;
 }
