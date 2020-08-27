@@ -1,8 +1,8 @@
 {
   "private": false,
   "name": "shido",
-  "version": "3.0.8",
-  "description": "Build interfaces quickly with a lightweight, flexible, and friendly CSS framework designed to be quick and easy without forcing you to overwrite styles or components. Your design, your rules.",
+  "version": "3.1.0",
+  "description": "Build fast with Shido, a CSS framework for building custom designs without any annoying style or component you have to fight to override.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/samline/shido.git"
@@ -47,12 +47,12 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
-    "laravel-mix": "^5.0.4",
-    "less": "^3.11.3",
-    "less-loader": "^6.1.0",
+    "laravel-mix": "^5.0.5",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.0",
     "resolve-url-loader": "^3.1.1",
-    "sass": "^1.26.8",
-    "sass-loader": "^8.0.2"
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.1"
   },
   "engines": {
     "npm": ">=6",

@@ -1,5 +1,8 @@
 @each $breakpoint, $px in $breakpoints-min {
   @media (min-width: map-get($breakpoints-min, #{$breakpoint})) {
+    .#{$breakpoint}\:offset-0 {
+      margin-left: 0%;
+    }
     @for $i from 1 through $s-columns {
       .#{$breakpoint}\:offset-#{$i} {
         margin-left: ($s-grid * $i) * 1%;

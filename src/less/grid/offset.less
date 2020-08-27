@@ -1,5 +1,8 @@
 each(@breakpoints-min, .(@px, @breakpoint) {
   @media (min-width: @px) {
+    .@{breakpoint}\:offset-0 {
+      margin-left: 0%;
+    }
     each(range(@s-columns), .(@loop) {
       .@{breakpoint}\:offset-@{loop} {
         margin-left: (@s-grid * @loop) * 1%;

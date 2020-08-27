@@ -567,6 +567,10 @@
 }
 
 @media (min-width: 0px) {
+  .x\:offset-0 {
+    margin-left: 0%;
+  }
+
   .x\:offset-1 {
     margin-left: 8.3333333333%;
   }
@@ -617,6 +621,10 @@
 }
 
 @media (min-width: 600px) {
+  .s\:offset-0 {
+    margin-left: 0%;
+  }
+
   .s\:offset-1 {
     margin-left: 8.3333333333%;
   }
@@ -667,6 +675,10 @@
 }
 
 @media (min-width: 768px) {
+  .m\:offset-0 {
+    margin-left: 0%;
+  }
+
   .m\:offset-1 {
     margin-left: 8.3333333333%;
   }
@@ -717,6 +729,10 @@
 }
 
 @media (min-width: 1024px) {
+  .l\:offset-0 {
+    margin-left: 0%;
+  }
+
   .l\:offset-1 {
     margin-left: 8.3333333333%;
   }
@@ -767,6 +783,10 @@
 }
 
 @media (min-width: 1366px) {
+  .xl\:offset-0 {
+    margin-left: 0%;
+  }
+
   .xl\:offset-1 {
     margin-left: 8.3333333333%;
   }
@@ -1146,6 +1166,11 @@ p {
   margin: 0px;
   padding: 5px 0px;
   white-space: pre-line;
+}
+
+.table-responsive {
+  overflow: auto;
+  max-width: 100%;
 }
 
 @media (min-width: 0px) {
@@ -7735,7 +7760,7 @@ a.a-contrast-color:focus {
   position: relative;
 }
 
-.table-responsive {
+.table-liquid {
   overflow: auto;
   max-width: 100%;
 }

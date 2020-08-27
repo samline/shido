@@ -1,9 +1,9 @@
 [![image](https://github.com/samline/shido/raw/master/shido-share.png)](<https://samline.github.io/shido>)
 
 ## What is Shido?
-Shido is different from others css frameworks, it doesn't have preloaded UI kits.
+Build fast with Shido, a CSS framework for building custom designs without any annoying style or component you have to fight to override.
 
-Provide only what is necessary to design your web pages, like margins, font sizes, positioning, colors, helpers, that kind of thing. You won't find ready-to-use components like buttons and navigation bars, in fact if you are looking for some Ui kit such as Bootstrap or Foundation maybe Shido is not for you.
+Shido is different from others css frameworks, it doesn't have preloaded UI kits. Provide only what is necessary to design your web pages, like margins, font sizes, positioning, colors, helpers, that kind of thing. 
 
 It is up to you to use Shido to create your own components, this provides immense freedom where others only restrict what you create.
 
@@ -26,11 +26,11 @@ yarn add shido
 Before using CDN compilation, keep in mind that the customization of variables are not available without incorporating Shido in your build process. I recommend downloading the file and placing it in your projects directory for offline use or otherwise.
 
 ```html
-<link href="https://unpkg.com/shido@^3.0.8/dist/css/shido.min.css" rel="stylesheet">
+<link href="https://unpkg.com/shido@^3.1.0/dist/css/shido.min.css" rel="stylesheet">
 ```
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/shido@^3.0.8/dist/css/shido.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/shido@^3.1.0/dist/css/shido.min.css" rel="stylesheet">
 ```
 
 ### Add shido to your project
