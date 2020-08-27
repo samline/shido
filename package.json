@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "shido",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Build fast with Shido, a CSS framework for building custom designs without any annoying style or component you have to fight to override.",
   "repository": {
     "type": "git",
